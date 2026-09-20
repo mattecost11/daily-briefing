@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:16:53.801Z",
+  "generated_at": "2026-09-20T14:22:13.432Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
@@ -77,6 +77,17 @@
       "sources_count": 3
     },
     {
+      "title": "Trump says his planned triumphal arch will double as a military complex to store ammunition",
+      "link": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-09-20T13:50:51.000Z",
+      "excerpt": "Trump said the updated plans were at the request of the US military and for national security purposes.",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    },
+    {
       "title": "Trump’s Greenland deal: A triumph of optics?",
       "link": "https://www.aljazeera.com/opinions/2026/9/20/trumps-greenland-deal-a-triumph-of-optics?traffic_source=rss",
       "source": "Al Jazeera English",
@@ -97,15 +108,6 @@
         "The Guardian – World"
       ],
       "sources_count": 2
-    },
-    {
-      "title": "Germany faces energy tax losses as EV sales rise",
-      "link": "https://www.dw.com/en/germany-faces-energy-tax-losses-as-ev-sales-rise/a-79320422?maca=en-rss-en-all-1573-rdf",
-      "source": "Deutsche Welle – Top",
-      "published_at": "2026-09-20T14:02:00.000Z",
-      "excerpt": "The rapid shift to electric vehicles in Germany is cutting fuel tax revenue for the government. As EV sales surge, policymakers face growing pressure to find new ways to fund roads and transportation…",
-      "also_covered_by": [],
-      "sources_count": 1
     }
   ],
   "invest": [

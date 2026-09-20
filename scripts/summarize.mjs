@@ -14,7 +14,7 @@ const ROOT = resolve(__dirname, '..');
 const NEWS_PATH = resolve(ROOT, 'docs/data/news.json');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 const CONCURRENCY = 3;
 const FETCH_TIMEOUT_MS = 15000;
 const GEMINI_TIMEOUT_MS = 30000;
@@ -175,8 +175,11 @@ async function summarize(title, source, articleText) {
     generationConfig: {
       temperature: 0.3,
       topP: 0.9,
-      maxOutputTokens: 600,
-      responseMimeType: 'text/plain'
+      maxOutputTokens: 800,
+      responseMimeType: 'text/plain',
+      // Gemini 3.x reserves output tokens for internal "thinking" by default,
+      // which can starve the actual answer. We don't need reasoning here.
+      thinkingConfig: { thinkingBudget: 0 }
     }
   };
 

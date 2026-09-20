@@ -6,7 +6,7 @@
     - Navigations: network-first, offline fallback to cached index.html
 */
 
-const VERSION = 'v1-2026-09-20';
+const VERSION = 'v2-2026-09-20-m7-fix';
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 

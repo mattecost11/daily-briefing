@@ -58,8 +58,9 @@ function initRouting() {
 
 function initOnboarding() {
   const wasOnboarded = localStorage.getItem(STORAGE.onboarded) === '1';
+  const forceSetup = location.hash === '#setup';
   const onboardingView = document.getElementById('view-onboarding');
-  if (wasOnboarded) {
+  if (wasOnboarded && !forceSetup) {
     onboardingView.hidden = true;
     return;
   }
@@ -69,11 +70,15 @@ function initOnboarding() {
   }
   onboardingView.hidden = false;
 
-  document.getElementById('enable-notifications').addEventListener('click', async () => {
-    // The push flow itself is implemented in push.js and will be wired at M7.
-    // For now, we tag the user as onboarded so the app becomes usable.
-    finishOnboarding();
-  });
+  // Stamp install date the first time onboarding is seen, so theory unlock
+  // starts today whether or not the user actually enables notifications.
+  if (!localStorage.getItem(STORAGE.installDate)) {
+    localStorage.setItem(STORAGE.installDate, todayIsoDate());
+  }
+
+  // Enable notifications: push.js owns this whole flow — do NOT dismiss the
+  // onboarding here, because the JSON block appears inside it and the user
+  // must be able to see and copy it.
   document.getElementById('dismiss-onboarding').addEventListener('click', finishOnboarding);
 }
 

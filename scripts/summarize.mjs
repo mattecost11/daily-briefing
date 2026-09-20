@@ -14,7 +14,7 @@ const ROOT = resolve(__dirname, '..');
 const NEWS_PATH = resolve(ROOT, 'docs/data/news.json');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash-lite';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-flash-lite-latest';
 const CONCURRENCY = 1;
 const REQUEST_INTERVAL_MS = 4500;   // stay under free-tier 15 req/min
 const RETRY_ATTEMPTS = 3;
@@ -189,8 +189,10 @@ async function summarize(title, source, articleText) {
       temperature: 0.3,
       topP: 0.9,
       maxOutputTokens: 800,
-      responseMimeType: 'text/plain',
-      thinkingConfig: { thinkingBudget: 0 }
+      responseMimeType: 'text/plain'
+      // Note: some Gemini lite models reject thinkingConfig with HTTP 400,
+      // so we don't set it. The lite variants do minimal internal reasoning
+      // and typically fit a 250-word summary well within 800 output tokens.
     }
   };
 

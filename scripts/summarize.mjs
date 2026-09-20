@@ -69,7 +69,10 @@ const tasks = items.map((item) => async () => {
     const source = body && body.length > 200 ? body : original;
     if (!source) { kept++; return; }
     const summary = await summarize(item.title, item.source, source);
-    if (summary && summary.length > 60) {
+    // Accept anything that is meaningfully longer than the raw excerpt, or at
+    // least a real 3-sentence paragraph (≈150 chars). Short-form SKIP-style
+    // replies are already returned as null from summarize().
+    if (summary && summary.length >= 150 && summary.length > original.length + 40) {
       item.excerpt = summary;
       ok++;
     } else {
@@ -168,12 +171,12 @@ async function summarize(title, source, articleText) {
     `You are writing a neutral summary of a news article for a briefing app.`,
     ``,
     `Rules:`,
-    `- ${TARGET_SENTENCES} sentences (about ${TARGET_WORDS} words). No shorter, no longer.`,
+    `- Target ${TARGET_SENTENCES} sentences (about ${TARGET_WORDS} words). If the article is genuinely too short to fill that, write a proportionally shorter summary but never fewer than 3 sentences.`,
     `- Plain prose, one paragraph. No lists, no headings, no markdown.`,
     `- Report only facts from the article. Do not add opinion, speculation or "why this matters".`,
     `- Do not begin with "This article", "The article", "In this piece" or similar meta phrases.`,
     `- Use British English.`,
-    `- If the article is behind a paywall or the text is obviously navigation/boilerplate, output only the exact string: SKIP`,
+    `- If the article body is clearly missing (paywall wall, navigation only, cookie banner only), output only the exact string: SKIP`,
     ``,
     `Title: ${title}`,
     `Source: ${source}`,

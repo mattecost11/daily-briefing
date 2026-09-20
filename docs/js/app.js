@@ -236,6 +236,14 @@ function newsCard(it) {
   // RSS-only fallback items are short. In both cases we render as-is.
   excerpt.textContent = it.excerpt || '';
   link.append(title, meta, excerpt);
+  // Geo items include the number of distinct outlets that covered the story.
+  if (typeof it.sources_count === 'number' && it.sources_count > 1) {
+    const covered = document.createElement('p');
+    covered.className = 'covered';
+    const others = (it.also_covered_by || []).slice(0, 3).join(', ');
+    covered.textContent = `Also covered by ${it.sources_count - 1} more outlet${it.sources_count - 1 === 1 ? '' : 's'}${others ? ` (${others})` : ''}.`;
+    link.appendChild(covered);
+  }
   li.appendChild(link);
   return li;
 }

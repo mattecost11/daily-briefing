@@ -1202,6 +1202,606 @@
       "description": "Jack Bogle (1929–2019) founded Vanguard in 1974 and launched the first index mutual fund for retail investors in 1976. He argued relentlessly that most active managers, after fees, cannot beat the market — and that the simplest, cheapest and most reliable path for most investors is a broad, low-cost index fund held for the long run.",
       "example": "The Vanguard Group he founded is now one of the largest asset managers in the world, with several trillions of dollars in assets, most in low-cost index products. His book 'The Little Book of Common Sense Investing' summarises his philosophy in about 200 pages.",
       "takeaway": "Bogle's core message: keep costs low, diversify broadly, and stay the course."
+    },
+    {
+      "id": "d061-efficient-frontier",
+      "day": 61,
+      "order": 1,
+      "level": "advanced",
+      "title": "The efficient frontier",
+      "description": "The efficient frontier is a foundational concept from Modern Portfolio Theory. For any combination of assets, it is the set of portfolios that offer the highest expected return for a given level of risk (or the lowest risk for a given return). Portfolios that fall below the frontier are 'inefficient' — you could do better without taking on more risk.",
+      "example": "Harry Markowitz introduced the idea in a 1952 paper written when he was still a graduate student in Chicago. He won the Nobel Prize in Economics in 1990 for that work, which reshaped how professional investors think about combining assets.",
+      "takeaway": "Diversification is not just about spreading bets — it is about doing so as efficiently as possible."
+    },
+    {
+      "id": "d061-min-variance",
+      "day": 61,
+      "order": 2,
+      "level": "advanced",
+      "title": "The minimum-variance portfolio",
+      "description": "Among all portfolios on the efficient frontier, one has the lowest possible risk (variance). It is called the minimum-variance portfolio. It is not usually the one investors want (its expected return is typically low), but it is a useful reference point — and 'low-vol' funds try to approximate it in practice.",
+      "example": "Since 2011, several large asset managers have offered 'minimum volatility' ETFs that select stocks to build a low-variance portfolio. Between 2011 and 2020, some of these ETFs achieved returns close to the market with clearly lower volatility — a real-world demonstration of the idea.",
+      "takeaway": "There is a real portfolio, buildable in practice, that minimises risk for a given universe of assets."
+    },
+    {
+      "id": "d062-capm",
+      "day": 62,
+      "order": 1,
+      "level": "advanced",
+      "title": "The Capital Asset Pricing Model (CAPM)",
+      "description": "The Capital Asset Pricing Model, developed in the 1960s (mainly by William Sharpe), says that the expected return of an asset should equal the risk-free rate plus its beta times the market's risk premium. In plain English: the more sensitive to the market an asset is, the more return investors should demand for holding it.",
+      "example": "William Sharpe received the Nobel Prize in Economics in 1990 (jointly with Markowitz and Miller) for his work on CAPM. Even where empirically CAPM is a rough approximation at best, its influence on how portfolios are built and evaluated is enormous.",
+      "takeaway": "CAPM says: expected return should compensate for the market risk an asset actually carries."
+    },
+    {
+      "id": "d062-risk-premium",
+      "day": 62,
+      "order": 2,
+      "level": "advanced",
+      "title": "The equity risk premium",
+      "description": "The equity risk premium is the extra return investors expect from stocks over a 'risk-free' government bond, to compensate for the higher risk. Historically it has been around 4–6 percentage points a year in developed markets, but it is not guaranteed — and estimates for the future are lower than the historical average.",
+      "example": "Since 1900, global equities have delivered a real (inflation-adjusted) return of roughly 5% per year, compared with about 1–2% for long-term government bonds — implying a long-run equity risk premium of roughly 3–4 percentage points on average, with big variation by country and decade.",
+      "takeaway": "The extra return of stocks over bonds is real over the long run — but bumpy and never guaranteed."
+    },
+    {
+      "id": "d063-fama-french",
+      "day": 63,
+      "order": 1,
+      "level": "advanced",
+      "title": "Fama–French factors: size and value",
+      "description": "In a famous 1992 paper, Eugene Fama and Kenneth French showed that stock returns are not fully explained by market beta alone. Two additional 'factors' explained a lot of the difference: size (small caps have historically beaten large caps on average) and value (cheap stocks have historically beaten expensive ones).",
+      "example": "Eugene Fama received the Nobel Prize in Economics in 2013, partly for his work on efficient markets and the factor models he developed with French. Their research became the intellectual foundation for the whole 'factor investing' industry.",
+      "takeaway": "Size and value are two long-documented tilts that have paid off — often, but not always."
+    },
+    {
+      "id": "d063-momentum",
+      "day": 63,
+      "order": 2,
+      "level": "advanced",
+      "title": "The momentum factor",
+      "description": "Momentum is the empirical finding that stocks that have gone up in the past 6–12 months tend to keep going up over the next few months, while recent losers tend to keep losing. It contradicts a purely rational picture of markets and has been documented across countries and decades. It also comes with sharp, painful reversals.",
+      "example": "Momentum strategies were badly hurt in 2009: after the March 2009 market bottom, previous 'losers' (banks, cyclicals) rebounded fastest, while previous 'winners' (defensive, utilities) lagged — one of the largest one-year losses on record for classic momentum portfolios.",
+      "takeaway": "Momentum works often, but its worst episodes are extremely painful."
+    },
+    {
+      "id": "d064-quality",
+      "day": 64,
+      "order": 1,
+      "level": "advanced",
+      "title": "The quality factor",
+      "description": "'Quality' as a factor tries to capture the tendency of financially healthy, profitable, low-debt companies to outperform over the long run, especially in bad markets. Metrics used include high return on equity, stable earnings, low leverage and high margins. Quality strategies aim for smoother rides than a pure value approach.",
+      "example": "In the 2008 financial crisis, quality-tilted portfolios generally fell less than the broad market — companies with strong balance sheets and steady earnings were more able to survive the shock without cutting dividends or issuing distressed equity.",
+      "takeaway": "Quality is a defensive tilt — profits and balance-sheet strength offer some protection when markets break."
+    },
+    {
+      "id": "d064-low-vol",
+      "day": 64,
+      "order": 2,
+      "level": "advanced",
+      "title": "The low-volatility factor",
+      "description": "The 'low-volatility anomaly' is the empirical finding that stocks with lower historical volatility have delivered similar or slightly better long-term returns than more volatile stocks — the opposite of what a naive risk/return story would predict. It contradicts CAPM and remains a debated topic.",
+      "example": "Studies of US, European and Japanese stocks over decades have consistently shown that the lowest-volatility quintile of stocks has performed at least as well as the highest-volatility quintile, with much less turbulence — one of the most stubborn anomalies in modern finance.",
+      "takeaway": "The 'more risk = more return' story is a rule of thumb, not a law."
+    },
+    {
+      "id": "d065-smart-beta",
+      "day": 65,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is smart beta?",
+      "description": "'Smart beta' is a marketing term for rules-based investment strategies that tilt away from a pure market-cap-weighted index toward specific factors — value, size, momentum, quality, low volatility. They sit between pure passive (like an S&P 500 ETF) and pure active (a fund manager's discretion).",
+      "example": "By the early 2020s, more than $1 trillion had flowed into smart-beta ETFs globally, offering exposure to specific factors at ETF-like fees. Their performance has been mixed — some factor tilts have gone through multi-year periods of underperformance.",
+      "takeaway": "Smart beta is neither magic nor a scam — it is a rules-based bet on specific factors persisting."
+    },
+    {
+      "id": "d065-factor-etf",
+      "day": 65,
+      "order": 2,
+      "level": "advanced",
+      "title": "Factor ETFs in practice",
+      "description": "Factor ETFs make it possible for ordinary investors to hold a value-tilted, quality-tilted or momentum-tilted portfolio at very low cost. The important caveat: factor tilts can underperform the plain-vanilla market for years at a time, and investors who cannot stomach that will typically not stay invested long enough to benefit.",
+      "example": "Value-tilted ETFs badly underperformed a plain S&P 500 ETF for most of 2015–2020, then outperformed sharply in 2022. Investors who abandoned value in early 2021 missed the rebound — a classic example of factor investing's discipline problem.",
+      "takeaway": "Factors work — but only for investors patient enough to stay through their bad years."
+    },
+    {
+      "id": "d066-gdp",
+      "day": 66,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is GDP?",
+      "description": "GDP (Gross Domestic Product) is the total value of all the goods and services produced inside a country in a given period, usually a quarter or a year. It is the most common measure of a country's overall economic activity. Growth in GDP typically means an expanding economy; a fall means contraction.",
+      "example": "In 2020, most large economies recorded their sharpest one-year fall in GDP in decades because of COVID lockdowns — the euro area fell by roughly 6%, the UK by around 10%. Most rebounded strongly in 2021, though at different speeds.",
+      "takeaway": "GDP is the size of the economic pie — its growth is the strongest single macro driver of long-run returns."
+    },
+    {
+      "id": "d066-inflation-target",
+      "day": 66,
+      "order": 2,
+      "level": "intermediate",
+      "title": "The 2% inflation target",
+      "description": "Most major central banks — the Fed, the ECB, the Bank of England — aim for inflation of around 2% a year. Low, steady inflation is considered a healthy target: high enough to avoid the trap of deflation, low enough to protect purchasing power. When inflation strays far in either direction, central banks act.",
+      "example": "When US inflation hit around 9% in 2022, the Fed raised its main rate from near zero to over 5% in about 18 months — one of the fastest tightening cycles in decades. Inflation fell back toward the 2% target by 2024, at the cost of considerable pain in bond markets.",
+      "takeaway": "The 2% target is the compass that guides most modern monetary policy."
+    },
+    {
+      "id": "d067-monetary-policy",
+      "day": 67,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Monetary vs fiscal policy",
+      "description": "Monetary policy — controlled by the central bank — sets interest rates and adjusts the amount of money in the economy. Fiscal policy — controlled by the government — sets taxes and public spending. Both influence growth and inflation, but through different channels and on different timescales.",
+      "example": "In response to COVID in 2020, most governments used both together on a massive scale: central banks cut rates to zero and bought bonds, while governments launched furlough schemes and stimulus checks. The combined package prevented a depression, but contributed to the 2022 inflation surge.",
+      "takeaway": "Monetary policy sets the price of money; fiscal policy sets who pays and who gets."
+    },
+    {
+      "id": "d067-qe",
+      "day": 67,
+      "order": 2,
+      "level": "advanced",
+      "title": "What is quantitative easing (QE)?",
+      "description": "Quantitative easing is when a central bank creates new money and uses it to buy financial assets — typically government bonds — to push down long-term interest rates and encourage lending and investment. It is a tool for when the main short-term rate has already been cut to near zero.",
+      "example": "The Bank of Japan first experimented with QE in 2001. The US Federal Reserve started large-scale QE in November 2008 during the financial crisis, growing its balance sheet from around $900 billion to over $4 trillion by 2014. The ECB began sovereign QE in March 2015.",
+      "takeaway": "QE is a heavy tool — cheaper money, but with side effects on inequality and asset prices."
+    },
+    {
+      "id": "d068-yield-curve",
+      "day": 68,
+      "order": 1,
+      "level": "advanced",
+      "title": "The yield curve",
+      "description": "The yield curve shows the yields on government bonds of the same issuer across different maturities — from short (3 months) to long (30 years). Usually longer maturities pay a higher yield (compensation for locking your money up longer), producing an upward-sloping curve. The shape of the curve is a closely watched macro indicator.",
+      "example": "In late 2021 and 2022, the US Treasury yield curve steepened rapidly as the Fed prepared to raise rates. Watching the curve's steepness is one of the oldest ways investors try to infer where policy and the economy are heading next.",
+      "takeaway": "The yield curve is a live opinion poll on the future path of interest rates and growth."
+    },
+    {
+      "id": "d068-inverted-curve",
+      "day": 68,
+      "order": 2,
+      "level": "advanced",
+      "title": "The inverted yield curve",
+      "description": "An 'inverted' yield curve is when short-term yields are higher than long-term ones — an unusual state that investors are demanding more to lend short than long. Historically in the US, an inverted 10-year vs 2-year Treasury curve has preceded almost every recession by 6–24 months, making it a widely watched (though imperfect) recession signal.",
+      "example": "The US 10-year vs 2-year Treasury curve inverted in mid-2022 and stayed inverted for over a year — one of the longest and deepest inversions in decades. It was a major driver of persistent recession fears in 2022–2024, even as the economy proved more resilient than many expected.",
+      "takeaway": "An inverted yield curve is a warning worth listening to — but not a guarantee."
+    },
+    {
+      "id": "d069-currency-crisis",
+      "day": 69,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is a currency crisis?",
+      "description": "A currency crisis is a sudden, sharp fall in the value of a national currency, usually because the central bank can no longer defend a chosen exchange rate or interest rate policy. Currency crises often go together with capital flight, banking crises and steep recessions. Emerging markets have seen many of them.",
+      "example": "In the 1997–1998 Asian financial crisis, the Thai baht, Indonesian rupiah, South Korean won and Malaysian ringgit all collapsed within months of each other after Thailand abandoned its peg to the US dollar in July 1997. The IMF stepped in with large emergency loans across the region.",
+      "takeaway": "A currency crisis destroys purchasing power fast — and often triggers wider financial damage."
+    },
+    {
+      "id": "d069-soros-1992",
+      "day": 69,
+      "order": 2,
+      "level": "advanced",
+      "title": "George Soros and 'Black Wednesday' 1992",
+      "description": "In September 1992 the UK was trying to keep the pound inside the European Exchange Rate Mechanism (ERM), but currency traders — most famously George Soros's Quantum Fund — bet heavily that the pound was overvalued and would have to devalue. On 16 September ('Black Wednesday') the UK was forced to withdraw from the ERM.",
+      "example": "Soros's Quantum Fund is estimated to have made around $1 billion in a single day from that trade. The episode reshaped the UK's monetary policy for a generation and became a textbook case of a speculative attack overwhelming a central bank.",
+      "takeaway": "Even a large central bank can lose a fight against markets when the underlying rate is not credible."
+    },
+    {
+      "id": "d070-sovereign-crisis",
+      "day": 70,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is a sovereign debt crisis?",
+      "description": "A sovereign debt crisis is when a national government becomes unable — or is thought to be unable — to pay back its debts on the original terms. It usually causes a sharp rise in the country's bond yields, forces painful austerity, and can trigger banking crises since domestic banks tend to hold a lot of their own government's bonds.",
+      "example": "In 2010–2012, the euro-zone sovereign debt crisis engulfed Greece, Ireland, Portugal, Cyprus and threatened Italy and Spain. Greece's bond yields peaked above 30% before the country restructured its debt in March 2012 in what remains one of the largest sovereign debt restructurings in history.",
+      "takeaway": "Government debt is only 'risk-free' when the market believes the government will always be able to pay."
+    },
+    {
+      "id": "d070-euro-crisis",
+      "day": 70,
+      "order": 2,
+      "level": "advanced",
+      "title": "'Whatever it takes' — Draghi 2012",
+      "description": "In July 2012, at the peak of the euro-zone crisis, ECB President Mario Draghi said in a London speech: 'Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.' Backed by a new bond-buying facility (OMT), those words alone calmed markets sharply — no OMT purchases were ever made.",
+      "example": "Following the speech, yields on Italian and Spanish government bonds fell dramatically within weeks. Draghi's phrase became one of the most-cited moments in modern central banking, illustrating the enormous power of credible verbal intervention by a central bank.",
+      "takeaway": "In finance, credibility itself can move markets — sometimes without any actual money changing hands."
+    },
+    {
+      "id": "d071-hedge-fund",
+      "day": 71,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is a hedge fund?",
+      "description": "A hedge fund is a private investment fund open only to wealthy or professional investors, with much more flexibility than a mutual fund: it can go both long and short, use leverage, trade derivatives, and hold illiquid assets. Fees are typically high — the classic '2 and 20' means 2% of assets per year plus 20% of profits.",
+      "example": "Bridgewater Associates, founded by Ray Dalio in 1975, grew into one of the largest hedge funds in the world with well over $100 billion in assets at its peak. Its 'Pure Alpha' fund gained fame for its performance in the 2008 crisis, when many hedge funds lost heavily.",
+      "takeaway": "Hedge funds are much freer than mutual funds — and correspondingly much more variable in what they deliver."
+    },
+    {
+      "id": "d071-long-short",
+      "day": 71,
+      "order": 2,
+      "level": "advanced",
+      "title": "Long/short investing",
+      "description": "A long/short strategy holds long positions in stocks a manager likes and short positions in stocks the manager dislikes. If done well, it can profit whether the market goes up or down — the returns depend on stock selection, not overall market direction. If done badly, both sides can lose at once.",
+      "example": "Many quantitative long/short funds — including some run by Renaissance Technologies and Two Sigma — attempt to have very low net market exposure while still delivering positive returns each year. The most successful of these are among the highest-paid firms in all of finance.",
+      "takeaway": "Long/short can neutralise market direction — but leaves everything riding on the manager's stock picks."
+    },
+    {
+      "id": "d072-private-equity",
+      "day": 72,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is private equity?",
+      "description": "Private equity (PE) firms raise long-term money from institutional investors and use it to buy whole companies (usually private, sometimes taking public companies private), restructure them over several years, and then sell them at a profit. They typically use large amounts of debt to boost returns.",
+      "example": "In 2007, the buyout of TXU Energy for around $45 billion — led by KKR, TPG and Goldman Sachs — was one of the largest leveraged buyouts in history. After the 2008 financial crisis and the shale gas boom crushed power prices, the company filed for bankruptcy in 2014.",
+      "takeaway": "Private equity can generate strong returns — but also amplifies mistakes with debt."
+    },
+    {
+      "id": "d072-lbo",
+      "day": 72,
+      "order": 2,
+      "level": "advanced",
+      "title": "What is a leveraged buyout (LBO)?",
+      "description": "A leveraged buyout is the takeover of a company using a large amount of borrowed money, secured against the target's own assets. The buyer puts in relatively little equity and hopes to pay off the debt from the target's future cash flows. LBOs are the classic tool of the private equity industry.",
+      "example": "The 1988 buyout of RJR Nabisco by KKR, at about $25 billion, was for many years the largest LBO ever and was famously chronicled in the book and film 'Barbarians at the Gate'. It set the template for the modern private equity industry.",
+      "takeaway": "An LBO turns a company into its own debt-servicing machine — powerful when it works, brutal when it does not."
+    },
+    {
+      "id": "d073-venture-capital",
+      "day": 73,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is venture capital?",
+      "description": "Venture capital (VC) is a form of private investment focused on very young, high-risk, high-growth companies — usually technology startups. VCs know that most of their investments will lose money, but expect a small number of winners to more than pay for the losers. Returns are extremely uneven.",
+      "example": "In 2005, the venture firm Sequoia Capital invested around $12.5 million in YouTube, then a very small startup. When Google bought YouTube for about $1.65 billion in 2006, Sequoia's stake was worth roughly $500 million — a return of around 40× in about a year.",
+      "takeaway": "In venture capital, a few enormous winners have to pay for many complete losses."
+    },
+    {
+      "id": "d073-startup-rounds",
+      "day": 73,
+      "order": 2,
+      "level": "advanced",
+      "title": "Startup funding rounds",
+      "description": "Startups typically raise money in rounds: pre-seed and seed rounds (very small, at the earliest stage), then Series A, B, C… as the company grows and needs bigger cheques. Each round dilutes existing shareholders and sets a new implied valuation for the company. Some startups later go public in an IPO; most fail before reaching that stage.",
+      "example": "Facebook raised a Series A of $12.7 million from Accel Partners in 2005 at a $100 million valuation, when it was open only to college students. Eight years later it went public at a valuation over $100 billion — the same shares of the Series A were worth roughly 1,000× more.",
+      "takeaway": "Startup funding rounds are the ladder every private-tech success has to climb before an IPO or exit."
+    },
+    {
+      "id": "d074-structured-product",
+      "day": 74,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is a structured product?",
+      "description": "A structured product is a pre-packaged investment that combines a bond with derivatives (usually options) to create a specific payoff — for example 'get your capital back plus 50% of the S&P 500's gain over 5 years'. They can look attractive on the surface but are often complex, illiquid and carry high embedded fees.",
+      "example": "Structured 'auto-callable' notes on major stock indexes have been very popular retail products in Europe and Asia for years. Some are engineered so that investors can lose most of their capital in unusual market conditions, even though the marketing brochure emphasises 'protection'.",
+      "takeaway": "Structured products often trade complexity for the appearance of safety — the fine print matters."
+    },
+    {
+      "id": "d074-autocall",
+      "day": 74,
+      "order": 2,
+      "level": "advanced",
+      "title": "The 'autocall' structure",
+      "description": "An autocallable note is a common structured product: it pays an attractive-looking coupon each period unless a linked index falls by more than a certain amount, in which case investors can face a large capital loss. In normal markets they behave well; in a sharp drawdown, several years of coupons can be wiped out at once.",
+      "example": "In March 2020, many autocallable notes linked to European stock indexes hit their 'knock-in' barriers as markets crashed. Retail investors in some countries — especially in South Korea — suffered heavy losses on products marketed as fairly safe income-generating notes.",
+      "takeaway": "Autocalls trade many small coupons for the risk of a rare, very large loss."
+    },
+    {
+      "id": "d075-cds",
+      "day": 75,
+      "order": 1,
+      "level": "advanced",
+      "title": "Credit default swaps (CDS)",
+      "description": "A credit default swap is an insurance-like contract on a bond: the buyer pays a regular premium; the seller pays out if the referenced borrower defaults. CDS let investors hedge credit risk — or bet on defaults happening. Their prices are a live market signal of how risky a borrower is perceived to be.",
+      "example": "By 2008 the insurer AIG had sold huge amounts of CDS protection on subprime-mortgage-backed bonds. When those bonds started defaulting, AIG could not meet its obligations, and the US government stepped in with a bailout that eventually reached about $180 billion — one of the largest in history.",
+      "takeaway": "CDS make it easy to insure — or to short — credit; both sides have contributed to real disasters."
+    },
+    {
+      "id": "d075-cds-signal",
+      "day": 75,
+      "order": 2,
+      "level": "advanced",
+      "title": "CDS prices as a warning signal",
+      "description": "Because CDS trade openly, their prices — the annual 'insurance' premium as a percentage of the bond's face value — give a real-time signal of perceived default risk. A sharp rise in a company's or country's CDS is often the market's first sign that something is going seriously wrong.",
+      "example": "In the weeks before Lehman Brothers collapsed in September 2008, its CDS spreads widened dramatically as counterparties demanded much higher protection. Similar patterns preceded the euro-zone crisis in Greek and Portuguese CDS in 2010–2011 and Credit Suisse in early 2023.",
+      "takeaway": "When CDS spreads blow out, listen — the market is telling you something the news often hasn't yet."
+    },
+    {
+      "id": "d076-black-scholes",
+      "day": 76,
+      "order": 1,
+      "level": "advanced",
+      "title": "How options are priced (Black–Scholes)",
+      "description": "The Black–Scholes model (1973) gave the world its first widely used formula for the fair price of a stock option. It says the price depends on the current stock price, the strike, time to expiry, interest rates, and — critically — the expected volatility of the stock. Higher volatility means a more valuable option.",
+      "example": "Fischer Black and Myron Scholes published the model in 1973, and Robert Merton extended it. Scholes and Merton received the Nobel Prize in Economics in 1997; Black had died in 1995. Their formula transformed derivatives from an obscure corner into a huge, quantitatively priced market.",
+      "takeaway": "Modern option markets rest on one insight: an option's price is essentially a price on future uncertainty."
+    },
+    {
+      "id": "d076-time-value",
+      "day": 76,
+      "order": 2,
+      "level": "advanced",
+      "title": "Intrinsic value and time value",
+      "description": "An option's price has two parts. Intrinsic value is the profit you'd get if you exercised it immediately (zero if the option is 'out of the money'). Time value is everything else — the extra you pay for the chance that the option becomes more valuable before it expires. Time value shrinks to zero as expiry approaches: options 'decay' with time.",
+      "example": "A one-year call option and a one-week call option, both far out of the money on the same stock, can have very different prices even though neither has any intrinsic value today. The long-dated option is worth more because there is far more time for the stock to move.",
+      "takeaway": "An option is a wasting asset — even a stationary stock erodes the option's value day by day."
+    },
+    {
+      "id": "d077-implied-vol",
+      "day": 77,
+      "order": 1,
+      "level": "advanced",
+      "title": "Implied vs realised volatility",
+      "description": "Realised volatility is how much a stock actually moved over some past period. Implied volatility is what current option prices assume it will move going forward. When implied volatility is high, options are expensive; when it is low, they are cheap. The gap between the two is what many volatility traders try to exploit.",
+      "example": "In the weeks leading up to a major central bank meeting or an important earnings announcement, implied volatility on the relevant options often rises sharply — the market prices in a bigger potential move. Right after the event, implied volatility usually collapses again, whichever way the news went.",
+      "takeaway": "Implied volatility is the market's forecast; realised volatility is the truth — the gap is a business in itself."
+    },
+    {
+      "id": "d077-vix",
+      "day": 77,
+      "order": 2,
+      "level": "advanced",
+      "title": "The VIX — the 'fear index'",
+      "description": "The VIX is a widely watched index published by the Chicago Board Options Exchange (CBOE). It measures the implied volatility of the next month of S&P 500 options — in other words, how much movement the options market is pricing in. It is often called the 'fear index'.",
+      "example": "The VIX typically sits in the mid-teens in calm markets. It exceeded 80 for the first time on record during the panic weeks of October 2008, and did so again in March 2020 at the peak of the COVID crash — the two highest ever spikes.",
+      "takeaway": "The VIX is the market's live thermometer of collective fear about the near future."
+    },
+    {
+      "id": "d078-delta",
+      "day": 78,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is 'delta' on an option?",
+      "description": "Delta measures how much an option's price is expected to change when the underlying stock moves by €1. A call option deep 'in the money' has a delta close to 1 (moves almost like the stock). A call far out of the money has a delta close to 0. Delta is one of the 'Greeks' — sensitivities that option traders monitor.",
+      "example": "A call option with delta 0.5 on a stock trading at €100 would be expected to gain roughly €0.50 if the stock moves to €101, and lose €0.50 if it moves to €99 — before other effects like changing time value or volatility.",
+      "takeaway": "Delta tells you, at each instant, how much of a stock's move your option position captures."
+    },
+    {
+      "id": "d078-hedging",
+      "day": 78,
+      "order": 2,
+      "level": "advanced",
+      "title": "Hedging with options",
+      "description": "Hedging means taking a position specifically to reduce the risk of another position. Options are natural hedging tools: an investor holding a portfolio can buy put options to insure it against a large fall. The hedge costs money upfront (the option premium) in exchange for reducing downside.",
+      "example": "In late 2019, some hedge funds bought inexpensive puts on major US indexes because volatility was very low. When markets crashed in March 2020, those relatively cheap hedges paid off enormously — some funds turned a small option position into hundreds of millions of dollars.",
+      "takeaway": "Hedging is insurance — usually a slight drag on returns in good times, occasionally a lifesaver."
+    },
+    {
+      "id": "d079-covered-call",
+      "day": 79,
+      "order": 1,
+      "level": "advanced",
+      "title": "The covered call",
+      "description": "A covered call means owning a stock and selling a call option on it. The seller collects the option premium in exchange for capping their potential upside if the stock rises above the strike. It is popular with investors who want extra income and are willing to give up some upside on stocks they already own.",
+      "example": "Many US 'covered call' ETFs — for example, on the S&P 500 or the NASDAQ 100 — have become popular income products in the 2020s. In rising markets they lag the index (they cap the upside); in flat or falling markets they can outperform thanks to the premium income.",
+      "takeaway": "A covered call trades some upside on a stock you own for a stream of premium income."
+    },
+    {
+      "id": "d079-protective-put",
+      "day": 79,
+      "order": 2,
+      "level": "advanced",
+      "title": "The protective put",
+      "description": "A protective put means owning a stock or portfolio and also buying a put option on it. The put acts as an insurance policy: if the stock falls sharply, the put pays out, capping the loss. The cost is the put premium — a real, ongoing drag on returns in normal times.",
+      "example": "Many endowments and pension funds systematically buy long-dated puts on major indexes to protect against tail risk — big, rare crashes. The strategy loses money most years and can pay for itself many times over in a single crash, like 2008 or March 2020.",
+      "takeaway": "A protective put is portfolio insurance — you pay a premium in good years to be shielded in the very bad ones."
+    },
+    {
+      "id": "d080-index-options",
+      "day": 80,
+      "order": 1,
+      "level": "advanced",
+      "title": "Options on indexes",
+      "description": "Options can be written not only on single stocks but on whole indexes (S&P 500, EURO STOXX 50, FTSE 100). Index options are widely used by institutional investors to hedge whole portfolios, and by traders to bet on the direction of the market as a whole rather than on individual companies.",
+      "example": "The SPX (S&P 500 index) options market is one of the largest and most liquid options markets in the world. Trillions of dollars of notional exposure change hands via SPX options each year, driving much of the volatility observed in the underlying index around 'expiry' dates.",
+      "takeaway": "Index options let investors take positions on the whole market cleanly, without touching individual stocks."
+    },
+    {
+      "id": "d080-zero-dte",
+      "day": 80,
+      "order": 2,
+      "level": "advanced",
+      "title": "The rise of 'zero-day' options",
+      "description": "In the 2020s, a large and rapidly growing share of index-option trading has been in options that expire on the same day they are traded — nicknamed '0DTE' (zero days to expiry). Their appeal is a very high potential payoff for a very small premium; their risk is that the total loss can happen within a few hours.",
+      "example": "By 2023, 0DTE options on the S&P 500 accounted for a large share of daily option volume on the SPX — regulators and asset managers have voiced concerns that this concentration could amplify sudden intraday swings in the underlying index.",
+      "takeaway": "Very short-dated options are the fastest, most concentrated form of speculation modern markets have produced."
+    },
+    {
+      "id": "d081-ltcm",
+      "day": 81,
+      "order": 1,
+      "level": "advanced",
+      "title": "Long-Term Capital Management (1998)",
+      "description": "LTCM was a hedge fund founded in 1994 by former Salomon Brothers trader John Meriwether and staffed with academic stars including Nobel laureates Myron Scholes and Robert Merton. It used sophisticated models and huge leverage to bet on tiny mispricings across bond and derivative markets — and made spectacular returns for a few years.",
+      "example": "In August 1998 the Russian government defaulted on its rouble debt, blowing up correlations that LTCM had assumed would stay stable. The fund's leveraged bets collapsed, and in September 1998 the US Federal Reserve organised a $3.6 billion rescue by 14 major banks to unwind LTCM's positions without triggering a wider market crisis.",
+      "takeaway": "Even Nobel-level intellect can be crushed by leverage when a rare event breaks the model's assumptions."
+    },
+    {
+      "id": "d081-leverage-lesson",
+      "day": 81,
+      "order": 2,
+      "level": "advanced",
+      "title": "The core LTCM lesson",
+      "description": "Warren Buffett famously said after LTCM: to make money they didn't have and didn't need, they risked what they did have and did need. The story is a permanent case study in why extreme leverage — even on trades that look statistically almost certain — can wipe out even the smartest operators.",
+      "example": "LTCM's principals had per-trade edges that looked small (a few basis points per opportunity) but were amplified with leverage ratios reportedly around 25:1 by early 1998, and much higher on some positions. When those small edges reversed, the losses were correspondingly enormous.",
+      "takeaway": "The size of your leverage sets the size of your worst possible day."
+    },
+    {
+      "id": "d082-madoff",
+      "day": 82,
+      "order": 1,
+      "level": "advanced",
+      "title": "The Madoff Ponzi scheme",
+      "description": "Bernie Madoff ran what is likely the largest Ponzi scheme in history — for decades pretending to manage tens of billions of dollars for wealthy investors, charities and funds of funds, while actually paying old investors with new investors' money. It unravelled in December 2008 during the financial crisis.",
+      "example": "Madoff turned himself in on 11 December 2008. His clients had believed they held roughly $65 billion in fictitious statements; actual missing funds were around $17–20 billion. Madoff was sentenced to 150 years in prison in 2009 and died in custody in 2021.",
+      "takeaway": "Consistently smooth, high returns with no obvious risk are the loudest warning sign in all of finance."
+    },
+    {
+      "id": "d082-due-diligence",
+      "day": 82,
+      "order": 2,
+      "level": "advanced",
+      "title": "Due diligence lessons from Madoff",
+      "description": "Independent analyst Harry Markopolos submitted detailed complaints to the SEC as early as 2000, arguing Madoff's returns could not be real. He was largely ignored for years. The episode became a foundational case study in the importance of independent auditors, custody, and healthy scepticism of 'too good to be true' performance.",
+      "example": "After Madoff, regulators tightened rules on fund administration, custody and third-party audit. Many institutions permanently changed how they evaluate managers — including insisting on independent custody of assets and refusing to invest with funds whose auditor is unknown or tiny.",
+      "takeaway": "Trust is not a strategy — independent verification is."
+    },
+    {
+      "id": "d083-wirecard",
+      "day": 83,
+      "order": 1,
+      "level": "advanced",
+      "title": "The Wirecard collapse (2020)",
+      "description": "Wirecard was a German payments company briefly considered a European fintech star and included in the DAX 30. In June 2020 its auditors refused to sign off on its 2019 accounts, because roughly €1.9 billion of supposed cash in Asian trust accounts turned out not to exist. The company collapsed into insolvency within days.",
+      "example": "The Financial Times had published a long series of investigative articles from 2015 onwards raising serious concerns about Wirecard's accounts. German regulators — and Wirecard itself — repeatedly attacked the reporters rather than the underlying claims. The 2020 collapse fully vindicated the reporting.",
+      "takeaway": "When credible journalists keep pointing at the same accounting problem, the answer is usually not 'they're all wrong'."
+    },
+    {
+      "id": "d083-audit-fail",
+      "day": 83,
+      "order": 2,
+      "level": "advanced",
+      "title": "When 'blue-chip' status is not protection",
+      "description": "Wirecard was audited for over a decade by EY (Ernst & Young) and was included in Germany's flagship DAX 30 index. Being in a major index or being audited by a big-four firm is often taken by ordinary investors as a mark of trustworthiness — but as Wirecard shows, it is not a guarantee.",
+      "example": "In the aftermath of Wirecard, EY was heavily criticised by German regulators and lost significant German auditing business. Bafin, the German financial regulator, was restructured. The DAX index tightened its listing rules to make future frauds harder to hide inside 'blue-chip' status.",
+      "takeaway": "Index membership and a famous auditor lower the odds of fraud — but do not eliminate them."
+    },
+    {
+      "id": "d084-archegos",
+      "day": 84,
+      "order": 1,
+      "level": "advanced",
+      "title": "The Archegos collapse (2021)",
+      "description": "Archegos Capital Management was a family office run by former hedge fund manager Bill Hwang. In March 2021, its highly concentrated, heavily leveraged positions in a handful of US and Chinese stocks unravelled after a couple of the stocks fell sharply, forcing prime brokers to dump billions of dollars of shares in fire-sale conditions.",
+      "example": "Banks including Credit Suisse (roughly $5.5 billion), Nomura (about $2.9 billion), Morgan Stanley and UBS together lost more than $10 billion. Credit Suisse, already fragile, was ultimately absorbed by UBS in a Swiss-government-brokered emergency deal in March 2023.",
+      "takeaway": "One highly-leveraged client, hidden across many banks, can produce systemic-scale losses."
+    },
+    {
+      "id": "d084-swaps-hiding",
+      "day": 84,
+      "order": 2,
+      "level": "advanced",
+      "title": "Hidden leverage via total return swaps",
+      "description": "Archegos got most of its stock exposure via 'total return swaps' with several banks. Under these contracts the bank technically owned the shares, but Archegos received all the price gains (and losses). Because Archegos itself never appeared on the shareholder register, its enormous concentrated positions were invisible to the outside world — and to other banks.",
+      "example": "Some of Archegos's positions reportedly represented a large percentage of the free float of certain small stocks like ViacomCBS and Discovery. When banks tried to unwind them at the same time in late March 2021, the stocks collapsed by 40–60% in days.",
+      "takeaway": "Regulation follows disasters — Archegos led directly to new transparency rules for large derivatives positions."
+    },
+    {
+      "id": "d085-svb",
+      "day": 85,
+      "order": 1,
+      "level": "advanced",
+      "title": "Silicon Valley Bank (2023)",
+      "description": "Silicon Valley Bank (SVB) was a US bank specialising in tech startups and venture capital funds. When interest rates rose sharply in 2022, the long-dated bonds it had bought during the low-rate era fell heavily in market value. Depositors — mostly startups — pulled money at the same time, and on 10 March 2023 SVB failed. It was the second-largest US bank failure in history at the time.",
+      "example": "US authorities responded within days by guaranteeing all deposits at SVB and Signature Bank (which also failed) to prevent contagion. In Europe, the shock accelerated a loss of confidence in Credit Suisse, which was rescued via a forced takeover by UBS on 19 March 2023.",
+      "takeaway": "Even 'safe' government bonds can hurt a bank badly when interest rates rise fast and depositors flee at once."
+    },
+    {
+      "id": "d085-duration",
+      "day": 85,
+      "order": 2,
+      "level": "advanced",
+      "title": "Duration risk on a bond book",
+      "description": "'Duration' measures how sensitive a bond's price is to a 1-percentage-point change in interest rates. A 10-year bond has roughly 10× the sensitivity of a 1-year bond. Banks that hold lots of long-duration bonds are heavily exposed to rising rates — and if depositors demand their money back, unrealised losses on those bonds can suddenly become very real.",
+      "example": "In 2022, US long-dated Treasury bonds lost roughly 30% of their market value as rates rose. SVB had loaded its balance sheet with long-duration bonds; the size of the unrealised loss became one of the direct triggers of the March 2023 bank run.",
+      "takeaway": "In finance, boring bonds can create very exciting problems when rates move fast."
+    },
+    {
+      "id": "d086-esg",
+      "day": 86,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is ESG investing?",
+      "description": "ESG investing considers Environmental, Social and Governance factors alongside financial ones — for example a company's carbon emissions, labour practices, board diversity, or history of corruption. Some ESG strategies exclude 'sin' industries; others tilt towards companies with better ESG scores; others try to influence company behaviour as active shareholders.",
+      "example": "By the early 2020s, ESG-labelled funds had grown to hold trillions of dollars globally. Regulators in Europe (via the SFDR rules) and the US began introducing stricter definitions and reporting requirements to reduce ambiguity in what a 'sustainable' fund actually is.",
+      "takeaway": "ESG is a real, growing part of investing — but its definitions and standards are still very much a work in progress."
+    },
+    {
+      "id": "d086-greenwashing",
+      "day": 86,
+      "order": 2,
+      "level": "advanced",
+      "title": "What is greenwashing?",
+      "description": "Greenwashing is when a company or a fund is marketed as more environmentally friendly than it really is. In investing, it typically means a fund labelled 'sustainable', 'ESG' or 'green' whose holdings do not match the label. It is a growing concern for both regulators and investors who want their money to actually reflect their values.",
+      "example": "In 2022 US regulators fined a major asset manager tens of millions of dollars for misleading statements about how it evaluated ESG factors in its funds. In Europe, several fund houses have been forced to reclassify or rename funds under the SFDR framework to more accurately describe how sustainable they really are.",
+      "takeaway": "The 'green' label does not automatically mean green — check what a fund actually owns."
+    },
+    {
+      "id": "d087-swf",
+      "day": 87,
+      "order": 1,
+      "level": "advanced",
+      "title": "What is a sovereign wealth fund?",
+      "description": "A sovereign wealth fund (SWF) is a state-owned investment fund, usually built from oil revenues, foreign-exchange reserves or trade surpluses, and used to invest for future generations. The biggest ones are managed with a very long time horizon and can influence markets simply by shifting allocations.",
+      "example": "Norway's Government Pension Fund Global — funded from North Sea oil revenues since the 1990s — is one of the largest single investors in the world, with over $1.5 trillion in assets. It typically owns around 1–1.5% of every listed company on the planet.",
+      "takeaway": "A well-run SWF turns finite natural resources into a permanent financial legacy."
+    },
+    {
+      "id": "d087-norway-model",
+      "day": 87,
+      "order": 2,
+      "level": "advanced",
+      "title": "The Norwegian model",
+      "description": "Norway's SWF is often held up as a model of transparent, disciplined public investing: it publishes its holdings and voting records, follows strict ethical exclusions (e.g. certain weapons, coal), and follows a passive-tilted benchmark that keeps costs very low. It does not chase short-term performance.",
+      "example": "The fund's board publishes an annual list of companies it has excluded on ethical grounds, and its portfolio managers vote in tens of thousands of shareholder meetings each year — a case study in how much influence disciplined long-term capital can have.",
+      "takeaway": "Long horizons plus radical transparency plus low cost — the Norwegian public template for public investing."
+    },
+    {
+      "id": "d088-emerging",
+      "day": 88,
+      "order": 1,
+      "level": "advanced",
+      "title": "What are emerging markets?",
+      "description": "Emerging markets are middle-income economies with fast-growing capital markets — for example Brazil, India, Mexico, South Africa, Indonesia, China. Their stocks and bonds can offer higher growth potential and higher yields than developed markets, but with more political, currency and governance risk.",
+      "example": "China's weight inside the MSCI Emerging Markets equity index grew from a small fraction to roughly a third over the 2000s and 2010s, as Chinese A-shares were progressively opened to foreign investors. Emerging-markets funds' fortunes have been heavily driven by that shift ever since.",
+      "takeaway": "Emerging markets offer more growth potential — and a very different flavour of risk."
+    },
+    {
+      "id": "d088-frontier",
+      "day": 88,
+      "order": 2,
+      "level": "advanced",
+      "title": "Frontier markets",
+      "description": "Frontier markets are even smaller and less developed than emerging markets — countries like Vietnam, Nigeria, Bangladesh, Kazakhstan, Kenya. Their markets are typically small, illiquid and heavily influenced by a few local players. They can post very high returns in good years, and very deep losses when things go wrong.",
+      "example": "Argentina has spent much of the last twenty years bouncing between 'emerging market' and 'frontier market' classifications from index providers like MSCI, based on shifting capital controls and currency crises. Being reclassified can drive very large flows in and out of a country's stock market.",
+      "takeaway": "Frontier markets are the wildest part of the wild — small allocations only, if any."
+    },
+    {
+      "id": "d089-currency-hedging",
+      "day": 89,
+      "order": 1,
+      "level": "advanced",
+      "title": "Hedged vs unhedged foreign investments",
+      "description": "When you invest abroad, you can either accept the currency exposure or 'hedge' it — usually via currency forwards or hedged share classes of a fund. Hedging removes currency risk from your returns; unhedged exposure adds another source of ups and downs, which can help or hurt.",
+      "example": "A UK investor holding US S&P 500 stocks in 2022 experienced a large local-currency loss on the index, partially offset by a strong US dollar against the pound. In 2023 the pound recovered, and unhedged UK investors gave back some of that currency gain.",
+      "takeaway": "Currency hedging removes one source of noise — and one source of possible extra return."
+    },
+    {
+      "id": "d089-hedge-cost",
+      "day": 89,
+      "order": 2,
+      "level": "advanced",
+      "title": "The cost of currency hedging",
+      "description": "Currency hedging is not free. The cost is closely tied to the difference in short-term interest rates between the two currencies: hedging into a higher-yielding currency is expensive; hedging into a lower-yielding one can be cheap or even a slight gain. Bond investors especially need to check hedging costs before comparing yields across countries.",
+      "example": "In 2023 the difference between US and Japanese short-term interest rates meant that for a Japanese investor, the yield-to-maturity on hedged US Treasuries was actually LOWER than on Japanese government bonds — a striking illustration of how hedging can flip a headline yield story.",
+      "takeaway": "Never compare foreign yields naked — always ask what they look like after hedging costs."
+    },
+    {
+      "id": "d090-lifelong-plan",
+      "day": 90,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Building a lifelong investment plan",
+      "description": "A good long-term plan usually contains: a clear time horizon, a target asset allocation, an emergency fund, regular (monthly) contributions, low-cost broad funds inside tax-advantaged accounts, and a rule for rebalancing. The exact numbers matter far less than picking a plan you will actually stick with for decades.",
+      "example": "Studies from Vanguard, Morningstar and others repeatedly show that the biggest driver of poor investor outcomes is not fund choice or asset allocation, but 'behaviour gap' — investors buying and selling at the wrong times. Simple, boring plans consistently followed usually beat clever ones abandoned in a panic.",
+      "takeaway": "A boring plan you actually follow beats a brilliant plan you abandon."
+    },
+    {
+      "id": "d090-mistakes",
+      "day": 90,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Common lifelong investing mistakes",
+      "description": "The most common ways investors damage their long-term wealth are strikingly consistent: paying too much in fees; trading too often; chasing whatever is hot; abandoning a plan at the worst moment; not saving enough early; and holding too much of one single asset (often their own company's stock or their own home country's market).",
+      "example": "Long-running annual research by DALBAR in the US has consistently found that the average equity-fund investor's returns are meaningfully lower than the average equity fund's own returns — the gap being explained mostly by badly timed buying and selling. The stone-cold, boring index-fund investor tends to keep more of what the market gives.",
+      "takeaway": "In investing, most of the damage comes from a small set of very well-known mistakes — most of them psychological."
     }
   ]
 }

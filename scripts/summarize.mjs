@@ -14,8 +14,11 @@ const ROOT = resolve(__dirname, '..');
 const NEWS_PATH = resolve(ROOT, 'docs/data/news.json');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
-const CONCURRENCY = 3;
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash-lite';
+const CONCURRENCY = 1;
+const REQUEST_INTERVAL_MS = 4500;   // stay under free-tier 15 req/min
+const RETRY_ATTEMPTS = 3;
+const RETRY_BACKOFF_MS = 4000;
 const FETCH_TIMEOUT_MS = 15000;
 const GEMINI_TIMEOUT_MS = 30000;
 const MAX_ARTICLE_CHARS = 12000;
@@ -150,6 +153,13 @@ function decodeEntities(s) {
     .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)));
 }
 
+let lastRequestAt = 0;
+async function throttle() {
+  const wait = REQUEST_INTERVAL_MS - (Date.now() - lastRequestAt);
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastRequestAt = Date.now();
+}
+
 async function summarize(title, source, articleText) {
   const prompt = [
     `You are writing a neutral summary of a news article for a briefing app.`,
@@ -177,28 +187,45 @@ async function summarize(title, source, articleText) {
       topP: 0.9,
       maxOutputTokens: 800,
       responseMimeType: 'text/plain',
-      // Gemini 3.x reserves output tokens for internal "thinking" by default,
-      // which can starve the actual answer. We don't need reasoning here.
       thinkingConfig: { thinkingBudget: 0 }
     }
   };
 
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-    signal: AbortSignal.timeout(GEMINI_TIMEOUT_MS)
-  });
+  for (let attempt = 1; attempt <= RETRY_ATTEMPTS; attempt++) {
+    await throttle();
+    let res;
+    try {
+      res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(GEMINI_TIMEOUT_MS)
+      });
+    } catch (e) {
+      if (attempt === RETRY_ATTEMPTS) { warn(`gemini fetch: ${e.message}`); return null; }
+      await new Promise((r) => setTimeout(r, RETRY_BACKOFF_MS * attempt));
+      continue;
+    }
 
-  if (!res.ok) {
+    if (res.ok) {
+      const data = await res.json();
+      const text = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+      if (!text) return null;
+      if (/^SKIP\.?$/i.test(text)) return null;
+      return text;
+    }
+
+    // 429 (quota) / 503 (overloaded) → back off and retry.
+    if ((res.status === 429 || res.status === 503) && attempt < RETRY_ATTEMPTS) {
+      const t = await res.text().catch(() => '');
+      warn(`gemini HTTP ${res.status} (attempt ${attempt}/${RETRY_ATTEMPTS}) — retrying`);
+      await new Promise((r) => setTimeout(r, RETRY_BACKOFF_MS * attempt * (res.status === 429 ? 3 : 1)));
+      continue;
+    }
+
     const t = await res.text().catch(() => '');
     warn(`gemini HTTP ${res.status} — ${t.slice(0, 200)}`);
     return null;
   }
-
-  const data = await res.json();
-  const text = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-  if (!text) return null;
-  if (/^SKIP\.?$/i.test(text)) return null;
-  return text;
+  return null;
 }

@@ -1,26 +1,607 @@
 {
-  "version": 0,
-  "notes": "Placeholder for M1 UI verification only. Milestone M2 will replace this with the real 30-day batch (60 notions).",
+  "version": 1,
+  "batch": "M2 — days 1 to 30 (60 notions, foundations-heavy)",
+  "disclaimer": "Educational content, not financial advice.",
   "notions": [
     {
-      "id": "m1-demo-1",
+      "id": "d001-stock",
       "day": 1,
       "order": 1,
       "level": "beginner",
-      "title": "[Demo] What is a stock?",
-      "description": "A stock (also called a share) is a small piece of ownership in a company. When you buy one, you become a part-owner. If the company does well and grows, your stock may be worth more later; if it does badly, it may be worth less. Stocks are traded on stock exchanges.",
-      "example": "In 1980, Apple sold its shares to the public for the first time (its IPO). Someone who bought one share then and never sold would hold a very valuable position today, having also received dividends over the decades.",
+      "title": "What is a stock?",
+      "description": "A stock (also called a share) is a small piece of ownership in a company. When you buy one, you become a part-owner. If the company grows and does well, your stock can be worth more; if it does badly, it can be worth less. Stocks are bought and sold on public markets called exchanges.",
+      "example": "In December 1980 Apple sold shares to the public for the first time — its IPO. Someone who bought a single share back then and never sold has been rewarded many times over, both by the price rising over the decades and by dividends the company started paying again in 2012.",
       "takeaway": "Owning a stock means owning a piece of a real business, not just a number on a screen."
     },
     {
-      "id": "m1-demo-2",
+      "id": "d001-bond",
       "day": 1,
       "order": 2,
       "level": "beginner",
-      "title": "[Demo] What is a bond?",
-      "description": "A bond is a loan you make to a government or a company. In exchange, they promise to pay you back at a set date and to pay you interest along the way. Bonds are generally less volatile than stocks but usually offer lower long-term returns.",
-      "example": "During the Great Depression, US Treasury bonds continued to pay their coupons on time, while stock prices lost most of their value between 1929 and 1932. That is one classic illustration of the diversification benefit bonds can offer inside a portfolio.",
-      "takeaway": "A stock is a piece of a business; a bond is an IOU with a schedule."
+      "title": "What is a bond?",
+      "description": "A bond is a loan you make to a government or a company. In exchange, they promise to pay you back at a set date (called maturity) and to pay you regular interest until then. Bonds are usually less bumpy than stocks, but usually offer lower long-term returns.",
+      "example": "During the Great Depression (1929–1932) US stocks lost around 89% of their value peak to trough. US Treasury bonds, however, continued to pay their coupons on schedule the whole way through — a classic illustration of the diversification benefit bonds can offer inside a portfolio.",
+      "takeaway": "A stock is a piece of a business; a bond is an IOU with a payment schedule."
+    },
+    {
+      "id": "d002-exchange",
+      "day": 2,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a stock exchange?",
+      "description": "A stock exchange is an organised public market where stocks are bought and sold. Exchanges match buyers with sellers and publish prices in real time, so at every moment you can see what a share is worth. The largest by market value today is the New York Stock Exchange (NYSE); the oldest still active is Amsterdam's, founded in 1602.",
+      "example": "The NYSE was founded in 1792 by 24 stockbrokers who signed the Buttonwood Agreement under a tree on Wall Street in New York. Two centuries later that handful of brokers has become an exchange hosting companies worth tens of trillions of dollars combined.",
+      "takeaway": "Exchanges are the plumbing that let you sell a share quickly, at a public and visible price."
+    },
+    {
+      "id": "d002-broker",
+      "day": 2,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a broker?",
+      "description": "A broker is a firm that lets you place buy and sell orders on an exchange. You cannot walk up to the exchange yourself — you always need a broker as intermediary. Today most brokers are apps or websites, and many charge no commission at all on trades of listed stocks.",
+      "example": "On 1 May 1975 — a day US brokers now call 'May Day' — American regulators stopped requiring brokers to charge fixed commissions. That same day Charles Schwab cut its fees sharply, launching the modern discount broker. Before 1975, everyone paid the same, high, fixed rate.",
+      "takeaway": "You never buy a stock directly — you place an order with a broker, who executes it on the exchange."
+    },
+    {
+      "id": "d003-share-price",
+      "day": 3,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a share price?",
+      "description": "A share price is how much one share of a company costs at a given moment. It moves constantly during trading hours, based on what buyers are willing to pay and what sellers are willing to accept. A high share price on its own does not mean a company is 'expensive' overall — you also need to know how many shares exist.",
+      "example": "Warren Buffett's Berkshire Hathaway (Class A) has never done a stock split, so its share price has grown from $19 in 1965 to hundreds of thousands of dollars per share today — the highest-priced listed stock in the world, but not the largest company by market value.",
+      "takeaway": "Price per share alone tells you very little; what matters is price times the number of shares."
+    },
+    {
+      "id": "d003-ticker",
+      "day": 3,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a ticker symbol?",
+      "description": "A ticker is a short code — usually one to five letters — that identifies a stock on an exchange. The name comes from the ticker-tape machines that printed prices on narrow paper strips in the 19th and early 20th centuries. Today tickers are still the standard way to refer to a specific stock.",
+      "example": "Apple's ticker on NASDAQ is AAPL; Microsoft's is MSFT; Shell's on the London Stock Exchange is SHEL; Nestlé's on the SIX Swiss Exchange is NESN. The same company can even have different tickers on different exchanges around the world.",
+      "takeaway": "A ticker is a shorthand address for finding a specific stock on a specific exchange."
+    },
+    {
+      "id": "d004-dividend",
+      "day": 4,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a dividend?",
+      "description": "A dividend is a share of a company's profits paid to its shareholders, usually in cash and usually a few times a year. Not every company pays a dividend — many young companies reinvest all their profits into growth instead. A stock that pays a steady, growing dividend is often prized for its regular income.",
+      "example": "Coca-Cola has paid a regular quarterly cash dividend for well over a century, and has raised it every year for more than 60 consecutive years. Warren Buffett's Berkshire Hathaway holds a very large stake in Coca-Cola and, thanks to that stake, receives hundreds of millions of dollars a year in Coca-Cola dividends alone.",
+      "takeaway": "Dividends are one of the two ways a stock can pay you — the other is the price going up."
+    },
+    {
+      "id": "d004-split",
+      "day": 4,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a stock split?",
+      "description": "In a stock split, a company divides each existing share into more shares (for example, 1 into 4), lowering the price per share while keeping the value of your holding the same. Splits are usually done to make a share price look more affordable to small investors. A reverse split is the opposite: many shares become fewer.",
+      "example": "In August 2020 Apple did a 4-for-1 split. A share that traded at about $500 the day before the split traded at about $125 the day after. Anyone who owned 10 shares before owned 40 after — same total value, four times as many pieces.",
+      "takeaway": "A split changes the packaging, not the pie."
+    },
+    {
+      "id": "d005-inflation",
+      "day": 5,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is inflation?",
+      "description": "Inflation is the general rise in prices over time, usually measured over a year. When inflation is 3% a year, something that costs €100 today would cost about €103 in a year. Money left doing nothing loses its buying power year after year to inflation, even though the number of euros or pounds does not change.",
+      "example": "Weimar Germany suffered hyperinflation in 1923: at the peak, prices roughly doubled every few days. Workers were paid twice a day so they could spend their wages before they lost value; famous photos show wheelbarrows of banknotes being pushed around to buy a loaf of bread.",
+      "takeaway": "Money left doing nothing quietly loses its buying power over time."
+    },
+    {
+      "id": "d005-deflation",
+      "day": 5,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is deflation?",
+      "description": "Deflation is the opposite of inflation: prices fall over time. It might sound good ('things get cheaper'), but usually it comes with a shrinking economy: people delay buying — hoping for lower prices — and companies cut wages or jobs. Central banks work hard to avoid it.",
+      "example": "Japan spent most of the 1990s and 2000s in mild deflation after its huge stock-and-property bubble burst in 1989–1990 — a period often called the 'lost decades', with slow growth and prices that barely moved for around twenty years.",
+      "takeaway": "Falling prices are usually a symptom of a sick economy, not a good deal."
+    },
+    {
+      "id": "d006-interest",
+      "day": 6,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is interest?",
+      "description": "Interest is the price you pay to borrow money, or the price you are paid to lend it. If a bank pays you 2% a year on a savings account, that is interest flowing to you. If you take a mortgage at 5% a year, that is interest flowing from you to the bank.",
+      "example": "In the early 1980s the US Federal Reserve, under Chair Paul Volcker, raised its main interest rate to over 20% to break the very high inflation of the 1970s. US home-mortgage rates at that time reached around 18% — unimaginable today — and the economy went into a sharp recession.",
+      "takeaway": "Interest is the rent on money."
+    },
+    {
+      "id": "d006-compound",
+      "day": 6,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is compound interest?",
+      "description": "Compound interest is interest that itself earns interest. €100 earning 10% in year one grows to €110; if that €110 also earns 10% in year two you have €121, not €120. Small yearly differences compound into huge ones over many years. It is often called 'the eighth wonder of the world'.",
+      "example": "$1 invested in the broad US stock market at the end of 1925, with every dividend reinvested, was worth several thousand dollars by 2024 — almost entirely thanks to compounding over almost a century, not to any single dramatic gain.",
+      "takeaway": "The best friend of a long-term investor is time."
+    },
+    {
+      "id": "d007-bank",
+      "day": 7,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a bank?",
+      "description": "A bank takes deposits from savers, keeps their money safe, and lends most of it out to borrowers at a higher rate of interest. The difference between the two rates is how a bank makes money. Modern banks also handle payments (cards, transfers) and offer loans, mortgages, credit cards and other services.",
+      "example": "HSBC was founded in 1865 in Hong Kong and Shanghai — its name is short for 'The Hongkong and Shanghai Banking Corporation' — to finance trade between Europe and Asia. Today it is one of the largest banks in the world by assets.",
+      "takeaway": "A bank is the middle-man between savers who have money and borrowers who need it."
+    },
+    {
+      "id": "d007-central-bank",
+      "day": 7,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a central bank?",
+      "description": "A central bank is a special public institution that sets the overall cost of money in a country by choosing the main short-term interest rate. It also issues the currency and, in a crisis, can lend to normal banks so they do not collapse. Well-known examples: the US Federal Reserve, the European Central Bank, the Bank of England.",
+      "example": "In September and October 2008, during the peak of the global financial crisis, the US Federal Reserve lent hundreds of billions of dollars to banks (and to the insurer AIG) to keep the financial system from freezing up. Without that lending, several more big banks would probably have failed after Lehman Brothers.",
+      "takeaway": "The central bank is the bank for banks, and the referee for the price of money."
+    },
+    {
+      "id": "d008-return",
+      "day": 8,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a return?",
+      "description": "A return is how much you made (or lost) on an investment, usually expressed as a percentage over a period. If you put in €100 and end up with €108 one year later, your return for that year is +8%. If you end up with €95, your return is –5%.",
+      "example": "In calendar year 2008, the US S&P 500 stock index returned about –37% (a very bad year). In 2019 it returned about +31% (a very good year). Both figures are annual returns for the same broad market, less than a generation apart.",
+      "takeaway": "A return is what you got out, minus what you put in, expressed as a fraction of what you put in."
+    },
+    {
+      "id": "d008-total-return",
+      "day": 8,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a total return?",
+      "description": "A total return counts everything you got back from an investment: the change in price AND any dividends or interest paid along the way. A stock whose price rose 5% and paid a 2% dividend delivered a total return of about 7%. Ignoring dividends can make a stock look worse than it really was.",
+      "example": "The US S&P 500 has returned around 6–7% a year in 'price only' since 1928, but around 9–10% a year in total return. That extra several percentage points a year comes almost entirely from reinvesting dividends — and over a century turns into most of the final wealth.",
+      "takeaway": "Total return is the honest picture — price alone leaves out half the story."
+    },
+    {
+      "id": "d009-capital-gain",
+      "day": 9,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a capital gain?",
+      "description": "A capital gain is the profit you make when you sell an investment for more than you paid for it. Buying a share at €50 and selling at €80 gives a €30 capital gain. Selling instead at €40 would give a €10 capital loss. In most countries you pay tax on the gains you realise, not on gains that only exist on paper.",
+      "example": "Someone who bought Amazon at its IPO in May 1997, at $18 per share, and simply held on has watched their investment multiply many hundreds of times over (after accounting for four subsequent stock splits). In the US, they would owe capital-gains tax on the profit only when they actually sell, and at a rate depending on how long they held the stock.",
+      "takeaway": "A capital gain is only 'real' once you sell — before that it is a paper gain that can still evaporate."
+    },
+    {
+      "id": "d009-percentage-return",
+      "day": 9,
+      "order": 2,
+      "level": "beginner",
+      "title": "Why we measure returns as percentages",
+      "description": "A percentage return puts a gain or a loss in a comparable form: it is the amount you made divided by the amount you invested. €50 gained on a €500 investment is +10%; €50 gained on a €5,000 investment is only +1%. Percentages let you compare investments of very different sizes.",
+      "example": "In 1965 Warren Buffett took control of a failing textile company called Berkshire Hathaway. Since then the compound annual return of the stock has been roughly 20% per year, versus about 10% for the wider US market. Sustained over sixty years, that gap is what turned Berkshire into a legendary fortune.",
+      "takeaway": "Percentages, not dollar amounts, tell you whether an investment is really good."
+    },
+    {
+      "id": "d010-volatility",
+      "day": 10,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is volatility?",
+      "description": "Volatility is how much and how often an investment's price jumps around. A very volatile stock might swing 5% up or down in a single day; a stable one might barely move for weeks. Volatility on its own is not the same as 'bad' — but it makes for a bumpier ride, and can be very hard to sit through.",
+      "example": "In March 2020, in the first weeks of the COVID-19 panic, the US S&P 500 fell about 34% in five weeks — and then rebounded most of the way back within a few months. That was extreme volatility, and would have been very hard to endure without a plan agreed in advance.",
+      "takeaway": "Volatility is the emotional cost of investing — real, and heavier than beginners expect."
+    },
+    {
+      "id": "d010-risk",
+      "day": 10,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is risk?",
+      "description": "In finance, risk is the possibility that you end up with less than you hoped for — or with a loss. It is not the same as volatility: a boring, low-volatility bond issued by a fragile borrower can be far riskier than a jumpy blue-chip stock. Different investments carry very different kinds of risk: default, inflation, currency and more.",
+      "example": "When Lehman Brothers went bankrupt on 15 September 2008, its bonds — considered fairly safe by many investors even months earlier — lost most of their value almost overnight. Investors learned the hard way that 'safe' often just means 'believed safe, until proven otherwise'.",
+      "takeaway": "Risk is the chance that what should not happen, happens."
+    },
+    {
+      "id": "d011-diversification",
+      "day": 11,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is diversification?",
+      "description": "Diversification means spreading your money across many different investments, so a problem with one does not sink your whole portfolio. It is often summed up as 'don't put all your eggs in one basket'. Diversification cannot make bad returns good, but it can prevent one bad investment from wiping you out.",
+      "example": "Many employees of Enron, an American energy giant, held large parts of their retirement savings in Enron stock. When the company collapsed in accounting fraud in December 2001, many lost their job and most of their pension at the same time — a textbook case of what can go wrong without diversification.",
+      "takeaway": "Diversification is a free form of insurance against being wrong about any single company."
+    },
+    {
+      "id": "d011-portfolio",
+      "day": 11,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a portfolio?",
+      "description": "A portfolio is simply the collection of all the investments you hold together — stocks, bonds, cash, funds, real estate. The way that mix is chosen (called asset allocation) has a bigger impact on long-term results than any single stock or bond pick, for most people.",
+      "example": "A very common textbook portfolio is the '60/40': 60% in stocks and 40% in bonds. Over the last century it has delivered decent long-run returns with much less turbulence than a 100% stock portfolio, and remains a common starting point for pension funds and personal retirement savings.",
+      "takeaway": "A portfolio is the whole basket — and the mix inside it matters more than any single item."
+    },
+    {
+      "id": "d012-asset-allocation",
+      "day": 12,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is asset allocation?",
+      "description": "Asset allocation is how you split your money between the main types of investments — usually stocks, bonds and cash — based on your goals and how much risk you can bear. Younger, longer-term investors often hold more stocks (more expected return, more turbulence). Older investors near retirement often shift toward bonds.",
+      "example": "The Norwegian sovereign wealth fund — one of the largest pools of savings in the world — has for years held roughly 70% of its assets in stocks and about 30% in bonds and real estate, a very public example of a large-scale, disciplined asset allocation.",
+      "takeaway": "Asset allocation is the single decision that shapes most of a portfolio's long-run behaviour."
+    },
+    {
+      "id": "d012-cash",
+      "day": 12,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is 'cash' as an investment?",
+      "description": "In finance, 'cash' does not just mean the notes in your wallet. It means money you can spend or withdraw immediately: current accounts, savings accounts and very short-term instruments such as money-market funds. Cash keeps its face value but is quietly eaten away by inflation over time.",
+      "example": "In 2022 the inflation rate in the US reached about 9% — its highest level since 1981. Money kept in a current account paying near-zero interest lost about 9% of its buying power in a single year, even though the number of dollars in the account did not change.",
+      "takeaway": "Cash feels safe day to day, but is unsafe in the long run against inflation."
+    },
+    {
+      "id": "d013-savings-account",
+      "day": 13,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a savings account?",
+      "description": "A savings account is a bank account that pays you a rate of interest in return for keeping your money there rather than in a normal current account. The interest rate tends to follow the central bank's rate: high when rates rise, near zero when rates are cut.",
+      "example": "Between about 2015 and 2022, most savings accounts in the euro area paid essentially 0% interest, because the European Central Bank kept its main rate at or below zero. In 2023–2024, as the ECB raised rates against high inflation, savings rates rose back above 3% in many countries.",
+      "takeaway": "A savings account is a good place to park money you may need soon — but not a way to grow wealth long term."
+    },
+    {
+      "id": "d013-liquidity",
+      "day": 13,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is liquidity?",
+      "description": "Liquidity is how easily an investment can be turned into cash without losing much of its value. A share in a big listed company is very liquid — you can sell it in seconds at close to the current price. A house is very illiquid — selling it well takes weeks or months.",
+      "example": "In March 2020, at the peak of the COVID panic, even normally very liquid US Treasury bonds became briefly hard to sell without a discount, as everyone tried to raise cash at once. The Federal Reserve had to step in and buy directly to restore normal liquidity to the market.",
+      "takeaway": "Liquidity is the ability to leave a market gracefully, without paying a big price for exiting."
+    },
+    {
+      "id": "d014-illiquidity",
+      "day": 14,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is illiquidity?",
+      "description": "An investment is illiquid when it is hard to sell quickly at a fair price. Real estate, private company shares, art, wine, small local businesses — all illiquid. Illiquid is not the same as bad: these assets often reward long-term investors, but they punish anyone who suddenly needs their money back.",
+      "example": "In 2008, many hedge funds had large amounts of money in illiquid mortgage-related assets. When their own investors panicked and asked for their cash back, the funds could not sell those assets fast enough — several imposed 'gates' that blocked withdrawals for many months.",
+      "takeaway": "The more illiquid an investment, the more it should be money you can truly do without for a long time."
+    },
+    {
+      "id": "d014-emergency-fund",
+      "day": 14,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is an emergency fund?",
+      "description": "An emergency fund is a pot of easily reachable cash that covers a few months of essential expenses. Its job is to protect you from being forced to sell long-term investments at a bad time — for example after a layoff, a broken boiler or a health issue. A common rule of thumb is 3 to 6 months of essential spending, kept in a savings account.",
+      "example": "In March and April 2020, millions of workers around the world were suddenly furloughed or laid off in a matter of weeks. Those with an emergency fund could pay bills without selling their stock investments at what was, in hindsight, one of the worst possible moments.",
+      "takeaway": "An emergency fund is what lets your long-term investments survive short-term surprises."
+    },
+    {
+      "id": "d015-mutual-fund",
+      "day": 15,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a mutual fund?",
+      "description": "A mutual fund is a pool of many people's money that a professional manager invests in a set of stocks, bonds or other assets on their behalf. You buy 'units' (or 'shares') of the fund; each unit gives you a small slice of everything the fund owns. This is a simple way to be diversified without picking every stock yourself.",
+      "example": "In 1924 the Massachusetts Investors Trust — often called the first modern open-ended mutual fund — was launched in the United States. The idea of letting ordinary people share in the profits of many companies at once became one of the great financial inventions of the 20th century.",
+      "takeaway": "A mutual fund is a shared basket that turns many small investors into one large one."
+    },
+    {
+      "id": "d015-index",
+      "day": 15,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a stock market index?",
+      "description": "A stock market index is a numerical measure of a group of stocks, built to represent a market. When the news says 'the FTSE 100 rose 1% today', it means the weighted average of the top 100 companies on the London Stock Exchange went up 1%. Well-known indexes: FTSE 100 (UK), S&P 500 (US), EURO STOXX 50 (eurozone), Nikkei 225 (Japan).",
+      "example": "The Dow Jones Industrial Average, one of the oldest indexes still published, was created in 1896 by journalist Charles Dow with just 12 industrial companies. Today it tracks 30 large US firms, but the S&P 500 (500 firms) has largely replaced it as the reference for the US market.",
+      "takeaway": "An index is a 'thermometer' of a market — a single number that summarises a whole set of stocks."
+    },
+    {
+      "id": "d016-index-fund",
+      "day": 16,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is an index fund?",
+      "description": "An index fund is a mutual fund that does not try to beat the market — instead it simply tries to match a particular index (say, the S&P 500) by holding roughly the same stocks in roughly the same proportions. Because there is no expensive stock-picking, index funds are usually much cheaper than actively managed funds.",
+      "example": "In 1976 Jack Bogle, founder of the US firm Vanguard, launched the first index mutual fund for retail investors — the First Index Investment Trust, which tracked the S&P 500. Critics at the time called it 'un-American' and 'guaranteed mediocrity'; today index funds hold tens of trillions of dollars worldwide.",
+      "takeaway": "An index fund buys the whole market cheaply, instead of trying to guess which stocks will win."
+    },
+    {
+      "id": "d016-etf",
+      "day": 16,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is an ETF?",
+      "description": "An ETF (exchange-traded fund) is a fund that trades on an exchange like a stock, so you can buy and sell it during trading hours at a live price. Most ETFs are index funds — they simply track an index. They are usually low-cost and are today the most common way for individuals to invest in a diversified way.",
+      "example": "The first US ETF, 'SPDR S&P 500' (ticker SPY), started trading in January 1993 and simply tracks the S&P 500 index. Thirty years later it is one of the most heavily traded securities in the world, with hundreds of billions of dollars in assets.",
+      "takeaway": "An ETF is a fund you can buy and sell instantly, like a stock — usually tracking an index."
+    },
+    {
+      "id": "d017-active-vs-passive",
+      "day": 17,
+      "order": 1,
+      "level": "beginner",
+      "title": "Active vs passive investing",
+      "description": "Active investing means trying to beat the market by picking specific stocks (or hiring a manager who does). Passive investing means simply owning a broad index cheaply and holding it. Over long periods, most active funds fail to beat their index after fees — which is the main reason passive investing has grown so fast.",
+      "example": "Warren Buffett famously bet $1 million in 2007 that a simple S&P 500 index fund would beat a basket of hand-picked hedge funds over 10 years. He won the bet: by 2017 the index fund had roughly doubled while the hedge-fund basket lagged well behind, largely because of high fees.",
+      "takeaway": "Beating the market is possible; it is just much harder — and rarer — than most beginners assume."
+    },
+    {
+      "id": "d017-fund-manager",
+      "day": 17,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a fund manager?",
+      "description": "A fund manager is the person (or team) who decides what an active fund buys and sells, on behalf of everyone who has invested in it. Star managers can build big reputations, but studies show that only a small minority beat their index consistently over long periods, and that past success does not reliably predict future success.",
+      "example": "Peter Lynch ran the Fidelity Magellan Fund in the US from 1977 to 1990 and delivered around 29% a year — one of the best long records in mutual-fund history. He retired at 46. Most of Magellan's successors did not repeat that success, illustrating how hard sustained outperformance really is.",
+      "takeaway": "A great fund manager is rare — and past performance does not guarantee future results."
+    },
+    {
+      "id": "d018-management-fee",
+      "day": 18,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a management fee?",
+      "description": "A management fee is what a fund charges you each year in exchange for managing your money. It is a percentage of the assets you have in the fund. It is deducted automatically, so you never receive a bill — but you also may not notice how much it eats into your returns over time.",
+      "example": "A traditional actively managed European equity fund might charge 1.5% a year, while a plain S&P 500 ETF might charge 0.05% a year — thirty times less. Over 30 years, that gap alone can consume a large fraction of the fund's final value, even before considering performance.",
+      "takeaway": "Fees are one of the very few things about investing you can control in advance."
+    },
+    {
+      "id": "d018-expense-ratio",
+      "day": 18,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is an expense ratio?",
+      "description": "The expense ratio is the total yearly cost of running a fund, as a percentage of its assets. It includes the management fee plus other operating costs. A lower expense ratio means more of the fund's return stays in your pocket over the years — and small differences compound heavily over decades.",
+      "example": "€10,000 growing at 7% a year for 30 years becomes about €76,000. Charge a 1% expense ratio and the effective return drops to 6% — you end with about €57,000. That single percentage point of yearly cost quietly took away roughly €19,000, without you ever seeing a bill.",
+      "takeaway": "In investing, every percentage point of yearly fees hurts you more the longer you stay invested."
+    },
+    {
+      "id": "d019-dca",
+      "day": 19,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is dollar-cost averaging?",
+      "description": "Dollar-cost averaging (or 'euro-cost averaging' in Europe) means investing a fixed amount at regular intervals — for example €200 every month — regardless of what markets are doing. You end up buying more shares when prices are low, fewer when prices are high, without needing to time the market.",
+      "example": "Many company pension plans effectively use this: a fixed slice of your salary is invested every month in the same funds, month after month, whether markets are up or down. Decades of this discipline have built substantial retirement pots for millions of ordinary workers.",
+      "takeaway": "Dollar-cost averaging turns market ups and downs from a source of stress into a source of discipline."
+    },
+    {
+      "id": "d019-buy-and-hold",
+      "day": 19,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is buy-and-hold investing?",
+      "description": "Buy-and-hold means buying good, well-diversified investments and simply holding them for many years, ignoring most short-term news. It avoids trading costs and mistimed sales, and taps into the long-term growth of the economy. It is boring by design — and that is one of its strengths.",
+      "example": "Someone who bought a broad US stock index fund in 2000 and held it through the dot-com crash, 9/11, the 2008 crisis, the euro-zone crisis, Brexit, COVID and the 2022 sell-off would still, by 2024, have multiplied their money several times over — despite every scary headline in that period.",
+      "takeaway": "Time in the market matters much more than timing the market."
+    },
+    {
+      "id": "d020-rebalancing",
+      "day": 20,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is rebalancing?",
+      "description": "Rebalancing means bringing your portfolio back to its target mix from time to time. If your target is 60% stocks and 40% bonds, and stocks rise so that the mix drifts to 70/30, you sell some stocks and buy some bonds to get back to 60/40. This forces you to 'sell high and buy low' in a disciplined way.",
+      "example": "A 60/40 portfolio at the start of 2020 would have drifted heavily toward bonds during the March 2020 stock crash. Rebalancing then meant selling some safe bonds and buying more of the fallen stocks — uncomfortable at the time, but strongly rewarded by the sharp market recovery that followed.",
+      "takeaway": "Rebalancing is how you keep your portfolio aligned with your plan, not with your emotions."
+    },
+    {
+      "id": "d020-long-term",
+      "day": 20,
+      "order": 2,
+      "level": "beginner",
+      "title": "Why the time horizon matters",
+      "description": "The 'time horizon' is how long you can leave money invested before you need it. A short horizon (1–3 years) usually means you should not take much risk with that money. A long horizon (10+ years) means you can more comfortably ride out crashes and let compounding do its work.",
+      "example": "Since 1926, US stocks have had many bad years — but no rolling 20-year period on record has produced a real loss for a broad, diversified stock investor. Short horizons and stocks are a tense combination; long horizons and stocks are a natural fit.",
+      "takeaway": "Match the risk of the investment to how soon you actually need the money."
+    },
+    {
+      "id": "d021-coupon",
+      "day": 21,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a coupon (on a bond)?",
+      "description": "A coupon is the regular interest payment a bond makes to its holder, usually once or twice a year. The name comes from paper bonds of the 19th and 20th centuries: they literally had detachable paper coupons that you would clip off and take to a bank to receive your interest payment.",
+      "example": "A '10-year UK Gilt with a 4% coupon' pays 4% of its face value each year (usually as two payments of 2%) to the bondholder until maturity — and returns the face value on the maturity date. If you hold £10,000 of it, you receive £400 a year in coupons.",
+      "takeaway": "The coupon is the regular cheque a bond writes to its owner."
+    },
+    {
+      "id": "d021-maturity",
+      "day": 21,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is bond maturity?",
+      "description": "The maturity of a bond is the date on which the borrower promises to pay back the face value in full. A '10-year bond' issued in 2026 matures in 2036. Between issue and maturity you receive coupons; on the maturity date you receive the final coupon and your principal back.",
+      "example": "Governments regularly issue bonds of very different maturities — sometimes as short as a few weeks, sometimes as long as 30 years or more. Austria in 2020 famously issued a 100-year government bond; the buyers were essentially betting on very low interest rates for a very long time.",
+      "takeaway": "Maturity is the bond's finish line — when the borrower gives back the loan."
+    },
+    {
+      "id": "d022-govt-bond",
+      "day": 22,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a government bond?",
+      "description": "A government bond is a bond issued by a national government to fund its spending. Governments of large, wealthy countries with their own central banks are usually considered among the safest borrowers in the world. Governments that borrow in a currency they do not control are much riskier.",
+      "example": "US Treasuries, UK Gilts, German Bunds and Japanese JGBs are among the largest and most widely held government bonds. During the 2008 crisis, worried investors poured into US Treasuries as a safe haven, driving their prices up and their yields down — even as US stocks collapsed.",
+      "takeaway": "Government bonds are typically the safest side of a portfolio — 'typically', not always."
+    },
+    {
+      "id": "d022-corporate-bond",
+      "day": 22,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a corporate bond?",
+      "description": "A corporate bond is a bond issued by a company. It usually pays a higher interest rate than a government bond of the same maturity, because the company is a riskier borrower. Investors take on that extra risk in exchange for the higher yield.",
+      "example": "In 2013 Apple, sitting on a huge pile of cash, still borrowed $17 billion by issuing bonds — at that time one of the largest corporate bond issues ever. Its bonds paid a yield only slightly above US Treasuries, because Apple was considered an extremely reliable borrower.",
+      "takeaway": "Companies borrow through bonds too — and pay a bit more interest than governments to compensate for the extra risk."
+    },
+    {
+      "id": "d023-credit-rating",
+      "day": 23,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a credit rating?",
+      "description": "A credit rating is a rating agency's opinion of how safe a borrower is. The main agencies — S&P, Moody's and Fitch — use letter codes (for example AAA, AA, A, BBB, BB and so on) to summarise their view. Higher ratings usually mean lower yields (safer, cheaper borrowing); lower ratings mean higher yields (riskier).",
+      "example": "In August 2011 Standard & Poor's downgraded the United States from its top AAA rating to AA+ for the first time in history, citing political fights over the debt ceiling. Markets fell sharply for a week — even though US Treasuries themselves remained (and remain) the world's benchmark 'safe' asset.",
+      "takeaway": "A credit rating is an outside opinion of a borrower's safety — useful, but not the last word."
+    },
+    {
+      "id": "d023-default",
+      "day": 23,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is default risk?",
+      "description": "Default risk is the risk that a borrower does not repay its bonds — either not paying interest, not returning the principal, or restructuring the deal. Higher default risk normally comes with a higher yield to attract lenders. When defaults actually happen, bondholders may recover only a fraction of what they were owed.",
+      "example": "Argentina has defaulted on its foreign-currency debt several times in recent decades — including in 2001 (one of the largest sovereign defaults ever at the time) and again in 2014 and 2020 — each time forcing painful restructurings on its bondholders.",
+      "takeaway": "Default risk is the possibility your loan does not come back — and it is real, even for countries."
+    },
+    {
+      "id": "d024-yield",
+      "day": 24,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a bond yield?",
+      "description": "A bond yield is the return an investor gets from a bond, expressed as a percentage per year. The 'yield to maturity' is the full return you would earn by buying the bond today and holding it to the end. Yields move up when bond prices fall, and down when bond prices rise.",
+      "example": "During the deep interest-rate cutting cycle of 2015–2021, the yield on 10-year German government bonds fell below zero — meaning buyers of new 10-year Bunds were locking in a small guaranteed loss if held to maturity. By late 2022, those yields were back above 2% again as inflation returned.",
+      "takeaway": "A bond's yield tells you what return you are locking in today if you hold it to maturity."
+    },
+    {
+      "id": "d024-price-yield",
+      "day": 24,
+      "order": 2,
+      "level": "beginner",
+      "title": "Why bond prices and yields move opposite ways",
+      "description": "The interest payments on an existing bond are fixed at issue. If interest rates in the market go up, new bonds are more attractive — so the existing bond's price must fall for its yield to become competitive. If rates fall, existing bonds become more attractive and their prices rise. Prices and yields move in opposite directions.",
+      "example": "2022 was one of the worst years for bonds in a generation, as central banks raised rates fast to fight inflation. Long-dated US Treasury bonds lost roughly 30% of their value — a shock to investors who thought of bonds as a safe, quiet corner of the portfolio.",
+      "takeaway": "Bonds are not immune to loss — rising interest rates make existing bonds fall in price."
+    },
+    {
+      "id": "d025-real-return",
+      "day": 25,
+      "order": 1,
+      "level": "beginner",
+      "title": "Real vs nominal return",
+      "description": "A nominal return is the raw percentage you earned. A real return subtracts inflation to show how much your buying power actually grew. If your investment returns 5% and inflation is 3%, your real return is roughly 2%. In finance, what matters for spending in the future is the real, not the nominal, return.",
+      "example": "US 3-month Treasury bills in 2022 paid a positive nominal return of a few percent, but inflation ran near 8%. So in real terms, US 'cash' investors actually lost buying power by about 4 to 5 percentage points that year, even though the numbers on the account went up.",
+      "takeaway": "Only the real return — after inflation — measures whether you are truly getting richer."
+    },
+    {
+      "id": "d025-purchasing-power",
+      "day": 25,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is purchasing power?",
+      "description": "Purchasing power is what a given amount of money can actually buy. It is not the number of euros or pounds in your account — it is what those euros or pounds can be exchanged for in the shops. Inflation erodes purchasing power; wage growth and real investment returns rebuild it.",
+      "example": "A UK £1 note in 1970 could buy considerably more goods than £1 today: the pound has lost most of its buying power to inflation over the past half-century. That is why long-term savings, if left as pure cash, are almost guaranteed to shrink in real terms.",
+      "takeaway": "The point of investing is not more money in the account — it is more purchasing power over time."
+    },
+    {
+      "id": "d026-bull-market",
+      "day": 26,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a bull market?",
+      "description": "A bull market is a long period during which prices — usually stock prices — are broadly rising, and investor confidence is high. There is no strict definition, but many use 'a rise of 20% or more from a recent low, without a 20% fall in between'. Bull markets can last for many years.",
+      "example": "US stocks were in a strong bull market from March 2009 (the low of the global financial crisis) to February 2020 (just before the COVID crash) — nearly 11 years of rising prices, one of the longest bull markets in modern US stock market history.",
+      "takeaway": "Bull markets are the periods when investing feels easy — and when it is dangerous to forget that they always end."
+    },
+    {
+      "id": "d026-bear-market",
+      "day": 26,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a bear market?",
+      "description": "A bear market is the opposite of a bull market: a long period of broadly falling prices. A common (but not universal) definition is a decline of 20% or more from a recent peak. Bear markets often go together with recessions, but not always — sometimes they end quickly, sometimes they last for years.",
+      "example": "The 2000–2002 bear market — the burst of the dot-com bubble — saw the US S&P 500 fall around 49% peak to trough over about two and a half years. It took until 2007 for the index to reach a new all-time high, and until 2013 to do so on an inflation-adjusted basis.",
+      "takeaway": "Bear markets are painful, but historically they have always ended in a new bull market eventually."
+    },
+    {
+      "id": "d027-crash",
+      "day": 27,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a market crash?",
+      "description": "A market crash is a sudden, severe drop in prices over a short period — days or a few weeks. It usually involves panic selling. Crashes are dramatic, but historically they have often been buying opportunities for calm, long-term investors — provided the underlying economy is not permanently broken.",
+      "example": "On 19 October 1987 — 'Black Monday' — the US Dow Jones fell 22.6% in a single trading day, the worst one-day percentage drop in its history. Yet US stocks ended the calendar year 1987 slightly higher than they started, and continued into a long bull market in the years that followed.",
+      "takeaway": "Crashes feel like the end; historically, for well-diversified investors, they have been chapters, not endings."
+    },
+    {
+      "id": "d027-recovery",
+      "day": 27,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a market recovery?",
+      "description": "A recovery is the period after a crash or bear market when prices climb back — sometimes quickly, sometimes slowly. Recoveries almost always begin while the news is still grim; missing just the very best days can drag decades of returns down significantly.",
+      "example": "After the March 2020 COVID crash, the US S&P 500 fully recovered its losses in about five months, even though the world was still in the middle of the pandemic. Investors who had panicked and sold at the bottom often missed the entire recovery.",
+      "takeaway": "The best days in the market often come very close to the worst — which is why staying invested matters."
+    },
+    {
+      "id": "d028-recession",
+      "day": 28,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a recession?",
+      "description": "A recession is a broad, sustained slowdown in the economy. A common working definition is two consecutive quarters of falling GDP, though official bodies use richer criteria that include employment and income. Recessions typically bring rising unemployment and falling company profits, and often (though not always) fall in the stock market too.",
+      "example": "The 2008–2009 'Great Recession' — triggered by the collapse of the US housing bubble and the failure of Lehman Brothers — pushed the US and much of Europe into their deepest downturn since the 1930s, with unemployment reaching 10% in the US and much higher in some euro-zone countries.",
+      "takeaway": "Recessions are a normal — if painful — part of the economic cycle."
+    },
+    {
+      "id": "d028-depression",
+      "day": 28,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is a depression?",
+      "description": "A depression is a much deeper, longer version of a recession — typically involving large falls in output, mass unemployment for years, and widespread bank failures. Depressions are rare in modern developed economies; the last widely recognised one in the US was in the 1930s.",
+      "example": "During the Great Depression (roughly 1929–1939), US GDP fell by around 30%, unemployment reached around 25%, and about a third of US banks failed. The scale and duration of that shock is what led to the creation of deposit insurance and much of modern financial regulation.",
+      "takeaway": "Depressions are rare in modern economies — but the memory of the 1930s still shapes today's rules."
+    },
+    {
+      "id": "d029-bubble",
+      "day": 29,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a market bubble?",
+      "description": "A bubble is a period when the price of an asset rises far above what its underlying value would justify, driven mostly by expectations of ever higher prices rather than by real fundamentals. Bubbles are usually only fully obvious in hindsight — after they burst.",
+      "example": "The dot-com bubble of the late 1990s and 2000: US technology stocks rose enormously, then the NASDAQ Composite lost about 78% from its March 2000 peak to its October 2002 low. Many internet companies with no profits went bankrupt in the crash.",
+      "takeaway": "Bubbles reward the earliest investors and punish the last ones — and they are very hard to time."
+    },
+    {
+      "id": "d029-tulip-mania",
+      "day": 29,
+      "order": 2,
+      "level": "beginner",
+      "title": "A famous historical bubble",
+      "description": "Bubbles are not a modern invention. Whenever a new, exciting asset appears — tulips, railway shares, radio stocks, dot-coms, subprime mortgages, some crypto tokens — prices can detach from reality for a while, then collapse. Studying historical bubbles helps you recognise the pattern when it repeats.",
+      "example": "In the Dutch Tulip Mania of 1636–1637, prices for rare tulip bulbs rose to astonishing levels in Amsterdam — with reports that a single bulb could cost several years' income for a skilled craftsman — before the market crashed in February 1637 and prices collapsed within weeks.",
+      "takeaway": "The details change; the pattern of 'this time is different' does not."
+    },
+    {
+      "id": "d030-international",
+      "day": 30,
+      "order": 1,
+      "level": "beginner",
+      "title": "Why diversify across countries",
+      "description": "Different countries' economies and markets do not all rise and fall together. Investing only in the market of your own country ties your savings to the fate of that one economy. Holding stocks and bonds across many countries reduces the risk that a single national downturn hurts your whole portfolio.",
+      "example": "A Japanese investor whose entire portfolio was in Japanese stocks bought at the peak of the 1989 bubble would still, decades later, not have fully recovered in real terms — a hard lesson about single-country risk that international diversification would have softened.",
+      "takeaway": "Home country is comfortable, but not necessarily safe — the world is bigger than any one market."
+    },
+    {
+      "id": "d030-currency-risk",
+      "day": 30,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is currency risk?",
+      "description": "When you invest in another country, you are also indirectly investing in its currency. If that currency falls against your own, your returns shrink when you convert back — even if the underlying investment did well. If the currency rises, your returns are boosted. This extra source of ups and downs is called currency risk.",
+      "example": "Right after the UK's Brexit referendum on 23 June 2016, the pound fell around 10% against the US dollar within days. For a UK investor holding US stocks, that shift alone gave a strong tailwind that year. For an American investor holding UK stocks, it was a headwind of roughly the same size.",
+      "takeaway": "When you invest abroad, part of your return comes from the currency — not just from the assets."
     }
   ]
 }

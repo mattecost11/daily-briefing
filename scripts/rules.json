@@ -1,0 +1,96 @@
+{
+  "$comment": "Classification rules used by scripts/refresh.mjs. Patterns are matched case-insensitively against 'title + \" — \" + excerpt'. Edit freely.",
+
+  "global": {
+    "min_excerpt_chars": 40,
+    "exclude_any": [
+      "\\bcricket\\b|\\bT20\\b|\\bODI\\b",
+      "\\bfootball\\b|\\bsoccer\\b|\\bpremier league\\b|\\bworld cup\\b|\\bchampionship\\b",
+      "\\brugby\\b|\\btennis\\b|\\bformula ?1\\b|\\bF1 grand prix\\b|\\bathletics?\\b|\\bgolf\\b|\\bolympic",
+      "\\bnba\\b|\\bnfl\\b|\\bmlb\\b|\\bnhl\\b|\\bipl\\b",
+      "\\brecipe\\b|\\bcelebrity\\b|\\bred carpet\\b|\\bhoroscope\\b",
+      "\\bboxing\\b|\\bmma\\b|\\bufc\\b",
+      "\\bsinger\\b|\\brapper\\b|\\bpop star\\b|\\bconcert\\b|\\btour dates\\b|\\balbum release\\b|\\bmovie premiere\\b|\\btv show\\b",
+      "\\bapple tv\\b|\\bnetflix show\\b|\\breality show\\b"
+    ]
+  },
+
+  "cloud": {
+    "partnerships": {
+      "any_of": [
+        "\\bpartners? with\\b",
+        "\\bpartnership\\b",
+        "\\bstrategic (partnership|alliance)\\b",
+        "\\bcollaborates? with\\b",
+        "\\bteams? up with\\b",
+        "\\bjoins? forces with\\b",
+        "\\bexpands? its partnership\\b"
+      ]
+    },
+    "acquisitions": {
+      "any_of": [
+        "\\bacquires?\\b",
+        "\\bacquisition of\\b",
+        "\\bto acquire\\b",
+        "\\bagreed to buy\\b",
+        "\\bbuyout of\\b",
+        "\\bmerger of\\b",
+        "\\bmerges? with\\b",
+        "\\bbought by\\b"
+      ]
+    },
+    "launches": {
+      "any_of": [
+        "\\blaunches?\\b",
+        "\\bunveils?\\b",
+        "\\bintroduces?\\b",
+        "\\bannounces?\\b",
+        "\\breleases?\\b",
+        "\\bgeneral availability\\b",
+        "\\bnow available\\b",
+        "\\bnow generally available\\b",
+        "\\bnew feature\\b",
+        "\\brolls? out\\b",
+        "\\bopens? preview\\b"
+      ]
+    }
+  },
+
+  "invest": {
+    "include_any": [
+      "\\bstock market\\b",
+      "\\bstocks?\\b .{0,40}\\b(rise|fall|drop|slump|surge|rally|sink|jump|climb|slide|plunge|record)\\b",
+      "\\bshares? \\b.{0,40}\\b(rise|fall|drop|slump|surge|rally|sink|jump|climb|slide|plunge)\\b",
+      "\\bearnings\\b",
+      "\\bipo\\b",
+      "\\bmarkets? \\b.{0,40}\\b(rise|fall|drop|slump|surge|rally|sink|jump|climb|slide|plunge|record|selloff|open|close)\\b",
+      "\\binterest rates?\\b",
+      "\\binflation\\b",
+      "\\bfederal reserve\\b",
+      "\\bECB\\b|\\bEuropean Central Bank\\b",
+      "\\bBank of England\\b",
+      "\\bbond(s|holders?)?\\b .{0,60}\\b(yield|market|selloff|rally)\\b",
+      "\\bwall street\\b",
+      "\\brecession\\b",
+      "\\bhedge fund\\b",
+      "\\bnasdaq\\b|\\bs&p 500\\b|\\bftse\\b|\\bdow jones\\b|\\bnikkei\\b|\\bdax\\b",
+      "\\bcrude oil\\b|\\bbrent\\b",
+      "\\bdividend\\b",
+      "\\bhalf[- ]year (results|report)\\b|\\bfull[- ]year (results|report)\\b|\\bquarterly (results|report)\\b"
+    ],
+    "exclude_any": [
+      "\\bpress release\\b",
+      "\\bcompany announcement\\b",
+      "\\bwebinar\\b",
+      "\\bconference call\\b"
+    ]
+  },
+
+  "geo": {
+    "recency_hours": 72
+  },
+
+  "limits": {
+    "max_items_per_section": 5
+  }
+}

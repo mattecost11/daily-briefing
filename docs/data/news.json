@@ -1,10 +1,152 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-20T10:48:43.626Z",
+  "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
-    "acquisitions": [],
-    "launches": []
+    "acquisitions": [
+      {
+        "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+        "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+        "source": "AWS News Blog",
+        "published_at": "2026-08-31T14:45:25.000Z",
+        "excerpt": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open sou…"
+      }
+    ],
+    "launches": [
+      {
+        "title": "Accelerating the borderless Lakehouse: Announcing preview of cross-cloud caching",
+        "link": "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/",
+        "source": "Google Cloud Blog",
+        "published_at": "2026-09-18T16:00:00.000Z",
+        "excerpt": "Today, we are excited to announce enhancements to the borderless Lakehouse, our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it l…"
+      },
+      {
+        "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+        "source": "AWS What's New",
+        "published_at": "2026-09-18T15:15:00.000Z",
+        "excerpt": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on. Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedro…"
+      },
+      {
+        "title": "The new AgentCore Runtime is now available in Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/new-agentcore-runtime-generally-available",
+        "source": "AWS What's New",
+        "published_at": "2026-09-18T13:25:00.000Z",
+        "excerpt": "Today, AWS announces the availability of the next generation of AgentCore Runtime, the serverless microVM compute within Amazon Bedrock AgentCore. The new Runtime delivers elastic memory management t…"
+      },
+      {
+        "title": "AWS PrivateLink announces Tunnel Endpoints to access network segments",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/9/privatelink-tunnel-endpoint/",
+        "source": "AWS What's New",
+        "published_at": "2026-09-18T07:00:00.000Z",
+        "excerpt": "AWS PrivateLink customers can now use VPC endpoint to privately and securely access network segments in another VPC/account. They can use a ‘tunnel’ endpoint, a new type of VPC endpoint, to tunnel in…"
+      },
+      {
+        "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+        "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+        "source": "AWS News Blog",
+        "published_at": "2026-09-17T21:11:48.000Z",
+        "excerpt": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the l…"
+      }
+    ]
   },
-  "geo": [],
-  "invest": []
+  "geo": [
+    {
+      "title": "Three media outlets barred from the White House over 'fake news'",
+      "link": "https://www.france24.com/en/three-media-outlets-barred-from-the-white-house-over-fake-news",
+      "source": "France 24 – English",
+      "published_at": "2026-09-20T09:55:09.000Z",
+      "excerpt": "Donald Trump has suggested that more news outlets may be barred from the White House after he announced he was banning Politico, CNN and MS NOW. On Saturday, all three outlets said that the White Hou…",
+      "also_covered_by": [
+        "BBC World",
+        "Al Jazeera English",
+        "Deutsche Welle – Top"
+      ],
+      "sources_count": 4
+    },
+    {
+      "title": "Yemen's Houthis strike Saudi capital Riyadh for the first time",
+      "link": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
+      "source": "France 24 – English",
+      "published_at": "2026-09-20T09:38:42.000Z",
+      "excerpt": "Fighting between Iran-backed Houthi rebels and Saudi Arabia continues to intensify. On Saturday morning, a fire broke out near Riyadh's main airport after Houthis said they launched missiles and dron…",
+      "also_covered_by": [
+        "BBC World",
+        "Deutsche Welle – Top",
+        "NPR – World"
+      ],
+      "sources_count": 4
+    },
+    {
+      "title": "Will German's far right party AfD win over two more regions?",
+      "link": "https://www.france24.com/en/will-german-s-far-right-party-afd-win-over-two-more-regions",
+      "source": "France 24 – English",
+      "published_at": "2026-09-20T09:35:34.000Z",
+      "excerpt": "Two weeks after the far-right AfD won its first major regional election in Germany, two more eastern states vote this Sunday. Polls have just opened in the capital, Berlin, and the largely rural stat…",
+      "also_covered_by": [
+        "Al Jazeera English",
+        "Deutsche Welle – Top"
+      ],
+      "sources_count": 3
+    },
+    {
+      "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, Russia says",
+      "link": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-09-20T10:45:39.000Z",
+      "excerpt": "A major oil refinery was also hit as Moscow's mayor says 450 drones were downed during the \"unprecedented attack\".",
+      "also_covered_by": [
+        "Al Jazeera English"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Dutch police disperse violent far-right protest in The Hague",
+      "link": "https://www.dw.com/en/dutch-police-disperse-violent-far-right-protest-in-the-hague/a-79340495?maca=en-rss-en-all-1573-rdf",
+      "source": "Deutsche Welle – Top",
+      "published_at": "2026-09-19T22:38:00.000Z",
+      "excerpt": "After violence broke out, Dutch riot police dispersed hundreds of far-right protesters in The Hague. Prime Minister Rob Jetten said that the demonstrators had chanted \"abhorrent\" far-right and antise…",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    }
+  ],
+  "invest": [
+    {
+      "title": "It’s not a winner-take-all stock market. This hedge-fund manager favors three underdogs.",
+      "link": "https://www.marketwatch.com/story/its-not-a-winner-take-all-stock-market-this-hedge-fund-manager-favors-three-underdogs-a366ab6f?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-09-19T16:19:00.000Z",
+      "excerpt": "There’s a winner-take-all fallacy in certain industries, says a hedge-fund manager."
+    },
+    {
+      "title": "Higher interest rates and AI safety fears put the stock market to the test last week",
+      "link": "https://www.cnbc.com/2026/09/19/higher-interest-rates-and-ai-safety-fears-put-the-stock-market-to-the-test-last-week.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-09-19T16:03:09.000Z",
+      "excerpt": "Investors wrestled with the prospect of a new Fed rate-hiking cycle and the raging debate on whether to slow down AI."
+    },
+    {
+      "title": "Kevin Warsh may be the adult in the room. But can he calm the US economy?",
+      "link": "https://www.theguardian.com/business/2026/sep/19/kevin-warsh-interest-rate-hike",
+      "source": "The Guardian – Business",
+      "published_at": "2026-09-19T11:00:45.000Z",
+      "excerpt": "Fed chair presided over unanimous decision to raise interest rates despite intense campaign from White House In the end, Kevin Warsh’s Federal Reserve acquitted itself well. For all the uncertainty h…"
+    },
+    {
+      "title": "Cramer’s week ahead: What to watch as Wall Street navigates a tough September",
+      "link": "https://www.cnbc.com/2026/09/18/jim-cramer-week-ahead-costco-okta.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-09-18T22:17:16.000Z",
+      "excerpt": "CNBC’s Jim Cramer said investors could be in for a relatively quiet week as Wall Street works its way through a historically difficult September."
+    },
+    {
+      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+      "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-09-18T18:28:31.000Z",
+      "excerpt": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next"
+    }
+  ]
 }

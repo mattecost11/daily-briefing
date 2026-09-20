@@ -1,0 +1,26 @@
+{
+  "$comment": "Curated feed list. Each feed declares which dashboard topic(s) it feeds. Edit freely.",
+  "feeds": [
+    { "name": "AWS News Blog",              "url": "https://aws.amazon.com/blogs/aws/feed/",                       "topics": ["cloud"] },
+    { "name": "AWS What's New",             "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",       "topics": ["cloud"] },
+    { "name": "Microsoft Azure Blog",       "url": "https://azure.microsoft.com/en-us/blog/feed/",                  "topics": ["cloud"] },
+    { "name": "Google Cloud Blog",          "url": "https://cloudblog.withgoogle.com/rss/",                         "topics": ["cloud"] },
+    { "name": "TechCrunch",                 "url": "https://techcrunch.com/feed/",                                  "topics": ["cloud"] },
+    { "name": "The Verge",                  "url": "https://www.theverge.com/rss/index.xml",                        "topics": ["cloud"] },
+    { "name": "Ars Technica",               "url": "https://feeds.arstechnica.com/arstechnica/index",               "topics": ["cloud"] },
+    { "name": "The Register",               "url": "https://www.theregister.com/headlines.atom",                    "topics": ["cloud"] },
+
+    { "name": "BBC World",                  "url": "https://feeds.bbci.co.uk/news/world/rss.xml",                   "topics": ["geo"] },
+    { "name": "Al Jazeera English",         "url": "https://www.aljazeera.com/xml/rss/all.xml",                     "topics": ["geo"] },
+    { "name": "The Guardian – World",       "url": "https://www.theguardian.com/world/rss",                         "topics": ["geo"] },
+    { "name": "Deutsche Welle – Top",       "url": "https://rss.dw.com/rdf/rss-en-all",                             "topics": ["geo"] },
+    { "name": "France 24 – English",        "url": "https://www.france24.com/en/rss",                               "topics": ["geo"] },
+    { "name": "NPR – World",                "url": "https://feeds.npr.org/1004/rss.xml",                            "topics": ["geo"] },
+
+    { "name": "The Guardian – Business",    "url": "https://www.theguardian.com/uk/business/rss",                   "topics": ["invest"] },
+    { "name": "BBC – Business",             "url": "https://feeds.bbci.co.uk/news/business/rss.xml",                "topics": ["invest"] },
+    { "name": "CNBC – Top News",            "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",         "topics": ["invest"] },
+    { "name": "MarketWatch – Top Stories",  "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",    "topics": ["invest"] },
+    { "name": "Yahoo Finance – News",       "url": "https://finance.yahoo.com/news/rssindex",                       "topics": ["invest"] }
+  ]
+}

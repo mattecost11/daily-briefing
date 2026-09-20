@@ -7,6 +7,7 @@
   "scripts": {
     "serve": "node scripts/dev-server.mjs",
     "refresh": "node scripts/refresh.mjs",
+    "summarize": "node scripts/summarize.mjs",
     "push": "node scripts/send-push.mjs",
     "generate-vapid": "node scripts/generate-vapid.mjs",
     "generate-icons": "node scripts/generate-icons.mjs"

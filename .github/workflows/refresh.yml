@@ -53,6 +53,12 @@ jobs:
         if: steps.gate.outputs.skip != 'true'
         run: npm run refresh
 
+      - name: Summarise articles (Gemini)
+        if: steps.gate.outputs.skip != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm run summarize
+
       - name: Commit updated news.json
         if: steps.gate.outputs.skip != 'true'
         id: commit

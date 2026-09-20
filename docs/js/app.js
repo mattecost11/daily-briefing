@@ -232,7 +232,9 @@ function newsCard(it) {
   meta.textContent = `${it.source || 'Unknown source'} · ${formatDate(new Date(it.published_at || Date.now()))}`;
   const excerpt = document.createElement('p');
   excerpt.className = 'excerpt';
-  excerpt.textContent = truncate(it.excerpt || '', 200);
+  // Summaries are curated to length by the summariser (≈200–250 words);
+  // RSS-only fallback items are short. In both cases we render as-is.
+  excerpt.textContent = it.excerpt || '';
   link.append(title, meta, excerpt);
   li.appendChild(link);
   return li;

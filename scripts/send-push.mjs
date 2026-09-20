@@ -16,7 +16,10 @@ const PUBLIC_KEY = process.env.VAPID_PUBLIC_KEY
   || 'BBDp4fjLXezLsA8NMgWMs1ilJcb-jimdPHB_auV09jr_o1IR3sUqbCMGEzAM7j6w62EeOyTGBwKbfdDCEWjYOEk';
 const PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY;
 const SUBSCRIPTION_JSON = process.env.PUSH_SUBSCRIPTION;
-const SUBJECT = process.env.VAPID_SUBJECT || 'mailto:matteo.costamagna03@gmail.com';
+// VAPID subject: a mailto: URL OR an https:// URL identifying this service.
+// The push service uses it as a contact point if something goes wrong. The URL
+// of the app itself is a perfectly valid value, and is not personal info.
+const SUBJECT = process.env.VAPID_SUBJECT || 'https://mattecost11.github.io/daily-briefing/';
 
 function warn(msg) {
   console.warn('[push] ' + msg);

@@ -126,7 +126,7 @@ Three secrets live inside the GitHub repo's Actions settings. You can see them w
 | Secret | What it is | How to rotate |
 |---|---|---|
 | `VAPID_PRIVATE_KEY` | Signs push messages | Run `npm run generate-vapid`, paste the new PUBLIC key into `docs/js/push.js`, set the new PRIVATE key: `gh secret set VAPID_PRIVATE_KEY`. Then ask the end user to tap Enable notifications again to regenerate `PUSH_SUBSCRIPTION`. |
-| `PUSH_SUBSCRIPTION` | Which device to notify | If the user uninstalls the PWA or notifications stop working, ask them to tap Enable notifications again on the app (open `#setup` if already onboarded), copy the JSON, then run `echo '…' \| gh secret set PUSH_SUBSCRIPTION`. |
+| `PUSH_SUBSCRIPTION` | Which device(s) to notify. Either a **single** subscription JSON object OR a JSON **array** of objects for multi-device (up to N devices — no hard cap). | If a device uninstalls the PWA or notifications stop working, ask that user to tap Enable notifications again on the app (open `#setup` if already onboarded), copy the JSON, then update the secret. To add a device: get its subscription JSON and paste `[<old-sub>, <new-sub>]` into the secret. Per-device expiry is logged individually and never breaks the workflow. |
 | `GEMINI_API_KEY` | API key for AI summaries | Free-tier key from https://aistudio.google.com/apikey — `gh secret set GEMINI_API_KEY`. If summaries stop appearing, this is usually the reason. |
 
 The PUBLIC VAPID key is committed inside `docs/js/push.js` — that one is safe to see, it's designed to be public.

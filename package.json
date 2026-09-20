@@ -1,0 +1,16 @@
+{
+  "name": "daily-briefing",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Twice-weekly briefing PWA for iPhone. Cloud tech, geopolitics, investments.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/dev-server.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "generate-vapid": "node scripts/generate-vapid.mjs",
+    "generate-icons": "node scripts/generate-icons.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": 0,
+  "notes": "Placeholder for M1 UI verification only. Milestone M2 will replace this with the real 30-day batch (60 notions).",
+  "notions": [
+    {
+      "id": "m1-demo-1",
+      "day": 1,
+      "order": 1,
+      "level": "beginner",
+      "title": "[Demo] What is a stock?",
+      "description": "A stock (also called a share) is a small piece of ownership in a company. When you buy one, you become a part-owner. If the company does well and grows, your stock may be worth more later; if it does badly, it may be worth less. Stocks are traded on stock exchanges.",
+      "example": "In 1980, Apple sold its shares to the public for the first time (its IPO). Someone who bought one share then and never sold would hold a very valuable position today, having also received dividends over the decades.",
+      "takeaway": "Owning a stock means owning a piece of a real business, not just a number on a screen."
+    },
+    {
+      "id": "m1-demo-2",
+      "day": 1,
+      "order": 2,
+      "level": "beginner",
+      "title": "[Demo] What is a bond?",
+      "description": "A bond is a loan you make to a government or a company. In exchange, they promise to pay you back at a set date and to pay you interest along the way. Bonds are generally less volatile than stocks but usually offer lower long-term returns.",
+      "example": "During the Great Depression, US Treasury bonds continued to pay their coupons on time, while stock prices lost most of their value between 1929 and 1932. That is one classic illustration of the diversification benefit bonds can offer inside a portfolio.",
+      "takeaway": "A stock is a piece of a business; a bond is an IOU with a schedule."
+    }
+  ]
+}

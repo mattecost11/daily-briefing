@@ -7,6 +7,7 @@
   "scripts": {
     "serve": "node scripts/dev-server.mjs",
     "refresh": "node scripts/refresh.mjs",
+    "push": "node scripts/send-push.mjs",
     "generate-vapid": "node scripts/generate-vapid.mjs",
     "generate-icons": "node scripts/generate-icons.mjs"
   },
@@ -14,6 +15,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "web-push": "^3.6.7"
   }
 }

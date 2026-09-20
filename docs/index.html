@@ -36,8 +36,14 @@
         <p>Your briefing refreshes every <strong>Monday</strong> and <strong>Thursday</strong> at <strong>07:00</strong>.</p>
         <p>To get a notification each time, tap the button below and allow notifications.</p>
         <button id="enable-notifications" class="primary">Enable notifications</button>
+        <p id="subscription-message" class="fine" hidden></p>
+        <div id="subscription-result" hidden>
+          <textarea id="subscription-json" readonly rows="7" aria-label="Push subscription JSON"></textarea>
+          <button id="copy-subscription" class="primary">Copy</button>
+          <p class="fine">Send this text to whoever set up the app. They will paste it into a GitHub secret named <code>PUSH_SUBSCRIPTION</code> — that's what tells the server which device to notify.</p>
+        </div>
         <p class="fine">You can also open the app any time to read the latest.</p>
-        <button id="dismiss-onboarding" class="ghost">Continue without notifications</button>
+        <button id="dismiss-onboarding" class="ghost">Continue</button>
       </div>
     </section>
 

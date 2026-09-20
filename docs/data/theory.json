@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "batch": "M2 — days 1 to 30 (60 notions, foundations-heavy)",
+  "version": 2,
+  "batch": "M2 (days 1–30) + M3 (days 31–60), 120 notions total",
   "disclaimer": "Educational content, not financial advice.",
   "notions": [
     {
@@ -602,6 +602,606 @@
       "description": "When you invest in another country, you are also indirectly investing in its currency. If that currency falls against your own, your returns shrink when you convert back — even if the underlying investment did well. If the currency rises, your returns are boosted. This extra source of ups and downs is called currency risk.",
       "example": "Right after the UK's Brexit referendum on 23 June 2016, the pound fell around 10% against the US dollar within days. For a UK investor holding US stocks, that shift alone gave a strong tailwind that year. For an American investor holding UK stocks, it was a headwind of roughly the same size.",
       "takeaway": "When you invest abroad, part of your return comes from the currency — not just from the assets."
+    },
+    {
+      "id": "d031-revenue",
+      "day": 31,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is revenue?",
+      "description": "Revenue (also called turnover or sales) is the total amount of money a company brings in from selling its goods and services in a period. It is often called the 'top line' because it sits at the top of a company's income statement. High revenue tells you nothing on its own about whether a company is actually profitable.",
+      "example": "Amazon reported roughly $574 billion of revenue in 2023 — one of the largest of any company in the world — while a small independent bakery might do €200,000. Both are running businesses; their needs and their fragility are very different.",
+      "takeaway": "Revenue is what came in the door; it is only the start of the story."
+    },
+    {
+      "id": "d031-profit",
+      "day": 31,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is profit?",
+      "description": "Profit (also called net income, or the 'bottom line') is what is left of revenue after ALL costs — wages, materials, rent, interest, tax — are paid. A company can have huge revenue and still make a loss. Long-term investors care mostly about profit, because profit is the money that can be reinvested or paid out to shareholders.",
+      "example": "WeWork had over $3 billion of revenue in 2019 but was losing several billion dollars a year and burning through its cash reserves fast. Its planned IPO was pulled that year, and the company was later revalued at a small fraction of its earlier peak.",
+      "takeaway": "Revenue proves people are buying; profit proves you are running a business, not a subsidised hobby."
+    },
+    {
+      "id": "d032-earnings",
+      "day": 32,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What are 'earnings'?",
+      "description": "In finance, 'earnings' is another word for profit, especially for publicly listed companies. Companies report earnings every three months (quarterly earnings) in most developed markets, and this often produces sharp movements in their share prices — up when they beat what analysts expected, down when they miss.",
+      "example": "In February 2022, Meta (Facebook's parent) reported disappointing quarterly earnings and its stock fell about 26% in a single day, wiping out more than $200 billion of market value — at the time the largest one-day loss in a single company's history.",
+      "takeaway": "Quarterly earnings are one of the loudest short-term drivers of individual stock prices."
+    },
+    {
+      "id": "d032-eps",
+      "day": 32,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is earnings per share (EPS)?",
+      "description": "EPS is a company's profit divided by the number of shares outstanding. It shows how much profit belongs to each share. Growing EPS over time is usually a sign of a healthy, expanding business. Share buybacks (fewer shares) can raise EPS even if total profit stays flat, which is one reason companies do them.",
+      "example": "Apple has grown its net income substantially over the last decade AND bought back huge amounts of its own stock. The two effects combined have pushed EPS higher than profit growth alone would suggest — a good illustration of how buybacks and earnings interact.",
+      "takeaway": "EPS tells you how big a slice of profit belongs to one share you own."
+    },
+    {
+      "id": "d033-pe",
+      "day": 33,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is the price-to-earnings (P/E) ratio?",
+      "description": "The P/E ratio is the current share price divided by the company's earnings per share. A high P/E means the market is willing to pay a lot for each dollar of profit — usually because it expects strong future growth. A low P/E can signal a bargain, or that the market thinks the business is in trouble.",
+      "example": "In the late 1990s, US technology stocks routinely traded on P/E ratios above 100 — sometimes several hundred — pricing in wildly optimistic growth. When those growth rates did not materialise, the dot-com bubble burst and the NASDAQ lost about 78% from its 2000 peak.",
+      "takeaway": "A P/E is a shortcut for how optimistic the market is about a company's future."
+    },
+    {
+      "id": "d033-book-value",
+      "day": 33,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is book value?",
+      "description": "Book value is the accounting value of what a company owns, minus what it owes. It comes from the balance sheet and is a rough measure of what shareholders would receive if the company were wound up at accounting values. Comparing market value to book value gives the price-to-book ratio.",
+      "example": "For most of its history Berkshire Hathaway traded a little above its book value, because investors valued Warren Buffett's ability to grow it. Old, capital-heavy industries like utilities and banks are often analysed with reference to book value more than to earnings.",
+      "takeaway": "Book value is a rough accounting floor; market value can be much higher, or much lower."
+    },
+    {
+      "id": "d034-market-cap",
+      "day": 34,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is market capitalisation?",
+      "description": "Market capitalisation ('market cap') is the total value of a company on the stock market: share price × number of shares outstanding. It is the single most common size measure for a company. Companies are often grouped by cap size: large caps (typically above $10B), mid caps ($2B–$10B), small caps (roughly $300M–$2B).",
+      "example": "Only a handful of companies in history have ever crossed a market cap of $3 trillion — Apple, Microsoft, Nvidia and Saudi Aramco have all touched or crossed that level in the 2020s, largely thanks to the AI boom and energy prices.",
+      "takeaway": "Market cap tells you how big the market thinks a company is, in one number."
+    },
+    {
+      "id": "d034-enterprise-value",
+      "day": 34,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is enterprise value?",
+      "description": "Enterprise value goes further than market cap: it is market cap plus debt minus cash. It approximates what it would cost to buy the whole company, including taking over its debts. For companies with a lot of debt, EV is much bigger than market cap and gives a fuller picture of value.",
+      "example": "When Microsoft agreed in 2022 to buy Activision Blizzard for about $69 billion, the deal price reflected Activision's market cap adjusted for its debt and cash — i.e. its enterprise value. It closed in 2023 as the largest gaming acquisition ever.",
+      "takeaway": "Enterprise value is what a buyer of the whole company would actually pay."
+    },
+    {
+      "id": "d035-large-cap",
+      "day": 35,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What are large-cap stocks?",
+      "description": "Large-cap stocks are shares of very large companies — typically market cap above $10 billion. They tend to be more stable, more diversified across products and countries, and pay dividends more often than smaller companies. Big indexes like the S&P 500 and FTSE 100 are dominated by large caps.",
+      "example": "The top 10 stocks in the S&P 500 in the mid-2020s — Apple, Microsoft, Alphabet, Amazon, Nvidia, Meta and a few others — grew to represent roughly a third of the whole index by weight, an unusually high concentration by historical standards.",
+      "takeaway": "Large caps are the giants of the market — steadier, more visible, more scrutinised."
+    },
+    {
+      "id": "d035-small-cap",
+      "day": 35,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What are small-cap stocks?",
+      "description": "Small-cap stocks are shares of small companies — usually market cap between about $300 million and $2 billion. They are typically more volatile than large caps and less closely followed by analysts, but historically small caps as a group have delivered somewhat higher long-term returns — with more bumps along the way.",
+      "example": "Amazon in 1997, at IPO, had a market cap of only around $440 million — a small cap. Two decades later it had grown into a $1 trillion-plus mega cap. Most small caps do not grow like that, but some do — and that is part of what draws investors to the segment.",
+      "takeaway": "Small caps offer more room to grow, and more room to fail."
+    },
+    {
+      "id": "d036-growth-stock",
+      "day": 36,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is a growth stock?",
+      "description": "A growth stock is one whose company is growing revenue and profit fast — often reinvesting most cash back into the business rather than paying dividends. Investors buy growth stocks hoping the price will keep climbing as the company gets bigger. Growth stocks usually trade on high P/E ratios.",
+      "example": "For most of the 2010s and early 2020s, US 'growth' stocks (dominated by tech) hugely outperformed 'value' stocks. Then in 2022, when interest rates rose sharply, high-multiple growth stocks fell hard: the NASDAQ 100 lost about a third of its value that year.",
+      "takeaway": "Growth stocks are bets on the future; when the future looks less bright, they fall hardest."
+    },
+    {
+      "id": "d036-value-stock",
+      "day": 36,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is a value stock?",
+      "description": "A value stock is one that looks cheap relative to what the underlying business is producing — usually a low P/E, low price-to-book, or a decent dividend yield. Value investors buy them hoping the market's view will improve, or that the company will keep paying dividends until it does. Value has historically outperformed over very long periods, though not every decade.",
+      "example": "In the years after the 2000 dot-com bust, cheap 'value' stocks (banks, insurers, industrials) outperformed the flashy growth names by a wide margin for years. Then in the 2010s that pattern flipped, and growth dominated. Style leadership rotates over time.",
+      "takeaway": "Value investing bets on unloved companies; growth investing bets on future stars."
+    },
+    {
+      "id": "d037-sector",
+      "day": 37,
+      "order": 1,
+      "level": "beginner",
+      "title": "What is a sector?",
+      "description": "A sector is a broad grouping of companies with similar economic activity — Technology, Health Care, Financials, Energy, Consumer Staples, and so on. The most widely used system, GICS (Global Industry Classification Standard), splits the market into 11 sectors. Different sectors behave very differently over the economic cycle.",
+      "example": "In the March 2020 COVID crash, Energy stocks fell far more than Consumer Staples (grocery stores, household products), because people stopped commuting but kept buying food and cleaning products. Same crash, very different sector outcomes.",
+      "takeaway": "Sectors matter — a portfolio can look 'diversified' and still be crushed if it lives in the wrong sector."
+    },
+    {
+      "id": "d037-industry",
+      "day": 37,
+      "order": 2,
+      "level": "beginner",
+      "title": "What is an industry?",
+      "description": "Within a sector are more specific industries. 'Technology' contains software, semiconductors, IT services, hardware — very different businesses with very different economics. Diversifying across industries within a sector is another layer of protection.",
+      "example": "In 2022 the semiconductor industry had a rough year as global chip demand fell after the pandemic peak, while the cybersecurity industry — also inside Technology — held up much better. Same sector, very different outcomes.",
+      "takeaway": "Sector diversification helps; industry diversification helps more."
+    },
+    {
+      "id": "d038-cyclical",
+      "day": 38,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What are cyclical stocks?",
+      "description": "Cyclical stocks are companies whose sales and profits swing strongly with the economic cycle — carmakers, airlines, hotels, luxury brands, construction, semiconductors. They tend to do very well in economic upswings and very badly in recessions.",
+      "example": "In the 2008–2009 Great Recession, US new-car sales fell by around a third; General Motors and Chrysler went through government-arranged bankruptcies. In the recovery that started in 2009, the same cyclicals also led the rally back.",
+      "takeaway": "Cyclicals amplify the economic cycle — up more, down more."
+    },
+    {
+      "id": "d038-defensive",
+      "day": 38,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What are defensive stocks?",
+      "description": "Defensive stocks are companies whose sales are largely unaffected by the economic cycle — food producers, supermarket chains, utilities, tobacco, healthcare. People eat, wash and take medicines whether the economy is booming or shrinking. Defensive stocks tend to fall less in bad times and rise less in good times.",
+      "example": "In the 2020 COVID crash, defensive names such as Nestlé, Procter & Gamble and Johnson & Johnson fell noticeably less than the broad market. In the sharp post-COVID rebound they participated but lagged as high-growth Tech surged.",
+      "takeaway": "Defensive stocks smooth the ride; cyclicals sharpen it."
+    },
+    {
+      "id": "d039-ipo",
+      "day": 39,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is an IPO?",
+      "description": "An IPO (initial public offering) is when a company sells shares to the public for the first time on a stock exchange, changing from a private to a public company. IPOs raise money for the company and its early investors, and give ordinary people the chance to become shareholders.",
+      "example": "Alibaba's IPO in September 2014 raised about $25 billion on the New York Stock Exchange — at the time the largest IPO in history. That record stood until Saudi Aramco's IPO in December 2019, which raised about $25.6 billion and even more after later share options were exercised.",
+      "takeaway": "An IPO is a company's first-ever step into the public stock market."
+    },
+    {
+      "id": "d039-underwriter",
+      "day": 39,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is an IPO underwriter?",
+      "description": "An underwriter is an investment bank that manages a company's IPO. It helps set the price, guarantees to buy any leftover shares if demand is weak, and lends its distribution network to place shares with investors. In exchange it takes a fee — often several percent of the offering — for handling all the risk.",
+      "example": "The Facebook IPO in May 2012 was managed by Morgan Stanley, Goldman Sachs and JPMorgan among others. Trading glitches at NASDAQ and pricing controversies made it one of the most scrutinised IPOs of the decade.",
+      "takeaway": "An IPO underwriter is the middleman between the company selling and the investors buying."
+    },
+    {
+      "id": "d040-secondary",
+      "day": 40,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is a secondary offering?",
+      "description": "Once a company is public, it can issue more shares later to raise more money. This is called a secondary offering (or a follow-on). It dilutes existing shareholders — each old share now owns a smaller slice of the company — so investors often react negatively unless the money is being raised for a very good reason.",
+      "example": "In 2008 many US banks, including Citigroup and Bank of America, sold huge numbers of new shares to shore up their balance sheets. Existing shareholders were heavily diluted, but the extra capital helped several banks survive the crisis.",
+      "takeaway": "Extra shares issued after an IPO are more of the same pie sliced thinner."
+    },
+    {
+      "id": "d040-rights-issue",
+      "day": 40,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is a rights issue?",
+      "description": "A rights issue is a specific kind of new-share sale where the company offers existing shareholders the right to buy new shares (usually at a discount) in proportion to what they already own. It is common in Europe and gives existing investors a chance to avoid dilution — if they can afford to buy in.",
+      "example": "In 2020, during the COVID shock, several European airlines including IAG (parent of British Airways and Iberia) launched large rights issues to raise cash and stay solvent while planes were grounded.",
+      "takeaway": "A rights issue lets existing shareholders 'top up' and avoid being diluted."
+    },
+    {
+      "id": "d041-common-stock",
+      "day": 41,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is common stock?",
+      "description": "Common (or ordinary) stock is what most people mean when they say 'stock'. It gives you a share in the profits (usually via dividends), a vote at the annual meeting, and a right to whatever is left over if the company is wound up — but only after every other creditor has been paid.",
+      "example": "Alphabet (Google's parent) has three share classes: A (one vote, ticker GOOGL), B (ten votes, not publicly traded, held by founders), and C (no votes, ticker GOOG). This structure lets the founders keep control even after selling most of the economic ownership.",
+      "takeaway": "Common stock is ownership with a voice — but you get paid last in a bankruptcy."
+    },
+    {
+      "id": "d041-preferred-stock",
+      "day": 41,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is preferred stock?",
+      "description": "Preferred stock sits between common stock and bonds. It usually pays a fixed dividend (like a bond coupon) and has priority over common stock for dividends and in liquidation. In exchange it usually has no voting rights and only limited upside if the company thrives.",
+      "example": "In 2008, Warren Buffett's Berkshire Hathaway invested $5 billion in Goldman Sachs preferred stock paying 10% a year — a deal Goldman was willing to accept during the crisis. It ended up returning several billion dollars of profit to Berkshire over the following years.",
+      "takeaway": "Preferred stock is a hybrid — safer than common, but with less upside."
+    },
+    {
+      "id": "d042-short-selling",
+      "day": 42,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is short selling?",
+      "description": "Short selling means selling a stock you do not own — by borrowing it from someone who does — then buying it back later, hopefully at a lower price. The profit is the difference. If the stock rises instead, losses can be very large: unlike a normal purchase, where the worst case is a 100% loss, a short can in theory lose several times what you put in.",
+      "example": "In January 2021 a group of retail investors on Reddit organised to buy GameStop (GME) aggressively. Its price rose over 20-fold in a few weeks, forcing several hedge funds who had shorted the stock — including Melvin Capital — to close their positions at massive losses. Melvin later shut down.",
+      "takeaway": "Short sellers can be right about a company and still be crushed if the market disagrees for long enough."
+    },
+    {
+      "id": "d042-margin",
+      "day": 42,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is margin trading?",
+      "description": "Trading on margin means borrowing money from your broker to buy more stock than your cash alone would allow. If the stock rises, gains are magnified. If it falls enough, the broker issues a 'margin call' — you must top up cash quickly, or the broker will sell your position, sometimes at the worst possible moment.",
+      "example": "The 1929 stock market crash was made much worse by margin: many investors had bought stocks with about 90% borrowed money. When prices fell, margin calls forced them to sell, driving prices down further and triggering more margin calls — a self-reinforcing collapse.",
+      "takeaway": "Margin turns modest moves into big moves — up and down."
+    },
+    {
+      "id": "d043-call-option",
+      "day": 43,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is a call option?",
+      "description": "A call option gives its holder the right (but not the obligation) to buy a stock at a set price ('strike price') before a set date. If the stock rises above the strike price plus what you paid for the option, you profit. If it does not, you simply let the option expire worthless — losing only what you paid for it.",
+      "example": "In 2021 an unusually large amount of retail money flowed into short-dated call options on individual US stocks and on the whole market — one of the driving forces behind the GameStop and other 'meme' stock rallies. Options amplified small moves into huge ones.",
+      "takeaway": "A call option is a bet on a stock rising by a specific date."
+    },
+    {
+      "id": "d043-put-option",
+      "day": 43,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is a put option?",
+      "description": "A put option is the opposite of a call: it gives the holder the right to sell a stock at a set price. Puts profit if the stock falls below the strike price. Puts are also widely used to insure a portfolio against a crash — the cost of the put is the 'insurance premium'.",
+      "example": "In 2007, some hedge fund managers — most famously those featured later in 'The Big Short' — bought put-style bets against subprime mortgage bonds. When the housing market collapsed in 2008 they made hundreds of millions to billions of dollars.",
+      "takeaway": "A put is a bet on a stock falling — or an insurance policy that pays out when it does."
+    },
+    {
+      "id": "d044-futures",
+      "day": 44,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is a futures contract?",
+      "description": "A futures contract is an agreement to buy or sell a specific asset — a barrel of oil, a bushel of wheat, a stock index — at a set price at a set future date. Farmers and airlines have used futures for centuries to lock in prices in advance and manage the risk of surprising price moves.",
+      "example": "In April 2020, in the depths of the COVID demand shock, the front-month US crude oil futures contract briefly traded at a NEGATIVE price — sellers had to pay buyers to take delivery, because storage was completely full. It was the first time crude oil futures had traded below zero in modern history.",
+      "takeaway": "A futures contract is a promise about a future trade, made and priced today."
+    },
+    {
+      "id": "d044-derivatives",
+      "day": 44,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What are derivatives?",
+      "description": "Derivatives are financial contracts whose value is derived from something else — a stock, an index, an interest rate, a currency. Options, futures and swaps are all derivatives. Used carefully they hedge risk. Used carelessly they have amplified some of the most spectacular blow-ups in financial history.",
+      "example": "In 1994, Orange County, California went bankrupt after its treasurer had made huge, leveraged bets on interest-rate derivatives that went the wrong way. It was one of the largest municipal bankruptcies in US history at the time.",
+      "takeaway": "Derivatives are power tools — they can hedge or destroy, depending on the operator."
+    },
+    {
+      "id": "d045-commodities",
+      "day": 45,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What are commodities?",
+      "description": "Commodities are basic raw materials — oil, natural gas, gold, silver, copper, wheat, coffee, sugar. They tend to move on very different drivers than stocks: weather, supply shocks, political conflict, currency moves. A small commodity exposure can improve a portfolio's diversification, but individual commodities are highly volatile.",
+      "example": "The oil price fell from about $110 per barrel in mid-2014 to about $30 by early 2016 as US shale supply surged. Oil-producing countries with big budgets — including Russia, Venezuela and Saudi Arabia — went through severe fiscal stress as a result.",
+      "takeaway": "Commodities march to their own beat — helpful for diversification, but volatile."
+    },
+    {
+      "id": "d045-gold",
+      "day": 45,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Gold as an investment",
+      "description": "Gold is one of the oldest recognised stores of value. It pays no dividend and generates no cashflow, so its return comes only from the price. Investors often turn to gold when they fear inflation, currency debasement or geopolitical crisis — which is why it is often called a 'safe haven' (though its price can still move sharply).",
+      "example": "The gold price rose from about $700 an ounce in late 2008 to over $1,900 by September 2011, as the global financial crisis and the euro-zone crisis pushed investors toward hard assets. It later fell back for years, before setting new highs in 2024.",
+      "takeaway": "Gold earns nothing — but sometimes it wins when everything else is losing."
+    },
+    {
+      "id": "d046-real-estate",
+      "day": 46,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Real estate as an investment",
+      "description": "Real estate — houses, apartments, offices, warehouses — is one of the biggest asset classes in the world, and often the largest single asset a household owns (their home). It generates income (rent), tends to protect against inflation over the long run, and is highly illiquid. Prices depend heavily on mortgage interest rates and local demand.",
+      "example": "In the 2008 global financial crisis, house prices in the US, Ireland, Spain and parts of the UK fell by 20%–50% peak-to-trough. Millions of households ended up in 'negative equity' — owing more on their mortgage than their home was worth — a shock most had thought was impossible.",
+      "takeaway": "Property is real and useful, but its price can fall — sometimes a lot."
+    },
+    {
+      "id": "d046-reit",
+      "day": 46,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is a REIT?",
+      "description": "A REIT (Real Estate Investment Trust) is a listed company that owns and rents out property — offices, shopping centres, warehouses, apartment buildings, data centres. By law it must distribute most of its rental income to shareholders as dividends. REITs let ordinary investors own a slice of real estate without buying a whole building.",
+      "example": "In 2020–2021, office REITs were hit hard as work-from-home reshaped demand, while warehouse and industrial REITs (used by online retailers) boomed. Two types of property — often lumped together as 'real estate' — behaved very differently.",
+      "takeaway": "A REIT is property, without the plumbing calls."
+    },
+    {
+      "id": "d047-crypto",
+      "day": 47,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is a cryptocurrency?",
+      "description": "A cryptocurrency is a digital asset recorded on a blockchain — a shared computer ledger with no central operator. Bitcoin, launched in 2009, is the first and best known; Ethereum, launched in 2015, is the second largest. Cryptocurrencies pay no dividend and have no underlying business — their price depends entirely on what others are willing to pay.",
+      "example": "Bitcoin was created in January 2009 by an anonymous developer called Satoshi Nakamoto, in the aftermath of the 2008 financial crisis. In 2010, one famous transaction paid 10,000 bitcoins for two pizzas — worth around $30 at the time. That many bitcoins today would be worth many hundreds of millions of dollars.",
+      "takeaway": "Cryptocurrencies are a young, experimental corner of finance — powerful ideas, wildly uncertain valuations."
+    },
+    {
+      "id": "d047-crypto-volatility",
+      "day": 47,
+      "order": 2,
+      "level": "intermediate",
+      "title": "The volatility of crypto",
+      "description": "Cryptocurrencies are extremely volatile. Bitcoin has repeatedly gained hundreds of per cent in a year and then lost most of it within months. Individual smaller tokens can go to zero, and several very large crypto businesses have collapsed suddenly. This is not a small corner of ordinary market risk — it is its own risk category.",
+      "example": "In November 2022 the crypto exchange FTX — valued at $32 billion just months earlier — collapsed in a matter of days after accounting problems and misuse of customer funds emerged. Its founder was later convicted of fraud in 2023.",
+      "takeaway": "Crypto rewards can be huge; so can the losses, and so can the fraud."
+    },
+    {
+      "id": "d048-correlation",
+      "day": 48,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is correlation?",
+      "description": "Correlation measures how much two investments move together. +1 means they always move the same way, –1 means they always move opposite ways, 0 means their moves are unrelated. Combining assets with low correlation is the key to real diversification — assets that all move up and down together provide much less protection.",
+      "example": "For much of the 2000s and 2010s, US stocks and long-term US government bonds had negative correlation — when stocks fell, bonds tended to rise, and vice versa. That is why the 60/40 portfolio worked so well for many years. In 2022, both fell together, painfully breaking the pattern.",
+      "takeaway": "Diversification only works if the pieces move differently from each other."
+    },
+    {
+      "id": "d048-diversification-math",
+      "day": 48,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Diversification as a 'free lunch'",
+      "description": "A well-diversified portfolio can have less risk than the average of its parts — because the ups in one asset partially cancel the downs of another. This is the mathematical foundation of Harry Markowitz's Modern Portfolio Theory, which won him the Nobel Prize in Economics in 1990.",
+      "example": "A portfolio of 40 US stocks from different sectors typically has much lower risk than any individual stock inside it. Adding non-US stocks and bonds reduces risk further. This 'less risk for the same expected return' is often called the only free lunch in investing.",
+      "takeaway": "The whole can be less risky than the average of the parts — the free lunch of investing."
+    },
+    {
+      "id": "d049-std-dev",
+      "day": 49,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Standard deviation as a risk measure",
+      "description": "In finance, standard deviation is the most common numerical measure of an investment's volatility. It captures the typical size of the ups and downs around the average return. An investment with a standard deviation of 15% a year tends to swing by roughly that amount each year — sometimes more, sometimes less.",
+      "example": "US stocks have historically had a standard deviation of about 15–20% per year, US Treasury bonds about 5–8%, and cash close to 0%. In extreme years such as 2008 or 2020 the actual moves were much larger than the average — a reminder that standard deviation understates true tail risk.",
+      "takeaway": "Standard deviation measures typical bumps — but big surprises are always bigger than 'typical'."
+    },
+    {
+      "id": "d049-sharpe",
+      "day": 49,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is the Sharpe ratio?",
+      "description": "The Sharpe ratio measures how much return an investment delivered per unit of risk taken (measured as standard deviation). A higher Sharpe ratio is better: it means the investor was compensated more generously for the volatility they endured. It is one of the most-used yardsticks in professional investing.",
+      "example": "Renaissance Technologies' famous Medallion Fund — closed to outside investors since 1993 — is widely reported to have achieved a very high Sharpe ratio for decades, delivering strong returns with much less turbulence than the market. Such numbers are extremely rare and hard to sustain.",
+      "takeaway": "A great return with huge turbulence is not the same as a great return with a calm ride."
+    },
+    {
+      "id": "d050-alpha",
+      "day": 50,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is alpha?",
+      "description": "Alpha is the extra return an investment (or a fund manager) delivered, above and beyond what could be explained by the risk they took. Positive alpha means the manager truly added value; zero alpha means they just matched the market; negative alpha means they underperformed after fees. Sustained positive alpha is rare and highly prized.",
+      "example": "Studies of US mutual funds consistently show that, over 10- and 20-year periods, roughly 80–90% of actively managed funds fail to deliver positive alpha net of fees. This is one of the most cited pieces of evidence for the rise of low-cost index funds.",
+      "takeaway": "Alpha is the manager's true contribution — most managers do not really have any."
+    },
+    {
+      "id": "d050-beta",
+      "day": 50,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is beta?",
+      "description": "Beta measures how sensitive a stock (or portfolio) is to the overall market. A beta of 1 means it moves with the market; a beta of 1.5 means it moves 1.5 times as much (up in a rally, down in a sell-off); a beta of 0.5 means it moves half as much. Beta can also be negative for some assets.",
+      "example": "Utility stocks tend to have low betas (0.3–0.7) — they move less than the market. Semiconductor stocks often have high betas (well above 1) — they amplify market moves. Two portfolios of the 'same' size can have very different real risk depending on their beta.",
+      "takeaway": "Beta is how much market noise you are inviting into your portfolio."
+    },
+    {
+      "id": "d051-value-investing",
+      "day": 51,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is value investing?",
+      "description": "Value investing is the discipline of buying stocks that appear cheap relative to the underlying business — low P/E, low price-to-book, decent dividend yield, or a market price below a conservative estimate of intrinsic value. Value investors try to find businesses the market has underestimated, and wait patiently for the gap to close.",
+      "example": "In 2003 Warren Buffett bought a large stake in PetroChina at a price he considered a fraction of its intrinsic value. He sold most of it five years later at several times his purchase price — a textbook Buffett-style value trade.",
+      "takeaway": "Value investors bet on cheapness eventually closing the gap to underlying quality."
+    },
+    {
+      "id": "d051-ben-graham",
+      "day": 51,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Benjamin Graham — father of value investing",
+      "description": "Benjamin Graham (1894–1976) is often called the father of value investing. His two books — 'Security Analysis' (1934, with David Dodd) and 'The Intelligent Investor' (1949) — shaped how professional investors analyse companies. He taught the concept of 'Mr Market' (an emotional partner offering wildly different prices for the same business) and the 'margin of safety'.",
+      "example": "Warren Buffett was Graham's student at Columbia Business School in the early 1950s and later worked at Graham's investment firm. Buffett has repeatedly called 'The Intelligent Investor' the best book on investing ever written.",
+      "takeaway": "Value investing has an intellectual grandfather — Benjamin Graham."
+    },
+    {
+      "id": "d052-growth-investing",
+      "day": 52,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is growth investing?",
+      "description": "Growth investing focuses on companies whose earnings and revenue are expanding faster than average. Growth investors are usually willing to pay a higher P/E today, betting that fast-growing profits will justify it later. It has been the dominant style during technology-led bull markets.",
+      "example": "Between 2015 and 2021, US 'growth' stocks (largely tech) beat 'value' stocks by a large margin — Amazon, Apple, Microsoft, Alphabet, Nvidia and Tesla all delivered exceptional returns. Then in 2022 that pattern reversed sharply as interest rates rose.",
+      "takeaway": "Growth investors bet on tomorrow's winners; the risk is that today's price already assumes tomorrow's win."
+    },
+    {
+      "id": "d052-peter-lynch",
+      "day": 52,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Peter Lynch — 'invest in what you know'",
+      "description": "Peter Lynch ran Fidelity's Magellan Fund from 1977 to 1990 and delivered around 29% per year — one of the best long records in mutual-fund history. His books 'One Up on Wall Street' and 'Beating the Street' are classics on stock picking. He famously argued that ordinary people can spot great companies by paying attention to what customers around them are actually buying.",
+      "example": "One of Lynch's famous picks was Hanes (owner of the L'eggs pantyhose brand), which he added to Magellan after his wife noticed how successful the product was in ordinary supermarkets. The stock later multiplied many times.",
+      "takeaway": "Peter Lynch showed that plain observation, combined with discipline, can beat professional analysis."
+    },
+    {
+      "id": "d053-dividend-investing",
+      "day": 53,
+      "order": 1,
+      "level": "intermediate",
+      "title": "What is dividend investing?",
+      "description": "Dividend investing focuses on companies that pay consistent, ideally growing, dividends. The style is popular with retirees and long-term investors who want cash income today, on top of any price appreciation. 'Dividend aristocrats' is the informal label for large US companies that have raised their dividend every year for 25+ years.",
+      "example": "Procter & Gamble, Johnson & Johnson, Coca-Cola, PepsiCo and Colgate-Palmolive have all raised their dividends every year for well over half a century. Long-term shareholders receive a growing income stream that, over decades, tends to comfortably beat inflation.",
+      "takeaway": "A rising dividend is a public promise renewed each year — investors reward companies that keep it."
+    },
+    {
+      "id": "d053-value-trap",
+      "day": 53,
+      "order": 2,
+      "level": "intermediate",
+      "title": "What is a value trap?",
+      "description": "A value trap is a stock that looks cheap by traditional measures — but keeps going down because the underlying business is actually deteriorating. Old technology, structural decline, or a broken business model can all create value traps. Cheapness alone is not a good reason to buy.",
+      "example": "Kodak in the 2000s looked 'cheap' on many valuation measures, but its film business was being destroyed by digital cameras and smartphones. Investors who bought 'cheap' Kodak in the mid-2000s were largely wiped out when the company filed for bankruptcy in 2012.",
+      "takeaway": "A cheap stock can be cheap for a very good reason — always check the business before the price."
+    },
+    {
+      "id": "d054-loss-aversion",
+      "day": 54,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Loss aversion",
+      "description": "Loss aversion, discovered by psychologists Daniel Kahneman and Amos Tversky, is the finding that losing €100 hurts about twice as much as gaining €100 feels good. Investors therefore often hold onto losing positions too long (hoping to 'break even') and sell winners too quickly (to 'lock in' gains) — the opposite of what usually works.",
+      "example": "Kahneman received the Nobel Prize in Economic Sciences in 2002 for the work he and Tversky had done decades earlier. That work — 'Prospect Theory' — is now the foundation of what is called behavioural finance.",
+      "takeaway": "Losses hurt more than gains feel good — and knowing this helps you resist the wrong instincts."
+    },
+    {
+      "id": "d054-herding",
+      "day": 54,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Herding",
+      "description": "Herding is the tendency to copy what other investors are doing, especially in moments of excitement or fear. Herding drives bubbles up when a story is hot, and drives crashes down when everyone runs for the exit at once. Discipline in investing is largely the discipline of not herding.",
+      "example": "In late 2017 and early 2018, huge numbers of small investors piled into Bitcoin and other cryptocurrencies as prices soared. Bitcoin peaked near $19,700 in December 2017, then fell to about $3,200 by December 2018 — a classic collapse of a hard-charging herd trade.",
+      "takeaway": "When everyone rushes in one direction, ask yourself who is going to be left holding the bag."
+    },
+    {
+      "id": "d055-anchoring",
+      "day": 55,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Anchoring",
+      "description": "Anchoring is the tendency to fix your judgement to a specific number, even when it should not matter. Investors often anchor on the price they paid for a stock ('I'll sell when it's back to what I paid') or on a recent all-time-high, and then make decisions based on those numbers rather than on the current facts.",
+      "example": "Many investors who bought Vodafone or other big European telecoms near the top of the dot-com bubble in 2000 held on for years hoping the price would return 'back to what I paid'. Some are still waiting. The old price stopped mattering; only the future did.",
+      "takeaway": "What you paid is history — only what happens next matters."
+    },
+    {
+      "id": "d055-recency-bias",
+      "day": 55,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Recency bias",
+      "description": "Recency bias is the tendency to give too much weight to what has just happened and too little to the long picture. It makes investors chase whatever has been doing well recently ('this fund is up 40% in a year, I want in') and abandon whatever has been doing poorly ('bonds have been dead for a decade') — often just before those trends reverse.",
+      "example": "A record amount of money flowed into US technology funds in late 2021, near the top of the market. Those funds then lost heavily in 2022, hurting the very investors who had rushed in most recently and enthusiastically.",
+      "takeaway": "What worked yesterday is not automatically what will work tomorrow."
+    },
+    {
+      "id": "d056-confirmation-bias",
+      "day": 56,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Confirmation bias",
+      "description": "Confirmation bias is the tendency to look for information that supports what we already believe, and to dismiss information that contradicts it. Investors who love a stock will read the bullish articles and skip the bearish ones — and then be shocked when the bearish view turns out to have been right.",
+      "example": "Enthusiastic supporters of Enron in 2000 and 2001 read the glowing analyst reports and ignored the sceptical journalism (notably by Bethany McLean in Fortune) that first raised questions about its accounting. When the fraud unravelled in late 2001, they had refused most of the warnings.",
+      "takeaway": "A good investor actively hunts for the arguments against their own positions."
+    },
+    {
+      "id": "d056-overconfidence",
+      "day": 56,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Overconfidence",
+      "description": "Overconfidence — the tendency to overestimate our own knowledge and skill — is one of the most consistent findings in behavioural finance. It leads investors (both professional and amateur) to trade too much, take too much risk, and rate their own judgement too highly. Studies consistently show that individual investors who trade a lot underperform those who trade very little.",
+      "example": "A famous 2000 US study by Barber and Odean, using data from a large discount broker, found that the households who traded most heavily underperformed those who traded least by several percentage points a year — a striking cost of overconfidence.",
+      "takeaway": "In investing, doing less is often doing better."
+    },
+    {
+      "id": "d057-fomo",
+      "day": 57,
+      "order": 1,
+      "level": "intermediate",
+      "title": "FOMO (fear of missing out)",
+      "description": "FOMO is the discomfort investors feel when they see others making money on something they are not in. It pushes them into buying near the top of hot trends — exactly when future returns are usually lowest. It is one of the most common ways ordinary investors get hurt.",
+      "example": "In January 2021, GameStop rose from about $20 to nearly $500 in a couple of weeks amid the Reddit-driven short squeeze. Many small investors bought in the $200–$400 range in fear of missing more upside, and were nursing heavy losses within weeks as the stock fell back.",
+      "takeaway": "If a trade already feels obvious to a huge crowd, the easy money has usually already been made."
+    },
+    {
+      "id": "d057-panic-selling",
+      "day": 57,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Panic selling",
+      "description": "Panic selling is the flip side of FOMO — dumping investments in fear when prices fall sharply, 'before it gets worse'. It locks in losses at the worst possible moment and misses the recovery. Almost every major market bottom has been marked by heavy panic selling.",
+      "example": "On 23 March 2020, at the bottom of the COVID crash, panic-driven selling volumes were among the highest in history. Investors who sold that day locked in about a 34% loss from the February peak; the S&P 500 was back to record highs by August of the same year.",
+      "takeaway": "The worst moment to sell is usually when you most want to."
+    },
+    {
+      "id": "d058-cgt",
+      "day": 58,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Capital gains tax",
+      "description": "When you sell an investment for more than you paid, most countries levy a tax on the profit. Rules and rates differ by country and often depend on how long you held the investment: short-term gains (usually under a year) are often taxed as normal income; long-term gains at a lower rate. Losses can typically be used to offset gains.",
+      "example": "In the US, long-term capital gains are taxed at lower rates than short-term gains — one of many built-in incentives to hold investments for the long term. In the UK, individuals have a small annual capital-gains allowance and pay a specific rate on gains above it.",
+      "takeaway": "Realising a gain usually creates a tax bill — the timing of your sales matters."
+    },
+    {
+      "id": "d058-dividend-tax",
+      "day": 58,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Dividend tax",
+      "description": "Dividends paid by companies to shareholders are also usually taxed. The rate differs by country, and by whether the dividend is paid inside a tax-advantaged account. Some countries have special rules for dividends received from foreign companies (via 'withholding taxes'), which can reduce what you actually keep.",
+      "example": "A UK investor holding US stocks in a normal brokerage account typically has 15% of any US dividend withheld at source under the US–UK tax treaty. Inside a UK ISA the same investor may not benefit from that treaty rate — a detail worth checking before investing.",
+      "takeaway": "What you actually keep after tax is what really matters — not the headline yield."
+    },
+    {
+      "id": "d059-tax-advantaged",
+      "day": 59,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Tax-advantaged retirement accounts",
+      "description": "Many countries offer tax-advantaged accounts to encourage retirement saving. In the UK: ISAs (annual limit, no UK tax on gains or dividends) and pensions (contributions get tax relief; withdrawals taxed later). In the US: 401(k)s and IRAs (contributions often pre-tax; withdrawals taxed at retirement).",
+      "example": "A UK saver who contributes £20,000 a year to a Stocks & Shares ISA for 30 years, earning 7% a year on average, would end up with roughly £2 million — with zero UK tax on the growth or on withdrawals. The tax saving alone is enormous.",
+      "takeaway": "Using tax-advantaged accounts is often the single biggest optimisation an ordinary investor can make."
+    },
+    {
+      "id": "d059-asset-location",
+      "day": 59,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Asset location and tax efficiency",
+      "description": "Beyond formal retirement accounts, small choices add up. Holding tax-inefficient assets (like bonds paying interest) inside tax-sheltered accounts, keeping tax-efficient assets (like broad equity index funds) in taxable accounts, and using loss harvesting to offset gains, can all improve after-tax returns over many years without changing what you invest in.",
+      "example": "Many US robo-advisers automatically apply 'tax-loss harvesting' throughout the year — selling losing positions to book losses (usable against gains) and immediately buying similar-but-not-identical replacements. Studies estimate this adds a fraction of a per cent per year to after-tax returns.",
+      "takeaway": "In the long run, taxes are as important as returns and fees."
+    },
+    {
+      "id": "d060-buffett",
+      "day": 60,
+      "order": 1,
+      "level": "intermediate",
+      "title": "Warren Buffett — key ideas",
+      "description": "Warren Buffett (born 1930) is arguably the most famous investor of the modern era. He built Berkshire Hathaway from a failing textile company in 1965 into one of the largest companies in the world, delivering compound annual returns of roughly 20% for six decades. His public letters distil his investment philosophy in plain English.",
+      "example": "A few of Buffett's most-quoted rules: 'Rule No. 1 is never lose money. Rule No. 2 is never forget Rule No. 1.' 'Be fearful when others are greedy, and greedy when others are fearful.' 'Our favourite holding period is forever.' Together they emphasise patience, capital preservation and contrarian discipline.",
+      "takeaway": "Buffett's core message: buy good businesses at fair prices — and hold them."
+    },
+    {
+      "id": "d060-bogle",
+      "day": 60,
+      "order": 2,
+      "level": "intermediate",
+      "title": "Jack Bogle — key ideas",
+      "description": "Jack Bogle (1929–2019) founded Vanguard in 1974 and launched the first index mutual fund for retail investors in 1976. He argued relentlessly that most active managers, after fees, cannot beat the market — and that the simplest, cheapest and most reliable path for most investors is a broad, low-cost index fund held for the long run.",
+      "example": "The Vanguard Group he founded is now one of the largest asset managers in the world, with several trillions of dollars in assets, most in low-cost index products. His book 'The Little Book of Common Sense Investing' summarises his philosophy in about 200 pages.",
+      "takeaway": "Bogle's core message: keep costs low, diversify broadly, and stay the course."
     }
   ]
 }

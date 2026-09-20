@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:48:43.626Z",
+  "generated_at": "2026-09-20T10:57:20.396Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
@@ -78,16 +78,27 @@
       "sources_count": 4
     },
     {
-      "title": "Will German's far right party AfD win over two more regions?",
-      "link": "https://www.france24.com/en/will-german-s-far-right-party-afd-win-over-two-more-regions",
+      "title": "Germany: Could regional polls froce Friedrich Merz to step down?",
+      "link": "https://www.france24.com/en/germany-could-regional-polls-froce-friedrich-merz-to-step-down",
       "source": "France 24 – English",
-      "published_at": "2026-09-20T09:35:34.000Z",
-      "excerpt": "Two weeks after the far-right AfD won its first major regional election in Germany, two more eastern states vote this Sunday. Polls have just opened in the capital, Berlin, and the largely rural stat…",
+      "published_at": "2026-09-20T10:26:10.000Z",
+      "excerpt": "Polling is underway in the German capital Berlin and the largely rural state of Mecklenburg-Western Pomerania for regional elections. Both elections are seen as a test for Germany's centre-right Chan…",
       "also_covered_by": [
         "Al Jazeera English",
         "Deutsche Welle – Top"
       ],
       "sources_count": 3
+    },
+    {
+      "title": "Trump’s Greenland deal: A triumph of optics?",
+      "link": "https://www.aljazeera.com/opinions/2026/9/20/trumps-greenland-deal-a-triumph-of-optics?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-09-20T10:49:10.000Z",
+      "excerpt": "It seems the new agreement may not be that 'new'.",
+      "also_covered_by": [
+        "BBC World"
+      ],
+      "sources_count": 2
     },
     {
       "title": "Two killed in 'massive' Ukrainian drone attack on Moscow region, Russia says",
@@ -97,17 +108,6 @@
       "excerpt": "A major oil refinery was also hit as Moscow's mayor says 450 drones were downed during the \"unprecedented attack\".",
       "also_covered_by": [
         "Al Jazeera English"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Dutch police disperse violent far-right protest in The Hague",
-      "link": "https://www.dw.com/en/dutch-police-disperse-violent-far-right-protest-in-the-hague/a-79340495?maca=en-rss-en-all-1573-rdf",
-      "source": "Deutsche Welle – Top",
-      "published_at": "2026-09-19T22:38:00.000Z",
-      "excerpt": "After violence broke out, Dutch riot police dispersed hundreds of far-right protesters in The Hague. Prime Minister Rob Jetten said that the demonstrators had chanted \"abhorrent\" far-right and antise…",
-      "also_covered_by": [
-        "The Guardian – World"
       ],
       "sources_count": 2
     }

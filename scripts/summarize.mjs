@@ -25,6 +25,10 @@ const MAX_ARTICLE_CHARS = 12000;
 const TARGET_SENTENCES = '8–10';
 const TARGET_WORDS = '200–250';
 
+// Rate-limiter state — declared BEFORE any top-level await so throttle() can
+// safely read/write it from the async task pool below.
+let lastRequestAt = 0;
+
 function log(...a) { console.log('[summarize]', ...a); }
 function warn(...a) { console.warn('[summarize]', ...a); }
 
@@ -153,7 +157,6 @@ function decodeEntities(s) {
     .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)));
 }
 
-let lastRequestAt = 0;
 async function throttle() {
   const wait = REQUEST_INTERVAL_MS - (Date.now() - lastRequestAt);
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));

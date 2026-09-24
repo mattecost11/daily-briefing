@@ -13,7 +13,7 @@ This README is written for someone who is **not** a developer. It shows you exac
 | Piece | Where it lives | When it runs |
 |---|---|---|
 | The app you see on the phone | GitHub Pages, served at the URL above | On every open |
-| News refresh | GitHub Actions (a robot on GitHub's servers) | Monday & Thursday, 07:00 Europe/London |
+| News refresh | GitHub Actions (a robot on GitHub's servers) | Monday & Thursday, **from** 07:00 Europe/London — usually lands in the late morning because GitHub starts scheduled jobs late (see Known limitations) |
 | Push notification | Same GitHub Actions run | Right after each refresh |
 | Keep-alive heartbeat | GitHub Actions | 1st of every month, 12:00 UTC |
 
@@ -161,6 +161,7 @@ gh run watch  # optional, follows the run in real time
 
 ## Known limitations
 
+- **The refresh time is not exact.** GitHub's free scheduler starts cron jobs late, sometimes by 4–6 hours. The workflow fires several times on Mondays and Thursdays and the first run on or after 07:00 London does the refresh; later runs that day see it's done and stop. So the briefing always arrives on the right day, but usually mid-to-late morning rather than at 07:00 sharp. For an exact 07:00, an external timer service can trigger the workflow at the precise minute; that needs an extra account and a GitHub access token.
 - **iOS Web Push has real quirks.** The app MUST be added to the Home Screen for notifications to work — this is an iOS rule, not a bug in the app. If the user ever uninstalls the icon, the push subscription dies and you have to redo the "tap Enable notifications, copy JSON" step.
 - **Article-fetch coverage isn't 100%.** About 40% of AWS "What's New" pages and some sites with heavy anti-bot protection can't be fetched cleanly; those items fall back to the RSS excerpt.
 - **Same-story clustering isn't perfect.** Two very differently-worded takes on the same event may end up in separate slots. The threshold is a trade-off between missing near-duplicates and merging unrelated stories.

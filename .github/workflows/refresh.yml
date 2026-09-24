@@ -1,16 +1,24 @@
-# Daily Briefing — twice-weekly news refresh.
-# Fires at 07:00 Europe/London on Monday and Thursday.
-# We schedule two UTC crons (06:00 and 07:00) so we always cover
-# both British Summer Time (UTC+1) and Greenwich Mean Time (UTC+0).
-# A guard step then skips the extra run so real work happens exactly once.
+# Daily Briefing — twice-weekly news refresh (Monday and Thursday, from 07:00 London).
+#
+# GitHub's free scheduler often starts cron jobs hours late (4–6 h observed),
+# so we can't rely on a run landing at an exact hour. Instead:
+#   - several crons fire through the day on Mon/Thu, off the top of the hour
+#     (the top of the hour is GitHub's busiest, most-delayed slot);
+#   - the guard lets the FIRST run that starts on or after 07:00 London do the
+#     refresh, and every later run that day sees "already refreshed" and stops.
+# Result: exactly one refresh + one notification per Mon/Thu, as early as
+# GitHub allows.
 
 name: refresh
 
 on:
   schedule:
-    - cron: '0 6 * * 1,4'   # 07:00 London during BST (summer)
-    - cron: '0 7 * * 1,4'   # 07:00 London during GMT (winter)
-  workflow_dispatch:         # allow manual triggering from the Actions tab
+    - cron: '17 6 * * 1,4'
+    - cron: '17 7 * * 1,4'
+    - cron: '17 9 * * 1,4'
+    - cron: '17 12 * * 1,4'
+    - cron: '17 16 * * 1,4'
+  workflow_dispatch:         # manual trigger from the Actions tab — always refreshes
 
 permissions:
   contents: write            # needed so the bot can commit news.json back
@@ -26,15 +34,34 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Guard — only run at 07:00 London
+      - name: Guard — once per Mon/Thu, from 07:00 London
         id: gate
         run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run — refreshing unconditionally."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          dow=$(TZ=Europe/London date +%u)       # 1 = Monday … 7 = Sunday
           hour=$(TZ=Europe/London date +%H)
-          echo "London hour: $hour"
-          if [ "$hour" != "07" ] && [ "${{ github.event_name }}" = "schedule" ]; then
-            echo "Not 07:00 London, skipping this scheduled run."
+          today=$(TZ=Europe/London date +%F)
+          gen=$(jq -r '.generated_at // empty' docs/data/news.json)
+          last=""
+          if [ -n "$gen" ]; then last=$(TZ=Europe/London date -d "$gen" +%F); fi
+          echo "London: weekday=$dow hour=$hour today=$today last-refresh=$last"
+          reason=""
+          if [ "$dow" != "1" ] && [ "$dow" != "4" ]; then
+            reason="not Monday or Thursday in London"
+          elif [ "$((10#$hour))" -lt 7 ]; then
+            reason="before 07:00 London"
+          elif [ "$last" = "$today" ]; then
+            reason="already refreshed today"
+          fi
+          if [ -n "$reason" ]; then
+            echo "Skipping: $reason."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
+            echo "Refreshing now."
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 

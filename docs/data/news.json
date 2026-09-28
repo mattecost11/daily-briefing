@@ -1,155 +1,148 @@
 {
-  "generated_at": "2026-09-24T19:43:34.107Z",
+  "generated_at": "2026-09-28T14:04:34.074Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
     "acquisitions": [
       {
-        "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
-        "link": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
-        "source": "TechCrunch",
-        "published_at": "2026-09-24T17:07:55.000Z",
-        "excerpt": "Databricks announced on Thursday that it has acquired early-stage spreadsheet startup Row Zero for an undisclosed sum. The acquisition was initiated after Databricks’ finance team adopted Row Zero as a cloud tool capable of scaling beyond one million live spreadsheet rows. Databricks plans to combine Row Zero with its homegrown AI agent, Genie, allowing users to query secure data using natural-language prompts. CEO Ali Ghodsi highlighted the integration of business intelligence, AI agents, and spreadsheets as a familiar interface for business analysts. Row Zero was founded by former Amazon Web Services and Tableau engineers and previously raised 10 million dollars in May 2025 at an estimated valuation of 40 million dollars. Databricks, which recently closed 5 billion dollars in funding and reached a 7 billion dollar annualized revenue run rate, has engaged in several other acquisitions throughout 2026. The company purchased Quotient AI and SiftD.ai in March, AI security operations centre startup Panther in June, and small Postgres database maker Electric last month. Ghodsi stated that the company intends to pursue many more acquisitions in the future."
-      },
-      {
         "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
         "source": "AWS News Blog",
         "published_at": "2026-08-31T14:45:25.000Z",
-        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire the Amsterdam-based company DuckLabs, which is the creator of the popular open source analytical database DuckDB. The database runs in-process and executes SQL directly against various file formats including Parquet, CSV, and JSON. Following the acquisition, DuckDB will remain open source under an independent foundation and the MIT licence. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the technical direction of the project. DuckDB is capable of running locally or on Amazon S3, allowing for fast performance on everyday queries of a terabyte or less. Over time, Amazon Web Services plans to integrate the speed of DuckDB with enterprise-scale services such as Amazon S3, Amazon Redshift, and Amazon Athena. The technology also pairs well with artificial intelligence agents that experiment with data in a manner similar to human users. Furthermore, the company intends to combine DuckDB's capabilities with other analytics services, including Amazon EMR, AWS Glue, and Amazon SageMaker. Vice President and Distinguished Engineer Andy Warfield has shared additional insights regarding the acquisition and the evolving landscape of analytics on the All Things Distributed blog."
+        "excerpt": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open sou…"
       }
     ],
     "launches": [
       {
-        "title": "Muse sure looks a lot like OpenClaw",
-        "link": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+        "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+        "link": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
         "source": "The Verge",
-        "published_at": "2026-09-24T17:10:38.000Z",
-        "excerpt": "Meta has launched a consumer-facing AI agent named Muse, which quickly topped the App Store charts and achieved 600,000 daily active users in the United States. Following its release, social media users alleged that Muse was directly built on the open-source platform OpenClaw because the two tools share core file names, specific phrasing in their personality guidelines, and similar design elements. Nat Friedman, head of product for Meta’s Superintelligence Labs, denied that Muse was built on OpenClaw, stating that it was created from scratch while acknowledging that OpenClaw served as a heavy product inspiration. Friedman explained that file names and specific lines were retained because the Meta team believed the original creator had gotten them right. Another platform, Instinct, has also gained traction for personal-assistant tasks by allowing users to communicate directly through messaging tools. OpenClaw itself gained massive popularity within ten months as a grassroots project that connected AI agents to everyday messaging platforms, prompting major tech companies to develop their own agentic products. While Meta stated that Muse was designed for privacy and security using an isolated virtual machine, researchers have noted that Meta can still access the data unless users opt out, and a zero-day vulnerability was recently discovered that allows attackers to hijack the agent. Ultimately, both Muse and Instinct have focused on making AI agents more accessible by overcoming the friction of setting up local hardware and integrating with mainstream systems."
+        "published_at": "2026-09-28T13:36:06.000Z",
+        "excerpt": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announce…"
       },
       {
-        "title": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
-        "link": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
-        "source": "TechCrunch",
-        "published_at": "2026-09-24T17:00:00.000Z",
-        "excerpt": "Google has released its new AI-powered virtual closet feature for all iOS and Android users in the United States, Brazil, and India. The tool, which resembles the digital wardrobe from the film Clueless, was initially announced earlier in the year with an Android rollout beginning in June. The feature uses artificial intelligence to scan photos of a user's outfits and build a digital copy of their wardrobe. Users can filter items through categories such as tops, bottoms, and jewellery, and mix and match them to plan new outfits. Google has stated that data regarding personal dressing habits and wardrobe contents will not be shared with third parties, including retailers. This rollout coincides with several other updates to Google Photos, such as an upgraded markup tool that includes a redacting pen, custom sketch thickness sliders, and new text fonts. Android users also gain access to new photo filters known as Moods, which apply aesthetics like 35mm film and 2000s digicam looks to images. Additionally, the platform introduces Gemini Spark functionality, allowing users to select, brighten, and share photos via a single prompt, though this specific tool requires a paid subscription in the United States."
+        "title": "Philips’ motion-tracking smart toothbrush uses AI to make you a better brusher",
+        "link": "https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush",
+        "source": "The Verge",
+        "published_at": "2026-09-28T13:00:00.000Z",
+        "excerpt": "First announced in July with an expected limited launch later this year, the Philips Sonicare Next-Generation DiamondClean 9900 Prestige smart toothbrush is now available in Europe and the US, with a…"
       },
       {
-        "title": "CVE flood pushes Ubuntu onto weekly kernel release cycle",
-        "link": "https://www.theregister.com/os-platforms/2026/09/24/cve-flood-pushes-ubuntu-onto-weekly-kernel-release-cycle/5298912",
-        "source": "The Register",
-        "published_at": "2026-09-24T16:33:00.000Z",
-        "excerpt": "Canonical is accelerating its Ubuntu kernel releases to a weekly schedule in response to a surge in reported vulnerabilities. The Ubuntu developer is overhauling its Stable Release Updates by replacing the previous four-week regular and two-week security cycles with overlapping two-week cycles. Canonical attributes this growing backlog partly to large language models and specialized AI agents that have automated bug discovery, alongside the upstream Linux kernel community becoming a CVE Numbering Authority in 2024 and issuing thousands of new identifiers. Under the new system, each update cycle lasts two weeks, but a fresh cycle begins every seven days to ensure a continuous stream of releases. The first week of a cycle is dedicated to patch integration, package building, and basic checks, resulting in release candidates being published to the proposed pocket. Week two involves heavier procedures such as hardware certification, distribution integration, and regression testing before the final kernel is released. For organisations requiring faster turnaround times, administrators can pull release candidates from the proposed pocket after the first week to conduct their own acceptance tests, though this bypasses Canonical's extensive certification testing. Additionally, Canonical aims to supply safe workarounds or general hardening measures within 24 to 48 hours of a public disclosure to leave systems in a safer state while fixes progress through the release pipeline."
+        "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+        "link": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+        "source": "The Verge",
+        "published_at": "2026-09-28T08:00:36.000Z",
+        "excerpt": "This mossy green looks great, but the 9 Pro Max is also launching in black and silver. | Image: Honor Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a desig…"
       },
       {
-        "title": "Google's first Suncatcher orbital data center test launches October 1",
-        "link": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
-        "source": "Ars Technica",
-        "published_at": "2026-09-24T16:16:34.000Z",
-        "excerpt": "Google is advancing its Project Suncatcher initiative by launching its first experimental satellite, named MVP, on October 1. The refrigerator-sized spacecraft will carry four custom Google TPU AI accelerators to validate the concept of orbital artificial intelligence data centres. Built by satellite imagery firm Planet Labs, the satellite will launch aboard a SpaceX Falcon 9 rocket as part of the Transporter-18 rideshare mission. The MVP satellite is powered by solar panels supplying about one kilowatt of electricity and will operate for a few months. The mission allows Google to test how standard terrestrial Tensor chips withstand launch vibrations, high g-forces and space radiation. Another key focus of the test is evaluating the spacecraft's cooling system, which uses thermal interface material, heat pipes and a radiator to manage heat generated by the AI accelerators. Because the cooling system can only operate in brief spurts of roughly fifteen minutes, the TPUs must periodically shut down to allow the radiators to catch up. During the operational windows, Google will run Gemini models on the chips to assess performance. The data gathered from this initial test will inform future designs, with custom satellite launches still planned for 2027, though the company anticipates it will be years before the project becomes a commercial product."
-      },
-      {
-        "title": "Amazon RDS for MySQL announces Extended Support minor versions 5.7.44-rds.20260902 and 8.0.46-rds.20260908",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+        "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
         "source": "AWS What's New",
-        "published_at": "2026-09-24T16:00:00.000Z",
-        "excerpt": "Amazon Relational Database Service for MySQL has announced the release of new Extended Support minor versions, designated as 5.7.44-rds.20260902 and 8.0.46-rds.20260908. This specific service provides up to three additional years of critical vulnerability and bug fixes once a major version reaches its standard support end date. By utilising this extended timeframe, users are given additional time to plan and execute upgrades to newer major versions of their databases. Upgrades can be performed through several methods, including in-place upgrades, Amazon RDS Blue/Green Deployments, or restoring directly from a database snapshot. Detailed guidance on conducting these version upgrades is available within the official Amazon RDS for MySQL User Guide. Furthermore, users have the option to migrate from external MySQL sources to MySQL version 8.4 by using the AWS Database Migration Service. Information regarding regional availability and pricing specifics can be found on the main Amazon RDS for MySQL product pages. The platform itself is designed to simplify the process of setting up, scaling, and operating managed MySQL deployments within a cloud environment. Administrators can create or update fully managed databases either through the Amazon RDS Management Console or by employing the AWS Command Line Interface."
+        "published_at": "2026-09-25T18:40:00.000Z",
+        "excerpt": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available…"
+      },
+      {
+        "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
+        "source": "AWS What's New",
+        "published_at": "2026-09-25T18:37:00.000Z",
+        "excerpt": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xe…"
       }
     ]
   },
   "geo": [
     {
-      "title": "Journalists from CNN, Politico, and MS Now belatedly regain access to White House after judge ruling – live",
-      "link": "https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates",
-      "source": "The Guardian – World",
-      "published_at": "2026-09-24T19:25:42.000Z",
-      "excerpt": "US news outlets MS Now and CNN have regained access to the White House following a federal judge's ruling. The reinstated access was granted just hours after the judge ordered Donald Trump to lift the ban that had previously kept journalists out. CNN confirmed that its reporters were allowed back inside the complex on Thursday. Reporter Betsy Klein was among those permitted to reenter the building after facing denied entry during multiple attempts earlier that morning. The legal development marks a significant shift in the ongoing interactions between the administration and the media organisations. Representatives from Politico were also reported to be affected by the changes, as the group of news outlets belatedly recovered their press privileges. The sudden reversal by the White House follows the swift enforcement of the judicial order. Both networks have resumed their standard reporting operations from the premises as the situation continues to unfold. Further updates on the broader media access are expected as the legal proceedings progress.",
+      "title": "'The last thing you expect': Locals near UK airbase react to 'terrorist act' arrests",
+      "link": "https://www.france24.com/en/video/20260928-the-last-thing-you-expect-locals-near-uk-airbase-react-to-terrorist-act-arrests",
+      "source": "France 24 – English",
+      "published_at": "2026-09-28T08:55:19.000Z",
+      "excerpt": "British police were questioning five men on Monday on suspicion of explosives and terrorism offences after they were detained near an air base that has been used by the US to strike Iran. Residents o…",
       "also_covered_by": [
-        "BBC World",
         "Al Jazeera English",
-        "Deutsche Welle – Top",
-        "France 24 – English"
+        "NPR – World"
       ],
-      "sources_count": 5
+      "sources_count": 3
     },
     {
-      "title": "REPLAY: Israeli Prime Minister Benjamin Netanyahu speaks at the UNGA",
-      "link": "https://www.france24.com/en/video/20260924-replay-israeli-prime-minister-benjamin-netanyahu-speaks-at-the-unga",
-      "source": "France 24 – English",
-      "published_at": "2026-09-24T19:28:01.000Z",
-      "excerpt": "Israeli Prime Minister Benjamin Netanyahu speaks at the UN General Assembly.",
+      "title": "Plan for controversial Sydney data centre scrapped after push-back",
+      "link": "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-09-28T12:47:09.000Z",
+      "excerpt": "Goodman Group, the property giant behind the Project Mars data centre, says the decision is due to changes to the \"policy and regulatory environment\".",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Why South Korea is demanding an apology from Ukraine over North Korean PoWs",
+      "link": "https://www.aljazeera.com/news/2026/9/28/why-south-korea-is-demanding-an-apology-from-ukraine-over-north-korean-pows?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-09-28T12:09:23.000Z",
+      "excerpt": "Seoul says Kyiv agreed to a nondisclosure agreement over the prisoners but broke it.",
       "also_covered_by": [
         "Deutsche Welle – Top"
       ],
       "sources_count": 2
     },
     {
-      "title": "Delegates walk out of Netanyahu’s UN speech",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-09-24T19:18:29.000Z",
-      "excerpt": "Dozens of delegates walked out of the assembly hall as Israeli Prime Minister Benjamin Netanyahu began his UN speech.",
+      "title": "Nor’easter storm floods coastal areas from New Jersey to New England",
+      "link": "https://www.theguardian.com/us-news/2026/sep/28/noreaster-storm-floods-coastal-areas-new-jersey",
+      "source": "The Guardian – World",
+      "published_at": "2026-09-28T12:03:25.000Z",
+      "excerpt": "Powerful weather system pummels shoreline for a second day, knocking out power to tens of thousands Residents of coastal communities in the US’s north-east slogged through floodwaters for a second da…",
       "also_covered_by": [
         "BBC World"
       ],
       "sources_count": 2
     },
     {
-      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-      "link": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-09-24T19:02:36.000Z",
-      "excerpt": "Afghanistan's Taliban government has stated that a wave of Pakistani air strikes killed four civilians in the latest escalation between the two sides. The strikes hit several provinces, including Kandahar, Paktia and Khost, with residents reporting hearing jets and witnessing fires and damaged houses. Pakistan confirmed that its forces targeted 10 locations in Afghanistan, describing the operation as strictly limited to identified military objectives. The air strikes mark the second wave of attacks on Afghan territory within a week, following a deadly attack on a police facility in Pakistan on 18 September that killed at least 31 people. A group linked to Tehreek-e-Taliban Pakistan claimed responsibility for the police facility attack, while Islamabad has accused Kabul of harbouring the militant group. The Afghan Taliban has denied these accusations, maintaining that militancy is an internal problem for Pakistan. Following the latest strikes, the Taliban stated that there would be an appropriate response, while Pakistan warned that any further provocative acts would be met with retaliation. Relations between the two neighbouring countries have deteriorated following the breakdown of a ceasefire agreed in March, with international mediation having failed to produce a lasting resolution to the cross-border violence.",
+      "title": "Indian university suspends classes amid violent protests over alleged rape",
+      "link": "https://www.aljazeera.com/news/2026/9/28/indian-university-suspends-classes-amid-violent-protests-over-alleged-rape?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-09-28T11:10:07.000Z",
+      "excerpt": "Lovely University suspends classes for 10 days due to campus unrest over rape allegations denied by officials.",
       "also_covered_by": [
-        "Al Jazeera English"
+        "Deutsche Welle – Top"
       ],
       "sources_count": 2
-    },
-    {
-      "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-      "link": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-09-24T19:32:59.000Z",
-      "excerpt": "The Italian government has approved a new decree law that bans the burqa and niqab in schools and introduces a thirty percent cap on pupils who speak little Italian in individual classes. Prime Minister Giorgia Meloni stated that students must attend school with their faces uncovered and described the measures as tools to aid integration. Education Minister Giuseppe Valditara clarified that the restriction is linguistic rather than based on citizenship, aiming to prevent ghetto classes and ensure better distribution of language support. The veil ban specifically targets the burqa and niqab, while the hijab remains permitted as it leaves the face visible. Under the new rules, non-Italian citizens who lack sufficient language skills or residency duration will be limited to thirty percent per class across primary and secondary education stages. Local school offices will be tasked with spreading affected pupils more evenly or providing exemptions with extra Italian lessons where relocation is not feasible. Additionally, schools will be required to report persistent parental language barriers to social services while offering free language courses. Opposition parties have criticised the plan as political propaganda designed to appeal to the hard-right Futuro Nazionale party ahead of next year's general election. Government ministers have rejected these accusations, maintaining that the policies focus purely on education and gender equality. Because the legislation has been passed as a decree law, it takes effect immediately but must be ratified by parliament within sixty days.",
-      "also_covered_by": [],
-      "sources_count": 1
     }
   ],
   "invest": [
     {
-      "title": "30-year Treasury yield hits highest level since 2004 as bond market rout continues",
-      "link": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "title": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
+      "link": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-09-24T19:01:56.000Z",
-      "excerpt": "Treasury yields reached multidecade highs on Thursday as investor expectations for another interest rate increase from the Federal Reserve increased. The 30-year Treasury bond yield increased by 6 basis points to 5.462%, marking its highest level since 2004. At the same time, the benchmark 10-year Treasury note yield rose more than 5 basis points to reach 5.166%, which is its highest point since July 2007. The yield on the 2-year note ticked up slightly to 4.897%, staying close to its 2004 peak. This market activity followed a wider U.S. Treasury sell-off on Wednesday, which was driven by stronger-than-expected economic data, high oil prices, and hawkish comments from Federal Reserve officials. Global bonds also experienced a sell-off, with Japan recording a 10-year government bond yield at its highest level since August 1996, alongside rising yields for UK Gilts and German Bunds. Analysts noted that converging fiscal, economic, geopolitical, and supply-side inflation pressures have pushed bond markets into unfamiliar territory. Traders reacted to the data by pricing in a more than 75 percent probability that the Federal Open Market Committee will raise rates at its October meeting, compared to roughly 49 percent a week prior. Federal Reserve officials, including Board of Governors member Michael Barr and New York Fed President John Williams, indicated that further policy adjustments or interest rate hikes may be necessary to lower inflation to target levels."
+      "published_at": "2026-09-28T14:04:03.000Z",
+      "excerpt": "Zervos is joining the Treasury Department as counselor to Bessent, adding a prominent markets voice to the administration's economic policy team."
     },
     {
-      "title": "Analysis: Higher Treasury yields deliver a reality check on a hot, inflation-prone economy",
-      "link": "https://www.cnbc.com/2026/09/24/treasury-yields-warsh-bessent-fed-national-debt-analysis.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-09-24T18:38:44.000Z",
-      "excerpt": "A recent jump in Treasury yields has highlighted economic strength, persistent inflation and the rising cost of the national debt. Bond yields rose significantly after traders reacted to positive purchasing managers indexes and the Federal Reserve's decision to begin hiking short-term policy rates. On Thursday morning, the two-year Treasury yield rose 10 basis points to 4.87%, while the 10-year Treasury climbed 17 basis points to 5.12%. These yields remain notably higher than recent post-financial-crisis norms, driven by a stronger economy, artificial intelligence investment and heavy government deficit spending. Government data shows that real median household income rose by 2.6% to $87,460 in 2025, while the poverty rate fell to 10.2%. Meanwhile, the federal deficit is projected to exceed 6% of gross domestic product this year, bolstered by tax cuts and war spending. Federal Reserve Chairman Kevin Warsh indicated that strong credit conditions and inflation risks prompted recent rate increases, with further hikes potentially required. This situation underscores a policy tension between Warsh, who treats market yields as vital economic information, and Treasury Secretary Scott Bessent, who has expressed a willingness to intervene when he believes markets are in disequilibrium. The Treasury faces the challenge of refinancing a massive stock of debt and ongoing deficits while dealing with higher borrowing costs. If the 10-year Treasury yield remains around 5%, the Committee for a Responsible Federal Budget estimates that annual interest costs could rise to $2.7 trillion over the coming decade."
+      "title": "UK diesel prices hit record high at 199.18p a litre; housebuilder stocks surge on new homes scheme – business live",
+      "link": "https://www.theguardian.com/business/live/2026/sep/28/uk-housebuilders-stocks-new-homes-scheme-first-time-buyers-business-live-news",
+      "source": "The Guardian – Business",
+      "published_at": "2026-09-28T13:47:08.000Z",
+      "excerpt": "Rolling coverage of the latest economic and financial news US and UK government borrowing costs are rising this morning, as Brent crude oil touches $108 a barrel amid uncertainty around the US-Iran w…"
     },
     {
-      "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-      "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-09-24T18:35:11.000Z",
-      "excerpt": "Treasury yields continued to rise as investors factored in persistent inflation above the Federal Reserve target, increasing energy prices and debt issuance driven by artificial intelligence investments. Federal Reserve officials are reconsidering temporary inflation shocks and focusing more on the risks of durable price pressures. Traders have subsequently raised the probability of additional interest rate hikes, marking a significant shift from earlier central bank projections. Economic modeling suggests that sharply higher long-term yields could suppress economic growth and increase unemployment while failing to return inflation to the 2 percent goal. Wall Street opinions remain divided, with some economists arguing that market expectations for rate increases are too aggressive and primarily reflect stronger economic growth. Several key Fed officials have advised patience and data-dependency rather than committing to a rigid schedule of rate hikes. The Federal Reserve now faces a policy dilemma between tightening too aggressively and risking economic expansion or tightening too little and losing credibility on inflation. Federal Reserve Chairman Kevin Warsh has emphasized allowing financial markets to help guide monetary policy decisions, representing a departure from previous forward-guidance strategies. This approach has coincided with a shift toward a more hawkish coalition within the rate-setting committee as yields reach multi-year highs. Analysts note that the central bank must carefully navigate these market signals to avoid generating unpredictable responses in the broader financial system."
+      "title": "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise.",
+      "link": "https://www.marketwatch.com/story/the-stock-market-usually-booms-in-the-november-to-april-stretch-this-indicator-suggests-otherwise-f30a744e?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-09-28T13:41:00.000Z",
+      "excerpt": "Jim Paulsen thinks lagged indicators suggest the usual ‘best buying season’ for stocks may not be applicable this time and backtesting his model to 1970 shows meagre returns."
     },
     {
-      "title": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting",
-      "link": "https://www.cnbc.com/2026/09/24/bond-liquidation-wrecks-small-caps-heres-how-bad-some-traders-see-it-getting.html",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "link": "https://www.cnbc.com/2026/09/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-09-24T18:22:51.000Z",
-      "excerpt": "While the S&P 500 continues to advance despite rising bond yields and higher crude oil prices, small-cap stocks are lagging behind. At the beginning of the month, the Russell 2000 was up 20 percent year to date, outperforming both the S&P 500 and the Nasdaq-100. However, September has brought significant declines for small caps, reducing the Russell 2000's year-to-date gain to 14 percent. Market analysts attribute this downturn to rising interest rates and falling bond prices. The correlation between small-cap indexes and Treasury bonds has reached notable levels, with their negative correlation to the 10-year Treasury yield measuring twice that of large caps. Options trading activity surrounding the iShares Russell 2000 ETF indicates that this shift in market performance could persist. On Thursday, trading volumes in small-cap options reached nearly double their 30-day average. Put options outnumbered calls in the small-cap exchange-traded fund, contrasting with more balanced or call-heavy volumes in large-cap counterparts. Data from Cboe LiveVol and SpotGamma show that a substantial portion of premium was spent purchasing puts, with the top four most popular trades by volume all consisting of put options. Despite expectations of continued near-term weakness if interest rates remain elevated, some strategists note that the underlying fundamentals and forward earnings estimates for small caps continue to appear solid."
+      "published_at": "2026-09-28T13:35:40.000Z",
+      "excerpt": "The relentless climb in bond yields continues, and Nvidia adds $150 billion to its buyback program."
     },
     {
-      "title": "Rising Treasury yields could push car loan rates higher, experts say. What buyers need to know",
-      "link": "https://www.cnbc.com/2026/09/24/car-loan-rates-may-rise-as-treasury-yields-climb.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-09-24T17:45:53.000Z",
-      "excerpt": "Consumers are likely to face rising interest rates on car loans as yields on Treasurys continue to climb due to stronger-than-expected economic data and inflation concerns. Last week, the Federal Reserve increased its federal funds rate by a quarter-point to a target range of 3.75% to 4.0%, a benchmark that influences consumer borrowing costs. Bond yields have recently reached their highest levels in nearly two decades, with 30-year Treasury bonds, 10-year notes and five-year yields all surging. Because many auto loan interest rates track the five-year or 10-year Treasury notes, experts expect vehicle financing costs to rise accordingly. Financing expenses have already begun inching upward over the past two months for both new and used vehicles, according to Cox Automotive data. Lenders typically determine auto loan rates based on several factors, including the borrower's credit score, credit history, the loan term and whether the vehicle is new or used. Experian data from the second quarter shows that average new-car loan rates stood at 6.35% with an average loan length of 5.8 years, while used-car loans averaged approximately 11.2% with a term of nearly 5.7 years. Auto companies sometimes offer below-market financing rates as incentives, though these are frequently tied to slower-selling models. Even minor increases in interest rates can significantly affect monthly payments and the overall interest paid across the lifetime of a loan."
+      "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
+      "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-09-28T11:47:00.000Z",
+      "excerpt": "Micron is increasingly important to the S&P 500, and its earnings report has become “a market event in and of itself.”"
     }
   ]
 }

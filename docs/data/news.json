@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:04:34.074Z",
+  "generated_at": "2026-10-01T13:25:44.661Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
@@ -9,140 +9,141 @@
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
         "source": "AWS News Blog",
         "published_at": "2026-08-31T14:45:25.000Z",
-        "excerpt": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open sou…"
+        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind the open-source analytical database DuckDB. DuckDB will remain open source under its independent foundation and the MIT license, while co-founders Hannes Mühleisen and Mark Raasveldt continue to lead its technical direction. The in-process database executes SQL directly against file formats such as Parquet, CSV, and JSON, running either locally or on Amazon S3. AWS plans to integrate DuckDB's query speed with enterprise-scale services including Amazon S3, Amazon Redshift, Amazon Athena, Amazon EMR, AWS Glue, and Amazon SageMaker over time. The software is noted for handling everyday analytics queries of a terabyte or less and pairs effectively with artificial intelligence agents that interact with data. Vice President and Distinguished Engineer Andy Warfield discussed the acquisition and analytical trends in a post on the All Things Distributed blog. The update formed part of the weekly roundup of news and announcements published by the AWS News Blog."
       }
     ],
     "launches": [
       {
-        "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
-        "link": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-        "source": "The Verge",
-        "published_at": "2026-09-28T13:36:06.000Z",
-        "excerpt": "Nvidia is launching a new safety platform designed to contain and monitor AI agents, a move that comes in response to a wave of rogue hacking incidents, as reported earlier by Reuters. In an announce…"
+        "title": "Hearing tech startup Legato launches its AI hearing glasses",
+        "link": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+        "source": "TechCrunch",
+        "published_at": "2026-10-01T13:00:00.000Z",
+        "excerpt": "Hearing tech startup Legato has officially launched its flagship AI-based hearing glasses, named Legato Frames, with a starting price of $999. Designed for adults with up to moderate levels of hearing loss, the product integrates patented hearing-assistance technology into the arms of eyewear frames to address issues regarding cost, comfort, and social stigma. The device utilises an artificial intelligence system that distinguishes human voices from background noise, simultaneously amplifying speech while reducing unwanted sounds in difficult listening environments. Featuring an open-ear design with a dual-speaker setup, the glasses direct audio towards the wearer whilst cancelling out escaping sound to maintain privacy. All data processing occurs locally on the hardware without the use of cameras or recording functions. Weighing 34 grams including the lenses, the frames provide between 10 and 12 hours of battery life and are offered in three different styles that support prescription lenses and Bluetooth streaming. Founded in 2024 by industry veterans Mehul Trivedi and Steve Romine, the startup recently emerged from stealth following a $12 million funding round backed by several venture capital firms. Legato Frames are currently available for purchase through the company website and select United States eye care providers, with eligibility for coverage under certain vision insurance plans."
       },
       {
-        "title": "Philips’ motion-tracking smart toothbrush uses AI to make you a better brusher",
-        "link": "https://www.theverge.com/tech/1000924/philips-sonicare-next-generation-diamondclean-9900-prestige-smart-toothbrush",
-        "source": "The Verge",
-        "published_at": "2026-09-28T13:00:00.000Z",
-        "excerpt": "First announced in July with an expected limited launch later this year, the Philips Sonicare Next-Generation DiamondClean 9900 Prestige smart toothbrush is now available in Europe and the US, with a…"
+        "title": "Amazon introduces Kindle Click, a $35 remote for turning pages",
+        "link": "https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/",
+        "source": "TechCrunch",
+        "published_at": "2026-10-01T13:00:00.000Z",
+        "excerpt": "Amazon has announced a new range of accessories alongside a redesigned Kindle lineup that features slimmer designs and lighter builds. Among these new products is the Kindle Click, a compact Bluetooth remote priced at $34.99 that allows users to turn pages without touching their device. The accessory is intended for situations where physical interaction with the e-reader is inconvenient, such as reading under the covers, on a treadmill, or on a tray table during a flight. The remote is compatible with all new Kindle devices as well as models released in 2024 and later. Historically, Kindle owners have relied on third-party accessories, such as clip-on mechanisms that physically touch the display rather than connecting directly. With this release, Amazon enters a market that already includes competitors like the $29.99 Kobo Remote and the $29.99 BOOX Tappy. Although the Kindle Click is priced slightly higher than these alternatives, Amazon is introducing the official device alongside a refreshed hardware lineup featuring displays that turn pages thirty percent faster than the previous generation. Additional accessories revealed by the company include a magnetic cover equipped with physical page-turn buttons and a charging dock stand for the Kindle Paperwhite Signature Edition and the Colorsoft Signature Edition."
       },
       {
-        "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
-        "link": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+        "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+        "link": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
         "source": "The Verge",
-        "published_at": "2026-09-28T08:00:36.000Z",
-        "excerpt": "This mossy green looks great, but the 9 Pro Max is also launching in black and silver. | Image: Honor Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a desig…"
+        "published_at": "2026-10-01T02:00:00.000Z",
+        "excerpt": "Vivo is rolling out its X Fold 6 internationally following its initial release in China earlier this summer. Due to the timing of the global launch, the device's physical dimensions and aspect ratio now feel somewhat dated compared to newer models. Most other manufacturers have recently shifted towards shorter and wider form factors, but Vivo has maintained a traditional size for this latest foldable. The hardware features a 6.51-inch cover display built to a standard 20:9 smartphone aspect ratio. When unfolded, the device reveals an inner panel measuring 8.02 inches that opens into an almost square shape. The design includes a screen crease that remains quite visible compared to competing devices, alongside an IP59 rating. Performance is driven by a custom Super Edition of the MediaTek Dimensity 9500 processor, supported by a 6,900mAh battery. The standout feature of the hardware is its camera system, which includes a large 1/1.4-inch-type 200-megapixel main sensor. This primary camera is accompanied by 50-megapixel telephoto and ultrawide lenses to round out the photography package. Vivo has not yet disclosed specific pricing details or the precise international markets that will receive the device."
       },
       {
-        "title": "Amazon EC2 M8i and M8i-flex instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/",
+        "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+        "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+        "source": "TechCrunch",
+        "published_at": "2026-09-30T23:43:07.000Z",
+        "excerpt": "Alphabet has launched Gemini 4 Argon, a new artificial intelligence model designed for tasks including coding, research, writing, and visual analysis. Initially, the model is being rolled out exclusively to a select group of cyber partners via Google's Fairwind Program. Google states that Argon was specifically trained for defensive cyber work and can autonomously identify, validate, and patch critical software vulnerabilities. Furthermore, internal staff have already utilised the model for daily engineering tasks such as debugging and codebase migrations. The company highlights Argon's capacity for deep reasoning across complex workflows and its ability to parse visual content like long videos and charts. In its announcement blog post, Google claimed that Argon outperformed competing models from OpenAI and Anthropic across multiple AI benchmarks. The company also referenced data from benchmarking startup Vals indicating that Argon currently leads the firm's AI model index. This release arrives amidst intense competition among top AI laboratories, with firms continuously launching advanced models and marketing their superiority. Google recently reported that its Gemini app has surpassed one billion monthly users, putting it on par with competitors like OpenAI's ChatGPT."
+      },
+      {
+        "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
         "source": "AWS What's New",
-        "published_at": "2026-09-25T18:40:00.000Z",
-        "excerpt": "Starting today, Amazon EC2 M8i and M8i-flex instances are now available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xeon 6 processors, available…"
-      },
-      {
-        "title": "Amazon EC2 R8i and R8i-flex instances are now available in additional regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/",
-        "source": "AWS What's New",
-        "published_at": "2026-09-25T18:37:00.000Z",
-        "excerpt": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and R8i-flex instances are available in the AWS European Sovereign Cloud (Germany) region. These instances are powered by custom Intel Xe…"
+        "published_at": "2026-09-30T20:00:00.000Z",
+        "excerpt": "Amazon S3 Vectors has introduced support for metadata pre-filtering, which evaluates metadata filters before executing similarity searches to deliver up to five times higher recall when dealing with selective filters. Additionally, the service has added a prefix match operator named startsWith to facilitate filtering on specific values such as paths and URLs. These enhancements are designed to improve retrieval-augmented generation, agentic, and semantic-search applications by ensuring they return more complete and relevant answers. Amazon S3 Vectors natively supports storing and querying vectors within Amazon S3, offering cost-optimised storage and querying capabilities at a scale of billions of vectors. Following this launch, indexes created in new vector buckets will utilise metadata pre-filtering by default without requiring any alterations to how users write vectors via PutVectors or run filtered queries through QueryVectors. Users wishing to apply pre-filtering to existing indexes can update them in place using the UpdateIndexMode API. Furthermore, developers can compare pre-filtering performance against current filtering methods on the same index by using a per-query parameter on QueryVectors prior to updating. This new feature is available at no extra cost across all commercial AWS Regions that support Amazon S3 Vectors, as well as in the AWS China Regions. The deployment of this update is currently underway and is scheduled for completion within the next few days. Users can begin utilising the feature through the AWS command line interface, AWS software development kits, or the Amazon S3 console, with further information available in the official documentation and the AWS News blog."
       }
     ]
   },
   "geo": [
     {
-      "title": "'The last thing you expect': Locals near UK airbase react to 'terrorist act' arrests",
-      "link": "https://www.france24.com/en/video/20260928-the-last-thing-you-expect-locals-near-uk-airbase-react-to-terrorist-act-arrests",
-      "source": "France 24 – English",
-      "published_at": "2026-09-28T08:55:19.000Z",
-      "excerpt": "British police were questioning five men on Monday on suspicion of explosives and terrorism offences after they were detained near an air base that has been used by the US to strike Iran. Residents o…",
+      "title": "Tennessee governor halts executions after second botched lethal injection attempt this year – US politics live",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/01/tennessee-governor-halts-executions-christa-pike-lethal-injection-donald-trump-hegseth-musk-us-politics-latest-news-updates",
+      "source": "The Guardian – World",
+      "published_at": "2026-10-01T13:19:06.000Z",
+      "excerpt": "Bill Lee pauses state’s remaining executions for the rest of the year after inmate Christa Pike survives two lethal injections Tennessee woman on death row taken to hospital after surviving two letha…",
       "also_covered_by": [
-        "Al Jazeera English",
-        "NPR – World"
+        "BBC World",
+        "France 24 – English"
       ],
       "sources_count": 3
     },
     {
-      "title": "Plan for controversial Sydney data centre scrapped after push-back",
-      "link": "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo?at_medium=RSS&at_campaign=rss",
+      "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "published_at": "2026-09-28T12:47:09.000Z",
-      "excerpt": "Goodman Group, the property giant behind the Project Mars data centre, says the decision is due to changes to the \"policy and regulatory environment\".",
+      "published_at": "2026-10-01T11:26:46.000Z",
+      "excerpt": "Israeli Prime Minister Benjamin Netanyahu has stated that it is currently too early to determine whether Iran had any involvement in an incident where a pilot was stabbed and a flight from Dubai to Tel Aviv was targeted. The Flydubai aircraft plunged more than 17,000 feet two hours into its journey on Wednesday before passengers and crew members subdued the attacker and landed safely in Saudi Arabia. The injured pilot, Indian national Captain Smit Machchhar, sustained stab wounds but managed to open the cockpit door before collapsing, enabling others to intervene. Both Netanyahu and Indian Prime Minister Narendra Modi praised the pilot for his courage, while Israeli President Isaac Herzog also acknowledged the heroic actions on board. The alleged attacker was arrested in Saudi Arabia and is expected to be transferred to the United Arab Emirates, where the flight originally departed with 174 people on board. The United Arab Emirates chief prosecutor announced that an investigation has been launched to examine any potential links to terrorist activity. Preliminary findings from an independent Israeli intelligence inquiry suggest that the suspect intended to crash the aircraft. Flydubai confirmed that an altercation occurred in the flight deck and announced the temporary suspension of all its flights to and from Israel while the investigation continues.",
+      "also_covered_by": [
+        "The Guardian – World",
+        "France 24 – English"
+      ],
+      "sources_count": 3
+    },
+    {
+      "title": "Zimbabwe tycoon Wicknell Chivayo and wife killed in helicopter crash",
+      "link": "https://www.bbc.co.uk/news/articles/cr4gvg0yenl4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-01T13:13:33.000Z",
+      "excerpt": "Prominent Zimbabwean businessman Wicknell Chivayo and his wife, Lucy Muteke, were killed in a helicopter crash that resulted in six deaths. The aircraft went down in the Marondera rural area, approximately 70 kilometres east of Harare, on Wednesday evening. Family spokesperson Herbert Chivayo confirmed the deaths to state broadcaster ZBC, stating the family was devastated by the tragedy. Police spokesperson Commissioner Paul Nyathi reported that the helicopter crashed at about 17:00 local time with six occupants on board, including two pilots. ZBC indicated the group was travelling from Gandami in Chikomba when the aircraft came down at Kudenga Farm roughly forty minutes after take-off. Aviation officials led by Transport Minister Felix Mhona arrived at the crash site on Thursday, where investigators recovered the intact black box. George Mashababe, director general of the Civil Aviation Authority of Zimbabwe, stated that fuel spilled on impact and caused a fire, while the underlying cause of the crash remains under investigation. Chivayo was widely known for his lavish lifestyle, philanthropy, and lucrative government contracts that frequently attracted public scrutiny. President Emmerson Mnangagwa and Kenyan President William Ruto both paid public tribute following the confirmation of his death.",
+      "also_covered_by": [
+        "Al Jazeera English"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "What happened in failed execution of Christa Pike - and what next?",
+      "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-01T12:51:14.000Z",
+      "excerpt": "Tennessee authorities failed to execute 50-year-old death row inmate Christa Pike by lethal injection on Wednesday evening, leaving her hospitalised and receiving life-saving measures. Pike was originally sentenced to death in 1996 for the murder of 19-year-old Colleen Slemmer alongside her then-boyfriend Tadaryl Shipp. Although the US Supreme Court allowed the execution to proceed at the eleventh hour, her legal team stated that two syringes of pentobarbital failed to stop her heartbeat. The Tennessee Department of Correction defended its protocol, noting that the procedure does not permit additional actions beyond what was carried out. Authorities have not yet explained why the dosage proved non-fatal, though medical experts theorised that she failed to reach a sufficient blood level to cause organ failure. State Governor Bill Lee has ordered a third-party review of the incident and paused the final scheduled execution of the year. Opponents of the capital punishment system highlighted fresh concerns regarding the secrecy and suffering involved when executions fail. While it remains unclear whether authorities will attempt to execute Pike again, historical precedent exists for a second attempt. The botched procedure follows a similar incident in Tennessee earlier in the year involving another inmate, and adds to broader national debates surrounding the reliability and safety of lethal injections.",
+      "also_covered_by": [
+        "Al Jazeera English"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Funeral held for DR Congo politician killed after defending Ebola response",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-dr-congo-politician-killed-after-defending-ebola-response?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-10-01T12:07:31.000Z",
+      "excerpt": "A funeral has been held in the Democratic Republic of the Congo for a politician who was killed after defending the government’s Ebola response. The service brought together mourners to pay their respects following the tragic death. The politician had previously spoken out publicly to support official efforts to manage and contain the Ebola virus outbreak in the region. Such public health responses have occasionally faced community resistance and tension in parts of the country. Officials and community members gathered to mark the passing of the victim amid ongoing security concerns linked to public health campaigns. Investigations into the circumstances surrounding the killing have been a point of focus for local authorities. The event highlights the complex and dangerous environment in which health workers and political figures operate during disease outbreaks. Further details regarding the funeral proceedings and the ongoing investigation were not immediately available.",
       "also_covered_by": [
         "The Guardian – World"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Why South Korea is demanding an apology from Ukraine over North Korean PoWs",
-      "link": "https://www.aljazeera.com/news/2026/9/28/why-south-korea-is-demanding-an-apology-from-ukraine-over-north-korean-pows?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-09-28T12:09:23.000Z",
-      "excerpt": "Seoul says Kyiv agreed to a nondisclosure agreement over the prisoners but broke it.",
-      "also_covered_by": [
-        "Deutsche Welle – Top"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Nor’easter storm floods coastal areas from New Jersey to New England",
-      "link": "https://www.theguardian.com/us-news/2026/sep/28/noreaster-storm-floods-coastal-areas-new-jersey",
-      "source": "The Guardian – World",
-      "published_at": "2026-09-28T12:03:25.000Z",
-      "excerpt": "Powerful weather system pummels shoreline for a second day, knocking out power to tens of thousands Residents of coastal communities in the US’s north-east slogged through floodwaters for a second da…",
-      "also_covered_by": [
-        "BBC World"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Indian university suspends classes amid violent protests over alleged rape",
-      "link": "https://www.aljazeera.com/news/2026/9/28/indian-university-suspends-classes-amid-violent-protests-over-alleged-rape?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-09-28T11:10:07.000Z",
-      "excerpt": "Lovely University suspends classes for 10 days due to campus unrest over rape allegations denied by officials.",
-      "also_covered_by": [
-        "Deutsche Welle – Top"
       ],
       "sources_count": 2
     }
   ],
   "invest": [
     {
-      "title": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
-      "link": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html",
+      "title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100",
+      "link": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-09-28T14:04:03.000Z",
-      "excerpt": "Zervos is joining the Treasury Department as counselor to Bessent, adding a prominent markets voice to the administration's economic policy team."
+      "published_at": "2026-10-01T13:20:02.000Z",
+      "excerpt": "Oil prices increased on Thursday after reports emerged that Chinese refiners have suspended fuel exports for October, adding further pressure to energy markets already strained by ongoing conflicts. Brent crude, the international benchmark, rose by 1.8% to trade at $99.81 per barrel, while U.S. West Texas Intermediate futures increased by 0.5% to $90.87. Reuters cited unnamed sources stating that PetroChina, a state oil major, cancelled planned October shipments of gasoline and jet fuel to protect domestic supplies, though CNBC could not independently verify this information. Global energy markets continue to navigate disruptions stemming from Russia's invasion of Ukraine and the U.S.-Iran war in the Middle East. Earlier in the session, prices had climbed as investors analysed a recovery in Middle East crude exports. According to a UOB note, crude flows from the region were nearing pre-war levels, although fuel supplies, especially gasoline, remained delayed. Concerns over crude shortages have eased somewhat after Saudi Arabia resumed oil tanker loadings at the Red Sea port of Yanbu following the restart of operations on its East-West Pipeline. Analysts noted that while the pipeline is not operating at full capacity, its reopening provides relief and helps lower prices. Meanwhile, traders are monitoring diplomatic developments regarding the Iran conflict following the conclusion of the UN General Assembly."
     },
     {
-      "title": "UK diesel prices hit record high at 199.18p a litre; housebuilder stocks surge on new homes scheme – business live",
-      "link": "https://www.theguardian.com/business/live/2026/sep/28/uk-housebuilders-stocks-new-homes-scheme-first-time-buyers-business-live-news",
+      "title": "The stock market is a hollow tree that could be about to snap, warns bond king Gundlach",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-a-hollow-tree-that-could-be-about-to-snap-warns-bond-king-gundlach-215134f0?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-10-01T13:00:00.000Z",
+      "excerpt": "Stocks are facing a lot of issues right now, even if investors think everything looks great on the surface warns DoubleLine Capital’s Jeffrey Gundlach."
+    },
+    {
+      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+      "link": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC – Business",
+      "published_at": "2026-10-01T10:05:25.000Z",
+      "excerpt": "Bank of England Governor Andrew Bailey has warned that artificial intelligence could trigger financial market shocks and that the UK must be prepared for them. Speaking exclusively to the BBC, he noted that huge amounts of money and loans are being poured into AI firms in the hope of large returns, causing some to be valued as multi-trillion-dollar businesses. While acknowledging the technology has great potential to strengthen economic growth, Bailey cautioned that asset prices could experience corrections if heavy investments do not pay off. He pointed out that high expectations mean many companies are currently priced as guaranteed winners, despite historical precedent showing that not everyone succeeds. Beyond economic risks, Bailey highlighted dangers related to cybersecurity, noting that AI can be weaponised to uncover software vulnerabilities and facilitate sophisticated cyber attacks. He also raised concerns about deepfakes, sharing his own experience with fabricated images on social media, and stressed the need for assistance from the tech sector to trace them. On the positive side, Bailey suggested AI could benefit the central bank by acting as a tool to speed up work supporting the Monetary Policy Committee. These warnings coincided with a period in which government borrowing costs in the UK, US, France and Japan reached multi-decade highs, driven partly by central banks raising interest rates to combat inflation."
+    },
+    {
+      "title": "UK house price growth halves amid rising mortgage interest rates",
+      "link": "https://www.theguardian.com/money/2026/oct/01/uk-house-price-growth-rising-mortgage-interest-rates-nationwide",
       "source": "The Guardian – Business",
-      "published_at": "2026-09-28T13:47:08.000Z",
-      "excerpt": "Rolling coverage of the latest economic and financial news US and UK government borrowing costs are rising this morning, as Brent crude oil touches $108 a barrel amid uncertainty around the US-Iran w…"
+      "published_at": "2026-10-01T07:51:32.000Z",
+      "excerpt": "Annual house price growth in the UK halved last month as economic uncertainty, driven partly by conflict in the Middle East, deterred homebuyers. According to Nationwide, the average price of a British home rose by 0.8% in the year to September to £274,251, which was half the rate recorded in August and the slowest pace since last December. Across the UK, house prices fell by 0.2% month on month after taking seasonal effects into account. Geopolitical tensions have exerted upward pressure on energy prices and inflation concerns, leading financial markets to expect Bank of England rate increases. This has maintained upward pressure on market interest rates that underpin mortgage pricing, with average two-year and five-year fixed rates both sitting above 5.9%. Investors are pricing in a high chance that the central bank will raise interest rates at its upcoming meeting. Regionally, East Anglia posted the biggest annual house price decline of 0.7%, whereas Northern Ireland experienced the strongest growth at 5.9%. Meanwhile, prospective homeowners in England are preparing for the launch of the government’s Your First Home scheme, which offers a government-backed equity loan and allows first-time buyers to put down a minimum deposit of 2.5%. News of the scheme has already increased the share price of major housebuilders."
     },
     {
-      "title": "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise.",
-      "link": "https://www.marketwatch.com/story/the-stock-market-usually-booms-in-the-november-to-april-stretch-this-indicator-suggests-otherwise-f30a744e?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-09-28T13:41:00.000Z",
-      "excerpt": "Jim Paulsen thinks lagged indicators suggest the usual ‘best buying season’ for stocks may not be applicable this time and backtesting his model to 1970 shows meagre returns."
-    },
-    {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "link": "https://www.cnbc.com/2026/09/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+      "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-09-28T13:35:40.000Z",
-      "excerpt": "The relentless climb in bond yields continues, and Nvidia adds $150 billion to its buyback program."
-    },
-    {
-      "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
-      "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-09-28T11:47:00.000Z",
-      "excerpt": "Micron is increasingly important to the S&P 500, and its earnings report has become “a market event in and of itself.”"
+      "published_at": "2026-09-30T23:44:28.000Z",
+      "excerpt": "Minneapolis Federal Reserve President Neel Kashkari stated on Wednesday that price growth remains a concern, despite the release of softer-than-expected personal consumption expenditures data. Speaking in New York at a Council on Foreign Relations event, Kashkari noted that inflation is running at around three percent and has remained elevated for more than five years. He added that the latest data did not significantly alter his overall assessment of the economic situation. Additional economic reports released on the same day regarding consumer spending and gross domestic product demonstrated that the broader economy continues to be resilient. Kashkari remarked that the domestic labour market appears pretty good rather than great, following an announcement from ADP that private payrolls expanded more than anticipated in September. Due to the economy's ongoing strength when facing recent shocks, Kashkari has raised his estimate for the neutral funds rate to 3.25 percent. He suggested this neutral rate is temporarily elevated because of high demand for investment capital driven by the artificial intelligence boom. While successful artificial intelligence infrastructure could potentially boost productivity across the United States economy, Kashkari expressed concern that corporate investments might fail to deliver the intended results. He warned that if these large-scale investments do not enhance productivity as assumed, it could constitute malinvestment with potential economic consequences. Furthermore, Kashkari suggested that the artificial intelligence industry may need to become more efficient with financial resources and capital during a period of tighter monetary policy."
     }
   ]
 }

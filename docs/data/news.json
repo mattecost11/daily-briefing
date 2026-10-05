@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:25:44.661Z",
+  "generated_at": "2026-10-05T14:49:53.223Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
@@ -9,66 +9,66 @@
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
         "source": "AWS News Blog",
         "published_at": "2026-08-31T14:45:25.000Z",
-        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind the open-source analytical database DuckDB. DuckDB will remain open source under its independent foundation and the MIT license, while co-founders Hannes Mühleisen and Mark Raasveldt continue to lead its technical direction. The in-process database executes SQL directly against file formats such as Parquet, CSV, and JSON, running either locally or on Amazon S3. AWS plans to integrate DuckDB's query speed with enterprise-scale services including Amazon S3, Amazon Redshift, Amazon Athena, Amazon EMR, AWS Glue, and Amazon SageMaker over time. The software is noted for handling everyday analytics queries of a terabyte or less and pairs effectively with artificial intelligence agents that interact with data. Vice President and Distinguished Engineer Andy Warfield discussed the acquisition and analytical trends in a post on the All Things Distributed blog. The update formed part of the weekly roundup of news and announcements published by the AWS News Blog."
+        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind the open-source analytical database DuckDB. DuckDB will remain open source under its independent foundation and the MIT licence, with co-founders Hannes Mühleisen and Mark Raasveldt continuing to lead its technical direction. The in-process database executes SQL directly against file formats such as Parquet, CSV and JSON, operating either locally or on Amazon S3. AWS plans to integrate DuckDB's query speed with enterprise-scale services including Amazon Redshift, Amazon Athena, Amazon EMR, AWS Glue and Amazon SageMaker over time. Because the software handles smaller analytical queries efficiently, it pairs effectively with AI agents that experiment and interact with data. Vice President and Distinguished Engineer Andy Warfield discussed the acquisition and analytical trends in a post on the All Things Distributed blog. The update formed part of the weekly roundup published on the official AWS News Blog."
       }
     ],
     "launches": [
       {
-        "title": "Hearing tech startup Legato launches its AI hearing glasses",
-        "link": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+        "title": "Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text",
+        "link": "https://www.theregister.com/os-platforms/2026/10/05/ubuntu-stonking-stingray-beta-swims-out-deeper-rust-oxidization-plus-llm-speech-to-text/5301023",
+        "source": "The Register",
+        "published_at": "2026-10-05T11:25:00.000Z",
+        "excerpt": "GNOME 51 is here, and Ubuntu interim releases are getting interesting again"
+      },
+      {
+        "title": "Trump unveils his new Super Intelligence Force",
+        "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
         "source": "TechCrunch",
-        "published_at": "2026-10-01T13:00:00.000Z",
-        "excerpt": "Hearing tech startup Legato has officially launched its flagship AI-based hearing glasses, named Legato Frames, with a starting price of $999. Designed for adults with up to moderate levels of hearing loss, the product integrates patented hearing-assistance technology into the arms of eyewear frames to address issues regarding cost, comfort, and social stigma. The device utilises an artificial intelligence system that distinguishes human voices from background noise, simultaneously amplifying speech while reducing unwanted sounds in difficult listening environments. Featuring an open-ear design with a dual-speaker setup, the glasses direct audio towards the wearer whilst cancelling out escaping sound to maintain privacy. All data processing occurs locally on the hardware without the use of cameras or recording functions. Weighing 34 grams including the lenses, the frames provide between 10 and 12 hours of battery life and are offered in three different styles that support prescription lenses and Bluetooth streaming. Founded in 2024 by industry veterans Mehul Trivedi and Steve Romine, the startup recently emerged from stealth following a $12 million funding round backed by several venture capital firms. Legato Frames are currently available for purchase through the company website and select United States eye care providers, with eligibility for coverage under certain vision insurance plans."
+        "published_at": "2026-10-04T15:15:10.000Z",
+        "excerpt": "President Donald Trump has announced the creation of a new Super Intelligence Force to coordinate federal efforts regarding artificial intelligence. Trump stated on social media that the initiative aims to maintain American leadership in super intelligence and protect the interests of citizens. The announcement follows a September commitment by the president to establish an AI force and appoint an AI czar. The administration has recently moved to rebrand artificial intelligence as super intelligence, a term reflected in the name of the new task force. National intelligence director Jay Clayton will chair the organisation, serving as the designated czar. Vice chairs include Federal Trade Commission Chair Andrew Ferguson, Undersecretary of War for Research and Engineering Emil Michael, and Office of Personnel Management Director Scott Kupor. The task force has been given 120 days to compile a report detailing the risks and opportunities associated with artificial intelligence. Clayton emphasised that a primary risk for the United States is failing to maintain its leading position globally while other nations advance. According to the group’s charter, the task force will formulate responses to societal threats enabled by super intelligence while avoiding excessive regulation that could hinder innovation."
       },
       {
-        "title": "Amazon introduces Kindle Click, a $35 remote for turning pages",
-        "link": "https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/",
+        "title": "Sanders introduces bill to ban the federal government from using Flock",
+        "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
         "source": "TechCrunch",
-        "published_at": "2026-10-01T13:00:00.000Z",
-        "excerpt": "Amazon has announced a new range of accessories alongside a redesigned Kindle lineup that features slimmer designs and lighter builds. Among these new products is the Kindle Click, a compact Bluetooth remote priced at $34.99 that allows users to turn pages without touching their device. The accessory is intended for situations where physical interaction with the e-reader is inconvenient, such as reading under the covers, on a treadmill, or on a tray table during a flight. The remote is compatible with all new Kindle devices as well as models released in 2024 and later. Historically, Kindle owners have relied on third-party accessories, such as clip-on mechanisms that physically touch the display rather than connecting directly. With this release, Amazon enters a market that already includes competitors like the $29.99 Kobo Remote and the $29.99 BOOX Tappy. Although the Kindle Click is priced slightly higher than these alternatives, Amazon is introducing the official device alongside a refreshed hardware lineup featuring displays that turn pages thirty percent faster than the previous generation. Additional accessories revealed by the company include a magnetic cover equipped with physical page-turn buttons and a charging dock stand for the Kindle Paperwhite Signature Edition and the Colorsoft Signature Edition."
+        "published_at": "2026-10-03T00:21:57.000Z",
+        "excerpt": "Senator Bernie Sanders has introduced the Ban Flock Act to prevent federal agencies from using automatic licence plate readers or accessing data gathered by systems operated by local police and private companies. Although named after Flock Safety, the legislation applies broadly to all automatic licence plate reader systems rather than mentioning the company directly in its text. The proposed bill permits exceptions exclusively for toll collection and specific uses authorised by future congressional legislation that would restrict data retention to forty-eight hours. State and local governments that failed to comply with the ban would face financial penalties by losing grants from five federal departments, including the Department of Justice and the Department of Homeland Security. Additionally, the legislation would allow citizens to sue the federal government for violations and empower state attorneys general to enforce the rules. According to Sanders, Flock is the largest automatic licence plate reader vendor in the United States, operating more than 120,000 cameras and processing over twenty billion vehicle reads monthly. The company faces mounting public criticism, community protests, and contract cancellations, prompting recent adjustments such as reducing its default data retention period from thirty days to seven days and introducing audit tools for unusual searches. Representative Alexandria Ocasio-Cortez and Senator Jeff Merkley have joined as co-sponsors of the bill."
       },
       {
-        "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
-        "link": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
-        "source": "The Verge",
-        "published_at": "2026-10-01T02:00:00.000Z",
-        "excerpt": "Vivo is rolling out its X Fold 6 internationally following its initial release in China earlier this summer. Due to the timing of the global launch, the device's physical dimensions and aspect ratio now feel somewhat dated compared to newer models. Most other manufacturers have recently shifted towards shorter and wider form factors, but Vivo has maintained a traditional size for this latest foldable. The hardware features a 6.51-inch cover display built to a standard 20:9 smartphone aspect ratio. When unfolded, the device reveals an inner panel measuring 8.02 inches that opens into an almost square shape. The design includes a screen crease that remains quite visible compared to competing devices, alongside an IP59 rating. Performance is driven by a custom Super Edition of the MediaTek Dimensity 9500 processor, supported by a 6,900mAh battery. The standout feature of the hardware is its camera system, which includes a large 1/1.4-inch-type 200-megapixel main sensor. This primary camera is accompanied by 50-megapixel telephoto and ultrawide lenses to round out the photography package. Vivo has not yet disclosed specific pricing details or the precise international markets that will receive the device."
-      },
-      {
-        "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
-        "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-        "source": "TechCrunch",
-        "published_at": "2026-09-30T23:43:07.000Z",
-        "excerpt": "Alphabet has launched Gemini 4 Argon, a new artificial intelligence model designed for tasks including coding, research, writing, and visual analysis. Initially, the model is being rolled out exclusively to a select group of cyber partners via Google's Fairwind Program. Google states that Argon was specifically trained for defensive cyber work and can autonomously identify, validate, and patch critical software vulnerabilities. Furthermore, internal staff have already utilised the model for daily engineering tasks such as debugging and codebase migrations. The company highlights Argon's capacity for deep reasoning across complex workflows and its ability to parse visual content like long videos and charts. In its announcement blog post, Google claimed that Argon outperformed competing models from OpenAI and Anthropic across multiple AI benchmarks. The company also referenced data from benchmarking startup Vals indicating that Argon currently leads the firm's AI model index. This release arrives amidst intense competition among top AI laboratories, with firms continuously launching advanced models and marketing their superiority. Google recently reported that its Gemini app has surpassed one billion monthly users, putting it on par with competitors like OpenAI's ChatGPT."
-      },
-      {
-        "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+        "title": "AWS Health introduces the version catalog for software lifecycle management",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
         "source": "AWS What's New",
-        "published_at": "2026-09-30T20:00:00.000Z",
-        "excerpt": "Amazon S3 Vectors has introduced support for metadata pre-filtering, which evaluates metadata filters before executing similarity searches to deliver up to five times higher recall when dealing with selective filters. Additionally, the service has added a prefix match operator named startsWith to facilitate filtering on specific values such as paths and URLs. These enhancements are designed to improve retrieval-augmented generation, agentic, and semantic-search applications by ensuring they return more complete and relevant answers. Amazon S3 Vectors natively supports storing and querying vectors within Amazon S3, offering cost-optimised storage and querying capabilities at a scale of billions of vectors. Following this launch, indexes created in new vector buckets will utilise metadata pre-filtering by default without requiring any alterations to how users write vectors via PutVectors or run filtered queries through QueryVectors. Users wishing to apply pre-filtering to existing indexes can update them in place using the UpdateIndexMode API. Furthermore, developers can compare pre-filtering performance against current filtering methods on the same index by using a per-query parameter on QueryVectors prior to updating. This new feature is available at no extra cost across all commercial AWS Regions that support Amazon S3 Vectors, as well as in the AWS China Regions. The deployment of this update is currently underway and is scheduled for completion within the next few days. Users can begin utilising the feature through the AWS command line interface, AWS software development kits, or the Amazon S3 console, with further information available in the official documentation and the AWS News blog."
+        "published_at": "2026-10-02T18:09:00.000Z",
+        "excerpt": "Amazon Web Services has launched a new version catalog within AWS Health to provide a centralised source of lifecycle information for software versions across its services. This feature is designed to help customers transition from reactive management to a more proactive approach regarding version upgrades and end-of-support risks. The tool is accessible directly through the AWS Health Dashboard. Furthermore, customers subscribed to Business Support Plus, Enterprise Support, or Unified Operations can utilise the AWS Health API to integrate this lifecycle data into their existing operational workflows. Maintaining currency with software versions is essential for users running applications on the cloud platform to ensure a strong security and operational posture. While AWS Health previously sent account and resource-specific planned lifecycle events well in advance of major version expirations, the new catalogue introduces a service-wide view of supported versions and their respective timelines. This broader visibility enables users to construct effective upgrade schedules and governance controls, allowing them to migrate to newer supported software before receiving direct, account-specific notifications. At launch, the catalogue supports multiple AWS services, including Amazon RDS, Amazon EKS, and AWS Lambda, with plans to incorporate additional services over time. The new functionality is currently available across all AWS Commercial Regions for eligible users."
+      },
+      {
+        "title": "US military ends long-running program to spot nuclear missile launches",
+        "link": "https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/",
+        "source": "Ars Technica",
+        "published_at": "2026-10-02T17:32:14.000Z",
+        "excerpt": "The United States military has officially retired the long-running Defense Support Program, which used infrared satellite technology to detect nuclear missile launches for more than five decades. The program began in November 1970 when a Titan IIIC rocket carried the first top-secret payload into geosynchronous orbit from Cape Canaveral. These early satellites functioned as sensitive telescopes equipped with infrared detectors designed to continuously monitor the globe and serve as a primary element of Cold War deterrence. Over subsequent decades, the constellation expanded in size, mass and capability, with later iterations featuring thousands of detectors and launching on various vehicles, including a 1991 space shuttle mission. Although the final two surviving satellites continued flying operationally until recently, independent orbital tracking and a US Space Force statement confirmed they raised their orbits in September to enter graveyard orbits. Colonel Brandon Davenport noted that the constellation was foundational to national defense and protected deployed warfighters from the Gulf War onward. The United States is not left without coverage following this retirement, as the military began launching the more advanced Space Based Infrared System in 2011. Furthermore, the military is currently developing the Next-Generation Overhead Persistent Infrared satellites, with the first of these new spacecraft potentially launching within the next year."
       }
     ]
   },
   "geo": [
     {
-      "title": "Tennessee governor halts executions after second botched lethal injection attempt this year – US politics live",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/01/tennessee-governor-halts-executions-christa-pike-lethal-injection-donald-trump-hegseth-musk-us-politics-latest-news-updates",
-      "source": "The Guardian – World",
-      "published_at": "2026-10-01T13:19:06.000Z",
-      "excerpt": "Bill Lee pauses state’s remaining executions for the rest of the year after inmate Christa Pike survives two lethal injections Tennessee woman on death row taken to hospital after surviving two letha…",
+      "title": "Brazil presidential election: 'Bolsonaro being ahead is a surprise,' researcher says",
+      "link": "https://www.france24.com/en/tv-shows/perspective/20261005-brazil-presidential-election-bolsonaro-being-ahead-is-a-surprise-researcher-says",
+      "source": "France 24 – English",
+      "published_at": "2026-10-05T12:52:32.000Z",
+      "excerpt": "Far-right candidate Flavio Bolsonaro has pulled off a surprise win in the first round of Brazil’s presidential election. He defied most polls to win with 47 percent, compared to 45 percent for leftis…",
       "also_covered_by": [
         "BBC World",
-        "France 24 – English"
+        "Al Jazeera English"
       ],
       "sources_count": 3
     },
     {
-      "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-      "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-01T11:26:46.000Z",
-      "excerpt": "Israeli Prime Minister Benjamin Netanyahu has stated that it is currently too early to determine whether Iran had any involvement in an incident where a pilot was stabbed and a flight from Dubai to Tel Aviv was targeted. The Flydubai aircraft plunged more than 17,000 feet two hours into its journey on Wednesday before passengers and crew members subdued the attacker and landed safely in Saudi Arabia. The injured pilot, Indian national Captain Smit Machchhar, sustained stab wounds but managed to open the cockpit door before collapsing, enabling others to intervene. Both Netanyahu and Indian Prime Minister Narendra Modi praised the pilot for his courage, while Israeli President Isaac Herzog also acknowledged the heroic actions on board. The alleged attacker was arrested in Saudi Arabia and is expected to be transferred to the United Arab Emirates, where the flight originally departed with 174 people on board. The United Arab Emirates chief prosecutor announced that an investigation has been launched to examine any potential links to terrorist activity. Preliminary findings from an independent Israeli intelligence inquiry suggest that the suspect intended to crash the aircraft. Flydubai confirmed that an altercation occurred in the flight deck and announced the temporary suspension of all its flights to and from Israel while the investigation continues.",
+      "title": "UK Green Party votes to define Zionism as ‘racism’",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/uk-green-party-votes-to-define-zionism-as?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-10-05T12:16:32.000Z",
+      "excerpt": "The UK’s Green Party has voted to define Zionism as a form of racism.",
       "also_covered_by": [
         "The Guardian – World",
         "France 24 – English"
@@ -76,74 +76,77 @@
       "sources_count": 3
     },
     {
-      "title": "Zimbabwe tycoon Wicknell Chivayo and wife killed in helicopter crash",
-      "link": "https://www.bbc.co.uk/news/articles/cr4gvg0yenl4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-01T13:13:33.000Z",
-      "excerpt": "Prominent Zimbabwean businessman Wicknell Chivayo and his wife, Lucy Muteke, were killed in a helicopter crash that resulted in six deaths. The aircraft went down in the Marondera rural area, approximately 70 kilometres east of Harare, on Wednesday evening. Family spokesperson Herbert Chivayo confirmed the deaths to state broadcaster ZBC, stating the family was devastated by the tragedy. Police spokesperson Commissioner Paul Nyathi reported that the helicopter crashed at about 17:00 local time with six occupants on board, including two pilots. ZBC indicated the group was travelling from Gandami in Chikomba when the aircraft came down at Kudenga Farm roughly forty minutes after take-off. Aviation officials led by Transport Minister Felix Mhona arrived at the crash site on Thursday, where investigators recovered the intact black box. George Mashababe, director general of the Civil Aviation Authority of Zimbabwe, stated that fuel spilled on impact and caused a fire, while the underlying cause of the crash remains under investigation. Chivayo was widely known for his lavish lifestyle, philanthropy, and lucrative government contracts that frequently attracted public scrutiny. President Emmerson Mnangagwa and Kenyan President William Ruto both paid public tribute following the confirmation of his death.",
+      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+      "link": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+      "source": "NPR – World",
+      "published_at": "2026-10-05T11:47:36.000Z",
+      "excerpt": "Federal Bureau of Investigation agents arrested a thirty-four-year-old woman named Wanying Zhang at Los Angeles International Airport as she attempted to board a flight to China. Zhang, also known as Heather, faces charges of acting as an unregistered agent for the Chinese government within the United States. According to Assistant United States Attorney Bill Essayli, Zhang conducted surveillance on relatives of the Taiwanese president by taking photographs and videos, as well as recording license plate information. Taiwan's Presidential Office confirmed that President Lai Ching-te's relatives were targeted in the operation, labelling the incident as a classic case of transnational repression. Presidential spokesperson Karen Kuo issued a statement condemning the acts as a disregard for human rights and national sovereignty intended to suppress advocates for freedom and democracy. The Chinese Embassy in the United States did not immediately respond to requests for comment, and the Foreign Ministry in Beijing was closed for a holiday. Zhang was scheduled to make an appearance in a federal court in Los Angeles on Monday, while her nationality and legal representation remained unconfirmed. China claims Taiwan as part of its territory following their split after a civil war in 1949, and Beijing regards President Lai as a separatist. Since taking office in 2024, Lai has increased Taiwan's defence spending and promoted new security measures, while maintaining that the People's Republic of China has no right to represent Taiwan.",
       "also_covered_by": [
-        "Al Jazeera English"
+        "The Guardian – World",
+        "Deutsche Welle – Top"
       ],
-      "sources_count": 2
+      "sources_count": 3
     },
     {
-      "title": "What happened in failed execution of Christa Pike - and what next?",
-      "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-01T12:51:14.000Z",
-      "excerpt": "Tennessee authorities failed to execute 50-year-old death row inmate Christa Pike by lethal injection on Wednesday evening, leaving her hospitalised and receiving life-saving measures. Pike was originally sentenced to death in 1996 for the murder of 19-year-old Colleen Slemmer alongside her then-boyfriend Tadaryl Shipp. Although the US Supreme Court allowed the execution to proceed at the eleventh hour, her legal team stated that two syringes of pentobarbital failed to stop her heartbeat. The Tennessee Department of Correction defended its protocol, noting that the procedure does not permit additional actions beyond what was carried out. Authorities have not yet explained why the dosage proved non-fatal, though medical experts theorised that she failed to reach a sufficient blood level to cause organ failure. State Governor Bill Lee has ordered a third-party review of the incident and paused the final scheduled execution of the year. Opponents of the capital punishment system highlighted fresh concerns regarding the secrecy and suffering involved when executions fail. While it remains unclear whether authorities will attempt to execute Pike again, historical precedent exists for a second attempt. The botched procedure follows a similar incident in Tennessee earlier in the year involving another inmate, and adds to broader national debates surrounding the reliability and safety of lethal injections.",
-      "also_covered_by": [
-        "Al Jazeera English"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Funeral held for DR Congo politician killed after defending Ebola response",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-dr-congo-politician-killed-after-defending-ebola-response?traffic_source=rss",
+      "title": "Former Prince Andrew launches challenge to ‘quash’ police search warrants",
+      "link": "https://www.aljazeera.com/news/2026/10/5/former-prince-andrew-launches-challenge-to-quash-police-search-warrants?traffic_source=rss",
       "source": "Al Jazeera English",
-      "published_at": "2026-10-01T12:07:31.000Z",
-      "excerpt": "A funeral has been held in the Democratic Republic of the Congo for a politician who was killed after defending the government’s Ebola response. The service brought together mourners to pay their respects following the tragic death. The politician had previously spoken out publicly to support official efforts to manage and contain the Ebola virus outbreak in the region. Such public health responses have occasionally faced community resistance and tension in parts of the country. Officials and community members gathered to mark the passing of the victim amid ongoing security concerns linked to public health campaigns. Investigations into the circumstances surrounding the killing have been a point of focus for local authorities. The event highlights the complex and dangerous environment in which health workers and political figures operate during disease outbreaks. Further details regarding the funeral proceedings and the ongoing investigation were not immediately available.",
+      "published_at": "2026-10-05T10:38:17.000Z",
+      "excerpt": "Former British Prince Andrew Mountbatten-Windsor has initiated a High Court challenge to quash search warrants obtained by Thames Valley Police prior to his arrest earlier this year. The judiciary confirmed that a London court is scheduled to hold a private hearing on Thursday regarding the legal challenge. The case involves an application by Mountbatten-Windsor for a judicial review to overturn search warrants issued by a judge at the Central Criminal Court on February 18, 2026. Thursday’s upcoming hearing will specifically focus on an application made by Thames Valley Police to restrict access to related court documents. The 66-year-old was arrested on February 19 on suspicion of misconduct in public office following allegations that he shared sensitive information with the late American sex offender Jeffrey Epstein during his tenure as the United Kingdom’s trade envoy. Although he was released later that same day, Mountbatten-Windsor remains under active investigation and has consistently denied any wrongdoing. The police searches in question were conducted at his former homes on royal estates, including his residence on the Sandringham estate in eastern England and the Royal Lodge in Windsor. Mountbatten-Windsor was stripped of his royal titles last year due to his associations with Epstein, who died in a New York prison in August 2019. Thames Valley Police stated that they are engaged in legal proceedings regarding the previously obtained warrants while their investigation into misconduct in public office continues, noting that it would be inappropriate to comment further while legal proceedings remain ongoing.",
       "also_covered_by": [
-        "The Guardian – World"
+        "France 24 – English",
+        "NPR – World"
       ],
-      "sources_count": 2
+      "sources_count": 3
+    },
+    {
+      "title": "Spanish PM Sánchez calls early election after housing protests",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-05T10:18:47.000Z",
+      "excerpt": "Spanish Prime Minister Pedro Sánchez has called an early general election for 29 November following legislative defeats on housing reform. Speculation about a snap poll grew after parliament rejected two government decree laws designed to protect rental tenants. The political pressure intensified following nationwide protests sparked by the eviction of an 87-year-old woman whose rent was increased beyond her pension. In a televised address, Sánchez stated he required a broader progressive majority to push through reforms and overcome elite resistance. His minority left-wing coalition, comprising the Socialist party and the Sumar alliance, was originally not scheduled to face a general election until mid-2027. Sánchez acknowledged mistakes and ongoing problems regarding inequality, public services and housing access during his leadership. In addition to housing challenges, his administration has faced cost-of-living pressures, the Ceuta migration crisis, and several corruption scandals involving his wife, party headquarters, and a former transport minister. Opposition leader Alberto Núñez Feijóo welcomed the announcement as an opportunity for voters to choose change. Opinion polls indicate that the conservative People's Party is likely to win the most seats in the upcoming election, potentially requiring support from the hard-right Vox party to govern.",
+      "also_covered_by": [
+        "Al Jazeera English",
+        "NPR – World"
+      ],
+      "sources_count": 3
     }
   ],
   "invest": [
     {
-      "title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100",
-      "link": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
+      "title": "Treasury yields rise to start the week; traders look ahead to Fed minutes",
+      "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-10-01T13:20:02.000Z",
-      "excerpt": "Oil prices increased on Thursday after reports emerged that Chinese refiners have suspended fuel exports for October, adding further pressure to energy markets already strained by ongoing conflicts. Brent crude, the international benchmark, rose by 1.8% to trade at $99.81 per barrel, while U.S. West Texas Intermediate futures increased by 0.5% to $90.87. Reuters cited unnamed sources stating that PetroChina, a state oil major, cancelled planned October shipments of gasoline and jet fuel to protect domestic supplies, though CNBC could not independently verify this information. Global energy markets continue to navigate disruptions stemming from Russia's invasion of Ukraine and the U.S.-Iran war in the Middle East. Earlier in the session, prices had climbed as investors analysed a recovery in Middle East crude exports. According to a UOB note, crude flows from the region were nearing pre-war levels, although fuel supplies, especially gasoline, remained delayed. Concerns over crude shortages have eased somewhat after Saudi Arabia resumed oil tanker loadings at the Red Sea port of Yanbu following the restart of operations on its East-West Pipeline. Analysts noted that while the pipeline is not operating at full capacity, its reopening provides relief and helps lower prices. Meanwhile, traders are monitoring diplomatic developments regarding the Iran conflict following the conclusion of the UN General Assembly."
+      "published_at": "2026-10-05T14:28:46.000Z",
+      "excerpt": "United States Treasury yields rebounded on Monday following a sharp decline the previous week, as investors digested fresh economic data and awaited the release of Federal Reserve meeting notes. The benchmark 10-year Treasury yield rose by approximately two basis points to 5.298 percent, while the yield on the 30-year bond increased by three basis points to reach 5.659 percent. Conversely, the yield on the 2-year Treasury edged down by nearly one basis point to 4.818 percent. These movements coincided with the publication of new figures from the Institute for Supply Management regarding service sector growth. The report indicated that the Purchasing Manager's Index for the service sector reached 54.9 in September, which aligned with expectations while remaining slightly below the growth rate recorded in August. Additionally, the price index within the service ISM increased by 1.4 points to 74, pushing its twelve-month average to the highest level since March 2023. Market participants are currently focusing on the upcoming publication of the central bank's September policy meeting minutes, which are scheduled for release on Wednesday. Although investors have recently faced a six-week bond market selloff, a weaker-than-expected September jobs report released on Friday helped push yields down and alleviated worries regarding a potential Federal Reserve interest rate hike in October. Consequently, traders are currently pricing in an estimated 82 percent probability that the central bank will maintain its current rates at the upcoming meeting."
     },
     {
-      "title": "The stock market is a hollow tree that could be about to snap, warns bond king Gundlach",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-a-hollow-tree-that-could-be-about-to-snap-warns-bond-king-gundlach-215134f0?mod=mw_rss_topstories",
+      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
+      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-01T13:00:00.000Z",
-      "excerpt": "Stocks are facing a lot of issues right now, even if investors think everything looks great on the surface warns DoubleLine Capital’s Jeffrey Gundlach."
+      "published_at": "2026-10-05T13:49:00.000Z",
+      "excerpt": "Is it time to dust off the financial playbook from that dismal decade?"
     },
     {
-      "title": "AI boom could trigger market shocks, Bank of England boss warns",
-      "link": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC – Business",
-      "published_at": "2026-10-01T10:05:25.000Z",
-      "excerpt": "Bank of England Governor Andrew Bailey has warned that artificial intelligence could trigger financial market shocks and that the UK must be prepared for them. Speaking exclusively to the BBC, he noted that huge amounts of money and loans are being poured into AI firms in the hope of large returns, causing some to be valued as multi-trillion-dollar businesses. While acknowledging the technology has great potential to strengthen economic growth, Bailey cautioned that asset prices could experience corrections if heavy investments do not pay off. He pointed out that high expectations mean many companies are currently priced as guaranteed winners, despite historical precedent showing that not everyone succeeds. Beyond economic risks, Bailey highlighted dangers related to cybersecurity, noting that AI can be weaponised to uncover software vulnerabilities and facilitate sophisticated cyber attacks. He also raised concerns about deepfakes, sharing his own experience with fabricated images on social media, and stressed the need for assistance from the tech sector to trace them. On the positive side, Bailey suggested AI could benefit the central bank by acting as a tool to speed up work supporting the Monetary Policy Committee. These warnings coincided with a period in which government borrowing costs in the UK, US, France and Japan reached multi-decade highs, driven partly by central banks raising interest rates to combat inflation."
+      "title": "An AI ‘reality check’ may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.",
+      "link": "https://www.marketwatch.com/story/an-ai-reality-check-may-take-the-s-p-500-to-5-000-heres-the-trades-to-make-this-strategist-says-263cf0e9?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-10-05T13:30:00.000Z",
+      "excerpt": "Keep an eye on artificial-intelligence spending in the upcoming earnings season, Panmure Liberum’s Joachim Klement said."
     },
     {
-      "title": "UK house price growth halves amid rising mortgage interest rates",
-      "link": "https://www.theguardian.com/money/2026/oct/01/uk-house-price-growth-rising-mortgage-interest-rates-nationwide",
-      "source": "The Guardian – Business",
-      "published_at": "2026-10-01T07:51:32.000Z",
-      "excerpt": "Annual house price growth in the UK halved last month as economic uncertainty, driven partly by conflict in the Middle East, deterred homebuyers. According to Nationwide, the average price of a British home rose by 0.8% in the year to September to £274,251, which was half the rate recorded in August and the slowest pace since last December. Across the UK, house prices fell by 0.2% month on month after taking seasonal effects into account. Geopolitical tensions have exerted upward pressure on energy prices and inflation concerns, leading financial markets to expect Bank of England rate increases. This has maintained upward pressure on market interest rates that underpin mortgage pricing, with average two-year and five-year fixed rates both sitting above 5.9%. Investors are pricing in a high chance that the central bank will raise interest rates at its upcoming meeting. Regionally, East Anglia posted the biggest annual house price decline of 0.7%, whereas Northern Ireland experienced the strongest growth at 5.9%. Meanwhile, prospective homeowners in England are preparing for the launch of the government’s Your First Home scheme, which offers a government-backed equity loan and allows first-time buyers to put down a minimum deposit of 2.5%. News of the scheme has already increased the share price of major housebuilders."
-    },
-    {
-      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
-      "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
+      "link": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-09-30T23:44:28.000Z",
-      "excerpt": "Minneapolis Federal Reserve President Neel Kashkari stated on Wednesday that price growth remains a concern, despite the release of softer-than-expected personal consumption expenditures data. Speaking in New York at a Council on Foreign Relations event, Kashkari noted that inflation is running at around three percent and has remained elevated for more than five years. He added that the latest data did not significantly alter his overall assessment of the economic situation. Additional economic reports released on the same day regarding consumer spending and gross domestic product demonstrated that the broader economy continues to be resilient. Kashkari remarked that the domestic labour market appears pretty good rather than great, following an announcement from ADP that private payrolls expanded more than anticipated in September. Due to the economy's ongoing strength when facing recent shocks, Kashkari has raised his estimate for the neutral funds rate to 3.25 percent. He suggested this neutral rate is temporarily elevated because of high demand for investment capital driven by the artificial intelligence boom. While successful artificial intelligence infrastructure could potentially boost productivity across the United States economy, Kashkari expressed concern that corporate investments might fail to deliver the intended results. He warned that if these large-scale investments do not enhance productivity as assumed, it could constitute malinvestment with potential economic consequences. Furthermore, Kashkari suggested that the artificial intelligence industry may need to become more efficient with financial resources and capital during a period of tighter monetary policy."
+      "published_at": "2026-10-05T12:59:40.000Z",
+      "excerpt": "Stock markets opened flat following a Friday rally fuelled by a soft jobs report that provided the Federal Reserve with justification to keep interest rates steady. The upcoming week features a relatively quiet schedule for corporate news and economic data, though investors await speeches from Fed officials and upcoming central bank meeting minutes. In the oil market, West Texas Intermediate crude traded around ninety dollars a barrel, while Saudi Arabia unexpectedly reduced its official selling prices for Asian buyers. Melius Research upgraded Microsoft to a buy rating with a target of six hundred and sixty-five dollars, pointing to changing narratives surrounding artificial intelligence. Meanwhile, merger and acquisition activity made headlines as Schneider Electric agreed to purchase product design software maker PTC for twenty-two billion dollars. C.H. Robinson also announced plans to acquire truck brokerage RXO for five billion eight hundred million dollars, with Goldman Sachs acting as a financial advisor on the transaction. Elsewhere, Morgan Stanley upgraded Wells Fargo to a buy and named it a top pick, citing a clearer path to profitability following the removal of its asset cap. Bank of America initiated coverage on agricultural spin-off Vylor with a buy rating and a seventy-eight dollar price target. Citi raised its price target on Johnson and Johnson to three hundred and three dollars ahead of upcoming earnings releases. Finally, Barclays reduced its price target for Nike to thirty-seven dollars while maintaining a buy rating as the footwear company trades near thirteen-year lows."
+    },
+    {
+      "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.",
+      "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-10-05T11:40:00.000Z",
+      "excerpt": "A reader writes: “We’d better get real quick or we’re going to have a financial crisis that makes the Great Recession of 2008 look like a picnic.”"
     }
   ]
 }

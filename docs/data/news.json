@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:49:53.223Z",
+  "generated_at": "2026-10-08T13:37:48.416Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
@@ -9,144 +9,140 @@
         "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
         "source": "AWS News Blog",
         "published_at": "2026-08-31T14:45:25.000Z",
-        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind the open-source analytical database DuckDB. DuckDB will remain open source under its independent foundation and the MIT licence, with co-founders Hannes Mühleisen and Mark Raasveldt continuing to lead its technical direction. The in-process database executes SQL directly against file formats such as Parquet, CSV and JSON, operating either locally or on Amazon S3. AWS plans to integrate DuckDB's query speed with enterprise-scale services including Amazon Redshift, Amazon Athena, Amazon EMR, AWS Glue and Amazon SageMaker over time. Because the software handles smaller analytical queries efficiently, it pairs effectively with AI agents that experiment and interact with data. Vice President and Distinguished Engineer Andy Warfield discussed the acquisition and analytical trends in a post on the All Things Distributed blog. The update formed part of the weekly roundup published on the official AWS News Blog."
+        "excerpt": "Amazon Web Services has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind the open-source analytical database DuckDB. DuckDB will remain open source under its independent foundation and the MIT license, while co-founders Hannes Mühleisen and Mark Raasveldt continue to lead its technical direction. The in-process database executes SQL directly against files such as Parquet, CSV, and JSON, running locally or on Amazon S3. This capability allows for fast performance on everyday analytical queries of a terabyte or less. Over time, AWS plans to integrate DuckDB with enterprise-scale services including Amazon S3, Amazon Redshift, and Amazon Athena. The database is also noted for its compatibility with artificial intelligence agents that experiment with data. Furthermore, AWS intends to combine DuckDB's speed with additional analytics platforms such as Amazon EMR, AWS Glue, and Amazon SageMaker. Vice President and Distinguished Engineer Andy Warfield has shared further commentary on the acquisition in a post on the All Things Distributed blog. Developers can monitor the official What’s New with AWS page for a complete list of ongoing product announcements and service updates."
       }
     ],
     "launches": [
       {
-        "title": "Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text",
-        "link": "https://www.theregister.com/os-platforms/2026/10/05/ubuntu-stonking-stingray-beta-swims-out-deeper-rust-oxidization-plus-llm-speech-to-text/5301023",
-        "source": "The Register",
-        "published_at": "2026-10-05T11:25:00.000Z",
-        "excerpt": "GNOME 51 is here, and Ubuntu interim releases are getting interesting again"
-      },
-      {
-        "title": "Trump unveils his new Super Intelligence Force",
-        "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+        "title": "Google releases a new local-first Granola competitor",
+        "link": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
         "source": "TechCrunch",
-        "published_at": "2026-10-04T15:15:10.000Z",
-        "excerpt": "President Donald Trump has announced the creation of a new Super Intelligence Force to coordinate federal efforts regarding artificial intelligence. Trump stated on social media that the initiative aims to maintain American leadership in super intelligence and protect the interests of citizens. The announcement follows a September commitment by the president to establish an AI force and appoint an AI czar. The administration has recently moved to rebrand artificial intelligence as super intelligence, a term reflected in the name of the new task force. National intelligence director Jay Clayton will chair the organisation, serving as the designated czar. Vice chairs include Federal Trade Commission Chair Andrew Ferguson, Undersecretary of War for Research and Engineering Emil Michael, and Office of Personnel Management Director Scott Kupor. The task force has been given 120 days to compile a report detailing the risks and opportunities associated with artificial intelligence. Clayton emphasised that a primary risk for the United States is failing to maintain its leading position globally while other nations advance. According to the group’s charter, the task force will formulate responses to societal threats enabled by super intelligence while avoiding excessive regulation that could hinder innovation."
+        "published_at": "2026-10-08T13:28:39.000Z",
+        "excerpt": "Google has released a new Mac application called Google AI Edge Foresight, which serves as a competitor to AI note-taking tools like Granola. Developed by the same team behind an earlier April dictation tool, the application can operate entirely offline using the on-device EmbeddingGemma 2 model. The software features a split-screen interface that allows users to write shorthand notes on one side while AI-generated notes appear on the other. It captures meeting notes across various applications, accommodates in-person meetings, and permits manual note-taking alongside live transcription. Users can also review meeting transcripts or interact with a Gemma 4-powered assistant to ask questions. Furthermore, the application allows individuals to upload documents such as PDFs, Google Docs, Microsoft Office files, plain text, Markdown, and web bookmarks to create a knowledge base. Drawing on this stored data and meeting notes, the tool can answer questions in real time when relevant topics arise. Optimised for Apple Silicon, the software functions without an internet connection, making it useful for travellers or offline environments. The release highlights the capabilities of Google's offline Gemma model series, entering a crowded and competitive meeting note-taker market that recently includes offerings and acquisitions from companies like Wispr, Calendly, and Superhuman."
       },
       {
-        "title": "Sanders introduces bill to ban the federal government from using Flock",
-        "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+        "title": "Amazon unveils new Alexa tablets with Alexa+ and Google Play Store access",
+        "link": "https://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access/",
         "source": "TechCrunch",
-        "published_at": "2026-10-03T00:21:57.000Z",
-        "excerpt": "Senator Bernie Sanders has introduced the Ban Flock Act to prevent federal agencies from using automatic licence plate readers or accessing data gathered by systems operated by local police and private companies. Although named after Flock Safety, the legislation applies broadly to all automatic licence plate reader systems rather than mentioning the company directly in its text. The proposed bill permits exceptions exclusively for toll collection and specific uses authorised by future congressional legislation that would restrict data retention to forty-eight hours. State and local governments that failed to comply with the ban would face financial penalties by losing grants from five federal departments, including the Department of Justice and the Department of Homeland Security. Additionally, the legislation would allow citizens to sue the federal government for violations and empower state attorneys general to enforce the rules. According to Sanders, Flock is the largest automatic licence plate reader vendor in the United States, operating more than 120,000 cameras and processing over twenty billion vehicle reads monthly. The company faces mounting public criticism, community protests, and contract cancellations, prompting recent adjustments such as reducing its default data retention period from thirty days to seven days and introducing audit tools for unusual searches. Representative Alexandria Ocasio-Cortez and Senator Jeff Merkley have joined as co-sponsors of the bill."
+        "published_at": "2026-10-08T13:00:00.000Z",
+        "excerpt": "Amazon has announced a new lineup of three Android-powered Alexa tablets that feature personalized intelligence from the Alexa+ assistant and full access to the Google Play Store. Departing from the company's traditional Fire OS and proprietary app store, the new range includes the Alexa Tablet 12 Pro, the Alexa Tablet 11, and the Alexa Tablet 8. The flagship 12 Pro model features an aluminium unibody design, a 12-inch display with a 120Hz refresh rate, and is available in standard or anti-glare Nanomatte versions. Amazon is also offering optional accessories including the Alexa Tablet Pro Pen and Pro Keyboard to transform the 12 Pro into a workstation. The mid-range Alexa Tablet 11 offers a 2.5K display and 90Hz scrolling, while the compact Alexa Tablet 8 is designed for single-handed portability. All three devices incorporate a new Kindle reading experience that silences notifications, reduces blue light, and extends battery life. Additionally, Amazon revealed new Kids tablets in 8.7-inch and 11-inch sizes bundled with protective cases and a year of Amazon Kids+. The standard Alexa tablets and Kids tablets are scheduled to go on sale in North America on October 14, 2026, followed by a European launch on October 19."
       },
       {
-        "title": "AWS Health introduces the version catalog for software lifecycle management",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management",
-        "source": "AWS What's New",
-        "published_at": "2026-10-02T18:09:00.000Z",
-        "excerpt": "Amazon Web Services has launched a new version catalog within AWS Health to provide a centralised source of lifecycle information for software versions across its services. This feature is designed to help customers transition from reactive management to a more proactive approach regarding version upgrades and end-of-support risks. The tool is accessible directly through the AWS Health Dashboard. Furthermore, customers subscribed to Business Support Plus, Enterprise Support, or Unified Operations can utilise the AWS Health API to integrate this lifecycle data into their existing operational workflows. Maintaining currency with software versions is essential for users running applications on the cloud platform to ensure a strong security and operational posture. While AWS Health previously sent account and resource-specific planned lifecycle events well in advance of major version expirations, the new catalogue introduces a service-wide view of supported versions and their respective timelines. This broader visibility enables users to construct effective upgrade schedules and governance controls, allowing them to migrate to newer supported software before receiving direct, account-specific notifications. At launch, the catalogue supports multiple AWS services, including Amazon RDS, Amazon EKS, and AWS Lambda, with plans to incorporate additional services over time. The new functionality is currently available across all AWS Commercial Regions for eligible users."
+        "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+        "link": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
+        "source": "The Verge",
+        "published_at": "2026-10-07T22:01:00.000Z",
+        "excerpt": "BMW has announced the iX4, a coupe-shaped SUV that provides a sportier alternative to the iX3 and serves as the third model built on the manufacturer's Neue Klasse platform. The iX4 50 xDrive will launch in March 2027 with a starting price of $66,200, followed later in the year by a high-performance M60 xDrive variant. The vehicle features a Gen6 high-voltage battery with 112.2kWh of usable energy and an 800-volt architecture, delivering an EPA-estimated range of up to 428 miles. Both versions utilise a dual-motor setup, with the 50 xDrive producing 463 horsepower and the M60 xDrive generating 603 horsepower. The battery design incorporates cylindrical lithium-ion cells and a pack-to-open-body construction that reduces weight while increasing torsional rigidity. Using an 800V architecture, the SUV supports DC fast charging up to 400kW, allowing drivers to replenish up to 184 miles of range in ten minutes. Additionally, a built-in NACS charging port ensures compatibility with Tesla Supercharger connectors. Inside, the model includes a redesigned Panoramic iDrive infotainment system featuring a 17.9-inch central touchscreen and a heads-up-style display along the lower windshield. The vehicle also supports bidirectional charging capabilities, Plug & Charge functionality, and a Level 2 driver assistance system named Symbiotic Drive."
       },
       {
-        "title": "US military ends long-running program to spot nuclear missile launches",
-        "link": "https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/",
-        "source": "Ars Technica",
-        "published_at": "2026-10-02T17:32:14.000Z",
-        "excerpt": "The United States military has officially retired the long-running Defense Support Program, which used infrared satellite technology to detect nuclear missile launches for more than five decades. The program began in November 1970 when a Titan IIIC rocket carried the first top-secret payload into geosynchronous orbit from Cape Canaveral. These early satellites functioned as sensitive telescopes equipped with infrared detectors designed to continuously monitor the globe and serve as a primary element of Cold War deterrence. Over subsequent decades, the constellation expanded in size, mass and capability, with later iterations featuring thousands of detectors and launching on various vehicles, including a 1991 space shuttle mission. Although the final two surviving satellites continued flying operationally until recently, independent orbital tracking and a US Space Force statement confirmed they raised their orbits in September to enter graveyard orbits. Colonel Brandon Davenport noted that the constellation was foundational to national defense and protected deployed warfighters from the Gulf War onward. The United States is not left without coverage following this retirement, as the military began launching the more advanced Space Based Infrared System in 2011. Furthermore, the military is currently developing the Next-Generation Overhead Persistent Infrared satellites, with the first of these new spacecraft potentially launching within the next year."
+        "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+        "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+        "source": "TechCrunch",
+        "published_at": "2026-10-07T20:48:45.000Z",
+        "excerpt": "Nous Research has raised a ninety million dollar Series B funding round, bringing the three-year-old startup to a valuation of one point five billion dollars and its total funding to one hundred and fifty-eight million dollars. The financing round was led by Robot Ventures and included participation from Nvidia, Union Square Ventures, Menlo Ventures, Samsung, and 1789 Capital. The open source Hermes Agent, developed by the startup, has been cloned more than twenty-four million times and accounts for approximately two point five percent of global AI token usage. The newly acquired capital will be used to fund the company's expansion into the enterprise sector with the launch of Hermes for Businesses. This new offering is designed to enable companies to deploy customised artificial intelligence agents capable of managing multi-step workflows. At the same time, the system aims to ensure that corporate data remains secure and private. The startup reached an estimated annualized revenue of thirty-six million dollars by mid-September 2026. Furthermore, the company anticipates surpassing one hundred million dollars in annualized revenue before the end of 2026, according to reports from The Wall Street Journal."
+      },
+      {
+        "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+        "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "source": "TechCrunch",
+        "published_at": "2026-10-07T20:22:37.000Z",
+        "excerpt": "Microsoft has revealed specifications and pricing for its new Surface Laptop Ultra, alongside a workstation powered by the Nvidia RTX Spark chip named the Surface RTX Spark Dev Box. The Surface Laptop Ultra is available in two base models starting at $2,600 and $3,700, with fully upgraded versions reaching up to $5,900. Meanwhile, the Surface RTX Spark Dev Box starts at $6,000 and comes pre-equipped with development tools such as VS Code, GitHub Copilot CLI, WSL, and PowerShell 7. Both devices are engineered to run local AI models for free, featuring hardware modifications including superior cooling, dedicated CPUs, GPUs, and unified memory. The machines operate on a revamped version of Windows 11 that introduces a feature called Execution Containers designed to simplify the sandboxing of AI agents. Microsoft CEO Satya Nadella noted that this platform capability is intended to support orchestration, context management, memory, and action spaces for third-party applications as well as internal software. Aimed primarily at developers, Microsoft is offering up to $1,000 in trade-in discounts for users switching from a MacBook Pro. In addition to AI workloads, the company states that the devices are capable of gaming, video processing, and general content creation. Alongside Microsoft's announcement, Dell revealed details for its Dell XPS 16 Creator Edition PC, which is priced at $3,800 and available for preorder ahead of an October delivery."
       }
     ]
   },
   "geo": [
     {
-      "title": "Brazil presidential election: 'Bolsonaro being ahead is a surprise,' researcher says",
-      "link": "https://www.france24.com/en/tv-shows/perspective/20261005-brazil-presidential-election-bolsonaro-being-ahead-is-a-surprise-researcher-says",
-      "source": "France 24 – English",
-      "published_at": "2026-10-05T12:52:32.000Z",
-      "excerpt": "Far-right candidate Flavio Bolsonaro has pulled off a surprise win in the first round of Brazil’s presidential election. He defied most polls to win with 47 percent, compared to 45 percent for leftis…",
+      "title": "South Korea to recall Ukraine envoy in diplomatic row over POWs",
+      "link": "https://www.aljazeera.com/news/2026/10/8/south-korea-recalls-envoy-to-kyiv-over-diplomatic-row-with-ukraine?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-10-08T12:44:31.000Z",
+      "excerpt": "South Korea has announced that it will recall its ambassador to Kyiv amid a diplomatic dispute following Ukraine’s revelation that two North Korean prisoners of war were transferred to Seoul. The announcement follows a warning from South Korean President Lee Jae Myung, who threatened unspecified punitive measures if Ukraine refused to apologise for disclosing the transfer. The diplomatic row began after Ukrainian President Volodymyr Zelenskyy mentioned the transfer of the North Korean soldiers during his United Nations General Assembly address last month. South Korea accused Ukraine of breaching a nondisclosure agreement regarding the mid-September transfer, though Kyiv has denied agreeing to any such deal. The soldiers were among thousands of North Korean troops deployed to support Russia in its war against Ukraine and were captured in early 2025. Following their capture, the soldiers expressed a desire to resettle in South Korea to avoid potential persecution if repatriated to North Korea. Seoul agreed to accept them based on its legal framework, which regards the North as part of its territory and includes policies to support defectors. South Korean officials stated that the nondisclosure agreement was established to protect the safety of the soldiers and their relatives in North Korea. North Korea’s state media has not commented on the transfer, while bilateral relations between Seoul and Pyongyang have remained frozen. South Korea has provided $445m in humanitarian assistance to Ukraine since 2022, alongside an additional $100m aid pledge made by Lee in July.",
       "also_covered_by": [
         "BBC World",
-        "Al Jazeera English"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "UK Green Party votes to define Zionism as ‘racism’",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/5/uk-green-party-votes-to-define-zionism-as?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-05T12:16:32.000Z",
-      "excerpt": "The UK’s Green Party has voted to define Zionism as a form of racism.",
-      "also_covered_by": [
-        "The Guardian – World",
-        "France 24 – English"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-      "link": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-      "source": "NPR – World",
-      "published_at": "2026-10-05T11:47:36.000Z",
-      "excerpt": "Federal Bureau of Investigation agents arrested a thirty-four-year-old woman named Wanying Zhang at Los Angeles International Airport as she attempted to board a flight to China. Zhang, also known as Heather, faces charges of acting as an unregistered agent for the Chinese government within the United States. According to Assistant United States Attorney Bill Essayli, Zhang conducted surveillance on relatives of the Taiwanese president by taking photographs and videos, as well as recording license plate information. Taiwan's Presidential Office confirmed that President Lai Ching-te's relatives were targeted in the operation, labelling the incident as a classic case of transnational repression. Presidential spokesperson Karen Kuo issued a statement condemning the acts as a disregard for human rights and national sovereignty intended to suppress advocates for freedom and democracy. The Chinese Embassy in the United States did not immediately respond to requests for comment, and the Foreign Ministry in Beijing was closed for a holiday. Zhang was scheduled to make an appearance in a federal court in Los Angeles on Monday, while her nationality and legal representation remained unconfirmed. China claims Taiwan as part of its territory following their split after a civil war in 1949, and Beijing regards President Lai as a separatist. Since taking office in 2024, Lai has increased Taiwan's defence spending and promoted new security measures, while maintaining that the People's Republic of China has no right to represent Taiwan.",
-      "also_covered_by": [
-        "The Guardian – World",
         "Deutsche Welle – Top"
       ],
       "sources_count": 3
     },
     {
-      "title": "Former Prince Andrew launches challenge to ‘quash’ police search warrants",
-      "link": "https://www.aljazeera.com/news/2026/10/5/former-prince-andrew-launches-challenge-to-quash-police-search-warrants?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-05T10:38:17.000Z",
-      "excerpt": "Former British Prince Andrew Mountbatten-Windsor has initiated a High Court challenge to quash search warrants obtained by Thames Valley Police prior to his arrest earlier this year. The judiciary confirmed that a London court is scheduled to hold a private hearing on Thursday regarding the legal challenge. The case involves an application by Mountbatten-Windsor for a judicial review to overturn search warrants issued by a judge at the Central Criminal Court on February 18, 2026. Thursday’s upcoming hearing will specifically focus on an application made by Thames Valley Police to restrict access to related court documents. The 66-year-old was arrested on February 19 on suspicion of misconduct in public office following allegations that he shared sensitive information with the late American sex offender Jeffrey Epstein during his tenure as the United Kingdom’s trade envoy. Although he was released later that same day, Mountbatten-Windsor remains under active investigation and has consistently denied any wrongdoing. The police searches in question were conducted at his former homes on royal estates, including his residence on the Sandringham estate in eastern England and the Royal Lodge in Windsor. Mountbatten-Windsor was stripped of his royal titles last year due to his associations with Epstein, who died in a New York prison in August 2019. Thames Valley Police stated that they are engaged in legal proceedings regarding the previously obtained warrants while their investigation into misconduct in public office continues, noting that it would be inappropriate to comment further while legal proceedings remain ongoing.",
+      "title": "Germany news: UK's Burnham visits Berlin for talks with Merz",
+      "link": "https://www.dw.com/en/germany-news-uk-s-burnham-visits-berlin-for-talks-with-merz/live-79587637?maca=en-rss-en-all-1573-rdf",
+      "source": "Deutsche Welle – Top",
+      "published_at": "2026-10-08T13:23:00.000Z",
+      "excerpt": "German Chancellor Friedrich Merz welcomed British Prime Minister Andy Burnham to Berlin with military honours, marking the official entry into force of the UK-Germany bilateral cooperation treaty. During the visit, Burnham expressed openness to Germany joining the GCAP fighter jet project alongside Britain, Italy and Japan. Meanwhile, Berlin chapters of the Left Party, the Social Democrats and the Greens agreed to begin exploratory coalition talks following a state election victory for the Left Party. In aviation news, Irish carrier Ryanair announced plans to reduce winter capacity in Germany by 700,000 seats due to high operational charges, leading to the closure of its Berlin Brandenburg base. Elsewhere, German health insurer AOK reported that employee sick leave caused by psychological issues has risen by forty-two percent over the past decade. Japanese authorities extradited a suspected leader of the Qilin Russian hacking group to Germany following a police operation involving months of digital surveillance. Finally, official statistics revealed that the popularity of Turkish and Spanish as foreign languages in German schools has increased significantly over the past twenty years, while languages such as French and Russian have declined.",
       "also_covered_by": [
-        "France 24 – English",
-        "NPR – World"
+        "France 24 – English"
       ],
-      "sources_count": 3
+      "sources_count": 2
     },
     {
-      "title": "Spanish PM Sánchez calls early election after housing protests",
-      "link": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-05T10:18:47.000Z",
-      "excerpt": "Spanish Prime Minister Pedro Sánchez has called an early general election for 29 November following legislative defeats on housing reform. Speculation about a snap poll grew after parliament rejected two government decree laws designed to protect rental tenants. The political pressure intensified following nationwide protests sparked by the eviction of an 87-year-old woman whose rent was increased beyond her pension. In a televised address, Sánchez stated he required a broader progressive majority to push through reforms and overcome elite resistance. His minority left-wing coalition, comprising the Socialist party and the Sumar alliance, was originally not scheduled to face a general election until mid-2027. Sánchez acknowledged mistakes and ongoing problems regarding inequality, public services and housing access during his leadership. In addition to housing challenges, his administration has faced cost-of-living pressures, the Ceuta migration crisis, and several corruption scandals involving his wife, party headquarters, and a former transport minister. Opposition leader Alberto Núñez Feijóo welcomed the announcement as an opportunity for voters to choose change. Opinion polls indicate that the conservative People's Party is likely to win the most seats in the upcoming election, potentially requiring support from the hard-right Vox party to govern.",
+      "title": "Conflict in Yemen: What are the Houthis’ aims?",
+      "link": "https://www.france24.com/en/video/20261008-conflict-in-yemen-what-are-the-houthis-aims",
+      "source": "France 24 – English",
+      "published_at": "2026-10-08T12:52:30.000Z",
+      "excerpt": "Saudi authorities said Wednesday three people were killed in attacks on two of the kingdom's international airports, including in the capital Riyadh, after Yemen's Houthis claimed to have fired on bo…",
       "also_covered_by": [
-        "Al Jazeera English",
-        "NPR – World"
+        "BBC World"
       ],
-      "sources_count": 3
+      "sources_count": 2
+    },
+    {
+      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+      "link": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-10-08T12:43:56.000Z",
+      "excerpt": "At least 30 people have been killed in a Russian glide bomb attack on two civilian buses in the front-line city of Kramatorsk in eastern Ukraine, according to rescue officials. Donetsk regional head Vadym Filashkin stated that another 18 people were wounded in the strike, which he accused Russia of deliberately targeting to kill civilians. Following the attack, authorities ordered all public transport in Kramatorsk and neighbouring Slovyansk to stop as security deteriorated. Kramatorsk and Slovyansk form part of a fortress belt that Moscow is attempting to seize in order to capture the remaining territory of the Donetsk region. Ukrainian President Volodymyr Zelensky condemned the attack on Telegram and stated that Russia's actions would not go without a response. Moscow has not yet commented on the strike, which follows a broader surge in Russian attacks and civilian casualties across Ukraine. According to United Nations figures, more civilians have been killed in Ukraine by August of this year than during the entirety of 2025. In a separate recent attack that destroyed a block of flats in Pryluky, 22 people were killed, including five children. During a visit to Kyiv, UK Foreign Secretary Ed Miliband met with Zelensky and announced new sanctions targeting Russia's war machine, oil companies, and financial networks.",
+      "also_covered_by": [
+        "Al Jazeera English"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Maricarmen, the 87-year-old woman whose eviction shook Spain, dies",
+      "link": "https://www.france24.com/en/video/20261008-maricarmen-the-87-year-old-woman-whose-eviction-shook-spain-dies",
+      "source": "France 24 – English",
+      "published_at": "2026-10-08T11:54:08.000Z",
+      "excerpt": "María del Carmen Abascal, the 87-year-old woman whose eviction from her longtime Madrid home sparked nationwide protests across Spain and unleashed a political crisis, died on Wednesday while hospita…",
+      "also_covered_by": [
+        "BBC World"
+      ],
+      "sources_count": 2
     }
   ],
   "invest": [
     {
-      "title": "Treasury yields rise to start the week; traders look ahead to Fed minutes",
-      "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-10-05T14:28:46.000Z",
-      "excerpt": "United States Treasury yields rebounded on Monday following a sharp decline the previous week, as investors digested fresh economic data and awaited the release of Federal Reserve meeting notes. The benchmark 10-year Treasury yield rose by approximately two basis points to 5.298 percent, while the yield on the 30-year bond increased by three basis points to reach 5.659 percent. Conversely, the yield on the 2-year Treasury edged down by nearly one basis point to 4.818 percent. These movements coincided with the publication of new figures from the Institute for Supply Management regarding service sector growth. The report indicated that the Purchasing Manager's Index for the service sector reached 54.9 in September, which aligned with expectations while remaining slightly below the growth rate recorded in August. Additionally, the price index within the service ISM increased by 1.4 points to 74, pushing its twelve-month average to the highest level since March 2023. Market participants are currently focusing on the upcoming publication of the central bank's September policy meeting minutes, which are scheduled for release on Wednesday. Although investors have recently faced a six-week bond market selloff, a weaker-than-expected September jobs report released on Friday helped push yields down and alleviated worries regarding a potential Federal Reserve interest rate hike in October. Consequently, traders are currently pricing in an estimated 82 percent probability that the central bank will maintain its current rates at the upcoming meeting."
+      "published_at": "2026-10-08T13:28:42.000Z",
+      "excerpt": "Without President Donald Trump's tariffs, the cost of many everyday consumer items would have declined last year and early this year, according to a research paper from the New York Federal Reserve. The prices of 67 categories of goods analysed by a team of central bank researchers were found to be 2.9 percentage points higher as of February due to the levies. Without these trade barriers, prices for the studied products would have pulled back by almost one per cent. Although economists had widely anticipated that the levies would drive up prices, the precise effects had previously been difficult to estimate because of the changing nature of the policy and a lack of transparency regarding corporate pricing strategies. The authors of the study, Mary Amiti, Sebastian Heise and David Weinstein, did not disclose which specific types of goods they evaluated in the report. For each percentage point increase in the average tariff, the researchers noted that consumer goods prices were higher by approximately a quarter of a percent a year later. Annual price growth in the tracked goods peaked at the beginning of 2026, though consumers are still expected to face elevated prices into 2027. Roughly two-thirds of the tariff-related price impact stemmed directly from the levies, while the remainder was driven by knock-on effects, including domestic companies using imported parts and materials. While Trump argued that businesses would absorb the increased costs rather than pass them to shoppers, the New York Fed team calculated that about 26 per cent of last year's tariff increases trickled down into higher retail prices. Following a Supreme Court ruling in February that struck down many of the tariffs and triggered billions in retailer refunds, the White House has vowed to pursue alternative measures, maintaining tariffs of about 10 per cent on products imported from many countries."
     },
     {
-      "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
-      "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-05T13:49:00.000Z",
-      "excerpt": "Is it time to dust off the financial playbook from that dismal decade?"
-    },
-    {
-      "title": "An AI ‘reality check’ may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.",
-      "link": "https://www.marketwatch.com/story/an-ai-reality-check-may-take-the-s-p-500-to-5-000-heres-the-trades-to-make-this-strategist-says-263cf0e9?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-05T13:30:00.000Z",
-      "excerpt": "Keep an eye on artificial-intelligence spending in the upcoming earnings season, Panmure Liberum’s Joachim Klement said."
-    },
-    {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "link": "https://www.cnbc.com/investingclub/2026/10/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+      "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-10-05T12:59:40.000Z",
-      "excerpt": "Stock markets opened flat following a Friday rally fuelled by a soft jobs report that provided the Federal Reserve with justification to keep interest rates steady. The upcoming week features a relatively quiet schedule for corporate news and economic data, though investors await speeches from Fed officials and upcoming central bank meeting minutes. In the oil market, West Texas Intermediate crude traded around ninety dollars a barrel, while Saudi Arabia unexpectedly reduced its official selling prices for Asian buyers. Melius Research upgraded Microsoft to a buy rating with a target of six hundred and sixty-five dollars, pointing to changing narratives surrounding artificial intelligence. Meanwhile, merger and acquisition activity made headlines as Schneider Electric agreed to purchase product design software maker PTC for twenty-two billion dollars. C.H. Robinson also announced plans to acquire truck brokerage RXO for five billion eight hundred million dollars, with Goldman Sachs acting as a financial advisor on the transaction. Elsewhere, Morgan Stanley upgraded Wells Fargo to a buy and named it a top pick, citing a clearer path to profitability following the removal of its asset cap. Bank of America initiated coverage on agricultural spin-off Vylor with a buy rating and a seventy-eight dollar price target. Citi raised its price target on Johnson and Johnson to three hundred and three dollars ahead of upcoming earnings releases. Finally, Barclays reduced its price target for Nike to thirty-seven dollars while maintaining a buy rating as the footwear company trades near thirteen-year lows."
+      "published_at": "2026-10-08T13:16:32.000Z",
+      "excerpt": "PepsiCo reported quarterly earnings and revenue that beat analysts' expectations, driven by international growth while its North American business continued to lag. For the third quarter, the company posted net income of 3.05 billion dollars, or 2.23 pounds per share, compared with 2.6 billion dollars a year earlier. Net sales rose 5.6 percent to 25.27 billion dollars, while organic revenue increased 3.1 percent during the period. With one quarter left in the year, the company lowered its full-year core earnings per share growth forecast to between 2.5 percent and 3.5 percent, down from its previous projection of 5 percent to 7 percent. PepsiCo now expects net revenue growth of about 6 percent, which sits at the high end of its prior outlook. International markets remained a bright spot, accounting for 41 percent of net revenue so far this year and showing volume growth in nearly all regions. In contrast, the domestic turnaround is proceeding more slowly than anticipated, with Chief Financial Officer Steve Schmitt noting that North American performance fell below expectations. The North American beverage unit saw volume shrink by 2 percent, and the food division reported flat volume for the quarter. Executives pointed to a challenging consumer environment and flagged a potential new wave of inflation driven by higher energy prices. In response, the company plans to implement cost reductions and specific revenue management tactics while focusing on product innovation, marketing, and zero-sugar options. Following the announcement, shares of Pepsi rose about 1 percent in premarket trading."
     },
     {
-      "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.",
-      "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "link": "https://www.cnbc.com/investingclub/2026/10/08/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-10-08T13:04:30.000Z",
+      "excerpt": "United States stock markets are expected to open sharply lower following a drop in the South Korean Kospi, alongside rising oil prices and higher bond yields. Oil increased by more than four percent amid reports that the United States is considering military operations in Iran, while traders also await a thirty-year Treasury auction. PepsiCo reported mixed quarterly results, beating earnings and revenue expectations but cutting its full-year core earnings-per-share guidance. Goldman Sachs upgraded Palantir to a buy with a two-hundred-and-thirty-dollar price target, citing its strong government ties and enterprise trust. Meanwhile, the initial public offering of Nvidia-backed artificial intelligence infrastructure company Firmus Grid in Australia appeared shaky amid a lack of a proven track record and high valuation. HSBC downgraded Constellation Brands to hold, expressing concern over the performance of Modelo and Corona. Morgan Stanley reiterated its buy rating on Netflix ahead of its third-quarter results despite lowering its price target slightly. Levi Strauss shares fell nearly four percent following a weaker-than-expected direct-to-consumer performance during the back-to-school campaign. Stifel reduced its price target on FedEx Freight to one-hundred-and-twenty-nine dollars while maintaining a hold rating. Additionally, TD Cowen issued buy ratings for Wells Fargo and Goldman Sachs, while assigning a hold rating to the Bank of New York."
+    },
+    {
+      "title": "Oil and gas prices jump on Middle East shipping attacks, sending bond yields higher and stocks lower – business live",
+      "link": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+      "source": "The Guardian – Business",
+      "published_at": "2026-10-08T12:39:10.000Z",
+      "excerpt": "Consumers have been warned that the recent Asos data breach has exposed search histories alongside personal details such as email addresses and phone numbers. Lisa Barber, tech editor at the consumer group Which?, highlighted that while many people might assume search history is uninteresting to cybercriminals, it is actually a valuable asset for launching highly convincing scams. This information enables criminals to execute targeted spear phishing attacks, which are notoriously difficult to spot because communications are specifically tailored to the individual using data gathered from social media and data breaches. Shoppers have been advised to remain particularly vigilant regarding unexpected phone calls, text messages, and emails in the coming weeks and months following the incident. Anyone who feels unsure about the identity of a caller should immediately end the conversation and contact the company directly through official channels. Consumers can dial 159 to reach their bank’s fraud team or use the telephone number printed on the back of their payment card. Furthermore, individuals who suspect they have been targeted by a fraudster should wait at least fifteen minutes before making a call, or use a completely different phone to ensure that the scammer has disconnected from the line entirely."
+    },
+    {
+      "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+      "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-05T11:40:00.000Z",
-      "excerpt": "A reader writes: “We’d better get real quick or we’re going to have a financial crisis that makes the Great Recession of 2008 look like a picnic.”"
+      "published_at": "2026-10-08T12:32:00.000Z",
+      "excerpt": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group of glamorous tech co…"
     }
   ]
 }

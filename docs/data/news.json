@@ -1,149 +1,142 @@
 {
-  "generated_at": "2026-10-15T11:37:08.590Z",
+  "generated_at": "2026-10-19T13:27:39.164Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
-    "acquisitions": [
-      {
-        "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-        "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-        "source": "Ars Technica",
-        "published_at": "2026-10-13T18:23:33.000Z",
-        "excerpt": "Disney has offered $20 million for a non-exclusive perpetual licence to certain intellectual property belonging to Character.AI, as part of bankruptcy proceedings that commenced recently. The proposed acquisition comes despite Disney having previously sent a cease-and-desist letter in September 2025 accusing the chatbot maker of content theft and of harming children using unauthorised characters. Character Technologies subsequently removed all Disney-owned characters from its platform, and Disney later hired former Character.AI chief Karandeep Anand as its chief technology officer. Character.AI has operated for four years and reported over 20 million monthly active users last year, though the business has suffered due to high development costs and lawsuits. These legal challenges include a settled lawsuit alleging that chatbots encouraged a teenager to commit suicide, alongside ongoing lawsuits from the states of Kentucky and Pennsylvania. Character Technologies has assured users that the platform will remain online during the bankruptcy process, with a potential sale expected to conclude between late November and early December 2026. However, the company noted in filings that transitioning the service to a new buyer could impact platform safety, and it remains uncertain whether Disney or other bidders will ultimately acquire the targeted technology."
-      }
-    ],
+    "acquisitions": [],
     "launches": [
       {
-        "title": "Figma announces new features to define how agents work on its platform",
-        "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-        "source": "TechCrunch",
-        "published_at": "2026-10-15T04:30:00.000Z",
-        "excerpt": "Design platform Figma has announced a new Markdown-based editor and integrations with the Payload headless content management system during its first Config event in India. The updates are intended to help define company design rules, incorporate design and code libraries, and guide both first-party and third-party AI agents. As part of these announcements, the company debuted Figma Specs, a markdown editor that allows users to define their design language simply and reference it alongside canvas elements and FigJam diagrams. This centralized system provides context for design rules so that AI agents can better adhere to them despite the non-deterministic nature of artificial intelligence. Figma also moved its code layers feature into public beta, enabling users to build more interactive prototypes and prompt agents to convert designs into code or modify code layers. Furthermore, the platform is supporting more than 20 new tools with its Model Context Protocol, including Open Code, Dia, Grok Bot, and the Indian AI startup Sarvam. Following its acquisition last year, Payload is now being integrated with Figma Make to generate dynamic websites and manage content directly. Figma noted during the event that India is its largest user market outside the United States, with the platform currently working alongside 40 percent of the top 100 companies listed on the Bombay Stock Exchange."
-      },
-      {
-        "title": "Meet the five companies competing in the Startup Battlefield finals at Disrupt 2026",
-        "link": "https://techcrunch.com/2026/10/14/meet-the-five-companies-competing-in-the-startup-battlefield-finals-at-disrupt-2026/",
-        "source": "TechCrunch",
-        "published_at": "2026-10-15T00:30:00.000Z",
-        "excerpt": "Following two days of live pitches and demonstrations by twenty startups at TechCrunch Disrupt 2026, five finalists have been selected to compete in the Startup Battlefield finals. The finalists were chosen from four distinct categories covering space and physical AI, energy and manufacturing, health tech and life sciences, and enterprise and security. The final round takes place on Thursday at 11:30 am Pacific, where founders will present to a fresh panel of expert judges to vie for the Startup Battlefield Cup and a $100,000 equity-free prize. Among the finalists is Apate, which deploys thousands of artificial intelligence agents to engage fraudsters and waste their time. Another finalist, Flox Intelligence, has developed a camera-equipped wildlife-deterrent system that identifies approaching animals and emits species-appropriate sounds. Intero Biosystems creates lab-grown human intestinal organoids featuring multiple cell and tissue types to improve the pre-clinical testing of drugs and compounds. Industrial Next offers artificial intelligence-driven robotic stations designed to let manufacturers retool production lines in minutes and automate complex tasks. Finally, Satlyt has built software aimed at enabling satellites to share computing jobs in space and improve operational efficiencies autonomously."
-      },
-      {
-        "title": "Amazon CloudWatch announces log routing and chained log parsers",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+        "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
         "source": "AWS What's New",
-        "published_at": "2026-10-14T22:14:00.000Z",
-        "excerpt": "Amazon CloudWatch has introduced support for conditional log routing and chained parsers through its pipelines feature. This fully managed service allows users to ingest, transform, and route telemetry data to CloudWatch without needing to manage underlying infrastructure. Log pipelines frequently process a mixture of event types that require different destinations, as well as individual events that contain nested log formats. Conditional log routing enables users to define specific routes that send each event to a designated CloudWatch log group based on conditions evaluated against processed fields. This functionality allows organisations to separate events by criteria such as severity, source, or type, facilitating tailored retention and access controls. Meanwhile, chained parsers permit the application of multiple parser processors in sequence, with later parsers consuming fields produced by preceding ones. An example use case involves parsing a JSON envelope initially before applying a Grok parser to a field extracted during the first step. Combined, these features enable administrators to structure diverse log formats and direct them to appropriate log groups within a single pipeline. Both conditional routing and chained parsers are now accessible in all commercial AWS Regions where CloudWatch pipelines is generally available. Users can configure these new capabilities via the AWS Management Console, AWS CLI, or AWS SDKs."
+        "published_at": "2026-10-16T20:04:00.000Z",
+        "excerpt": "Amazon CloudWatch log centralization has been launched in the AWS GovCloud (US) partition and thirteen additional commercial Regions worldwide. This feature copies log data from multiple AWS accounts and Regions into a single destination account to streamline monitoring processes. The service integrates directly with AWS Organizations, allowing businesses to aggregate logs efficiently without developing custom solutions. Organisations can apply centralization rules across their entire enterprise, target specific organizational units, or select individual accounts for log aggregation. The system preserves the original source context during the transfer by using enriched system fields. Newly supported locations include Africa (Cape Town), several Asia Pacific hubs, Canada West, multiple European centres, Israel, and the Middle East, alongside both AWS GovCloud (US) regions. Users can initiate the process by establishing a centralization rule through the Amazon CloudWatch console, the AWS CLI, or various AWS SDKs. Customers are permitted to centralize one copy of their logs free of charge, whilst any subsequent copies incur a fee of $0.05 per gigabyte. Further information regarding configuration and a complete list of supported locations can be found in the official Amazon CloudWatch documentation and regional tables."
       },
       {
-        "title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
-        "link": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/",
-        "source": "TechCrunch",
-        "published_at": "2026-10-14T21:00:00.000Z",
-        "excerpt": "Colossal Biosciences has announced a new artificial intelligence platform named GenoMorph to accelerate its de-extinction initiatives. The technology uses advanced three-dimensional morphology, comparative genomics, and developmental biology to pinpoint specific genes for editing when genetic data is severely limited. This approach directly addresses the challenge of working with scarce ancient DNA, such as having only a single dodo genome compared to the numerous woolly mammoth genomes available due to better preservation in colder climates. To construct the platform, researchers gathered developmental data from chickens, quail, ducks, and pigeons, combining it with genetic information and skull measurements from over seventy bird species. The system learns which DNA regions are active during the development of beaks and facial structures, allowing scientists to predict the genetic switches responsible for the dodo's appearance. The company has already identified approximately 2,300 promising DNA editing targets for dodo cranial facial morphology to test in the laboratory. Furthermore, Colossal has developed a system using lipid nanoparticles to deliver gene-editing tools directly into developing bird embryos to observe physical impacts without waiting for a full breeding cycle. The organisation also reported that its Nicobar pigeon colony has reached thirty-six birds alongside the successful creation of essential egg and sperm precursor cells."
+        "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-16T18:26:00.000Z",
+        "excerpt": "Amazon Web Services has announced that Lambda durable functions are now available in both the AWS GovCloud US-West and AWS GovCloud US-East regions. This new feature enables developers to construct reliable multi-step applications and artificial intelligence workflows directly within the standard Lambda developer experience. The functionality extends the existing Lambda programming model by introducing primitives such as step and wait into event handlers. These primitives allow developers to checkpoint progress, recover automatically from failures, and pause executions without incurring compute charges for on-demand functions. By launching in the GovCloud regions, government customers and regulated industries can now orchestrate complex processes like order workflows, user onboarding, and AI-assisted tasks. These implementations can be achieved while simultaneously satisfying stringent security and compliance requirements. Durable functions can be activated for new Lambda functions written in supported languages, including specified versions of Python, Node.js, Go, .Net, and Java. Activation is supported through the AWS Lambda API, the AWS Management Console, and the AWS SDK. Furthermore, developers can utilise infrastructure as code tools such as AWS CloudFormation, AWS Serverless Application Model, and the AWS Cloud Development Kit to manage these deployments. Additional information regarding implementation, regional availability, and associated pricing can be found through official AWS documentation and product pages."
       },
       {
-        "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-        "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-        "source": "AWS News Blog",
-        "published_at": "2026-10-14T19:30:48.000Z",
-        "excerpt": "Amazon Simple Storage Service is now natively available on the Vercel Marketplace and through v0 by Vercel for web and artificial intelligence applications. The integration covers everyday storage, analytics, and artificial intelligence workloads by supporting Amazon S3, S3 Tables, and S3 Vectors. Developers can provision resources directly from the Vercel dashboard by navigating to the storage tab, selecting Amazon Web Services, choosing a bucket type and region, and creating the bucket. Connection configuration and resource provisioning are handled automatically without requiring users to navigate to the AWS Management Console. The integration injects environment variables and uses OpenID Connect to exchange short-lived tokens with AWS Security Token Service for temporary credentials, ensuring no static keys are stored. Users can connect buckets to projects and pull environment variables using the Vercel command line interface. S3 Tables offer managed Apache Iceberg tables for analytics that optimize query performance, while S3 Vectors provide storage for artificial intelligence agents and semantic search. Users can also utilize v0 by Vercel to provision resources and generate working code using natural language prompts. The integration is free of charge, with users paying standard Amazon S3 pricing for consumed resources across commercial AWS regions supported by Vercel."
+        "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-16T17:59:00.000Z",
+        "excerpt": "Nvidia's Nemotron 3.5 Super VL model has been added to Amazon SageMaker JumpStart, allowing AWS customers to deploy multimodal artificial intelligence solutions. This vision-language model accepts text, images, and video as inputs and generates text outputs. It is built for applications such as document intelligence, graphical user interface understanding, video question answering, and multimodal agentic workflows. The architecture pairs a 120 billion parameter hybrid Mixture-of-Experts language backbone featuring 12 billion active parameters with a vision encoder. The model supports context lengths of up to one million tokens and includes a built-in Multi-Token Prediction head for speculative decoding to accelerate text generation. Reasoning capabilities are configurable per request, and the model supports ten different languages, including English, French, Spanish, German, Japanese, Hindi, Korean, and Chinese. Following multimodal supervised fine-tuning and group relative policy optimisation reinforcement learning, the model provides structured JSON output and tool calling capabilities. SageMaker JumpStart provides two variants for deployment, comprising NVFP4 for optimised inference on G7 instances using Nvidia Blackwell Server Edition graphics processing units, alongside BF16 reference weights for customisation tasks such as domain adaptation, distillation, supervised fine-tuning, and reinforcement learning. Customers can deploy the model through the SageMaker JumpStart model catalogue within the SageMaker console or utilise the SageMaker Python SDK to deploy the technology to their AWS accounts."
+      },
+      {
+        "title": "Ubuntu Stonking Stingray swims into spotlight with pre-release kernel",
+        "link": "https://www.theregister.com/os-platforms/2026/10/16/ubuntu-stonking-stingray-swims-into-spotlight-with-pre-release-kernel/5303580",
+        "source": "The Register",
+        "published_at": "2026-10-16T16:27:59.000Z",
+        "excerpt": "Ubuntu 26.10, codenamed Stonking Stingray, has arrived on schedule with the default GNOME 51 edition and a pre-release Linux kernel 7.3. Because Canonical adopted a faster release cycle aligned with AI-boosted kernel updates, the operating system ships with kernel version 7.3 on release candidate seven, with machines set to receive the final version once available. The most noticeable visual update in the GNOME edition is a Windows-like transient pop-up box in the window-tiling assistant that appears when dragging windows to the screen edge. The release also introduces the Myna speech-to-text tool as a technology preview, which requires installing nearly a gigabyte of dependencies and language model files. While the tool struggles with built-in microphones and punctuation commands, performance improves when using a USB headset. All other Ubuntu flavours have also been updated simultaneously, including Kubuntu, Ubuntu MATE, Ubuntu Unity, Ubuntu Budgie, Ubuntu Cinnamon, and Lubuntu, bringing fresh desktop environments and component upgrades. Deeper system changes across all editions include replacing more core command-line tools with Rust versions, swapping dbus-daemon for dbus-broker, and incorporating systemd 261.3. The server variant now includes updates such as AMD ROCm 10.0, OpenSSL 4, and OpenSSH 10.5. Canonical’s TPM-backed full disk encryption is included, though users who enabled it on earlier versions cannot upgrade immediately."
+      },
+      {
+        "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-16T16:00:00.000Z",
+        "excerpt": "Beam, the inaugural open weight model from US-based company Reflection, has been made available on Amazon SageMaker JumpStart within Amazon SageMaker AI. According to the developers, the model delivers strong performance across coding, reasoning, and agentic benchmarks while operating at the frontier of open-source models in its class. Customers can utilise Beam to construct advanced coding agents and automated workflows while maintaining control over their data and infrastructure. The model runs alongside existing models within SageMaker AI and scales to meet production demands using the platform's standard monitoring and audit controls. Furthermore, Beam has been optimised for AWS Trainium, providing users with a cost-efficient deployment option. Engineering teams are able to employ the model for code generation and review, resolving software issues, and automating routine operational tasks. Released under the Apache 2.0 license, the model allows customers to inspect and customise it while keeping their data private within their own AWS accounts. Misha Laskin, co-founder and CEO of Reflection, noted that the integration places frontier AI capabilities directly into the AWS accounts of developers. Accenture Federal Services Chief AI Officer Garrett Berntsen added that the combination of open-weight models and managed infrastructure allows organisations to operate within secure environments. Beam is currently accessible in the US East regions of Northern Virginia and Ohio via Amazon SageMaker JumpStart in Amazon SageMaker Studio."
       }
     ]
   },
   "geo": [
     {
-      "title": "Dozens of children killed after roof collapses in Pakistani school",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-15T10:21:43.000Z",
-      "excerpt": "At least 29 people, mostly children, have been killed after the school collapsed on them in Pakistan’s Peshawar.",
-      "also_covered_by": [
-        "Deutsche Welle – Top",
-        "France 24 – English",
-        "NPR – World"
-      ],
-      "sources_count": 4
-    },
-    {
-      "title": "Ukraine to restart strikes on Russian oil refineries, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-15T10:27:26.000Z",
-      "excerpt": "Ukrainian President Volodymyr Zelensky has announced that Ukraine will resume attacks on Russian oil refineries, accusing the United States of withdrawing crucial support and intelligence-sharing. Zelensky stated he had previously restricted such strikes for three days at Washington's request, while Russia continued to target Ukrainian energy infrastructure. The Russian defence ministry reported that an attempted large-scale attack on an oil refinery in Ryazan was intercepted, resulting in a fire from falling debris. Zelensky noted that dozens of Ukrainian cities had experienced Russian attacks over the preceding day and argued that Moscow had ignored a proposed energy ceasefire announced by US President Donald Trump. \n\nZelensky stated that the US had threatened to block intelligence and restricted Starlink satellite services used by the Ukrainian military to pressure Kyiv into halting the refinery strikes. While the speed limits on drone connections initially prompted suggestions of a technical glitch, Elon Musk indicated the decision originated from the Trump administration. Meanwhile, sources in Ukraine's Ministry of Defence confirmed that the military-focused Starshield version had since been restored. During a visit to London, Zelensky met with Prime Minister Andy Burnham, who announced expedited deliveries of British lightweight multirole missiles. Zelensky asserted that he would only halt strikes on Russian oil infrastructure if the US supplied additional Patriot air defence missiles.",
+      "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+      "link": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+      "source": "NPR – World",
+      "published_at": "2026-10-19T11:38:43.000Z",
+      "excerpt": "An Australian federal independent lawmaker was critically injured on Monday after being struck by a car in what Prime Minister Anthony Albanese described as an apparent deliberate attack. Helen Haines, aged 65, was hit by a Toyota Land Cruiser SUV outside her electoral district office in the Victorian city of Wangaratta. Police stated that a knife was recovered from inside the vehicle following the incident. A 43-year-old man was arrested at the scene by a passerby and will be interviewed by authorities. Prime Minister Albanese confirmed that the national counterterrorism team, which includes police and intelligence agencies, has launched an investigation. Haines was subsequently transported to a hospital with critical injuries. Police noted they are actively investigating whether the collision was an intentional act. The incident has heightened existing safety concerns regarding Australian politicians, who typically operate without security details in a culture of high public accessibility. Official figures show that threats against parliamentarians have doubled over the past three years, with over one thousand threats recorded during the 2025-2026 financial year. Albanese highlighted a growing polarisation in the political climate, noting an increase in shouting and the influence of social media. Similar security concerns have previously arisen in Britain following the murders of lawmakers Jo Cox and David Amess, as well as the recent killing of former politician Ann Widdecombe.",
       "also_covered_by": [
         "Al Jazeera English",
+        "Deutsche Welle – Top"
+      ],
+      "sources_count": 3
+    },
+    {
+      "title": "'Lame-duck president' Macron notes 'failures' after France unrest",
+      "link": "https://www.france24.com/en/video/20261019-lame-duck-president-macron-notes-failures-after-france-unrest",
+      "source": "France 24 – English",
+      "published_at": "2026-10-19T10:53:15.000Z",
+      "excerpt": "French President Emmanuel Macron has rejected the resignation of Interior Minister Laurent Nunez following a weekend of widespread unrest across the country. The decision was announced on Monday in the wake of severe protests that led to nearly 2,400 arrests. Authorities reported that almost 1,000 police officers and gendarmes sustained injuries during the clashes on Saturday. The violence prompted intense scrutiny of the government's security measures and handling of the demonstrations. Despite the turmoil and calls for accountability within the administration, Macron chose to keep Nunez in his position rather than accept his departure. Further analysis of the situation was provided by France 24 international affairs editor Philip Turle, highlighting the scale of the police casualties and the large number of individuals detained by law enforcement agencies. The events underscore ongoing tensions and public discontent in France, presenting a significant challenge to the government and its security apparatus.",
+      "also_covered_by": [
+        "Al Jazeera English",
+        "Deutsche Welle – Top"
+      ],
+      "sources_count": 3
+    },
+    {
+      "title": "World Food Programme to end aid for half a million in Gaza due to funding shortfall",
+      "link": "https://www.france24.com/en/middle-east/20261019-world-food-programme-to-end-aid-for-half-a-million-in-gaza-due-to-funding-shortfall",
+      "source": "France 24 – English",
+      "published_at": "2026-10-19T07:33:32.000Z",
+      "excerpt": "The United Nations World Food Programme announced that it will end monthly assistance to 500,000 people in the Gaza Strip due to a funding shortfall. Shaun Hughes, the WFP country director, confirmed that the organisation is cutting half a million people from the total number of individuals it assists. This reduction lowers the number of Palestinians receiving WFP aid, provided as either food or cash assistance, from 1.6 million down to 1.1 million people. Despite the cuts, those still receiving aid represent roughly half of the population in the war-affected territory. The agency issued the warning while noting that overall needs in the region remain acute. The announcement comes at a time when approximately two thirds of the population in the Gaza Strip continues to experience acute food insecurity. Palestinians across the territory have been struggling to find adequate food supplies following prolonged conflict.",
+      "also_covered_by": [
+        "BBC World",
         "NPR – World"
       ],
       "sources_count": 3
     },
     {
-      "title": "Long-delayed China-North Korea bridge officially opens",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-15T10:00:58.000Z",
-      "excerpt": "China and North Korea have officially opened the New Yalu River Bridge following a twelve-year delay in its completion. The infrastructure project spans three kilometres and is anticipated to function as the primary overland route connecting the two nations. This development forms part of ongoing efforts by both governments to strengthen and improve their bilateral relations. Construction on the bridge finished years ago, but its opening was repeatedly postponed due to a lack of connecting infrastructure on the North Korean side and disruptions caused by the COVID-19 pandemic. The crossing links the border city of Dandong in northeastern China with Sinuiju in North Korea. Officials from both countries marked the opening with formal ceremonies, although extensive commercial traffic is expected to ramp up gradually. Trade between China and North Korea has historically relied heavily on older, narrower bridges and maritime routes, which have limitations in capacity. The new crossing features modern customs facilities designed to handle increased freight volumes and passenger movement efficiently. Observers note that the inauguration signals a potential normalisation and revitalisation of cross-border commerce after years of strict pandemic-related border closures enforced by Pyongyang. Further details regarding specific daily operational capacities and toll agreements have not yet been publicly disclosed by either administration.",
-      "also_covered_by": [
-        "BBC World",
-        "Deutsche Welle – Top"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "Albanian students protest over education, jobs, clash with police",
-      "link": "https://www.france24.com/en/video/20261015-albanian-students-protest-over-education-jobs-clash-with-police",
+      "title": "REPLAY: French PM speaks after crisis meeting",
+      "link": "https://www.france24.com/en/video/20261019-replay-french-pm-speaks-after-crisis-meeting",
       "source": "France 24 – English",
-      "published_at": "2026-10-15T10:06:42.000Z",
-      "excerpt": "Demonstrators and riot police clashed in Albania's capital on Wednesday in a second straight day of violence triggered by student protests calling for better university conditions and Prime Minister…",
+      "published_at": "2026-10-19T12:21:24.000Z",
+      "excerpt": "French Prime Minister Sebastien Lecornu announced on Monday that he had asked regional authorities to impose curfews in select cities following a weekend of unrest. The partial and localised measures are specifically intended to safeguard businesses after recent demonstrations spilled over into widespread street violence. During his address following a crisis meeting, Lecornu directed sharp criticism at the ultra-left movement. He accused these groups of deliberately attempting to orchestrate deep unrest throughout the country. According to the Prime Minister, this alleged campaign of disruption is occurring in the critical run-up to next year's presidential election. The government response aims to restore public order and prevent further commercial damage. Authorities are currently coordinating with local officials to implement the requested restrictions in the affected areas. Further details regarding the exact locations and timings of the curfews are expected as regional prefects review the directive.",
       "also_covered_by": [
-        "Deutsche Welle – Top"
+        "Al Jazeera English"
       ],
       "sources_count": 2
     },
     {
-      "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-      "link": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-all-1573-rdf",
+      "title": "UN food program cuts aid to 500,000 Palestinians in Gaza",
+      "link": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-all-1573-rdf",
       "source": "Deutsche Welle – Top",
-      "published_at": "2026-10-15T11:32:00.000Z",
-      "excerpt": "Ukrainian President Volodymyr Zelenskyy stated on Thursday that his country's military has resumed strikes on Russian energy infrastructure after previously refraining from such attacks to give a proposed US energy ceasefire a chance to succeed. Zelenskyy announced the decision in an interview with the Financial Times, declaring that the block on energy infrastructure attacks was finished following reports of recent Ukrainian strikes on oil processing plants in Ryazan and Saratov. Kremlin spokesman Dmitry Peskov criticised the resumption of attacks as conflicting with US peace efforts, though Russia continued targeting Ukrainian civilian infrastructure, including strikes on Wednesday that left 600,000 citizens without power. Zelenskyy criticised the United States for withholding intelligence and restricting SpaceX Starlink satellite access for Ukrainian troops after he declined to abide by the ceasefire. Although Ukrainian forces were blindsided by Russian drones and missiles due to the lack of US intelligence, Zelenskyy indicated he would consider halting energy attacks again if the US supplies Patriot interceptors to defend against incoming strikes. The developments follow US President Donald Trump's decisions to lift sanctions on Russian oil, promise purchases of Russian diesel, and call for Zelenskyy to be replaced. Trump's policy shift has angered European leaders, with Italian Prime Minister Giorgia Meloni describing the diesel agreement as a risky decision that provides a lifeline to Russian President Vladimir Putin while failing to lower oil prices driven by the US war in Iran.",
-      "also_covered_by": [],
-      "sources_count": 1
+      "published_at": "2026-10-19T11:41:00.000Z",
+      "excerpt": "The United Nations World Food Programme has reduced its monthly food assistance in the Gaza Strip due to severe funding shortages. The agency announced that the number of people receiving aid is being lowered from 1.6 million to 1.1 million, leaving approximately 500,000 individuals without support. Approximately two-thirds of the population in Gaza are currently struggling to access food, with around 1.4 million facing crisis levels of food insecurity and 200,000 living in emergency conditions. Carl Skau, the acting executive director of the WFP, noted that the cuts coincide with the approach of winter, while life remains brutal amid ongoing Israeli strikes, restricted aid, and a lack of proper shelter, basic services, and security despite a ceasefire brokered by the United States last year. The WFP urgently requires $450 million to maintain its critical operations in both Gaza and the West Bank over the upcoming six months. Earlier in September, the agency had already implemented aid reductions in the West Bank because of donor fatigue and financial constraints. Meanwhile, COGAT, the Israeli authority responsible for the Palestinian territories, maintains that the supply of aid deliveries entering the strip exceeds food demand and asserts that there is no acute food insecurity in Gaza.",
+      "also_covered_by": [
+        "Al Jazeera English"
+      ],
+      "sources_count": 2
     }
   ],
   "invest": [
     {
-      "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC – Business",
-      "published_at": "2026-10-15T11:34:55.000Z",
-      "excerpt": "Artificial intelligence firm Anthropic has been working to build support among potential investors ahead of an expected stock market listing by highlighting its profit-making potential. The company revealed that its revenue surged by 45% to $16.8bn in the three months leading up to the end of September, following successive quarterly rises earlier in the year. During an event at its headquarters in San Francisco, the firm also reported an adjusted profit for the third quarter and placed strong emphasis on safety protocols. These assurances come amidst warnings from current and former researchers regarding severe risks associated with rapid advancements in artificial intelligence. Chief executive Dario Amodei has previously called for a slower pace of development, and the company recently disrupted attempts to use its technology to aid in the creation of biological weapons. Meanwhile, broader financial markets have experienced turbulence following remarks by Broadcom chief executive Hock Tan regarding extreme investor expectations surrounding AI spending. Additional pressure on global markets emerged after US inflation data showed that price rises accelerated more than anticipated in September, raising concerns over potential borrowing cost increases. Rival firm OpenAI is also reportedly eyeing a major stock market debut, though chief executive Sam Altman stated that his company will not go public this year while it addresses ongoing safety concerns."
-    },
-    {
-      "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-      "link": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-15T11:17:00.000Z",
-      "excerpt": "CoreWeave’s bonds issued a few months ago fell to 81 cents on the dollar earlier Wednesday, yielding more than 15%."
+      "published_at": "2026-10-19T13:22:00.000Z",
+      "excerpt": "It’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings."
     },
     {
-      "title": "This 30-year market veteran is alarmed by a near-record S&P 500. Here’s where he’s investing instead.",
-      "link": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143?mod=mw_rss_topstories",
+      "title": "Bank of England said to be reviewing Barclays’ handling of private credit loans",
+      "link": "https://www.theguardian.com/business/2026/oct/19/bank-of-england-said-to-be-reviewing-barclays-handling-of-private-credit-loans",
+      "source": "The Guardian – Business",
+      "published_at": "2026-10-19T11:59:23.000Z",
+      "excerpt": "The Bank of England’s Prudential Regulation Authority has reportedly begun reviewing Barclays over its handling of loans linked to the private credit sector. The review, initiated earlier this year following concerns raised by a whistleblower, centres on the method Barclays used to log derivatives that finance loans issued to private credit firms. Sources suggest these financial contracts may have been placed in the incorrect portfolio, creating the impression they carried lower risk and potentially allowing the bank to hold insufficient capital while boosting its profitability. Barclays has reportedly accumulated billions of dollars in exposure to private credit loans through these derivatives. In response to the reports, Barclays stated that it takes its regulatory obligations seriously, while the Bank of England declined to comment. Following the news, shares in Barclays dropped by 3.5% on Monday during a wider banking sector sell-off, ahead of the bank’s scheduled financial results. The situation involves the new head of the PRA, Katherine Braddick, who previously worked at Barclays and has been recused from matters concerning the bank until the end of 2026. The scrutiny comes amid broader regulatory anxieties over traditional banks becoming intertwined with the lightly regulated private credit industry, which has recently experienced high-profile company collapses and withdrawal caps. Barclays previously reported financial hits from the failures of automotive companies Tricolor and First Brands, as well as the mortgage lender Market Financial Solutions."
+    },
+    {
+      "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+      "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-15T11:17:00.000Z",
-      "excerpt": "Steven Jon Kaplan sees a completely irrational stock market right now, and investors ignoring a perfectly safe way to play that."
+      "published_at": "2026-10-19T11:53:00.000Z",
+      "excerpt": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes."
     },
     {
-      "title": "UK economy grew 0.1% in August, beating expectations",
-      "link": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-10-15T08:44:17.000Z",
-      "excerpt": "The United Kingdom economy grew by 0.1% in August, outperforming a Reuters poll of economists who had predicted a 0.1% contraction. This figure followed monthly growth of 0.4% in both June and July, indicating a slowdown in overall momentum. Production grew by 0.8% according to the Office for National Statistics, while services showed no growth and construction declined by 0.2%. On an annual basis, gross domestic product increased by 2.1% in August, exceeding expectations of 1.7% to mark the highest year-on-year reading since August 2022. Following the release, the British pound rose 0.4% against the United States dollar, and yields on U.K. government bonds fell across the curve. The data arrives as the nation faces a cost-of-living crisis driven by high inflation and energy costs, ahead of the government unveiling its Autumn Budget. Analysts noted that the economic slowdown increases pressure on U.K. finance minister John Healey as he prepares to deliver his first budget on October 28. Experts warned that rising debt interest costs and high borrowing expenses have constrained fiscal headroom, leaving policymakers with difficult choices regarding taxation and spending. While some analysts highlighted ongoing economic fragility and risks to consumer spending, others pointed to continued resilience that has positioned the U.K. as the fastest-growing G7 economy this year."
+      "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
+      "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-10-19T11:30:00.000Z",
+      "excerpt": "A wave of corporate results that could help determine whether the stock-market rally has more room to run — or whether investors are growing wary of the companies that powered it."
     },
     {
-      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
-      "link": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-10-15T08:09:37.000Z",
-      "excerpt": "Taiwan Semiconductor Manufacturing Company reported a record third-quarter net profit that surged 68.7% compared with the same period a year earlier, marking the sixth consecutive quarter of record profits. The world's largest contract chipmaker achieved an operating margin of 58.7%, exceeding the upper boundary of its guidance range and demonstrating strong pricing power driven by the global artificial intelligence boom. For the fourth quarter, the company forecast revenue between $52.3 billion and $54.3 billion, representing a substantial sequential increase and a significant jump from the previous year. Advanced technologies, classified as 7-nanometer and more advanced processes, accounted for 79% of total wafer revenue during the third quarter, with 3-nanometer chips representing the largest single share at 33%. High-performance computing remained the dominant revenue platform at 68%, while the automotive segment registered the fastest quarter-on-quarter growth at 23%. Looking ahead, the chipmaker projects that its capital expenditure from 2026 to 2028 will increase significantly compared to the preceding three-year period to support escalating customer demand. Additionally, the company announced that construction of its second fabrication plant in Arizona has been completed, with equipment installation underway and mass production now scheduled to begin in the third quarter of 2027. The board of directors also approved a cash dividend of NT$7.00 for the second quarter, while free cash flow climbed sharply to NT$476.56 billion."
+      "title": "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-masking-a-hidden-market-pullback-why-morgan-stanley-says-an-index-retreat-would-signal-a-buying-opportunity-08d079c0?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-10-19T10:23:00.000Z",
+      "excerpt": "Since midsummer portfolio managers have been emphasizing free cash flow, profitability, high margins, strong balance sheets and stable earnings when stockpicking."
     }
   ]
 }

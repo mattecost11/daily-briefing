@@ -1,149 +1,151 @@
 {
-  "generated_at": "2026-10-26T13:13:14.643Z",
+  "generated_at": "2026-10-29T13:10:53.427Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [
       {
-        "title": "Google Public Sector increases partner investments for frontline adoption",
-        "link": "https://cloud.google.com/blog/topics/public-sector/google-public-sector-increases-partner-investments-for-frontline-adoption/",
-        "source": "Google Cloud Blog",
-        "published_at": "2026-10-21T13:00:00.000Z",
-        "excerpt": "Partnership is at the core of Google Public Sector’s mission to empower government agencies and education institutions with transformative, mission-aligned solutions. We recognize that we can only sc…"
+        "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+        "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+        "source": "The Verge",
+        "published_at": "2026-10-29T02:22:46.000Z",
+        "excerpt": "Defense contractor Anduril and chipmaker Qualcomm have announced a partnership to develop a laptop entirely in the United States, starting with a single model scheduled for release in 2027. The project aims to establish a fully domestic supply chain for the computer industry, a feat currently unachieved by major US computer manufacturers. Initially, Anduril representatives stated that the domestic-content percentage for the upcoming BlueChip laptop was yet to be determined, noting that current prototypes sit at approximately 32 percent US-origin by component cost. However, Anduril communications vice president Shannon Prior subsequently stated that the company is committing to meet or exceed the Buy American Act threshold of 65 percent domestic content at launch. Founder Palmer Luckey previously explained that the company possesses a technical roadmap to eventually reach 100 percent domestic manufacturing over time. To achieve domestic sourcing goals, the companies plan to utilise Arizona manufacturing facilities operated by TSMC for processor production, alongside partnerships with US glassmakers and battery developers. The laptop enclosure will also be designed for domestic machining using metals available at scale within the United States. While the final domestic content percentage remains subject to change as suppliers are finalised, the commitment ensures the device can theoretically comply with government procurement standards without requiring waivers."
       }
     ],
-    "acquisitions": [],
+    "acquisitions": [
+      {
+        "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+        "link": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+        "source": "TechCrunch",
+        "published_at": "2026-10-29T13:00:00.000Z",
+        "excerpt": "Voice AI company Deepgram is acquiring Daily, the creator of the open-source voice AI infrastructure Pipecat. Financial terms of the deal were not disclosed, but the companies confirmed that Pipecat will remain open-source. Pipecat is a framework designed to manage voice and video streams alongside speech-to-text, large language models, and text-to-speech models while minimising latency. Daily previously raised over $62 million in funding, while Deepgram achieved unicorn status earlier this year following a $130 million Series C funding round. Both companies originally participated in the same Y Combinator batch in 2016. Daily co-founder Kwindla Kramer stated that Deepgram CEO Scott Stephenson made a firm commitment to keeping Pipecat permanently open-source and vendor-neutral. Stephenson explained that the acquisition allows developers to build voice agents by connecting various models and using a context bus to link different components together. Alongside the acquisition, Deepgram is launching the Real-Time Context Standard, an open protocol co-developed with the Pipecat team to handle metadata and guidance for voice agents. The voice AI sector has experienced significant investment recently, with numerous model makers and infrastructure companies securing substantial funding rounds."
+      }
+    ],
     "launches": [
       {
-        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-        "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-        "source": "TechCrunch",
-        "published_at": "2026-10-25T21:31:16.000Z",
-        "excerpt": "Grok has released the first seven minutes of its artificial intelligence-generated adaptation of The Odyssey, titled Episode 1 of the Odyssey series. The project was created three months after Elon Musk announced plans for the film, developed in collaboration with Wonder Studios and director Dev Walker. Musk had previously criticised Christopher Nolan’s cinematic version of the epic for casting nonwhite and transgender actors. While Nolan’s film relied heavily on practical filmmaking across six countries and became a major box office success, the Grok adaptation was produced using artificial intelligence tools. The released footage features characters with Musk-approved skin tones and a narrator with a British accent, while the characters speak English rather than ancient Greek. Reviewers note that although individual visual shots can appear realistic, the overall production lacks artistic inspiration, momentum, and engaging dialogue. The clip consists largely of exposition and bearded characters delivering stilted lines. Maintaining attention throughout the seven-minute runtime proved challenging compared to longer, traditional feature films. Further releases from the project remain planned, though critical reception indicates limited enthusiasm for a full-length version."
-      },
-      {
-        "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
-        "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
-        "source": "Ars Technica",
-        "published_at": "2026-10-23T11:00:57.000Z",
-        "excerpt": "SpaceX recently declined three military launch contracts offered by the US Space Force, which were left unfilled as other providers manage existing backlogs. Meanwhile, a NASA safety panel estimated that up to 22 refuelings may be required for a SpaceX Starship lunar landing, though Elon Musk disputed this figure by suggesting a range of six to eight flights instead. SpaceX is now targeting November for its fifteenth Starship test flight, during which the company plans to attempt catches of both the Super Heavy first stage and the upper stage. In other launch news, PLD Space is preparing its Miura 5 small-lift rocket for an inaugural flight before mid-2027. Canadian startup Reaction Dynamics is seeking funding to develop its Aurora and Borealis rockets, while Rocket Lab is preparing for its 98th Electron mission. Japan successfully launched its Martian Moons eXploration mission aboard an upgraded H3 rocket, and debris from a September Chinese rocket launch was recently discovered in Minnesota. Additionally, Arianespace scheduled its next Ariane 6 flight for late November following a turbopump investigation. Blue Origin announced a major expansion of its Florida facilities to support increased flight rates for the New Glenn rocket, including additional launch pads and manufacturing capabilities."
-      },
-      {
-        "title": "Amazon MWAA now available in Mexico (Central) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
+        "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
         "source": "AWS What's New",
-        "published_at": "2026-10-23T08:00:00.000Z",
-        "excerpt": "Amazon Managed Workflows for Apache Airflow Provisioned environments have expanded to include the Mexico Central Region, designated as mx-central-1. While Amazon MWAA Serverless was previously accessible in this specific Region, local users can now utilise Provisioned environments for running their Apache Airflow workflows. Amazon MWAA functions as a managed orchestration service designed to simplify the setup and operation of large-scale, end-to-end data pipelines within the cloud. Users are able to establish these new Provisioned environments through several standard deployment interfaces, including the AWS Management Console, the AWS CLI, the AWS SDKs, and AWS CloudFormation. By deploying these workflows in the Mexico Central Region, organisations can operate them in closer physical proximity to their primary data sources and end users. This geographical alignment serves to minimise operational latency and assists businesses in complying with local data residency requirements. Further information regarding these capabilities and availability can be found directly on the official Amazon MWAA product page and the corresponding supported Regions documentation."
+        "published_at": "2026-10-28T20:00:00.000Z",
+        "excerpt": "Amazon has announced the general availability of version 1.0 of the Amazon Bedrock AgentCore CLI. The updated tool has been rebuilt to offer faster startup times, a more consistent command structure, and support for a wider range of AgentCore resources. Developers can utilise the command-line interface to create, develop, deploy, and operate artificial intelligence agents and their supporting resources directly from the terminal. The new version allows users to follow a standard project workflow or work independently with specific components such as harnesses, runtimes, memory, identity, gateways, and payments without needing to add them to a project first. Additionally, developers can invoke existing resources by their identifier or Amazon Resource Name, open an interactive shell, export a harness, and navigate using searchable menus, resource pickers, and guided workflows. Consistent global flags are now available across all commands to provide region selection, JavaScript Object Notation output, debugging capabilities, and version information. Users with existing projects can transition to the new release by executing the migration command provided within the tool. The software can be installed from npm, and the source code is hosted on GitHub for public review. Further documentation and guides are available through the Amazon Bedrock AgentCore product page and the official CLI reference materials."
       },
       {
-        "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
-        "source": "AWS What's New",
-        "published_at": "2026-10-23T08:00:00.000Z",
-        "excerpt": "Amazon has announced a thirty percent reduction in the EMR charge that is added to EKS when running EMR on EKS. This price decrease affects both the per-vCPU-hour charge and the per-GB-hour charge associated with the service. Meanwhile, the underlying Amazon EKS charges will remain completely unchanged from their previous rates. All EMR workloads that are currently running on the EKS deployment option will benefit directly from this pricing change. Customers can now run Apache Spark workloads on Amazon Elastic Kubernetes Service at a notably lower cost. The new pricing structure applies automatically to all existing EMR on EKS workloads without requiring any additional action from users. This thirty percent price reduction is available across all AWS Regions where Amazon EMR on EKS is currently supported. Users who wish to learn more about the update can visit the official Amazon EMR on EKS documentation and the Amazon EMR pricing page."
-      },
-      {
-        "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
-        "link": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
+        "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+        "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
         "source": "Ars Technica",
-        "published_at": "2026-10-22T21:52:31.000Z",
-        "excerpt": "NASA has historically been reluctant to disclose the exact number of Starship launches required to fuel a lunar lander in low-Earth orbit for the Artemis programme. Previous estimates provided by agency officials have ranged from the high single digits and low double digits to the high teens. During a quarterly meeting of the NASA Aerospace Safety Advisory Panel, panel member Charlie Precourt stated that the latest estimate is approximately 22 flights. Although Precourt did not explicitly name the vehicle, the figure solely applies to SpaceX's Starship, as Blue Origin's lunar lander does not rely on orbital refueling for its initial mission design. Following the public disclosure of the 22-flight estimate, SpaceX founder Elon Musk disputed the figure on social media, describing it as inaccurate and stating that the actual requirement would be closer to six to eight launches. Uncertainty remains regarding cryogenic propellant boil-off in orbit and the efficiency of transferring liquid oxygen and methane between spacecraft. Achieving the necessary refueling schedule presents a significant logistical challenge, even if SpaceX manages to increase its launch frequency in the coming years. Precourt noted that the situation poses risks to the mission success and schedule of Artemis IV, while praising agency leadership for assisting developers to overcome developmental barriers. NASA is currently working toward achieving a human lunar landing by 2028."
+        "published_at": "2026-10-28T18:47:27.000Z",
+        "excerpt": "Google has announced its latest frontier artificial intelligence model, Gemini 4 Carbon, arriving just two weeks after the release of Gemini 4 Argon. The new model reportedly achieves significant improvements in coding, agentic tasks, and scientific analysis compared to its predecessor. According to Google, Carbon is twice as likely to generate vulnerability-free code and demonstrates a major leap in cybersecurity applications such as vulnerability detection, validation, and remediation. The Chrome team stated that Carbon performs ten times better at generating high-quality patches than non-Google models, while also increasing its WebDev Arena score to rank fourth on the leaderboard. In benchmark comparisons provided by Google, Carbon edges out Argon by slim margins and outperforms several competing models including GPT-6 Astra, Claude Opus 5.5, and Claude Fable 5.1. Google positions Carbon as its most capable frontier model and highlights its enhanced safety features, noting that it completely resisted prompt-injection attacks during Grey Swan evaluations. Similar to the rollout of Argon, Google is adopting a deliberative approach for Carbon under the voluntary testing framework established by the US government. The model is initially planned for release through the Fairwinds cyber defence program, though a wider timeline has not been specified. When it becomes available to developers via the Gemini API and AI Ultra subscribers, Carbon will temporarily feature a discounted rate of two dollars per million input tokens and ten dollars per million output tokens before eventually doubling in price."
+      },
+      {
+        "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-28T18:07:00.000Z",
+        "excerpt": "Amazon Web Services has introduced certificate authority rotation visibility within the Amazon EKS Dashboard to provide a consolidated view of cluster certificate statuses. The Amazon EKS Dashboard already offers centralized visibility into clusters across different AWS accounts and regions, and it now incorporates certificate authority rotation tracking to eliminate the need for individual cluster checks. Every Amazon EKS cluster operates with its own certificate authority, and clusters established since 2018 feature certificates with a ten-year validity period that are now nearing the stage where rotation must begin. Within the updated dashboard, users can view their clusters alongside their respective certificate authority rotation statuses, identify which clusters have certificates approaching expiration, and monitor upcoming automated rotation events. This functionality allows platform teams managing multiple clusters to efficiently prioritise necessary actions across their entire fleet from a single location. The dashboard aggregates data across various accounts and regions utilising AWS Organizations, requiring trusted access to be enabled for the dashboard within the organisation management account. Users can access the dashboard from the US East region at no additional cost. Furthermore, certificate authority rotation support is available across all commercial AWS regions, with the dashboard consolidating this rotation status into a unified fleet-wide view."
+      },
+      {
+        "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-28T18:00:00.000Z",
+        "excerpt": "Amazon Elastic Container Service Managed Instances has introduced two infrastructure optimization updates called cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized instances simultaneously, packing them onto fewer instances to increase utilization and reduce costs. Spot consolidation extends this functionality to Spot capacity by consolidating underutilized Spot instances after verifying that replacement capacity is available. Amazon ECS Managed Instances provisions, configures, and operates right-sized Amazon EC2 instances for workloads while balancing availability and cost. Previously, infrastructure optimization evaluated each instance in isolation for replacement, which limited consolidation opportunities when capacity providers were configured with a narrow range of instance types. By evaluating and repacking tasks across multiple instances at the same time, the new cross-instance feature overcomes this limitation. In testing with a capacity provider configured for specific instance types and sizes, cross-instance consolidation reduced the total fleet size while significantly raising both CPU and memory utilisation rates. Spot consolidation applies this same multi-instance approach to Spot capacity workloads. Both features are now available at no additional cost across all AWS Regions. The updates apply automatically to all existing and new ECS Managed Instances capacity providers without requiring manual intervention from users."
+      },
+      {
+        "title": "AWS Lambda durable functions now exports live telemetry for execution insights",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/",
+        "source": "AWS What's New",
+        "published_at": "2026-10-28T18:00:00.000Z",
+        "excerpt": "Amazon Web Services has announced the launch of the Durable Execution Telemetry Exporter plugin for Lambda durable functions. The new observability plugin is designed to capture the step-by-step history of durable executions and transmit the data to one or more user-selected destinations. Users can leverage this exported information to obtain operational and business insights, as well as retain execution history beyond the standard retention period. Alongside this release, Amazon is introducing a companion Model Context Protocol server that enables artificial intelligence agents, such as Kiro, to query the exported telemetry data using natural language. Lambda durable functions support the construction of resilient multi-step applications and artificial intelligence workflows capable of running for up to one year. The telemetry exporter delivers data including execution status, operation timing, step inputs and outputs, and errors to thirteen built-in destinations, which comprise Amazon CloudWatch Logs, Amazon S3 for Amazon Athena, Amazon DynamoDB, Amazon Aurora, and Amazon OpenSearch Service. Users are able to redact sensitive fields prior to export and configure a sampling rate to manage data volume. The Model Context Protocol server facilitates tasks such as an on-call engineer instructing an AI agent to identify recent failed executions and their causes, or a business analyst searching for all transactions associated with a specific customer. The exporter is currently compatible with TypeScript, Python, Java, and Go. It is available at no additional charge across all AWS Regions that support Lambda durable functions."
       }
     ]
   },
   "geo": [
     {
-      "title": "Brazil runoff live updates: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
-      "link": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
-      "source": "The Guardian – World",
-      "published_at": "2026-10-26T12:50:24.000Z",
-      "excerpt": "Luiz Inácio Lula da Silva has won Brazil’s presidential runoff election, defeating his far-right opponent Flávio Bolsonaro to claim a historic fourth term in power. According to Brazil’s Superior Electoral Court, Lula secured 51.79 percent of the vote, translating to approximately 4.4 million more votes than Bolsonaro, who finished with 48.21 percent. Flávio Bolsonaro, a senator and the eldest son of former president Jair Bolsonaro, has refused to accept the result and called for the election to be annulled. He specifically questioned a late-Sunday decision by a supreme court justice that extended voting by two hours due to alleged voter transport irregularities. This refusal to concede mirrors his father's actions after losing the 2022 presidential election to Lula. Lula’s victory makes him the first president in Brazilian history to secure a fourth term. It also marks the first time since Brazil’s return to democracy in 1988 that a candidate who trailed in the first round of voting successfully overturned the result in a runoff. Lula is scheduled to begin his new presidential term on 5 January 2027. Numerous world leaders have offered their congratulations to Lula following his victory, while the United States president has not yet issued a public response.",
-      "also_covered_by": [
-        "Al Jazeera English",
-        "France 24 – English"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "Crowds welcome Venezuela's María Machado after months in exile",
-      "link": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-26T09:31:12.000Z",
-      "excerpt": "Venezuelan opposition leader María Corina Machado has returned to her home country after spending more than ten months in exile. Her arrival followed several previous unsuccessful attempts to re-enter Venezuela. Machado announced her return on Sunday in a post on X, stating that she was there with the people. Following her return, she attended a church service in the state of Lara, where she was surrounded by enthusiastic supporters. Large crowds subsequently gathered along the route of her journey through the capital city of Caracas. Her return follows significant political upheaval in the country, beginning when the United States seized her political opponent, President Nicolás Maduro, in January. That event occurred one month after Machado had fled Venezuela under cover of darkness in order to travel to Norway to accept the Nobel Peace Prize. Following Maduro's removal, the administration of US President Donald Trump supported his deputy, Delcy Rodríguez, as leader. Rodríguez was subsequently sworn in as the interim president of Venezuela.",
-      "also_covered_by": [
-        "The Guardian – World",
-        "NPR – World"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "Thousands greet opposition leader Maria Machado upon return to Caracas",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/thousands-greet-opposition-leader-maria-machado-upon-return-to-caracas?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-26T10:14:26.000Z",
-      "excerpt": "Thousands of supporters lined the streets of Venezuela’s capital Caracas to welcome opposition leader Maria Corina Machado home following a period of ten months in exile. Machado had fled the South American country in December of the previous year. Her departure occurred shortly before the United States abducted President Nicolas Maduro. Following Maduro's removal, the US administration backed his deputy, Delcy Rodriguez, to take over as the nation's leader. The large crowds gathered to greet Machado as she returned to the capital city. The event marked a significant public appearance for the opposition figure since her self-imposed exile abroad. Security presence was notable as citizens turned out in large numbers along the thoroughfares of Caracas. Machado's return highlights ongoing political developments in Venezuela following the leadership transition led by Rodriguez. Observers and supporters alike monitored her arrival closely amidst the current national context.",
+      "title": "At least 13 killed in 'horrific' Russian drone strike at Ukraine train station",
+      "link": "https://www.france24.com/en/europe/20261029-at-least-13-killed-in-horrific-russian-drone-strike-at-ukraine-train-station",
+      "source": "France 24 – English",
+      "published_at": "2026-10-29T11:36:35.000Z",
+      "excerpt": "At least thirteen people were killed when a Russian drone struck a busy platform at a railway station in the eastern Ukrainian city of Dnipro. President Volodymyr Zelensky described the incident as a horrific attack and urged Kyiv's allies not to ease sanctions on Moscow. The strike hit the station while a regular commuter train and a regular passenger train were standing at the platform. Images released by emergency services showed bodies on the ground, rescuers assisting victims, and two burnt-out passenger trains with shattered windows. Ukrainian air defences intercepted three jet-powered drones during the daytime assault, but a fourth drone evaded interception and hit the target. In separate Russian attacks across Ukraine, at least five other people were killed, including two teenage girls in Chernigiv and two individuals in Kremenchuk. Meanwhile, a fragile local ceasefire held for its third day in the Russian-occupied city of Oleshky, where Ukrainian and Russian delegations worked toward potential evacuations. Both nations are preparing to meet next month with United States envoys to discuss potential ways to end the ongoing conflict. However, the Kremlin vowed not to reduce the overall pace of the war, while Ukraine and its allies maintained that ceding territory to Moscow would leave the country vulnerable to future aggression.",
       "also_covered_by": [
         "Deutsche Welle – Top"
       ],
       "sources_count": 2
     },
     {
-      "title": "Palestinians are opening their doors to the displaced of besieged Hebron",
-      "link": "https://www.aljazeera.com/news/2026/10/26/palestinians-are-opening-their-doors-to-the-displaced-of-besieged-hebron?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-10-26T09:45:25.000Z",
-      "excerpt": "Israeli forces have demolished a three-storey building and industrial facilities in the Farsh Al-Hawa area of Hebron in the occupied West Bank, following an attack by two Palestinians on a military checkpoint that killed two soldiers and injured others. Israel’s Finance Minister Bezalel Smotrich confirmed he ordered the destructions as part of a sweeping military assault on the city, which has been placed under lockdown. The operation has forcibly displaced more than 2,000 Palestinians, nearly half of whom are children and babies, alongside pregnant women and elderly residents. In response to the crisis, Palestinian authorities have declared a state of emergency and formed a crisis group involving government agencies, civil society and the private sector. Local residents and philanthropists, including real estate developer Mohamed Al-Rujoob, have opened their homes and properties to shelter displaced families. The military lockdown affects nearly one million people across Hebron and its district, restricting movement and forcing schools and universities to transition to online learning. The Fawwar refugee camp has also been sealed off by Israeli soldiers, preventing residents from entering or leaving the area. Many residents believe the military campaign is politically motivated ahead of Tuesday's general election, with right-wing ministers in Prime Minister Benjamin Netanyahu's coalition vying for votes.",
+      "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
+      "link": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
+      "source": "The Guardian – World",
+      "published_at": "2026-10-29T08:03:00.000Z",
+      "excerpt": "Sanrio has ended its commercial partnership with the Japanese television drama Vivant following a backlash from Chinese state media and internet users over the show's depiction of Chinese agents. The Japanese company, known globally for the Hello Kitty franchise, issued an apology on the Chinese social media platform Weibo and stated that the drama contained elements inconsistent with its core corporate values. The controversy centres on the second season of the spy thriller, produced by TBS, which features scenes of Chinese agents using violence against members of a secret Japanese military unit. Chinese state media and the tabloid Global Times condemned the portrayal as a deliberate smear against Beijing, comparing the torture methods shown in the series to atrocities committed by invading Japanese troops during the second world war. In response to the outcry, Sanrio announced that it would strengthen its review processes for all future collaborative projects. China represents a vital overseas market for the Tokyo-based firm, generating significant revenue during the first half of the year through popular character merchandise associated with the brand. This incident occurs amid increasingly fractious diplomatic relations between Beijing and Tokyo, and follows a separate recent controversy in which French footballer Kylian Mbappé was dropped by Chinese brands after making remarks about Mao Zedong.",
       "also_covered_by": [
-        "The Guardian – World"
+        "BBC World"
       ],
       "sources_count": 2
     },
     {
-      "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-      "link": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-10-26T02:53:00.000Z",
-      "excerpt": "Brazil's left-wing President has been elected for a fourth term after narrowly beating right-wing Flávio Bolsonaro in a knife-edge vote.",
+      "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+      "link": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+      "source": "NPR – World",
+      "published_at": "2026-10-29T06:10:11.000Z",
+      "excerpt": "A high-speed train collision in Urda, Spain, has left 68 people dead and injured dozens more, marking the country's second fatal rail disaster of the year. The crash occurred on Wednesday when a state-owned RENFE train struck a stationary privately owned IRYO train from behind. Both deadly accidents this year involved trains operated by RENFE and IRYO, following the liberalisation of Spain's high-speed rail service in 2021. Prime Minister Pedro Sánchez visited the Toledo crash site and pledged a full investigation to reinforce network safety and rebuild public trust. The government declared three days of mourning beginning on Thursday. Transport Minister Óscar Puente stated that the crash resulted from an inexplicable order issued by the central command center after a computer malfunction disabled the security system. According to Puente, the command center instructed the RENFE train to resume movement without speed restrictions despite an active stop signal, clearing the train engineers of blame. The tragedy comes just four weeks before a national election, creating further political challenges for Sánchez's Socialist government. Opposition leaders reacted to the disaster, with Popular Party leader Alberto Núñez Feijóo demanding answers while cancelling campaign events, and far-right Vox leader Santiago Abascal strongly criticising the government. Emergency services, firefighters, police and soldiers deployed to the scene to rescue survivors and recover bodies.",
       "also_covered_by": [
-        "NPR – World"
+        "BBC World"
       ],
       "sources_count": 2
+    },
+    {
+      "title": "Police investigate gang links as woman, 19, dies after drive-by shooting at Logan pub south of Brisbane",
+      "link": "https://www.theguardian.com/australia-news/2026/oct/29/woman-19-dies-after-masked-gunmen-opened-fire-outside-brisbane-pub-ntwnfb",
+      "source": "The Guardian – World",
+      "published_at": "2026-10-29T13:04:17.000Z",
+      "excerpt": "Queensland police are investigating potential gang involvement following the fatal drive-by shooting of a 19-year-old woman outside a pub south of Brisbane. Vana-Reese Schuster-Togiatau sustained injuries to her head and neck when masked gunmen opened fire into a crowd outside Fitzy’s Loganholme in Logan on Saturday night. She subsequently died from her injuries at the Princess Alexandra hospital on Thursday morning. Three men, aged 27, 37 and 38, were also injured in the attack, with one recovering from surgery and the other two having already been discharged from hospital. The shooting occurred on an evening when the venue was hosting a boxing event, and authorities are currently searching for those responsible for the violence. Approximately 80 police officers have been assigned to the murder investigation as officers appeal to the public for information. Detective Inspector Ian Galpin urged anyone with knowledge about the incident or the motivations behind it to come forward. Police stated they are maintaining an open mind regarding potential connections to gangs or organised crime as the inquiry proceeds. The family of the victim has requested privacy as they cope with the tragedy.",
+      "also_covered_by": [],
+      "sources_count": 1
+    },
+    {
+      "title": "Spain begins three days of mourning after train crash kills 69",
+      "link": "https://www.france24.com/en/video/20261029-spain-begins-three-days-of-mourning-after-train-crash-kills-69",
+      "source": "France 24 – English",
+      "published_at": "2026-10-29T13:01:58.000Z",
+      "excerpt": "Spain's second high-speed rail disaster this year, in which one train struck another from behind, killing 69 people, has raised fresh concerns about the safety of the country's rail network ahead of…",
+      "also_covered_by": [],
+      "sources_count": 1
     }
   ],
   "invest": [
     {
-      "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-      "link": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-10-26T12:49:14.000Z",
-      "excerpt": "Food startup Wonder operates as a vertically integrated food technology platform offering takeout and delivery from multiple restaurant concepts under one roof. Founded in 2018 by Marc Lore, the company has raised 3.3 billion dollars from investors and achieved a valuation of 9 billion dollars during its latest funding round. Wonder currently operates 170 storefronts across several states and plans to expand into Texas next year with a target of at least 100 locations by the end of 2027. The company utilizes commissary kitchens for food preparation, while individual locations finish the menu items in all-electric spaces designed to reduce renovation costs. Wonder also owns Grubhub, which allows customers ordering through the startup app to avoid delivery fees and inflated menu prices. The firm plans to introduce a subscription program named Wonder Create, enabling users to establish their own virtual restaurants using artificial intelligence tools. Additionally, the business is developing an artificial intelligence platform called MEL to create personalised meal plans based on health data. Wonder is preparing for a potential initial public offering, having hired a chief financial officer earlier in the year, although the exact timing remains unconfirmed. While the company has secured high customer retention rates in competitive markets, it has operated at a financial loss following major acquisitions and faces ongoing scrutiny regarding food quality and pricing from some consumers."
+      "published_at": "2026-10-29T13:08:00.000Z",
+      "excerpt": "According to Commerce Department reports released on Thursday, the United States economy grew at a better-than-expected pace in the third quarter while September inflation remained above the Federal Reserve target. Gross domestic product increased at a seasonally adjusted annualised rate of 3.4 percent, surpassing the 3.1 percent estimate and exceeding the 2.2 percent recorded in the second quarter. Economic growth was supported by higher investment levels during the artificial intelligence buildout alongside robust consumer and government spending. Consumer spending rose by 3.8 percent during the third quarter, matching the pace of the previous period, while gross private domestic investment surged by 19.4 percent. Meanwhile, the personal consumption expenditures price index increased by a seasonally adjusted 0.5 percent in September, bringing the annual inflation rate to 3.6 percent. Core PCE readings, which exclude food and energy, posted a monthly increase of 0.3 percent and an annual rate of 3.1 percent. Headline PCE prices rose 2.1 percent on a quarterly basis, down from 5 percent in the second quarter, while core prices increased 2.5 percent compared to 3.3 percent previously. September price increases were largely driven by a surge in energy costs, with gasoline and other energy goods rising 9.2 percent for the month. A separate Labor Department report showed that initial jobless claims edged lower to 194,000 for the week ending October 24. Following the data releases, stock market futures turned negative and Treasury yields fell, coming just a day after the Federal Reserve voted to hold its benchmark interest rate steady."
     },
     {
-      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
-      "link": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "title": "President of the European Central Bank Christine Lagarde to step down. Here's who is tipped to replace her",
+      "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-10-26T12:10:07.000Z",
-      "excerpt": "Shares of major neocloud companies fell in premarket trading on Monday following a social media post by Elon Musk warning that more than 200 firms in the sector face potential collapse and consolidation. Nebius, CoreWeave and Iren initially dropped more than 4 percent before paring some of their losses. Musk stated on X that debt markets have nearly shut off funding for companies lacking substantial revenue independent of artificial intelligence data centres, predicting widespread failures. SpaceX, led by Musk, operates its own data centres and competes directly with these neocloud providers that rent out computing capacity. The warning followed a post by investor Chamath Palihapitiya, who predicted a turbulent period in 2027 featuring stranded compute inventory and poor returns on bad bets. Neocloud stocks have experienced significant declines over the past month, with CoreWeave, Nebius and Iren falling by 30 to 40 percent amid investor anxiety over heavy borrowing to purchase expensive Nvidia chips and build infrastructure. Despite these concerns, Nvidia CEO Jensen Huang defended the sector during an interview in Berlin, stating that demand for neoclouds is extremely high and that capital shortages will be resolved. Executives from Nebius and Iren also defended their financial positions and customer demand, noting that they anticipate selling out upcoming capacity."
+      "published_at": "2026-10-29T13:02:37.000Z",
+      "excerpt": "European Central Bank President Christine Lagarde announced she will step down on 7 February next year, departing nearly nine months before her term was scheduled to expire in October 2027. Lagarde has led the central bank since July 2019, navigating the institution through the Covid-19 pandemic, the Russia-Ukraine war and significant energy price shocks. The process to appoint her successor will begin immediately, alongside ongoing discussions to fill other senior roles including those of chief economist Philip Lane and executive board member Isabel Schnabel. While the European Central Bank is institutionally independent, top appointments are made by the European Council following consultations with the European Parliament and member states. Spain's Pablo Hernández de Cos and the Netherlands' Klaas Knot are widely regarded as the top contenders to replace Lagarde. The upcoming succession comes amid market debate over potential intervention mechanisms as France faces a mounting sovereign debt crisis and a presidential election next year. Analysts note that Knot is generally viewed as a more hawkish candidate, whereas De Cos would signal greater continuity with a focus on financial stability. Nationality is also expected to be a factor in the political bargaining among national governments. Lagarde received a standing ovation from the central bank's Governing Council following her announcement, and European Council President Antonio Costa praised her steady stewardship."
     },
     {
-      "title": "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
-      "link": "https://www.cnbc.com/2026/10/26/gpu-futures-ai-hedge-hyperbolic.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-10-26T12:08:13.000Z",
-      "excerpt": "As financial markets grapple with declining shares in companies like CoreWeave, investors are increasingly searching for methods to hedge against potential drops in artificial intelligence demand. Former Citadel Securities quantitative researcher Jasper Zhang is addressing this challenge through Hyperbolic, a fifty-person financial technology startup he leads. The company is developing a spot marketplace for tradable graphics processing unit computing power, using software that virtually connects mismatched hardware clusters globally to create standardized units. This system aims to give traders control over underlying GPUs and serve as a foundation for physically settled GPU futures. Because GPU architecture, networking, memory, and security vary widely across data centres, traditional survey-based indices struggle to capture accurate setup costs. Hyperbolic intends to eliminate this basis risk by allowing investors to trade the hardware itself rather than relying solely on financial settlements. Since launching in 2022, the startup has raised twenty million dollars, is pursuing an additional funding round, and reports roughly 250,000 users alongside two hundred million dollars in connected annual GPU compute. Meanwhile, other major industry players are pursuing alternative hedging instruments, such as cash-settled futures products currently proposed by CME Group and backed by index providers like Silicon Data. However, executives at Hyperbolic argue that cash-settled derivatives fail to reflect real-world usage or put idle hardware to work during a market slowdown. By connecting users directly to physical infrastructure, the platform aims to provide a practical pipeline for smaller startups and help mitigate debt risks for data centre operators."
-    },
-    {
-      "title": "The stock market’s biggest test in weeks is here",
-      "link": "https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories",
+      "title": "Consumer spending flattens out after inflation surge",
+      "link": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-26T11:37:00.000Z",
-      "excerpt": "Here’s what’s I’m watching this morning: A week chockablock with enough catalysts that we might finally get some answers about the direction of the market by the end of it."
+      "published_at": "2026-10-29T13:01:00.000Z",
+      "excerpt": "Consumer spending rose sharply in September, according to new figures released this week. However, the data reveals that this overall increase largely reflected households spending more on gas and transportation following a noticeable rise in energy costs. When adjusted for these higher prices, underlying spending across other retail sectors remained relatively flat. Analysts noted that consumers are continuing to adjust their purchasing habits in response to persistent inflationary pressures across the wider economy. The figures follow several months of fluctuating retail activity as households navigate the rising cost of living. While expenditure on essential travel and fuel climbed during the month, discretionary purchases showed little growth. Economists suggest that the plateau in real consumer spending indicates a cautious approach from shoppers as they manage their household budgets. Further retail data is expected in the coming weeks to determine whether this cooling trend will persist into the final quarter of the year."
     },
     {
-      "title": "Verizon’s stock rises as subscriber surge impresses Wall Street",
-      "link": "https://www.marketwatch.com/story/verizons-stock-rises-as-subscriber-surge-impresses-wall-street-2be3ef2c?mod=mw_rss_topstories",
+      "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+      "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-10-26T11:11:00.000Z",
-      "excerpt": "Verizon’s performance on a key measure of subscriber growth was more than double what analysts had expected"
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”"
+    },
+    {
+      "title": "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing",
+      "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-10-29T12:38:18.000Z",
+      "excerpt": "Federal Reserve Chairman Kevin Warsh demonstrated a shifting communication style during his Wednesday press conference, allowing markets to remain uncertain about future policy decisions while actively reshaping the central bank. Appointed following presidential demands for rate cuts, Warsh faced initial skepticism when the Federal Open Market Committee held rates steady in June and July despite inflation remaining above the two percent target. A subsequent September rate hike accompanied by hawkish economic commentary caused market swings, leading investors to anticipate another increase this week until top officials acted to temper expectations. Warsh disavowed any notion that the Fed is following a predetermined course and declined to confirm whether those officials acted at his direction, thereby maintaining plausible deniability. Nevertheless, he signalled a lean toward higher rates by stating he is unable to call current financial conditions tight and by reaffirming a strict adherence to the two percent inflation target. In addition to monetary policy positioning, Warsh announced a plan to reduce the frequency of scheduled interest rate votes across the next two years to limit the impact of regional Federal Reserve comments. This structural change preserves the chairman's authority to call impromptu meetings while diminishing the influence of regional presidents during their voting rotations. However, some economists have criticised this approach as lacking transparency and argued that holding rates steady could heighten recession risks if inflation remains high."
     }
   ]
 }

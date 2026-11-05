@@ -1,139 +1,155 @@
 {
-  "generated_at": "2026-11-02T16:06:38.312Z",
+  "generated_at": "2026-11-05T14:44:07.094Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
-    "partnerships": [],
-    "acquisitions": [],
+    "partnerships": [
+      {
+        "title": "SAP promises to open out data flows in both directions",
+        "link": "https://www.theregister.com/software/2026/11/05/sap-promises-to-open-out-data-flows-in-both-directions/5307495",
+        "source": "The Register",
+        "published_at": "2026-11-05T10:15:00.000Z",
+        "excerpt": "New commitment to Apache Iceberg and expanded Databricks partnership point to battle ahead over context layer"
+      }
+    ],
+    "acquisitions": [
+      {
+        "title": "Meta acquires AI coding startup Conductor",
+        "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+        "source": "TechCrunch",
+        "published_at": "2026-11-04T21:10:56.000Z",
+        "excerpt": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously."
+      }
+    ],
     "launches": [
       {
-        "title": "Affinity’s creative studio is now available on iPad for free",
-        "link": "https://www.theverge.com/1024283/canva-affinity-for-ipad-design-app-availability",
+        "title": "The M6 MacBook Pro is probably the last of its kind",
+        "link": "https://www.theverge.com/tech/1027250/m6-macbook-pro-review",
         "source": "The Verge",
-        "published_at": "2026-11-02T14:00:00.000Z",
-        "excerpt": "Canva has released Affinity for iPad, bringing professional-grade tools for vector graphics, photo editing, illustration, and page layouts to Apple’s tablet device at no cost for individuals. The application is optimised for touchscreens and the Apple Pencil, supporting features such as pressure sensitivity, tilt, barrel roll, squeeze, and hover. It also includes a new Sketch Studio intended for freehand drawing and converting rough sketches into geometric shapes. Projects can be saved in a unified file format compatible with major design types to minimise the need for exporting and converting. In addition, the software integrates an AI Studio that offers generative background expansion, automated motion blur, noise reduction, and image resolution scaling. When Canva acquired Affinity developer Serif in 2024, users expressed concerns about potential shifts to subscription models and forced artificial intelligence integration, prompting a pledge that core features would remain accessible without a subscription. True to that promise, the core tools are free for individuals with a standard Canva account, while the optional AI features require a paid Canva Pro subscription starting at eighteen dollars per month."
+        "published_at": "2026-11-05T14:00:00.000Z",
+        "excerpt": "Apple has released the M6 MacBook Pro, serving as a straightforward chip upgrade to the entry-level lineup using the same chassis design as previous models. The device features a 12-core M6 processor and a new N1 networking chip that supports Wi-Fi 7, Bluetooth 6, and Thread. Other hardware components remain consistent with earlier versions, including the 14.2-inch miniLED display, the large haptic trackpad, the keyboard, and the robust speaker system. The base model starts at $1,999 and includes 16GB of RAM alongside 1TB of storage, representing a higher price point compared to previous generations. Battery life remains exceptional, offering over 12 hours of continuous use during standard multitasking and video calls. While the M6 chip delivers strong performance for daily tasks, photo editing, and light gaming, the laptop faces a complicated market position due to upcoming OLED models and pricing overlaps with higher-tier configurations. Upgrading the RAM brings the cost close to more powerful Pro models, creating a difficult choice for buyers. The article notes that this release is likely the last pre-redesign MacBook Pro before Apple transitions its entry-level laptops to a thinner and lighter design featuring an OLED touchscreen. For consumers whose current computers still function well, waiting for the anticipated redesigned models next year may be a worthwhile option."
       },
       {
-        "title": "Ford launches a ‘privacy promise’ and explains how and why it uses customer data",
-        "link": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
-        "source": "TechCrunch",
-        "published_at": "2026-11-02T11:00:00.000Z",
-        "excerpt": "Ford has introduced a public privacy promise ahead of launching a new generation of connected vehicles, including models built on its upcoming universal electric vehicle platform. The automaker has also launched a website designed to educate customers about how, where and why the company uses their data, alongside instructions on how to change related settings. Chief privacy officer Kristin Jones stated that the initiative aims to provide clarity regarding data practices and build a relationship of trust with consumers. While vehicle controls have existed for years, the company wants to communicate them more clearly in response to low consumer awareness around data collection. Recent industry controversies, such as General Motors facing a multimillion-dollar settlement over data sharing, have highlighted growing concerns about how automakers handle customer information. Ford stated that it will not share driving behavior information with data brokers or use data for targeted advertising. The new educational website explains data collection practices and guides customers through opting in or out of information sharing. Jones noted that opting out of certain data sharing will make some modern features, such as real-time navigation and built-in roadside assistance, inaccessible. Collecting data on vehicle health allows the company to provide owners with maintenance updates while supporting research and development for future technologies. Jones emphasized that the manufacturer is not trying to monetize customer data, but rather offer products and services that provide user value."
+        "title": "Microsoft admits certifications can be a drag, launches creds that recognize skills",
+        "link": "https://www.theregister.com/software/2026/11/05/microsoft-admits-certifications-can-be-a-drag-launches-creds-that-recognize-skills/5307725",
+        "source": "The Register",
+        "published_at": "2026-11-05T03:43:56.000Z",
+        "excerpt": "Microsoft has introduced a new credential type called the Pro Badge, which is designed to recognise skills demonstrated through everyday product use rather than traditional examinations. General manager for content and insights Cameron Percy acknowledged that people have long requested a simpler way to prove workplace skills without needing to prepare for separate tests. The company states that while traditional certifications show problem-solving abilities in a specific role, Pro Badges demonstrate how individuals use particular products during daily tasks. The first available credential of this type is for GitHub Copilot and is provided at no cost, requiring no separate exam or study guide. Users can earn the GitHub Pro Badge by signing in at the dedicated GitHub learning site, which activates a proficiency engine. This engine analyses relevant product usage signals and evaluates them against a defined framework to automatically update proficiency levels. Microsoft has established five proficiency tiers: beginner, intermediate, proficient, advanced, and expert. To secure the Pro"
       },
       {
-        "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+        "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+        "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+        "source": "Ars Technica",
+        "published_at": "2026-11-04T21:38:49.000Z",
+        "excerpt": "“We started listening to a lot of our lower-end customers,\" VMware exec says."
+      },
+      {
+        "title": "Amazon ECS Managed Daemons can now collect json-file logs from application containers on Amazon ECS Managed Instances",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/",
         "source": "AWS What's New",
-        "published_at": "2026-10-30T20:43:00.000Z",
-        "excerpt": "Amazon Bedrock has introduced support for the OpenAI GPT-5.6 models, specifically Terra and Luna, on the bedrock-runtime endpoint within AWS GovCloud (US) regions. The update includes compatibility with the Responses, Converse, and Chat Completions APIs. Additionally, Amazon Web Services has added support for Cross-Region Inference for these models in AWS GovCloud (US). This feature automatically routes inference requests across multiple AWS GovCloud regions to provide higher throughput and increased redundancy. Customers can scale their usage during demand spikes while maintaining US data sovereignty without having to manually manage capacity across multiple regions. Because these native OpenAI APIs operate on the bedrock-runtime endpoint, they integrate with existing account-level controls used for other Bedrock models. Consequently, model usage appears in Bedrock model invocation logging, which can be delivered to Amazon S3 or Amazon CloudWatch Logs. Furthermore, activity is tracked in Amazon CloudWatch metrics that cover invocation counts, token counts, latency, throttles, and errors. Spend attribution is also supported through itemised data in AWS Cost Explorer and the AWS Cost and Usage Report. Cross-Region Inference for OpenAI models is now available across all AWS regions where OpenAI models are offered on Amazon Bedrock."
+        "published_at": "2026-11-04T21:29:00.000Z",
+        "excerpt": "Amazon Elastic Container Service has introduced json-file log driver support for Amazon ECS Managed Instances alongside log driver volumes for Amazon ECS Managed Daemons. This combined functionality allows users to collect application logs using their preferred observability agent and forward them to any chosen destination. Application containers running on ECS Managed Instances can now write their logs as local files in the standard Docker json-file format, which is natively readable by most observability agents. Managed daemons can directly read these files through a volume mount without needing host bind mount paths or root privileges. Consequently, a single managed daemon on each instance can gather logs from every application container utilising the json-file log driver. Amazon ECS stores each containerised log in a dedicated directory named"
       },
       {
-        "title": "Web Search now available on Kiro in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+        "title": "Amazon DocumentDB (with MongoDB compatibility) is now available in the Asia Pacific (Taipei) and Asia Pacific (New Zealand) Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/",
         "source": "AWS What's New",
-        "published_at": "2026-10-30T19:40:00.000Z",
-        "excerpt": "Kiro web search is now available in AWS GovCloud, providing agents with real-time access to current information on the internet. This feature allows agent answers to draw upon up-to-date search results and page content. The agent automatically triggers web searches when handling questions that involve recent developments or topics that fall outside the scope of its training data. Responses that incorporate information from web results include appropriate citations. Enterprise administrators operating in AWS GovCloud have the ability to disable web search and web fetch functions for their entire organisation directly through the Kiro console under the settings menu. Additionally, teams can remove these web tools from individual custom agents or restrict them by implementing capability-based permission rules. Further information regarding the new capability can be found within the AWS GovCloud documentation and the monitoring and tracking guide. Users can also reach out to their designated AWS account team for assistance or consult the main Kiro product page to learn more about the platform."
-      },
-      {
-        "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
-        "source": "AWS What's New",
-        "published_at": "2026-10-30T18:20:00.000Z",
-        "excerpt": "OpenAI has made its Daybreak Red security model available to eligible customers using Amazon Bedrock in the AWS GovCloud (US-East) region as well as the US East (Ohio) region. Designed as part of the broader Daybreak cyber defense initiative, the GPT-5.6 Cyber model is intended to assist authorized security teams with vulnerability research, exploit reproduction, and mitigation development. The platform is engineered to provide verified defenders with greater latitude to investigate complex security problems by featuring reduced refusal rates for sensitive tasks alongside enhanced identity verification, monitoring, and access controls. Operating on Amazon Bedrock's next-generation inference engine, the system enforces zero-operator access at the chip level to maintain data security. Furthermore, user inference data is not utilised to train models, and customers are not required to share their Daybreak Red data with OpenAI. To utilise the service, interested organisations must first enrol in Daybreak access through OpenAI and verify their eligibility by contacting OpenAI or their designated AWS account team. Once approval has been granted, customers can collaborate with their AWS account team to enable access within their environment."
+        "published_at": "2026-11-04T19:00:00.000Z",
+        "excerpt": "Amazon DocumentDB with MongoDB compatibility is now available in the Asia Pacific Taipei and Asia Pacific New Zealand Regions. This expansion increases the number of locations where customers can utilise the database service. Amazon DocumentDB is"
       }
     ]
   },
   "geo": [
     {
-      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-05T13:51:03.000Z",
+      "excerpt": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "also_covered_by": [
+        "The Guardian – World",
+        "France 24 – English",
+        "NPR – World"
+      ],
+      "sources_count": 4
+    },
+    {
+      "title": "Russell Brand guilty of rape and sexual assault",
+      "link": "https://www.bbc.co.uk/news/videos/c9dr8713zjgyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-05T14:28:21.000Z",
+      "excerpt": "Russell Brand has been found guilty of one count of rape and three counts of sexual assault following a trial. The 51-year-old comedian and actor has been remanded in custody and is scheduled to be sentenced on Monday. The legal proceedings involved charges dating from 1999 to 2009. These allegations concerned a total of six women, all of whom are legally entitled to lifelong anonymity. BBC correspondent Sima Kotecha reported on how the trial unfolded in court. Further details regarding the specific testimonies or the jury's deliberations have not been immediately released. Brand's legal team has not yet commented publicly on the verdict. The judge ordered the defendant to remain in custody until the sentencing hearing early",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+      "link": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-04T23:50:40.000Z",
+      "excerpt": "A mother and her daughter have died following a suspected grizzly bear attack in the Canadian province of British Columbia. Forty-eight-year-old Jennifer Balcarras and twenty-year-old Selah Reed were reported missing on the first of November after failing to return from a short afternoon walk. Their remains were discovered in a trail area in Bella Coola during search efforts conducted by the Royal Canadian Mounted Police and the BC Conservation Officer Service. Officials stated that evidence gathered at the scene indicated an animal may have been involved in the deaths. Conservation officers are currently working to track down any bears connected to the incident. According to the BC Conservation Officer Service, any captured animal found to have been involved will be dispatched in line with provincial human-wildlife conflict guidelines. Relatives described the victims as close companions who shared numerous hobbies and frequently hiked together. While conflicts between humans and grizzly bears are generally considered rare unless the animals are surprised or defending food and cubs, British Columbia has experienced several attacks in recent years. The BC Wildlife Federation has previously noted an increase in reported conflicts since the provincial government implemented a ban on sport hunting for grizzly bears in 2017.",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "ANC faces anger over poor services as South Africans vote in local elections",
+      "link": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
       "source": "The Guardian – World",
-      "published_at": "2026-11-02T15:45:05.000Z",
-      "excerpt": "Supermarket chains across at least seven European countries have reported sudden overnight temperature rises in their refrigerators and freezers. Retailers in Belgium, Estonia, Ireland, Finland, Luxembourg, the Netherlands and Sweden confirmed they were victims of cyber-attacks impacting their refrigeration systems. The incidents closely mirror a similar attack in France last month where hackers seized control of cooling units in up to 700 supermarkets, raising temperatures to 50C and causing extensive food losses and fires. Swedish chains Coop and ICA stated that a limited number of their stores had been affected, with some locations reporting that freezers were completely destroyed. Dutch retailer Ahold Delhaize confirmed that dozens of its supermarkets in Belgium and Luxembourg were hit, forcing stores to remove fresh and frozen products from sale. Other affected groups included Carrefour Belgium, Colruyt, Intermarché and Ikea, which had to discard food items as a precaution. In Estonia, attackers accessed a computer controlling refrigeration systems at a supermarket, though the issue was addressed quickly with minimal damage. Irish chain SuperValu reported that 13 of its stores were impacted by a cyber-incident affecting a specific refrigeration model. Cybersecurity experts noted that the attacks involved no financial demands and appeared to be acts of sabotage exploiting thousands of exposed and unpatched operational technology devices reachable via the internet.",
+      "published_at": "2026-11-04T14:50:47.000Z",
+      "excerpt": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local electio…",
       "also_covered_by": [
         "BBC World"
       ],
       "sources_count": 2
     },
     {
-      "title": "European supermarkets targeted in second reported cyberattack",
-      "link": "https://www.dw.com/en/european-supermarkets-targeted-in-second-reported-cyberattack/a-79831139?maca=en-rss-en-all-1573-rdf",
-      "source": "Deutsche Welle – Top",
-      "published_at": "2026-11-02T14:31:00.000Z",
-      "excerpt": "Supermarkets across Belgium, Estonia, Ireland, Luxembourg and Sweden reported anomalies in their freezer systems on Monday in an apparent cyberattack reminiscent of a similar incident in France three weeks prior. Swedish supermarket chains ICA and Coop stated that a limited number of their shops had been affected, with ICA looking into the scale of the issue and Coop noting that six of its roughly 800 stores were impacted. Dutch supermarket chain Ahold Delhaize reported an overnight information technology incident affecting freezers in several Belgian and Luxembourg stores, while Irish public broadcaster RTE stated that 13 supermarkets were hit. Other chains including Carrefour, Intermarche and Spar were also targeted, with a Carrefour spokesperson in Belgium confirming the event was a cyberattack. The Belgian prosecutor's office subsequently opened a criminal investigation into the disruption. European Commissioner for Agriculture and Food Christophe Hansen described the attacks as a deliberate attempt to disrupt Europe's food supplies, noting that while food security remained safe, the resulting food waste and impact on businesses were real. The incident forced stores to discard spoiled products and prompted investigations by authorities such as Sweden's National Cybersecurity Center. Officials highlighted that the disruption involved exposed operational technology devices, which are increasingly monitored and controlled remotely, creating new vulnerabilities for cybercriminals to exploit.",
-      "also_covered_by": [
-        "France 24 – English"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "French school protests resume on smaller scale after autumn break",
-      "link": "https://www.france24.com/en/video/20261102-french-school-protests-resume-on-smaller-scale-after-autumn-break",
-      "source": "France 24 – English",
-      "published_at": "2026-11-02T14:15:12.000Z",
-      "excerpt": "French high school student protests resumed on Monday on a ​much smaller scale than in past weeks as pupils returned from a two-week break, with youngsters trying to blockade a few high schools in Pa…",
-      "also_covered_by": [
-        "Al Jazeera English"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Uganda begins withdrawing troops from Somalia after two decades",
-      "link": "https://www.dw.com/en/uganda-begins-withdrawing-troops-from-somalia-after-two-decades/a-79829903?maca=en-rss-en-all-1573-rdf",
-      "source": "Deutsche Welle – Top",
-      "published_at": "2026-11-02T12:19:00.000Z",
-      "excerpt": "Uganda has begun withdrawing its troops from Somalia, marking the start of a phased withdrawal that will conclude by the end of 2027. Uganda originally sent troops to Somalia in 2007 as part of an African Union peacekeeping force established to support the government against Al-Shabab militants. An initial contingent of 109 Ugandan soldiers departed from Mogadishu on Friday, with the first cohort already returning to Uganda. Around 4,500 Ugandan troops are currently stationed in Somalia under the African Union Support and Stabilization Mission, alongside another 2,000 deployed through bilateral agreements. The military stated that the complete withdrawal will allow the Somali Armed Forces to take full responsibility for national security. Meanwhile, the future of the African Union mission has faced uncertainty following the United States decision to end funding for a supporting UN logistics office. The United States, which is the coalition's largest donor, expressed frustration regarding limited progress against Al-Shabab and a perceived failure by the Somali government to implement political reforms. This announcement coincided with the conclusion of the UN political mission in Somalia, which transferred its responsibilities to the Somali government and UN agencies after more than thirty years. Somalia is scheduled to hold elections in May next year, though ongoing insecurity and opposition disputes continue to threaten the electoral process as Al-Shabab maintains control over large areas of central and southern Somalia.",
-      "also_covered_by": [
-        "BBC World"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "How Antonelli became Formula One's youngest world champion",
-      "link": "https://www.france24.com/en/video/20261102-how-antonelli-became-formula-one-s-youngest-world-champion",
-      "source": "France 24 – English",
-      "published_at": "2026-11-02T11:54:27.000Z",
-      "excerpt": "A tearful Kimi Antonelli became Formula One's youngest world champion at 20 years and 68 ​days old on Sunday when he finished third for Mercedes in a red-flagged and restarted Mexico City Grand Prix…",
-      "also_covered_by": [
-        "Deutsche Welle – Top"
-      ],
-      "sources_count": 2
+      "title": "France holds new strikes and protests as unions demand immediate answers",
+      "link": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-05T14:42:29.000Z",
+      "excerpt": "Protests and strikes have taken place across France as five major trade unions launched a national day of action alongside high school students and demonstrators. By early afternoon, more than 250,000 people had gathered in nearly 70 towns and cities to demand higher wages, better public services, and relief from the rising cost of living. The demonstrations caused widespread disruption in schools, hospitals, and public transport, leading to the temporary closure of the Eiffel Tower and parts of the Louvre museum. Production was also halted at several oil refineries, and disruptions at nuclear plants meant France was expected to import more electricity than it produced. The government deployed 70,000 police officers to manage the demonstrations following sporadic unrest, with clashes reported between security forces and radical left-wing groups in cities including Lyon and Rennes. Union leaders are pressing for an increase in the minimum wage and a net monthly pay rise of 100 euros, while also calling for reforms to support workers and young people. In response to public pressure, ministers have released millions of barrels of diesel from strategic reserves to lower fuel costs and promised to reform the university admissions system by 2028. Further",
+      "also_covered_by": [],
+      "sources_count": 1
     }
   ],
   "invest": [
     {
-      "title": "Booming U.S. manufacturers can’t keep up with demand — and high inflation isn’t helping",
-      "link": "https://www.marketwatch.com/story/booming-u-s-manufacturers-cant-keep-up-with-demand-and-high-inflation-isnt-helping-128a3902?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-02T15:59:00.000Z",
-      "excerpt": "U.S. manufacturers in October pumped out the most goods — plastics, computers, electrical equipment and so forth — in five years as a growing economy and a revolution in artificial intelligence stoke…"
-    },
-    {
-      "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
-      "link": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "link": "https://www.cnbc.com/investingclub/2026/11/05/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-02T15:56:54.000Z",
-      "excerpt": "Crude oil prices fell sharply on Monday, reaching session lows following signals from senior United States and Iranian officials that they remain open to diplomatic solutions. Brent crude futures dropped 6.4% to $106.20 a barrel by mid-morning, while United States West Texas Intermediate declined 6.5% to $97.35 per barrel. United States Secretary of State Marco Rubio stated that President Donald Trump prefers to resolve the conflict diplomatically rather than use military force. Although Trump previously indicated he would not attack Iran before the United States midterms, energy markets had already priced in the risk of a major military escalation following the elections. Rubio noted over the weekend that the president has not yet made a final decision and retains the ability to act militarily if necessary. Simultaneously, Iranian Foreign Minister Abbas Araghchi indicated that an agreement with Washington is achievable if the United States demonstrates goodwill and actively seeks peace. Araghchi explained that mediators are currently discussing a proposal presented by Iran during the United Nations General Assembly in September, which entails lifting sanctions, reducing regional military presence, and removing the blockade. Conversely, Iranian Supreme Leader Mojtaba Khamenei urged the nation's armed forces to counter any level of threat with an immediate and unrestricted response. Analysts note that ongoing attacks on shipping vessels and refineries in the Middle East suggest that broader conflict concerns will persist in the near term despite renewed diplomatic optimism."
+      "published_at": "2026-11-05T14:39:12.000Z",
+      "excerpt": "Dow futures are up this morning, and Nasdaq futures are down."
     },
     {
-      "title": "My wife and I are in our 70s. Should we pay off our 2.5% mortgage or invest in a stock market driven by AI?",
-      "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-02T15:45:00.000Z",
-      "excerpt": "“We are weighing up the wisdom of investing in a market driven by artificial intelligence.”"
-    },
-    {
-      "title": "Stock market after midterm elections: What S&P 500 history shows",
-      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-02T15:41:12.000Z",
-      "excerpt": "Financial markets typically experience anxiety ahead of midterm elections, but historical data shows that stocks generally perform strongly regardless of the political outcome. A CNBC analysis of S&P 500 returns from 1980 through 2024 reveals that the index averaged gains of 0.2 percent after one day and one week, and 1.1 percent after one month, across both presidential and midterm contests. One year later, the index climbed an average of 13.7 percent following midterms, with positive returns recorded in 91 percent of cases and gains following all eleven midterms between 1982 and 2022. Short-term returns proved less reliable, particularly after presidential elections, which yielded slightly negative averages over the first day and week. Analysts note that markets often prefer a divided government, registering an average one-year increase of 15 percent across fifteen elections that left no single party in complete control, compared to 11.5 percent following single-party victories. Despite these historical trends, broader economic drivers such as Federal Reserve policy, corporate earnings cycles, artificial intelligence developments, and global geopolitics ultimately carry more weight for market performance than election results alone."
+      "published_at": "2026-11-05T14:38:28.000Z",
+      "excerpt": "Richmond Federal Reserve President Thomas Barkin stated on Thursday that the central bank will likely need to implement further interest rate increases, though the exact magnitude and speed remain undecided. Speaking during a CNBC interview at the Richmond Fed's 2026 CFO Summit, Barkin highlighted ongoing concerns regarding high inflation and near record low unemployment. He indicated that a gradual pace of policy adjustment is appropriate given current global uncertainty and the prospect of incoming economic data. These remarks follow a recent decision by his Federal Open Market Committee colleagues to maintain the benchmark overnight borrowing rate in a range between 3.75 percent and 4 percent. Although Barkin does not currently hold a vote on the rate-setting committee, he is scheduled to become a voting member in 2027. The FOMC previously noted that it is awaiting further information before determining its next steps, following a quarter percentage point hike in September. Barkin suggested that current monetary policy remains somewhat accommodative because consumption levels stay relatively elevated. He identified inflation as the most significant current risk, noting that artificial intelligence currently contributes to price pressures before it eventually boosts production and alleviates inflation in the future. Meanwhile, market pricing via the CME Group FedWatch tool indicates a probability exceeding 80 percent for a rate hike in December, followed by another move in 2027."
     },
     {
-      "title": "Want guaranteed income in retirement without an annuity? Try laddering I-bonds.",
-      "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-02T15:32:00.000Z",
-      "excerpt": "The new 5.51% rate might entice you to use I-bonds to create inflation-proof income in retirement."
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC – Business",
+      "published_at": "2026-11-05T14:36:26.000Z",
+      "excerpt": "Most analysts expected the increase from 3.75% to 4%."
+    },
+    {
+      "title": "Today’s UK interest rate rise unlikely to be the last unless Iran war ends, Bank of England warns – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+      "source": "The Guardian – Business",
+      "published_at": "2026-11-05T14:12:11.000Z",
+      "excerpt": "UK hit by first interest rate rise in three years, as Bank predicts inflation will approach 5% by middle of 2027 UK government bond prices are also rallying today. This has pushed down the yield, or…"
+    },
+    {
+      "title": "What does the raise in interest rates mean?",
+      "link": "https://www.bbc.co.uk/news/videos/c9kgjvmn4vlno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC – Business",
+      "published_at": "2026-11-05T14:02:24.000Z",
+      "excerpt": "The BBC's cost of living correspondent Kevin Peachey explains what the change could mean for those saving for a holiday or to buying a house."
     }
   ]
 }

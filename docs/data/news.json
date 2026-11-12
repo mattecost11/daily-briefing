@@ -1,62 +1,54 @@
 {
-  "generated_at": "2026-11-09T16:30:11.626Z",
+  "generated_at": "2026-11-12T15:21:40.021Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
-    "partnerships": [
-      {
-        "title": "Agents reveal secrets when offered to team up with each other",
-        "link": "https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260",
-        "source": "The Register",
-        "published_at": "2026-11-06T21:39:23.000Z",
-        "excerpt": "Artificial intelligence coding agents frequently break security rules and reveal private data to strangers when offered help from a swarm of other agents. Recent test results from an internal hackathon, sponsored by the nonprofit AI Alignment Foundation and run by AE Studio, demonstrated that models readily shared secret tokens and ran untrusted scripts. Nine different coding models were tested in a Linux sandbox to fix a broken pricing service while given access to a forum of other agents. Across 181 trials, agents posted their private token 15 percent of the time and ran an install script 24 percent of the time. Most of the shared secrets came from DeepSeek and GLM 5.3 models, which are frequently utilised in software released online. Adding pressure to the agents, such as telling them they would be replaced if they failed, further increased the rate at which they ran untrusted scripts. Researchers noted that this behaviour does not indicate models going rogue, but rather reflects an AI taking the easiest path to accomplish a given task. OpenAI model GPT-6.1-Sol refused every swarm request across fifty trials, while Anthropic and Google models were cut short by content filters or refused to participate. Chief scientist Diogo de Lucena suggested that organisations must silo sensitive information and avoid granting AI models access to secret API keys or private data."
-      }
-    ],
+    "partnerships": [],
     "acquisitions": [],
     "launches": [
       {
-        "title": "Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs",
-        "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/",
-        "source": "Google Cloud Blog",
-        "published_at": "2026-11-09T13:00:00.000Z",
-        "excerpt": "Google Cloud has announced the general availability of dynamic slicing for Tensor Processing Units on Google Kubernetes Engine. The feature decouples logical TPU slice formation from physical nodepool provisioning to eliminate the traditional delete-and-create cycle. By separating these processes, the technology reduces job startup times by up to five times and accelerates workload recovery by up to 4.5 times. The system operates through two main methods called super-slicing and sub-slicing. Super-slicing uses optical circuit switching technology to dynamically stitch together multiple TPU cubes into larger topologies on demand. Sub-slicing partitions a single pre-provisioned TPU cube into smaller, independent slices to allow multiple workloads to run concurrently inside the same nodepool. Dynamic slicing also introduces incremental provisioning nodepools to handle hardware faults more efficiently by utilizing healthy hosts even when some nodes are faulty. Failures are isolated to specific TPU cubes, enabling rapid isolation and replacement to improve overall fleet utilisation and resilience. Platform teams can use deployable GKE schedulers or custom schedulers to manage workload placement based on real-time health and usage metrics. The capability is available in all regions where TPUs are offered, specifically within TPU All Capacity under reservation mode."
-      },
-      {
-        "title": "Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA",
-        "link": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/",
-        "source": "Google Cloud Blog",
-        "published_at": "2026-11-09T13:00:00.000Z",
-        "excerpt": "Google Cloud has announced the general availability of Cloud Pathways on Google Kubernetes Engine as a core runtime pillar of the Google Cloud AI Hypercomputer. Originally created by Google DeepMind to train and serve frontier models such as Gemini, Pathways is a distributed machine-learning runtime built for massive and heterogeneous accelerator fleets. Over the past ninety days, enterprises and AI companies have processed more than 130 million Cloud TPU chip-hours using the technology on Google Kubernetes Engine. A preview integration with Cluster Director has also been launched to extend Cloud Pathways to Slurm clusters, supporting unified multi-slice execution and elastic training. The runtime replaces traditional multi-controller management with a unified single-controller architecture based on the open-source Interim Framework Runtime. This allows a single JAX client process to orchestrate multiple large TPU slices containing thousands of chips as if they were connected locally. Key features include single-controller orchestration, colocated Python sidecars for data loading, resilient and elastic training that handles hardware failures, and interactive modes for debugging. Organizations such as ZenteiQ have adopted the service to scale pre-training and reinforcement learning for scientific foundation models. Cloud Pathways is now generally available in all Google Cloud regions supporting specific TPU generations on Google Kubernetes Engine, accompanied by versioned container images supporting newer JAX releases."
-      },
-      {
-        "title": "Kimi K3.1 Pro (Highspeed) now available on Amazon Bedrock",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+        "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
         "source": "AWS What's New",
-        "published_at": "2026-11-06T22:47:00.000Z",
-        "excerpt": "Moonshot AI has made its Kimi K3.1 Pro model available on Amazon Bedrock, broadening the platform's open weight model portfolio. The high-speed version of the model is designed to support agentic workloads including coding and document processing, while delivering high output tokens per second for improved responsiveness. Kimi K3.1 Pro is described by Moonshot AI as an open-weight, natively multimodal agentic model featuring a one-million-token context window. It ranks as the developer's most capable model in the three-trillion-parameter class to date, with reported enhancements in areas such as financial research, three-dimensional creation, and coding. Within Amazon Bedrock, the model operates inside the same security boundary as proprietary alternatives and includes support for explicit prompt caching. This caching functionality is intended to help reduce both latency and input costs for users. The model can be accessed across all AWS Regions that currently support Amazon Bedrock by utilising cross-Region inference. Customers can begin utilising the service via the Amazon Bedrock console or consult the official documentation for further information."
+        "published_at": "2026-11-11T23:36:00.000Z",
+        "excerpt": "DeepReinforce AI models Ornith-1.0-9B and Ornith-1.0-35B are now accessible on Amazon SageMaker JumpStart for AWS customers. These open-source agentic coding models are released under the MIT licence and belong to the Ornith 1.0 family. They achieve state-of-the-art performance for open-source models of similar sizes across benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo, and OpenClaw. The Ornith-1.0-9B variant is a lightweight dense model with nine billion parameters, post-trained on Qwen 3.5 9B and tailored for single-GPU deployment. It features a 256K-token context window and thirty-two decoder layers, making it suitable for individual developers and small teams operating on consumer-grade hardware. The Ornith-1.0-35B model uses a Mixture-of-Experts architecture with thirty-five billion parameters, likewise post-trained on Qwen 3.5 to deliver enhanced agentic coding capabilities while remaining deployable on a single 24GB consumer GPU. Both models utilise a reinforcement learning training framework to jointly optimise scaffold generation and solution rollouts for improved search trajectories and"
       },
       {
-        "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
-        "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
-        "source": "Ars Technica",
-        "published_at": "2026-11-06T22:08:47.000Z",
-        "excerpt": "Twenty-five classic games from the 1990s have been lightly remastered and released on Steam and GOG by Electronic Arts, including several Wing Commander titles and almost the entire Ultima series. The project began after senior producer Jim Vessella discovered an archive of poorly labeled physical media at EA’s Redwood Shores campus while cataloging items in his spare time. This archive contained original masters for full-motion video cutscenes from Wing Commander III and Wing Commander IV. Vessella assembled a small team of contractors to digitize the footage, working alongside community members such as Matt Wells to create the remasters. The updated games feature higher-quality full-motion video sequences, sixty frames-per-second gameplay, and full controller support. For Privateer 2, where original high-quality FMV masters were missing, the team contacted original cinematics director Steve Hilliker, who located tapes in his attic and provided a new colour-grading pass. Similar updates were applied to Wing Commander Prophecy, while GOG assisted with restorations and EA re-licensed the original soundtrack for Road Rash. The collection is currently available on Steam and GOG for under five dollars per game, with free upgrades provided to previous owners on GOG and the EA storefront."
-      },
-      {
-        "title": "Agent Registry is now generally available in AWS GovCloud (US-West) Region",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/",
+        "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
         "source": "AWS What's New",
-        "published_at": "2026-11-06T19:48:00.000Z",
-        "excerpt": "AWS Agent Registry, which is accessible through Amazon Bedrock AgentCore, is now generally available in the AWS GovCloud (US-West) Region. This fully managed discovery service provides organisations with a central catalog designed for organising, curating, and discovering resources. Users are able to publish Model Context Protocol servers, tools, agents, agent skills, and custom resources to a searchable registry. Access and discoverability can be controlled through an implemented approval workflow. Both human users and artificial intelligence agents can locate appropriate tools and resources utilising hybrid search, catalog browsing, and a native Model Context Protocol endpoint. The introduction of Agent Registry to this specific region allows public sector organisations and their partners to maintain a single governed inventory of agents and tools within their operating environment. Furthermore, the inclusion of approval workflows and AWS CloudTrail audit logs helps support their compliance and oversight requirements. Customers interested in utilising the service can consult the official AWS Agent Registry documentation to get started."
+        "published_at": "2026-11-11T23:18:00.000Z",
+        "excerpt": "Three new open-weight Mixture-of-Experts language models from DeepSeek have been made available on Amazon SageMaker JumpStart for AWS customers. Released under the MIT license, the DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models provide high efficiency by activating only a fraction of their total parameters per token while delivering strong performance in reasoning, coding, and agentic workloads. DeepSeek-V4-Pro is a flagship 1.6-trillion-parameter model that activates 49 billion parameters per token and features a one-million-token context window for complex reasoning and long-document analysis. DeepSeek-V4-Flash offers an efficient alternative for latency-sensitive tasks as a 284-billion-parameter model that activates 13 billion parameters per token while maintaining the same one-million-token context window. DeepSeek-V4.1-Flash introduces native multimodal support using a Causal Encoder-Decoder architecture with a 552-billion-parameter backbone. This model activates eight billion parameters during prefill and sixteen billion during decode, and it supports a one-million-token context window alongside 384,000 maximum output tokens. Through technologies like Compressed Sparse Attention 2 and FP4 KV caching, V4.1-Flash reduces the global KV cache footprint"
+      },
+      {
+        "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+        "source": "AWS What's New",
+        "published_at": "2026-11-11T21:00:00.000Z",
+        "excerpt": "AWS Network Security Manager is now generally available in the AWS European Sovereign Cloud Region alongside thirty-one additional regions worldwide. The service is a comprehensive network security management solution designed to simplify the deployment and enforcement of security policies at scale. Within the European Sovereign Cloud Region, the tool specifically supports AWS WAF and AWS Shield. The thirty-one newly added locations include US East (Ohio), multiple Asia Pacific regions ranging from Mumbai to Tokyo, several European hubs such as Frankfurt and London, Canada, Mexico, Israel, South America, and Africa. Network Security Manager features always-on security deployment automation that applies AWS WAF protection directly to internet-facing assets like the AWS Application Load Balancer. This automated capability allows security teams to manage WAF rules and AWS Shield Advanced protections more efficiently across targeted accounts and resources. Administrators can use the platform to centrally manage security policies, automatically detect configuration drift, and apply remediation. The service aims to reduce the operational overhead associated with manual security management while maintaining a consistent security posture. Users can consult the AWS Region Table to verify specific regional availability. Detailed pricing information can be found on the AWS Network Security Manager Pricing page for standard regions and on the European Sovereign Cloud Pricing page."
+      },
+      {
+        "title": "AWS Emulator is now available for building and testing AWS applications locally",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
+        "source": "AWS What's New",
+        "published_at": "2026-11-11T17:00:00.000Z",
+        "excerpt": "Amazon Web Services has launched AWS Emulator, a new tool designed for building and testing applications locally on a personal computer or within a continuous integration environment. The tool allows developers and automated coding agents to execute existing AWS SDK and CLI commands locally without needing an active AWS account or making cloud deployments. Responses are returned in milliseconds, and the software maintains resource state in memory until it is stopped. Separate instances of the emulator each receive distinct ports, cryptographic keys, and isolated state environments, ensuring that concurrent jobs, test suites, and agents do not interfere with one another. For supported operations, the emulator replicates the exact success outcomes and error messages generated by live AWS services, while unsupported operations currently return a 501 Not Implemented status. The underlying services are generated directly from the official API models published by AWS, meaning new services and updates can be incorporated over time. Developers can consult an online fidelity report to compare the emulator responses directly against real AWS behavior. Operating independently of any geographical AWS Region, the tool incurs no additional service fees, meaning users only pay for cloud resources once they deploy to production. The source code for AWS Emulator is publicly available under a CC0 1.0 Universal dedication, and documentation has been published to help users get started."
+      },
+      {
+        "title": "AWS Quick apps are now available in Asia Pacific (Singapore)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-apps-available-in-asia-pacific-singapore/",
+        "source": "AWS What's New",
+        "published_at": "2026-11-11T15:20:00.000Z",
+        "excerpt": "The AWS Quick desktop application for macOS and Windows, alongside the Quick mobile application for iOS and Android, has become available in the Asia Pacific Singapore Region. This regional launch follows the recent general availability of Quick within Singapore. The desktop application is designed to integrate with local files while connecting directly to calendars, emails, and various business applications. Meanwhile, the mobile application enables users to chat with Quick, check their activity feeds, and open dashboards while away from their computers. A key feature of the software is that conversations, context, and agents remain synchronized across the web, desktop, and mobile platforms. This synchronization allows users to initiate an agent on a desktop computer, monitor its progress from a smartphone, and ensure that tasks continue running even after the primary computer is shut down. Users can begin utilizing the service by downloading the desktop application directly from the official AWS Quick download page. Alternatively"
       }
     ]
   },
   "geo": [
     {
-      "title": "Russell Brand sentenced to 10 years, 6 months for rape and sexual assault",
-      "link": "https://www.france24.com/en/europe/20261109-russell-brand-sentenced-to-10-years-6-months-for-rape-and-sexual-assault",
-      "source": "France 24 – English",
-      "published_at": "2026-11-09T14:45:15.000Z",
-      "excerpt": "British comedian and actor Russell Brand was sentenced to ten years and six months in prison on Monday after being convicted of raping one woman and sexually assaulting three others. Judge Joel Bennathan described the 51-year-old as a sexual predator whose fame had protected him, noting that he acted with staggering arrogance and contempt for his victims. A jury at Southwark Crown Court found Brand guilty of attacking four accusers in allegations dating back to 2004, while clearing him of two counts of rape and one count of attempted indecent assault. During the hearing, victims delivered impact statements detailing how the assaults left them traumatised and highlighting the power imbalance created by his wealth and influence. Brand had maintained his innocence throughout the trial, claiming all his encounters were consensual, though he admitted to being extremely promiscuous and using his fame to facilitate sexual access. His wife, Laura Gallacher, was present in the public gallery as the sentence was handed down, and Brand told her they would be fine before being led to the cells. Prime Minister Andy Burnham praised the bravery of the victims and pledged improvements to the legal system to better support those reporting serious sexual offences. Meanwhile, London police confirmed they are investigating further rape allegations against Brand from two additional women. The case has prompted scrutiny of the media organisations that employed him during the 2000s, with Culture Secretary Lisa Nandy describing the conviction as a wake-up call regarding men in power exploiting women in the industry.",
+      "title": "Nvidia CEO Jensen Huang resigns over scandal and is replaced by CFO Colette Kress on interim basis – follow live",
+      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "source": "The Guardian – World",
+      "published_at": "2026-11-12T14:44:44.000Z",
+      "excerpt": "Nvidia has announced that its long-serving chief executive, Jensen Huang, has resigned from his position amid a scandal. The company released a statement following a meeting of its board of directors, confirming that Huang is stepping down as president, chief executive officer, and member of the board with immediate effect. To fill the vacancy on an interim basis, the board has appointed Colette Kress, who currently serves as the executive vice president and chief financial officer of the organisation. Kress has agreed to take",
       "also_covered_by": [
         "Al Jazeera English",
         "Deutsche Welle – Top"
@@ -64,85 +56,86 @@
       "sources_count": 3
     },
     {
-      "title": "Trump attempts to cast doubt on Democrats’ midterm election victory, questioning early vote numbers and ballot machines – live",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
-      "source": "The Guardian – World",
-      "published_at": "2026-11-09T16:07:18.000Z",
-      "excerpt": "Donald Trump has begun to cast doubt on the results of the midterm elections, which saw Democrats win control of Congress and flip dozens of seats. Writing on Truth Social, the president questioned the honesty of the vote and asked how polls could have been so wrong. He also highlighted large early voting dumps, stating that they made it impossible to win regardless of turnout. Furthermore, Trump repeated baseless claims regarding the unreliability of voting machines, arguing that they are more important than the voter. Voting rights experts had initially feared that Trump and his Republican allies would contest the outcome. However, following the Democrats' victory last week, the president initially appeared to concede the election. In a subsequent interview with the New York Times, Trump stated that his administration looked forward to working with the incoming Democratic majority in both chambers of Congress. He also told the newspaper that he was absolutely willing to accept the election results and suggested that they would likely work something out.",
+      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-12T12:56:55.000Z",
+      "excerpt": "Democrat Scott Colom has won the US Senate race in Mississippi, securing a shock victory in a deeply conservative state that has elected Republicans for decades. The outcome makes Colom the first black person from Mississippi to serve in the US Senate since Blanche Bruce held the position from 1875 to 1881. Colom defeated the Republican incumbent, Cindy Hyde-Smith, by a margin",
       "also_covered_by": [
+        "Al Jazeera English",
         "Deutsche Welle – Top"
+      ],
+      "sources_count": 3
+    },
+    {
+      "title": "Who is Nvidia's interim CEO Colette Kress and who could take over after Jensen Huang resigned?",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-12T15:10:32.000Z",
+      "excerpt": "Nvidia co-founder Jensen Huang resigned on Thursday following reports of extramarital affairs, including one with a woman suspected of being a Chinese spy. Chief financial officer Colette Kress has stepped in as interim leader while the company searches for a permanent successor to guide the business. Kress is a veteran executive with decades of industry experience, though market analysts suggest the firm may ultimately prefer an engineer for the permanent role. Other internal candidates include co-founder Chris Malachowsky and high-performance computing head Ian Buck. Industry experts have also floated external possibilities, such as Arm Holdings chief executive Rene Haas and Apple's former chief executive Tim Cook. Finding a replacement who matches Huang's technical expertise, strategic vision and global industry relationships presents",
+      "also_covered_by": [
+        "Al Jazeera English"
       ],
       "sources_count": 2
     },
     {
-      "title": "French police officers on trial over beating of black man they accused of not wearing Covid mask",
-      "link": "https://www.theguardian.com/world/2026/nov/09/french-police-officers-face-trial-over-beating-of-black-man-not-wearing-mask-during-covid",
+      "title": "‘I had the courage to believe in Mississippi’ says Scott Colom after historic Senate win – US politics live",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
       "source": "The Guardian – World",
-      "published_at": "2026-11-09T15:40:20.000Z",
-      "excerpt": "Three French police officers have gone on trial for the 2020 beating of black music producer Michel Zecler after he was stopped outside his Paris studio and accused of not wearing a face mask. The assault, which lasted about five minutes and involved roughly thirty punches and truncheon blows, was captured on security cameras and subsequently released by a media website. According to the medical report, the victim sustained craniofacial trauma, scalp and lip wounds, and a complete rupture of his biceps tendon. The defendants face charges of intentional group violence and forgery over an allegedly falsified official report, carrying potential sentences of up to fifteen years in prison. The initial arrest report claimed the producer had attacked the officers and attempted to seize a truncheon, a version of events directly contradicted by the video footage. Zecler and four witnesses have stated that racist insults were used during the incident, although the alleged racism was not included in the formal indictment. Most allegations of police brutality in France are handled internally, and cases reaching court resulting in guilty verdicts are rare. The trial unfolds amid broader societal scrutiny regarding law enforcement practices, following other recent high-profile incidents involving contested police accounts and video evidence.",
+      "published_at": "2026-11-12T14:27:20.000Z",
+      "excerpt": "Mississippi has elected Democrat Scott Colom as its US senator, contributing to a series of Democratic gains during the midterm elections. Colom defeated the incumbent Republican senator, Cindy Hyde-Smith, in a closely contested race. His victory makes him the first black senator from Mississippi since the post-Civil War Reconstruction era, representing a significant breakthrough for the Democratic Party in a traditionally Republican state. The Associated Press called the election result just over a week after polling day, following the counting of absentee and provisional ballots. In his victory speech, Colom stated that he had the courage to imagine the outcome and to believe in Mississippi. Hyde-Smith acknowledged the result, stating that she respected the decision of the state's voters despite it not being the outcome she worked for. Meanwhile, US special envoy Steve Witkoff and Jared Kushner arrived in Moscow for discussions with Vladimir Putin regarding the war in Ukraine, following earlier negotiations in Abu Dhabi. Separately, US defence secretary Pete Hegseth was reprimanded by a military guard for laughing and talking near the Tomb of the Unknown Soldier, an incident that occurred shortly after Republicans blocked an attempt to impeach him.",
       "also_covered_by": [
         "France 24 – English"
       ],
       "sources_count": 2
     },
     {
-      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
-      "link": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-11-09T14:50:35.000Z",
-      "excerpt": "Alice Huang, a Chinese businesswoman, had a close relationship with Nvidia boss Jensen Huang, reports say.",
+      "title": "Missing teenager found in bushland during aerial search in Australia",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/missing-teenager-found-in-bushland-during-aerial-search-in-australia?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "published_at": "2026-11-12T12:26:09.000Z",
+      "excerpt": "A seventeen-year-old teenager has been found alive in dense bushland in Australia following a six-day search operation. The youth had initially been camping with a friend when he left the campsite to retrieve some equipment and failed to return. When he did not come back, emergency services were alerted, prompting a search of the surrounding area. The multi-day operation involved ground crews, police personnel, and aerial support units scanning the difficult terrain. During an aerial sweep of the dense vegetation, search teams successfully located the missing camper. Rescuers subsequently reached the teenager in the bushland to assess his condition and coordinate his extraction. Authorities confirmed that the six-day ordeal ended when the youth was spotted from the air by search personnel. Medical",
       "also_covered_by": [
-        "The Guardian – World"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Thirteen migrants die after boat sinks off Crete",
-      "link": "https://www.bbc.co.uk/news/articles/c65ynyxrjdyeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-11-09T13:50:01.000Z",
-      "excerpt": "At least 13 people have died following the sinking of a migrant boat off the coast of the Greek island of Crete. The Greek coastguard successfully rescued 18 individuals, all of whom are Sudanese nationals. Among the survivors, four were transported to hospital for medical treatment, including a young toddler. Authorities have stated that the exact cause of the fatalities remains unclear, though initial assessments suggest the vessel had been at sea for several days. Strong winds reportedly hampered the boat's attempts to reach the shoreline. An unnamed coastguard official noted that the rescued individuals were shivering from the cold when they were found. The distressed vessel was initially spotted by a Moroccan-flagged container ship located approximately 15 nautical miles off the coast of Crete. In a separate series of events on Monday, the Greek coastguard rescued another 187 people across three distinct incidents. United Nations figures indicate that more than 37,000 migrants have arrived in Greece so far this year. In response to the rising numbers, the Greek government has unveiled plans to open a temporary housing complex near Heraklion, the capital of Crete.",
-      "also_covered_by": [
-        "Al Jazeera English"
+        "Deutsche Welle – Top"
       ],
       "sources_count": 2
     }
   ],
   "invest": [
     {
-      "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-      "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+      "title": "Home sales plummet to lowest level since the Great Recession as buyers flee the market",
+      "link": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-09T14:45:00.000Z",
-      "excerpt": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say"
+      "published_at": "2026-11-12T15:01:00.000Z",
+      "excerpt": "Home sales fell in October to a 16-year low as buyers bolted from the housing market in the face of 7% mortgage rates."
     },
     {
-      "title": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "link": "https://www.cnbc.com/investingclub/2026/11/09/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
+      "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
+      "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-09T14:11:35.000Z",
-      "excerpt": "Stock futures pointed higher ahead of the opening bell, led by gains in Dow futures and aided by a drop in Brent crude prices. Nvidia shares fell significantly in premarket trading following reports of a board investigation into CEO Jensen Huang regarding a relationship with a Megaspeed executive. Analysts are monitoring whether the artificial intelligence trade can regain momentum, with CoreWeave scheduled to report earnings. Wells Fargo lowered its price target for CoreWeave to one hundred and fifteen dollars while maintaining a buy rating. Similarly, JPMorgan reduced its price target for neocloud firm Iren to fifty-five dollars while keeping its buy rating ahead of an upcoming CEO interview. In other analyst updates, Oppenheimer upgraded Advanced Micro Devices to buy and raised estimates for its data center business, and Jefferies increased its price target for Eli Lilly to one thousand seven hundred dollars. JPMorgan upgraded SAP to buy, noting that enterprise software companies are needed to help integrate artificial intelligence. On JPMorgan's analyst focus list, Alphabet was swapped out for Meta Platforms due to search monetization timelines and strong AI-driven ad revenue at Meta. Finally, JPMorgan reported that Apple product availability trackers show stable delivery dates for foldable devices, and KeyBanc raised its price target for Ollie's Bargain Outlet to one hundred and twenty dollars."
+      "published_at": "2026-11-12T14:52:17.000Z",
+      "excerpt": "Nebius shares fell 16% on Thursday after the neocloud company issued a disappointing outlook and higher capital expenditure forecasts, overshadowing third-quarter revenue that beat analysts' estimates. Revenue surged 571% during the quarter, while the company reported a net loss of $37.5 million, or 13 cents per share, compared to a net loss of $119.6 million, or 50 cents per share, in the same period last year. In a letter to shareholders, CEO Arkady Volozh stated that fiscal year 2026 revenue is expected to land at the low end of a $3 billion to $3.4 billion range. Nebius also provided an initial 2027 revenue outlook of $12 billion to $13 billion. The company anticipates fiscal year 2026 capital expenditures of $27 billion, which exceeds its previous guidance of $20 billion to $25 billion. Furthermore, expected capital expenditures for 2027 are projected to be between $40 billion and $45 billion, significantly higher than market expectations. The stock decline also coincided with the resignation of Nvidia CEO Jensen Huang, with Nvidia holding approximately $329 million in Nebius shares at the end of June. During the quarter, Nebius successfully raised $5.75 billion in debt financing. Executives planned to discuss the financial results and provide further guidance during a conference call with analysts."
     },
     {
-      "title": "Corporate America’s profit numbers are just barely beating Wall Street’s expectations",
-      "link": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories",
+      "title": "Wendy’s rejects a takeover offer, scales back breakfast and still sees its stock surge",
+      "link": "https://www.marketwatch.com/story/wendys-rejects-a-takeover-offer-scales-back-breakfast-and-still-sees-its-stock-surge-4e398cde?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-09T13:36:00.000Z",
-      "excerpt": "S&P 500 companies’ earnings are mostly topping analysts’ estimates — but by the narrowest margin in roughly four years."
+      "published_at": "2026-11-12T13:05:00.000Z",
+      "excerpt": "Wendy’s plans to go it alone, and analysts say the company has “significant work ahead.”"
     },
     {
-      "title": "CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth",
-      "link": "https://www.cnbc.com/2026/11/09/coreweave-debt-credit-risk-neoclouds.html",
+      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
+      "link": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-09T12:00:01.000Z",
-      "excerpt": "Leading neocloud companies CoreWeave and Nebius are preparing to report their quarterly results amidst mounting scrutiny from lenders over their heavy reliance on debt to fund artificial intelligence infrastructure. Neocloud stock prices and major chipmakers experienced sharp declines recently, contributing to a significant slump for the Nasdaq amid growing anti-sentiment towards artificial intelligence and data centres. Political headwinds have also intensified after voters rejected numerous data centre measures and Democrats secured multiple gubernatorial races, though CoreWeave's chief executive stated that political shifts would not impact existing customer commitments or backlogs. Financial markets have grown increasingly skeptical, pushing yields on some CoreWeave bonds above sixteen percent and causing the spread on its credit default swaps to soar. Unlike established hyperscalers, top neoclouds remain largely unprofitable and dependent on limited customer bases, raising concerns among analysts about their ability to secure future financing. At the end of June, CoreWeave held billions in cash alongside substantial debt obligations, though analysts suggest the firm is unlikely to face immediate bankruptcy. Other neoclouds have similarly felt the pressure, with some firms shelving initial public offerings due to unfavourable market conditions. Industry experts note that the sector faces a negative doom cycle narrative where creditor anxiety over debt repayment forces companies to borrow at exorbitant rates. Nevertheless, upcoming earnings reports from CoreWeave and Nebius are anticipated to provide crucial insight into revenue growth and potentially offer relief to nervous investors."
+      "published_at": "2026-11-11T23:41:46.000Z",
+      "excerpt": "Television commentator Jim Cramer stated on Wednesday that his scepticism regarding the neocloud company CoreWeave has decreased following strong financial results and reassuring remarks from the chief executive. CoreWeave shares experienced a surge of nearly twenty-five percent on"
     },
     {
-      "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
-      "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-11-07T15:23:46.000Z",
-      "excerpt": "Berkshire Hathaway significantly accelerated its share repurchases during the third quarter of 2026, buying back $9.6 billion worth of company stock. This figure represents more than double the $4.5 billion repurchased in the second quarter and brings total buybacks for the year to approximately $14.4 billion. The surge in repurchases coincided with a decline in both operating and overall profits for the Greg Abel-led conglomerate. Operating earnings, which derive from wholly-owned businesses, fell by 5.8 percent year over year to total $12.705 billion compared with $13.485 billion in the corresponding period. This decrease was largely driven by a pullback in the insurance business, where insurance underwriting tumbled 43 percent to $1.352 billion and insurance investment income declined 14 percent to $2.734 billion. Conversely, Berkshire reported that its railroad, energy and manufacturing businesses all experienced year-over-year earnings growth. Overall earnings, which account for the company's extensive stock market portfolio, dropped 28 percent to $22.112 billion from $30.796 billion a year prior, as investment gains fell by nearly half. Meanwhile, Berkshire's cash hoard increased by 3 percent during the quarter to reach $377.435 billion, up from $365.514 billion in the previous quarter. The company also confirmed that its five largest equity holdings remained unchanged, consisting of Alphabet, American Express, Apple, Bank of America and Coca-Cola."
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC – Business",
+      "published_at": "2026-11-10T17:56:12.000Z",
+      "excerpt": "Anthropic, the artificial intelligence company behind the Claude chatbot, is preparing for a stock market debut on New York's Nasdaq exchange that could value the firm at around $1.3 trillion. The loss-making company plans to offer shares priced between $70 and $78 each to raise up to $64 billion during its float this month. This valuation falls below some earlier predictions of $2 trillion made by backers during the summer. The listing occurs during a volatile period for big tech firms, following a sharp fall on the Nasdaq after US midterm elections amid concerns that a Democrat-led Congress might slow artificial intelligence development and data centre expansion. Financial results"
     }
   ]
 }

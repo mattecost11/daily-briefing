@@ -1,141 +1,136 @@
 {
-  "generated_at": "2026-11-12T15:21:40.021Z",
+  "generated_at": "2026-11-16T15:56:31.039Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
     "acquisitions": [],
     "launches": [
       {
-        "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
-        "source": "AWS What's New",
-        "published_at": "2026-11-11T23:36:00.000Z",
-        "excerpt": "DeepReinforce AI models Ornith-1.0-9B and Ornith-1.0-35B are now accessible on Amazon SageMaker JumpStart for AWS customers. These open-source agentic coding models are released under the MIT licence and belong to the Ornith 1.0 family. They achieve state-of-the-art performance for open-source models of similar sizes across benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo, and OpenClaw. The Ornith-1.0-9B variant is a lightweight dense model with nine billion parameters, post-trained on Qwen 3.5 9B and tailored for single-GPU deployment. It features a 256K-token context window and thirty-two decoder layers, making it suitable for individual developers and small teams operating on consumer-grade hardware. The Ornith-1.0-35B model uses a Mixture-of-Experts architecture with thirty-five billion parameters, likewise post-trained on Qwen 3.5 to deliver enhanced agentic coding capabilities while remaining deployable on a single 24GB consumer GPU. Both models utilise a reinforcement learning training framework to jointly optimise scaffold generation and solution rollouts for improved search trajectories and"
+        "title": "Amazon’s Zoox robotaxis are now available via Uber",
+        "link": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
+        "source": "The Verge",
+        "published_at": "2026-11-16T12:00:00.000Z",
+        "excerpt": "Amazon-owned Zoox and Uber have launched a partnership allowing riders in Las Vegas to hail steering-wheel-free robotaxis directly through the Uber app. This marks the first time Uber has added a purpose-built autonomous vehicle to its network and the first time Zoox has opened its fleet to a third-party application. Customers selecting standard Uber ride options in Las Vegas may be matched with a Zoox vehicle at no additional charge, and users can adjust their app preferences to favour autonomous pods. The robotaxis operate within specific tourist areas, including the Strip, downtown Las Vegas, and the Arts District, while Zoox will also continue to run its standalone application. Additionally, Uber and Zoox have formed a multiyear agreement with MGM Resorts International to become their official rideshare and robotaxi partners in the city. The collaboration involves implementing physical infrastructure changes and custom in-app guidance to streamline pickups and drop-offs at complex casino locations. Following the Las Vegas launch, the companies plan to expand to Los Angeles, with a full Uber integration scheduled for 2027 following an initial standalone launch. This initiative forms part of Uber’s broader strategy to act as a platform for various autonomous vehicle operators after abandoning its own self-driving technology development. Meanwhile, Uber's partnership network has experienced some friction, as Waymo recently announced plans to end its exclusive arrangement with Uber in Austin and Atlanta by January 2028."
       },
       {
-        "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
-        "source": "AWS What's New",
-        "published_at": "2026-11-11T23:18:00.000Z",
-        "excerpt": "Three new open-weight Mixture-of-Experts language models from DeepSeek have been made available on Amazon SageMaker JumpStart for AWS customers. Released under the MIT license, the DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models provide high efficiency by activating only a fraction of their total parameters per token while delivering strong performance in reasoning, coding, and agentic workloads. DeepSeek-V4-Pro is a flagship 1.6-trillion-parameter model that activates 49 billion parameters per token and features a one-million-token context window for complex reasoning and long-document analysis. DeepSeek-V4-Flash offers an efficient alternative for latency-sensitive tasks as a 284-billion-parameter model that activates 13 billion parameters per token while maintaining the same one-million-token context window. DeepSeek-V4.1-Flash introduces native multimodal support using a Causal Encoder-Decoder architecture with a 552-billion-parameter backbone. This model activates eight billion parameters during prefill and sixteen billion during decode, and it supports a one-million-token context window alongside 384,000 maximum output tokens. Through technologies like Compressed Sparse Attention 2 and FP4 KV caching, V4.1-Flash reduces the global KV cache footprint"
+        "title": "Apple launches new app to study how people use AI for health",
+        "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+        "source": "TechCrunch",
+        "published_at": "2026-11-16T01:30:00.000Z",
+        "excerpt": "Apple is launching a new research study app developed in partnership with healthcare-focused artificial intelligence company OpenEvidence to examine how people utilise clinically grounded AI for health-related queries. The tech giant aims to recruit up to 200,000 participants in the United States who are aged 21 or older, use an iPhone 15 or later, and run iOS 26 or later with Apple Intelligence enabled. The study is scheduled to run for more than twelve months, allowing users to ask everyday medical questions and receive simplified answers derived from clinical data sources such as the Journal of the American Medical Association, The New England Journal of Medicine, and Nature. Participants will be asked to rate the app responses, provide feedback, and complete monthly surveys. Users can additionally choose to share personal metrics from HealthKit, including sleep, activity, resting heart rate, and lab results, to receive more personalised suggestions and better prepare for medical appointments. Apple stated that all collected data will be anonymised prior to transmission to a secure third-party cloud provider, will not be utilised for training artificial intelligence models, and will have query and response data deleted by OpenEvidence after twenty-four hours. The application became available for download in the United States."
       },
       {
-        "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+        "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
         "source": "AWS What's New",
-        "published_at": "2026-11-11T21:00:00.000Z",
-        "excerpt": "AWS Network Security Manager is now generally available in the AWS European Sovereign Cloud Region alongside thirty-one additional regions worldwide. The service is a comprehensive network security management solution designed to simplify the deployment and enforcement of security policies at scale. Within the European Sovereign Cloud Region, the tool specifically supports AWS WAF and AWS Shield. The thirty-one newly added locations include US East (Ohio), multiple Asia Pacific regions ranging from Mumbai to Tokyo, several European hubs such as Frankfurt and London, Canada, Mexico, Israel, South America, and Africa. Network Security Manager features always-on security deployment automation that applies AWS WAF protection directly to internet-facing assets like the AWS Application Load Balancer. This automated capability allows security teams to manage WAF rules and AWS Shield Advanced protections more efficiently across targeted accounts and resources. Administrators can use the platform to centrally manage security policies, automatically detect configuration drift, and apply remediation. The service aims to reduce the operational overhead associated with manual security management while maintaining a consistent security posture. Users can consult the AWS Region Table to verify specific regional availability. Detailed pricing information can be found on the AWS Network Security Manager Pricing page for standard regions and on the European Sovereign Cloud Pricing page."
+        "published_at": "2026-11-13T13:13:00.000Z",
+        "excerpt": "The Grok 4.7 model has been released in the Kiro integrated development environment and command-line interface for the AWS GovCloud (US) Regions. Developed by SpaceXSI, the software is designed as the organisation's most capable model for knowledge work and coding tasks. It features the ability to maintain focus on complex tasks lasting several hours and incorporates self-correction mechanisms to verify outputs before proceeding. Compared to the previous version, Grok 4.6, the new release offers improved planning and error recovery capabilities during repository-scale coding operations. The model is currently provided with experimental support and includes a 500K context window. Pricing is structured by token volume, with requests up to 200K tokens incurring a 2.7x credit multiplier, while requests exceeding 200K tokens are billed at 5.4x. Kiro administrators retain control over model availability, allowing organisations to restrict or permit access according to their internal policies. To utilise the new model, users must update their IDE or CLI to the latest version and restart the application to select it from the menu. Additional information and guidance can be accessed through the GovCloud documentation and monitoring guides, or by"
       },
       {
-        "title": "AWS Emulator is now available for building and testing AWS applications locally",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
-        "source": "AWS What's New",
-        "published_at": "2026-11-11T17:00:00.000Z",
-        "excerpt": "Amazon Web Services has launched AWS Emulator, a new tool designed for building and testing applications locally on a personal computer or within a continuous integration environment. The tool allows developers and automated coding agents to execute existing AWS SDK and CLI commands locally without needing an active AWS account or making cloud deployments. Responses are returned in milliseconds, and the software maintains resource state in memory until it is stopped. Separate instances of the emulator each receive distinct ports, cryptographic keys, and isolated state environments, ensuring that concurrent jobs, test suites, and agents do not interfere with one another. For supported operations, the emulator replicates the exact success outcomes and error messages generated by live AWS services, while unsupported operations currently return a 501 Not Implemented status. The underlying services are generated directly from the official API models published by AWS, meaning new services and updates can be incorporated over time. Developers can consult an online fidelity report to compare the emulator responses directly against real AWS behavior. Operating independently of any geographical AWS Region, the tool incurs no additional service fees, meaning users only pay for cloud resources once they deploy to production. The source code for AWS Emulator is publicly available under a CC0 1.0 Universal dedication, and documentation has been published to help users get started."
+        "title": "C++26 stumbles at finish line over Contracts dispute",
+        "link": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
+        "source": "The Register",
+        "published_at": "2026-11-13T07:31:00.000Z",
+        "excerpt": "The upcoming C++26 programming language release faces a potential delay due to a major dispute among technical maintainers over a security-enhancing feature known as Contracts. Contracts permit developers to include preconditions, postconditions, and assertions in code to catch errors that could otherwise result in undefined behaviour. The disagreement culminated in October when the Draft International Standard of C++26 failed its ISO ballot after receiving 13 votes in favour, 9 against, and 12 abstentions, falling short of the requirement that negative votes must not exceed 25 percent. The feature has been discussed for a decade, having previously been removed from C++20 over concerns regarding dangerous defaults. C++ creator Bjarne Stroustrup and his colleagues opposed the current C++26 proposal, arguing in a paper that it threatens the language by adding complexity, bloat, and messy implementation. Conversely, committee member Andreas Fertig criticised the late veto as damaging to the collaborative process and accused detractors of refusing to accept a compromise. However, C++ Alliance CEO Harry Bott viewed the failed draft as the standardisation process functioning as intended. The failure risks pushing the expected release date of the language into next year, potentially requiring the informal name C++27. The ISO working group is scheduled to meet in Brazil to consider options, which include removing Contracts from the specification, moving the feature to a separate technical specification, or performing a minor revision for another vote."
       },
       {
-        "title": "AWS Quick apps are now available in Asia Pacific (Singapore)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-apps-available-in-asia-pacific-singapore/",
-        "source": "AWS What's New",
-        "published_at": "2026-11-11T15:20:00.000Z",
-        "excerpt": "The AWS Quick desktop application for macOS and Windows, alongside the Quick mobile application for iOS and Android, has become available in the Asia Pacific Singapore Region. This regional launch follows the recent general availability of Quick within Singapore. The desktop application is designed to integrate with local files while connecting directly to calendars, emails, and various business applications. Meanwhile, the mobile application enables users to chat with Quick, check their activity feeds, and open dashboards while away from their computers. A key feature of the software is that conversations, context, and agents remain synchronized across the web, desktop, and mobile platforms. This synchronization allows users to initiate an agent on a desktop computer, monitor its progress from a smartphone, and ensure that tasks continue running even after the primary computer is shut down. Users can begin utilizing the service by downloading the desktop application directly from the official AWS Quick download page. Alternatively"
+        "title": "OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
+        "link": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+        "source": "The Register",
+        "published_at": "2026-11-12T20:48:45.000Z",
+        "excerpt": "OpenAI has unveiled two new security products under its Daybreak platform, warning that business security now depends on utilising frontier models for defence. Speaking at a keynote address, OpenAI President Greg Brockman stated that organisations must reorient their security practices around the capabilities of these models. The newly launched Daybreak Red Team product uses OpenAI models to test web applications for vulnerabilities through automated continuous scanning and helps teams validate reported flaws and patches. The second product, Daybreak Defense Factory, automates the defensive loop by scanning codebases for vulnerabilities, hunting for flaws, and developing patches using agents built on OpenAI cyber models. These patches are then reviewed and"
       }
     ]
   },
   "geo": [
     {
-      "title": "Nvidia CEO Jensen Huang resigns over scandal and is replaced by CFO Colette Kress on interim basis – follow live",
-      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-      "source": "The Guardian – World",
-      "published_at": "2026-11-12T14:44:44.000Z",
-      "excerpt": "Nvidia has announced that its long-serving chief executive, Jensen Huang, has resigned from his position amid a scandal. The company released a statement following a meeting of its board of directors, confirming that Huang is stepping down as president, chief executive officer, and member of the board with immediate effect. To fill the vacancy on an interim basis, the board has appointed Colette Kress, who currently serves as the executive vice president and chief financial officer of the organisation. Kress has agreed to take",
+      "title": "French film star Depardieu drops appeal against sexual conviction",
+      "link": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
+      "source": "France 24 – English",
+      "published_at": "2026-11-16T15:51:39.000Z",
+      "excerpt": "French film star Gérard Depardieu has dropped his appeal against a conviction for sexually assaulting two women during the filming of a movie in 2021. The seventy-seven-year-old actor withdrew his appeal on the exact day it was scheduled to go to trial.",
       "also_covered_by": [
-        "Al Jazeera English",
-        "Deutsche Welle – Top"
+        "BBC World",
+        "The Guardian – World"
       ],
       "sources_count": 3
     },
     {
-      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-11-12T12:56:55.000Z",
-      "excerpt": "Democrat Scott Colom has won the US Senate race in Mississippi, securing a shock victory in a deeply conservative state that has elected Republicans for decades. The outcome makes Colom the first black person from Mississippi to serve in the US Senate since Blanche Bruce held the position from 1875 to 1881. Colom defeated the Republican incumbent, Cindy Hyde-Smith, by a margin",
+      "title": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
+      "link": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
+      "source": "France 24 – English",
+      "published_at": "2026-11-16T14:42:44.000Z",
+      "excerpt": "Saudi Arabia has dismissed the commander of the coalition fighting in Yemen as Iran-backed Houthi rebels advance towards the temporary capital of Aden. According to a royal decree cited by the official Saudi Press Agency, Lieutenant General Fahd bin Hamad bin Abdulaziz al-Salman was removed from his post and appointed as an advisor for military affairs to the Minister of Defence. Chief of staff General Fayyad bin Hamed bin Ruqad al-Ruwaili has been named as the coalition's new commander. The military shake-up coincides with Houthi forces seizing territory on Yemen's southern coast following a strategic withdrawal by Saudi-backed government forces. Military sources reported that Houthi fighters have advanced to Khor Omairh, located about 100 kilometres west of Aden, and reached positions close to government lines at Qawah. The internationally recognised government announced it was pulling back from areas near the Bab el-Mandeb Strait to concentrate on defending Aden and the province of Lahj. Residents in Aden have reported an increased security presence with additional checkpoints and identity checks, alongside growing anxiety over the advancing rebels. The renewed conflict follows a dormant period in the civil war since 2022, with the recent fighting reignited as a spillover of wider regional tensions. Government sources stated that forces are currently redeploying and reorganising along front lines to prepare for a counter-offensive to recapture lost territory.",
       "also_covered_by": [
-        "Al Jazeera English",
         "Deutsche Welle – Top"
-      ],
-      "sources_count": 3
-    },
-    {
-      "title": "Who is Nvidia's interim CEO Colette Kress and who could take over after Jensen Huang resigned?",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "published_at": "2026-11-12T15:10:32.000Z",
-      "excerpt": "Nvidia co-founder Jensen Huang resigned on Thursday following reports of extramarital affairs, including one with a woman suspected of being a Chinese spy. Chief financial officer Colette Kress has stepped in as interim leader while the company searches for a permanent successor to guide the business. Kress is a veteran executive with decades of industry experience, though market analysts suggest the firm may ultimately prefer an engineer for the permanent role. Other internal candidates include co-founder Chris Malachowsky and high-performance computing head Ian Buck. Industry experts have also floated external possibilities, such as Arm Holdings chief executive Rene Haas and Apple's former chief executive Tim Cook. Finding a replacement who matches Huang's technical expertise, strategic vision and global industry relationships presents",
-      "also_covered_by": [
-        "Al Jazeera English"
       ],
       "sources_count": 2
     },
     {
-      "title": "‘I had the courage to believe in Mississippi’ says Scott Colom after historic Senate win – US politics live",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
-      "source": "The Guardian – World",
-      "published_at": "2026-11-12T14:27:20.000Z",
-      "excerpt": "Mississippi has elected Democrat Scott Colom as its US senator, contributing to a series of Democratic gains during the midterm elections. Colom defeated the incumbent Republican senator, Cindy Hyde-Smith, in a closely contested race. His victory makes him the first black senator from Mississippi since the post-Civil War Reconstruction era, representing a significant breakthrough for the Democratic Party in a traditionally Republican state. The Associated Press called the election result just over a week after polling day, following the counting of absentee and provisional ballots. In his victory speech, Colom stated that he had the courage to imagine the outcome and to believe in Mississippi. Hyde-Smith acknowledged the result, stating that she respected the decision of the state's voters despite it not being the outcome she worked for. Meanwhile, US special envoy Steve Witkoff and Jared Kushner arrived in Moscow for discussions with Vladimir Putin regarding the war in Ukraine, following earlier negotiations in Abu Dhabi. Separately, US defence secretary Pete Hegseth was reprimanded by a military guard for laughing and talking near the Tomb of the Unknown Soldier, an incident that occurred shortly after Republicans blocked an attempt to impeach him.",
+      "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
+      "link": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-16T14:22:36.000Z",
+      "excerpt": "The Estonian government says Russia was behind the attempted sabotage, which the Kremlin denies.",
       "also_covered_by": [
         "France 24 – English"
       ],
       "sources_count": 2
     },
     {
-      "title": "Missing teenager found in bushland during aerial search in Australia",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/missing-teenager-found-in-bushland-during-aerial-search-in-australia?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "published_at": "2026-11-12T12:26:09.000Z",
-      "excerpt": "A seventeen-year-old teenager has been found alive in dense bushland in Australia following a six-day search operation. The youth had initially been camping with a friend when he left the campsite to retrieve some equipment and failed to return. When he did not come back, emergency services were alerted, prompting a search of the surrounding area. The multi-day operation involved ground crews, police personnel, and aerial support units scanning the difficult terrain. During an aerial sweep of the dense vegetation, search teams successfully located the missing camper. Rescuers subsequently reached the teenager in the bushland to assess his condition and coordinate his extraction. Authorities confirmed that the six-day ordeal ended when the youth was spotted from the air by search personnel. Medical",
-      "also_covered_by": [
-        "Deutsche Welle – Top"
-      ],
-      "sources_count": 2
+      "title": "French troops in Ukraine 'wouldn't be a surprise'",
+      "link": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
+      "source": "France 24 – English",
+      "published_at": "2026-11-16T15:49:56.000Z",
+      "excerpt": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France Internationale (RFI…",
+      "also_covered_by": [],
+      "sources_count": 1
+    },
+    {
+      "title": "Prague: Thousands of Czechs rally against government media funding plan",
+      "link": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
+      "source": "France 24 – English",
+      "published_at": "2026-11-16T15:49:29.000Z",
+      "excerpt": "Tens of thousands of Czechs rallied in Prague on Sunday, November 15, against a government plan to cut a public media fee and move funding to the state budget, a policy critics say would dent the bro…",
+      "also_covered_by": [],
+      "sources_count": 1
     }
   ],
   "invest": [
     {
-      "title": "Home sales plummet to lowest level since the Great Recession as buyers flee the market",
-      "link": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
+      "title": "These 13 S&P 500 stocks can rise up to 70% over the next year, according to analysts",
+      "link": "https://www.marketwatch.com/story/these-13-s-p-500-stocks-can-rise-up-to-70-over-the-next-year-according-to-analysts-21119af9?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-12T15:01:00.000Z",
-      "excerpt": "Home sales fell in October to a 16-year low as buyers bolted from the housing market in the face of 7% mortgage rates."
+      "published_at": "2026-11-16T15:47:00.000Z",
+      "excerpt": "Consensus earnings estimates have continued to increase, especially for semiconductor manufacturers whose share have declined significantly since the end of September, which underscores several calls…"
     },
     {
-      "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
-      "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
-      "source": "CNBC – Top News",
-      "published_at": "2026-11-12T14:52:17.000Z",
-      "excerpt": "Nebius shares fell 16% on Thursday after the neocloud company issued a disappointing outlook and higher capital expenditure forecasts, overshadowing third-quarter revenue that beat analysts' estimates. Revenue surged 571% during the quarter, while the company reported a net loss of $37.5 million, or 13 cents per share, compared to a net loss of $119.6 million, or 50 cents per share, in the same period last year. In a letter to shareholders, CEO Arkady Volozh stated that fiscal year 2026 revenue is expected to land at the low end of a $3 billion to $3.4 billion range. Nebius also provided an initial 2027 revenue outlook of $12 billion to $13 billion. The company anticipates fiscal year 2026 capital expenditures of $27 billion, which exceeds its previous guidance of $20 billion to $25 billion. Furthermore, expected capital expenditures for 2027 are projected to be between $40 billion and $45 billion, significantly higher than market expectations. The stock decline also coincided with the resignation of Nvidia CEO Jensen Huang, with Nvidia holding approximately $329 million in Nebius shares at the end of June. During the quarter, Nebius successfully raised $5.75 billion in debt financing. Executives planned to discuss the financial results and provide further guidance during a conference call with analysts."
+      "title": "Trump says he wouldn’t mind Jensen Huang being reinstated as Nvidia CEO, as its shares fall again – as it happened",
+      "link": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
+      "source": "The Guardian – Business",
+      "published_at": "2026-11-16T15:43:06.000Z",
+      "excerpt": "Rolling coverage of the latest economic and financial news Insurance industry workers: how is climate-related risk managed in your company? Elon Musk joins 165,000 others calling for Nvidia to bring…"
     },
     {
-      "title": "Wendy’s rejects a takeover offer, scales back breakfast and still sees its stock surge",
-      "link": "https://www.marketwatch.com/story/wendys-rejects-a-takeover-offer-scales-back-breakfast-and-still-sees-its-stock-surge-4e398cde?mod=mw_rss_topstories",
+      "title": "Budget airlines are going upscale with first-class seats and faster wifi",
+      "link": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
       "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-12T13:05:00.000Z",
-      "excerpt": "Wendy’s plans to go it alone, and analysts say the company has “significant work ahead.”"
+      "published_at": "2026-11-16T14:34:00.000Z",
+      "excerpt": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in."
     },
     {
-      "title": "Jim Cramer says investors need to pay attention to CoreWeave. Here's why",
-      "link": "https://www.cnbc.com/2026/11/11/jim-cramer-coreweave-earnings-ceo-interview.html",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-11-16T14:07:00.000Z",
+      "excerpt": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”"
+    },
+    {
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-11T23:41:46.000Z",
-      "excerpt": "Television commentator Jim Cramer stated on Wednesday that his scepticism regarding the neocloud company CoreWeave has decreased following strong financial results and reassuring remarks from the chief executive. CoreWeave shares experienced a surge of nearly twenty-five percent on"
-    },
-    {
-      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
-      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC – Business",
-      "published_at": "2026-11-10T17:56:12.000Z",
-      "excerpt": "Anthropic, the artificial intelligence company behind the Claude chatbot, is preparing for a stock market debut on New York's Nasdaq exchange that could value the firm at around $1.3 trillion. The loss-making company plans to offer shares priced between $70 and $78 each to raise up to $64 billion during its float this month. This valuation falls below some earlier predictions of $2 trillion made by backers during the summer. The listing occurs during a volatile period for big tech firms, following a sharp fall on the Nasdaq after US midterm elections amid concerns that a Democrat-led Congress might slow artificial intelligence development and data centre expansion. Financial results"
+      "published_at": "2026-11-15T12:00:01.000Z",
+      "excerpt": "Anthropic is scheduled to debut on the Nasdaq on Thursday in what is considered one of the most important technology initial public offerings in recent years. Major tech companies including Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the expected IPO price range of $70 to $78 per share. Early backer Amazon also holds a substantial stake in the artificial intelligence lab. The offering could yield over $90 billion in proceeds, helping the company fund the massive technology and infrastructure required to build and host its frontier models. Anthropic recorded a net loss of $104 billion through the first nine months of 2026 and carries staggering spending commitments exceeding $900 billion. These obligations include a ten-year, $110 billion agreement with Amazon and $125 billion to $150 billion intended for AI chips from Google. Cloud partners Amazon, Google, and Microsoft account for 31% of these contractual obligations. The IPO arrives during a challenging period for the technology sector, which faces rising interest rates, recent Democratic midterm election victories, and the sudden ouster of Nvidia CEO Jensen Huang. Google will own approximately 13% of Anthropic following the public offering and is backstopping the lab's lease commitments to Terawulf. Financial institutions including Bank of America, Blackstone, Citigroup, and Morgan Stanley have also offered $63 billion for Broadcom AI chips that Anthropic will rent."
     }
   ]
 }

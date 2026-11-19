@@ -1,136 +1,140 @@
 {
-  "generated_at": "2026-11-16T15:56:31.039Z",
+  "generated_at": "2026-11-19T15:50:22.977Z",
   "schedule": "Mon & Thu 07:00 Europe/London",
   "cloud": {
     "partnerships": [],
     "acquisitions": [],
     "launches": [
       {
-        "title": "Amazon’s Zoox robotaxis are now available via Uber",
-        "link": "https://www.theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles",
-        "source": "The Verge",
-        "published_at": "2026-11-16T12:00:00.000Z",
-        "excerpt": "Amazon-owned Zoox and Uber have launched a partnership allowing riders in Las Vegas to hail steering-wheel-free robotaxis directly through the Uber app. This marks the first time Uber has added a purpose-built autonomous vehicle to its network and the first time Zoox has opened its fleet to a third-party application. Customers selecting standard Uber ride options in Las Vegas may be matched with a Zoox vehicle at no additional charge, and users can adjust their app preferences to favour autonomous pods. The robotaxis operate within specific tourist areas, including the Strip, downtown Las Vegas, and the Arts District, while Zoox will also continue to run its standalone application. Additionally, Uber and Zoox have formed a multiyear agreement with MGM Resorts International to become their official rideshare and robotaxi partners in the city. The collaboration involves implementing physical infrastructure changes and custom in-app guidance to streamline pickups and drop-offs at complex casino locations. Following the Las Vegas launch, the companies plan to expand to Los Angeles, with a full Uber integration scheduled for 2027 following an initial standalone launch. This initiative forms part of Uber’s broader strategy to act as a platform for various autonomous vehicle operators after abandoning its own self-driving technology development. Meanwhile, Uber's partnership network has experienced some friction, as Waymo recently announced plans to end its exclusive arrangement with Uber in Austin and Atlanta by January 2028."
+        "title": "Another critical PHP security release has dropped",
+        "link": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911",
+        "source": "The Register",
+        "published_at": "2026-11-18T22:38:12.000Z",
+        "excerpt": "At least one dangerous RCE bug gota fix on Thursday"
       },
       {
-        "title": "Apple launches new app to study how people use AI for health",
-        "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-        "source": "TechCrunch",
-        "published_at": "2026-11-16T01:30:00.000Z",
-        "excerpt": "Apple is launching a new research study app developed in partnership with healthcare-focused artificial intelligence company OpenEvidence to examine how people utilise clinically grounded AI for health-related queries. The tech giant aims to recruit up to 200,000 participants in the United States who are aged 21 or older, use an iPhone 15 or later, and run iOS 26 or later with Apple Intelligence enabled. The study is scheduled to run for more than twelve months, allowing users to ask everyday medical questions and receive simplified answers derived from clinical data sources such as the Journal of the American Medical Association, The New England Journal of Medicine, and Nature. Participants will be asked to rate the app responses, provide feedback, and complete monthly surveys. Users can additionally choose to share personal metrics from HealthKit, including sleep, activity, resting heart rate, and lab results, to receive more personalised suggestions and better prepare for medical appointments. Apple stated that all collected data will be anonymised prior to transmission to a secure third-party cloud provider, will not be utilised for training artificial intelligence models, and will have query and response data deleted by OpenEvidence after twenty-four hours. The application became available for download in the United States."
+        "title": "Anthropic decides to go head-to-head with GTA VI release, schedules IPO for the same day",
+        "link": "https://www.theregister.com/ai-and-ml/2026/11/18/anthropic-decides-to-go-head-to-head-with-gta-vi-release-schedules-ipo-for-the-same-day/5310872",
+        "source": "The Register",
+        "published_at": "2026-11-18T21:40:09.000Z",
+        "excerpt": "We get it, Dario - you don't want people calling out sick to play"
       },
       {
-        "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
-        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
+        "title": "Amazon OpenSearch Memory is now generally available",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
         "source": "AWS What's New",
-        "published_at": "2026-11-13T13:13:00.000Z",
-        "excerpt": "The Grok 4.7 model has been released in the Kiro integrated development environment and command-line interface for the AWS GovCloud (US) Regions. Developed by SpaceXSI, the software is designed as the organisation's most capable model for knowledge work and coding tasks. It features the ability to maintain focus on complex tasks lasting several hours and incorporates self-correction mechanisms to verify outputs before proceeding. Compared to the previous version, Grok 4.6, the new release offers improved planning and error recovery capabilities during repository-scale coding operations. The model is currently provided with experimental support and includes a 500K context window. Pricing is structured by token volume, with requests up to 200K tokens incurring a 2.7x credit multiplier, while requests exceeding 200K tokens are billed at 5.4x. Kiro administrators retain control over model availability, allowing organisations to restrict or permit access according to their internal policies. To utilise the new model, users must update their IDE or CLI to the latest version and restart the application to select it from the menu. Additional information and guidance can be accessed through the GovCloud documentation and monitoring guides, or by"
+        "published_at": "2026-11-18T21:09:00.000Z",
+        "excerpt": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores…"
       },
       {
-        "title": "C++26 stumbles at finish line over Contracts dispute",
-        "link": "https://www.theregister.com/devops/2026/11/13/c26-stumbles-at-finish-line-over-contracts-dispute/5309526",
-        "source": "The Register",
-        "published_at": "2026-11-13T07:31:00.000Z",
-        "excerpt": "The upcoming C++26 programming language release faces a potential delay due to a major dispute among technical maintainers over a security-enhancing feature known as Contracts. Contracts permit developers to include preconditions, postconditions, and assertions in code to catch errors that could otherwise result in undefined behaviour. The disagreement culminated in October when the Draft International Standard of C++26 failed its ISO ballot after receiving 13 votes in favour, 9 against, and 12 abstentions, falling short of the requirement that negative votes must not exceed 25 percent. The feature has been discussed for a decade, having previously been removed from C++20 over concerns regarding dangerous defaults. C++ creator Bjarne Stroustrup and his colleagues opposed the current C++26 proposal, arguing in a paper that it threatens the language by adding complexity, bloat, and messy implementation. Conversely, committee member Andreas Fertig criticised the late veto as damaging to the collaborative process and accused detractors of refusing to accept a compromise. However, C++ Alliance CEO Harry Bott viewed the failed draft as the standardisation process functioning as intended. The failure risks pushing the expected release date of the language into next year, potentially requiring the informal name C++27. The ISO working group is scheduled to meet in Brazil to consider options, which include removing Contracts from the specification, moving the feature to a separate technical specification, or performing a minor revision for another vote."
+        "title": "Amazon SageMaker AI now supports cross-Region inference routing",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-cross-region-routing/",
+        "source": "AWS What's New",
+        "published_at": "2026-11-18T20:00:00.000Z",
+        "excerpt": "Today, Amazon SageMaker AI announces cross-Region inference routing, which helps keep inference applications available when a region runs short of capacity by sending requests to endpoints deployed i…"
       },
       {
-        "title": "OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
-        "link": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
-        "source": "The Register",
-        "published_at": "2026-11-12T20:48:45.000Z",
-        "excerpt": "OpenAI has unveiled two new security products under its Daybreak platform, warning that business security now depends on utilising frontier models for defence. Speaking at a keynote address, OpenAI President Greg Brockman stated that organisations must reorient their security practices around the capabilities of these models. The newly launched Daybreak Red Team product uses OpenAI models to test web applications for vulnerabilities through automated continuous scanning and helps teams validate reported flaws and patches. The second product, Daybreak Defense Factory, automates the defensive loop by scanning codebases for vulnerabilities, hunting for flaws, and developing patches using agents built on OpenAI cyber models. These patches are then reviewed and"
+        "title": "AWS announces ExtendDB 1.0",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0/",
+        "source": "AWS What's New",
+        "published_at": "2026-11-18T20:00:00.000Z",
+        "excerpt": "Today, Amazon Web Services (AWS) announced version 1.0 of ExtendDB, the first release of the open source Amazon DynamoDB-compatible adapter for production use. ExtendDB is fully compatible with the D…"
       }
     ]
   },
   "geo": [
     {
-      "title": "French film star Depardieu drops appeal against sexual conviction",
-      "link": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
-      "source": "France 24 – English",
-      "published_at": "2026-11-16T15:51:39.000Z",
-      "excerpt": "French film star Gérard Depardieu has dropped his appeal against a conviction for sexually assaulting two women during the filming of a movie in 2021. The seventy-seven-year-old actor withdrew his appeal on the exact day it was scheduled to go to trial.",
+      "title": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
+      "link": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "source": "The Guardian – World",
+      "published_at": "2026-11-19T15:38:54.000Z",
+      "excerpt": "Ukrainian President Volodymyr Zelenskyy has arrived in Berlin to attend a meeting of the Coalition of the Willing. More than 40 international partners are represented at the gathering, which also includes members of the American presidential team. Kyiv’s primary focuses for the discussions are the reinforcement of its air defence systems, energy assistance, and financial backing. Additional topics on the agenda include the diplomatic track, future steps towards ending the conflict, and securing long-term safety guarantees. Zelenskyy stated that his administration is making every effort to ensure Europe is fully involved in the negotiation process to render the meetings productive. Alongside the main summit, the Ukrainian leader has scheduled a series of bilateral discussions with various European partners. These will include talks with German Chancellor Friedrich Merz. Furthermore, a dedicated format involving the American delegation and European national security advisers is planned for the visit.",
       "also_covered_by": [
-        "BBC World",
-        "The Guardian – World"
+        "Al Jazeera English",
+        "NPR – World"
       ],
       "sources_count": 3
     },
     {
-      "title": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
-      "link": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
-      "source": "France 24 – English",
-      "published_at": "2026-11-16T14:42:44.000Z",
-      "excerpt": "Saudi Arabia has dismissed the commander of the coalition fighting in Yemen as Iran-backed Houthi rebels advance towards the temporary capital of Aden. According to a royal decree cited by the official Saudi Press Agency, Lieutenant General Fahd bin Hamad bin Abdulaziz al-Salman was removed from his post and appointed as an advisor for military affairs to the Minister of Defence. Chief of staff General Fayyad bin Hamed bin Ruqad al-Ruwaili has been named as the coalition's new commander. The military shake-up coincides with Houthi forces seizing territory on Yemen's southern coast following a strategic withdrawal by Saudi-backed government forces. Military sources reported that Houthi fighters have advanced to Khor Omairh, located about 100 kilometres west of Aden, and reached positions close to government lines at Qawah. The internationally recognised government announced it was pulling back from areas near the Bab el-Mandeb Strait to concentrate on defending Aden and the province of Lahj. Residents in Aden have reported an increased security presence with additional checkpoints and identity checks, alongside growing anxiety over the advancing rebels. The renewed conflict follows a dormant period in the civil war since 2022, with the recent fighting reignited as a spillover of wider regional tensions. Government sources stated that forces are currently redeploying and reorganising along front lines to prepare for a counter-offensive to recapture lost territory.",
-      "also_covered_by": [
-        "Deutsche Welle – Top"
-      ],
-      "sources_count": 2
-    },
-    {
-      "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
-      "link": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "link": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "published_at": "2026-11-16T14:22:36.000Z",
-      "excerpt": "The Estonian government says Russia was behind the attempted sabotage, which the Kremlin denies.",
+      "published_at": "2026-11-19T15:23:34.000Z",
+      "excerpt": "US President Donald Trump, Russian President Vladimir Putin, and Chinese President Xi Jinping have issued a joint declaration of peace following their first-ever trilateral talks in Shenzhen, China. Held on the sidelines of the APEC summit, the ninety-minute meeting resulted in an agreement that nuclear war cannot be won and must never be fought, alongside plans to increase petroleum production and supply. The three leaders also stated their commitment to reforming the United Nations and agreed that institutions like the International Criminal Court must not abuse their jurisdiction. Ahead of the group discussion, Trump held separate bilateral meetings with Putin and Xi, greeting Putin as his friend and describing his relationship with Xi as very special. During the opening remarks, Xi emphasized that positive interaction among major powers is a mandatory requirement, while Putin highlighted a shared interest in ending the war in Ukraine and discussing food and energy security. Trump stated that the leaders have a special responsibility to maintain dialogue and reduce nuclear weapons, while also addressing efforts to prevent Iran from obtaining a nuclear weapon. Following the talks, Putin stated that Ukraine and Europe were not yet ready for compromises, while simultaneous drone attacks struck Kyiv. Putin also vowed retaliation for Ukrainian strikes on the Crimean bridge and insisted that realities on the ground in current conflicts must be accepted.",
       "also_covered_by": [
         "France 24 – English"
       ],
       "sources_count": 2
     },
     {
-      "title": "French troops in Ukraine 'wouldn't be a surprise'",
-      "link": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
-      "source": "France 24 – English",
-      "published_at": "2026-11-16T15:49:56.000Z",
-      "excerpt": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France Internationale (RFI…",
-      "also_covered_by": [],
-      "sources_count": 1
+      "title": "Top U.N. court rules Myanmar committed genocide against the Rohingya",
+      "link": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "source": "NPR – World",
+      "published_at": "2026-11-19T12:29:41.000Z",
+      "excerpt": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during the 2017 military operations in the northern Rakhine State.",
+      "also_covered_by": [
+        "Deutsche Welle – Top"
+      ],
+      "sources_count": 2
     },
     {
-      "title": "Prague: Thousands of Czechs rally against government media funding plan",
-      "link": "https://www.france24.com/en/video/20261116-prague-thousands-of-czechs-rally-against-government-media-funding-plan",
-      "source": "France 24 – English",
-      "published_at": "2026-11-16T15:49:29.000Z",
-      "excerpt": "Tens of thousands of Czechs rallied in Prague on Sunday, November 15, against a government plan to cut a public media fee and move funding to the state budget, a policy critics say would dent the bro…",
-      "also_covered_by": [],
-      "sources_count": 1
+      "title": "Florida pastor found guilty over role in assassination of Haitian president",
+      "link": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-19T11:44:57.000Z",
+      "excerpt": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse.",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
+    },
+    {
+      "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+      "link": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "published_at": "2026-11-18T02:29:52.000Z",
+      "excerpt": "Asif Merchant was found guilty in March of trying to hire undercover FBI agents as hitmen to assassinate US officials, including the president.",
+      "also_covered_by": [
+        "The Guardian – World"
+      ],
+      "sources_count": 2
     }
   ],
   "invest": [
     {
-      "title": "These 13 S&P 500 stocks can rise up to 70% over the next year, according to analysts",
-      "link": "https://www.marketwatch.com/story/these-13-s-p-500-stocks-can-rise-up-to-70-over-the-next-year-according-to-analysts-21119af9?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-16T15:47:00.000Z",
-      "excerpt": "Consensus earnings estimates have continued to increase, especially for semiconductor manufacturers whose share have declined significantly since the end of September, which underscores several calls…"
-    },
-    {
-      "title": "Trump says he wouldn’t mind Jensen Huang being reinstated as Nvidia CEO, as its shares fall again – as it happened",
-      "link": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates",
-      "source": "The Guardian – Business",
-      "published_at": "2026-11-16T15:43:06.000Z",
-      "excerpt": "Rolling coverage of the latest economic and financial news Insurance industry workers: how is climate-related risk managed in your company? Elon Musk joins 165,000 others calling for Nvidia to bring…"
-    },
-    {
-      "title": "Budget airlines are going upscale with first-class seats and faster wifi",
-      "link": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-16T14:34:00.000Z",
-      "excerpt": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in."
-    },
-    {
-      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "source": "MarketWatch – Top Stories",
-      "published_at": "2026-11-16T14:07:00.000Z",
-      "excerpt": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”"
-    },
-    {
-      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "title": "Anthropic IPO could create thousands of multimillionaire employees",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-could-create-thousands-of-multimillionaire-employees.html",
       "source": "CNBC – Top News",
-      "published_at": "2026-11-15T12:00:01.000Z",
-      "excerpt": "Anthropic is scheduled to debut on the Nasdaq on Thursday in what is considered one of the most important technology initial public offerings in recent years. Major tech companies including Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the expected IPO price range of $70 to $78 per share. Early backer Amazon also holds a substantial stake in the artificial intelligence lab. The offering could yield over $90 billion in proceeds, helping the company fund the massive technology and infrastructure required to build and host its frontier models. Anthropic recorded a net loss of $104 billion through the first nine months of 2026 and carries staggering spending commitments exceeding $900 billion. These obligations include a ten-year, $110 billion agreement with Amazon and $125 billion to $150 billion intended for AI chips from Google. Cloud partners Amazon, Google, and Microsoft account for 31% of these contractual obligations. The IPO arrives during a challenging period for the technology sector, which faces rising interest rates, recent Democratic midterm election victories, and the sudden ouster of Nvidia CEO Jensen Huang. Google will own approximately 13% of Anthropic following the public offering and is backstopping the lab's lease commitments to Terawulf. Financial institutions including Bank of America, Blackstone, Citigroup, and Morgan Stanley have also offered $63 billion for Broadcom AI chips that Anthropic will rent."
+      "published_at": "2026-11-19T15:47:00.000Z",
+      "excerpt": "The average Anthropic employee could be worth over $40 million after the company's IPO today, according to SEC filings and investors."
+    },
+    {
+      "title": "Anthropic ‘to open up more than 20% higher at over $100 a share’ after blockbuster IPO – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+      "source": "The Guardian – Business",
+      "published_at": "2026-11-19T15:41:30.000Z",
+      "excerpt": "Rolling coverage of Anthropic’s IPO, and the latest economic and financial news Anthropic to begin public trading at $1.5tn valuation after largest ever IPO Outages, spies, and trillion-dollar IPOs:…"
+    },
+    {
+      "title": "‘Buyers are out for blood’ as housing market finally hits rock bottom",
+      "link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+      "source": "MarketWatch – Top Stories",
+      "published_at": "2026-11-19T15:38:00.000Z",
+      "excerpt": "The few buyers left in the market braving record-high home prices and 7% mortgage rates are starting to call the shots, real-estate agents say."
+    },
+    {
+      "title": "Traders in new market bet on big IPO pop for Anthropic",
+      "link": "https://www.cnbc.com/2026/11/19/traders-in-new-market-bet-on-big-ipo-pop-for-anthropic.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-11-19T15:23:33.000Z",
+      "excerpt": "Perpetual futures market sees big pop for Anthropic"
+    },
+    {
+      "title": "Anthropic IPO, AI wealth spawn a new, leaner kind of family office",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
+      "source": "CNBC – Top News",
+      "published_at": "2026-11-19T14:57:38.000Z",
+      "excerpt": "The upcoming Anthropic IPO is projected to create hundreds of centimillionaires and stimulate the establishment of various investment vehicles. Data from the private markets intelligence platform Altss suggests this wealth could generate 15 to 20 new single-family offices over the next three years. Additionally, around 70 households are expected to engage with multifamily offices or outsourced alternatives, alongside a rise in personal investment companies and venture funds. Legal and financial advisors report receiving enquiries from current and former employees and early investors regarding the establishment of their own firms. These newly wealthy professionals generally favour leaner operations that utilise technology and external consultants rather than large in-house teams. Experts note that Anthropic beneficiaries often skew younger than traditional family office principals and tend to focus on hands-on investing and building further wealth rather than preserving multi-generational assets. Because these clients may lack familiarity with a broad range of asset classes, advisors recommend relying on third-party specialists instead of building internal investment functions. Legal professionals highlight alternative models such as founder offices or starter family offices using family limited partnerships to provide tax benefits and flexibility without the high costs and complexity of traditional structures. Consultants also advise against overbuilding infrastructure prematurely, noting that IPO lockups and market volatility mean new fortunes can be unpredictable."
     }
   ]
 }
